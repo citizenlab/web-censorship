@@ -22,4 +22,9 @@ Further, the blocked.csv can be split amoung the different ISPs tested such as:
 
 where anything after the dash is the ISP that the blocking was observed.
 
+License
+========
+
+All data is provided under Creative Commons Attribution 3.0 Unported license which is summarized [here](http://creativecommons.org/licenses/by/3.0/us/)
+and available in full [here](http://creativecommons.org/licenses/by/3.0/us/legalcode)
 
