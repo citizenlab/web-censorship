@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Connection: close
+Date: Mon, 18 Jun 2012 20:06:41 GMT
+ETag: "8b534951-b52c-4960-838a-96281cf0098b"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Mon, 18 Jun 2012 20:06:41 GMT
+Last-Modified: Thu, 31 May 2012 22:02:15 GMT
+Client-Date: Mon, 18 Jun 2012 20:06:41 GMT
+Client-Peer: 74.125.226.74:80
+Client-Response-Num: 1
+Link: <http://www.blogger.com/favicon.ico>; rel="icon"; type="image/vnd.microsoft.icon"
+Link: <http://pajamaeditors.blogspot.com/feeds/posts/default>; rel="alternate"; title="Editors in Pajamas - Atom"; type="application/atom+xml"
+Link: <http://pajamaeditors.blogspot.com/feeds/posts/default?alt=rss>; rel="alternate"; title="Editors in Pajamas - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/8324276/posts/default>; rel="service.post"; title="Editors in Pajamas - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=8324276>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/static/v1/v-css/50269083-blog_controls.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=8324276&zx=8b534951-b52c-4960-838a-96281cf0098b>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Title: Editors in Pajamas
+X-Content-Type-Options: nosniff
+X-Meta-Generator: Blogger
+X-Meta-MSSmartTagsPreventParsing: true
+X-XSS-Protection: 1; mode=block

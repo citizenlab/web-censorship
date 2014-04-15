@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Cache-Control: private, no-cache, no-store, must-revalidate
+Connection: close
+Date: Tue, 19 Jun 2012 13:56:49 GMT
+Pragma: no-cache
+Content-Length: 16992
+Content-Type: text/html; charset=utf-8
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+Client-Date: Mon, 18 Jun 2012 21:39:53 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Link: <http://www.facebook.com/public/Satish-Seth-Adag>; media="handheld"; rel="alternate"
+Link: <http://static.ak.fbcdn.net/rsrc.php/yi/r/q9U99v3_saj.ico>; rel="shortcut icon"
+Link: <http://static.ak.fbcdn.net/rsrc.php/v2/yG/r/3-NIQPTFclB.css>; rel="stylesheet"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yW/r/mklnYiSbYM2.css>; rel="stylesheet"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yw/r/g1Hw-PcFOcK.css>; rel="stylesheet"
+P3P: CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"
+Refresh: 0; URL=/public/Satish-Seth-Adag?_fb_noscript=1
+Set-Cookie: datr=IIXgT3DD8pBBCo6N1BEMpj7U; expires=Thu, 19-Jun-2014 13:56:48 GMT; path=/; domain=.facebook.com; httponly
+Set-Cookie: lsd=AVozLLcu; path=/; domain=.facebook.com
+Set-Cookie: reg_ext_ref=http%3A%2F%2Fwww.yahoo.com; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_gate=http%3A%2F%2Fwww.facebook.com%2Fpublic%2FSatish-Seth-Adag; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_ref=http%3A%2F%2Fwww.facebook.com%2Fpublic%2FSatish-Seth-Adag; path=/; domain=.facebook.com
+Title: Satish Seth Adag Profiles | Facebook
+X-Content-Type-Options: nosniff
+X-FB-Debug: CTG1jV5AXde0hESUMxSDbfXHj+RdyZP2h6dj93UZOXI=
+X-FRAME-OPTIONS: DENY
+X-Meta-Charset: utf-8
+X-Meta-Description: View the profiles of people named Satish Seth Adag on Facebook. Join Facebook to connect with Satish Seth Adag and others you may know. Facebook gives people the power to share and makes the world more open and connected.
+X-Meta-ROBOTS: noodp, noydir
+X-UA-Compatible: IE=edge,chrome=1
+X-XSS-Protection: 1; mode=block

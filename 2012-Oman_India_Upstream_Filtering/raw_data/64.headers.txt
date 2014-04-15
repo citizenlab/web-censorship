@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Mon, 18 Jun 2012 20:09:47 GMT
+Accept-Ranges: bytes
+ETag: "e2f6fde9f494c71:c6f"
+Server: Microsoft-IIS/5.0
+Content-Length: 2747
+Content-Location: http://www.gwsystems.co.il/Index.htm
+Content-Type: text/html
+Last-Modified: Sun, 13 May 2007 00:23:22 GMT
+Client-Date: Mon, 18 Jun 2012 20:09:47 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Title: Default Page
+X-Meta-Generator: Microsoft FrontPage 3.0
+X-Powered-By: ASP.NET

@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Date: Tue, 19 Jun 2012 15:00:40 GMT
+Server: Microsoft-IIS/6.0
+Content-Length: 69692
+Content-Type: text/html; charset=UTF-8
+Client-Date: Mon, 18 Jun 2012 22:43:50 GMT
+Client-Peer: 66.28.9.254:80
+Client-Response-Num: 1
+Link: <http://s.smash.saavncdn.com/scripts/css/styles.css?v=92427>; rel="stylesheet"; type="text/css"
+Link: <http://feeds.feedburner.com/smashits/newreleases>; rel="alternate"; title="New Music Releases [RSS]"; type="application/rss+xml"
+Link: <http://feeds.feedburner.com/smashits/articles>; rel="alternate"; title="Bollywood Latest Articles [RSS]"; type="application/rss+xml"
+Link: <http://feeds.feedburner.com/smashits/DailySnoop-News>; rel="alternate"; title="Snoop Daily News [RSS]"; type="application/rss+xml"
+Link: <http://feeds.feedburner.com/smashits/Slideshows-EventsInPictures>; rel="alternate"; title="Latest Slideshows [RSS]"; type="application/rss+xml"
+Link: <http://feeds.feedburner.com/smashits/EventsInterviews>; rel="alternate"; title="Latest Events & Interviews (video)[RSS]"; type="application/rss+xml"
+Link: <http://feeds.feedburner.com/HotTrendFromWorld>; rel="alternate"; title="Hot Trends from World [RSS]"; type="application/rss+xml"
+Link: <http://feeds.feedburner.com/HotTrendFromIndia>; rel="alternate"; title="Hot Trends from India [RSS]"; type="application/rss+xml"
+Link: <http://feeds.feedburner.com/HotTrendFromSingapore>; rel="alternate"; title="Hot Trends from Singapore [RSS]"; type="application/rss+xml"
+Link: <http://feeds.feedburner.com/VideosRecentlyWatched>; rel="alternate"; title="Videos Recently Watched [RSS]"; type="application/rss+xml"
+Link: <http://feeds.feedburner.com/JuicyGossip>; rel="alternate"; title="Juicy Gossip [RSS]"; type="application/rss+xml"
+Link: <http://feeds.feedburners.com/Videosfromindianew>; rel="alternate"; title="Video News From India [RSS]"; type="application/rss+xml"
+Link: <http://ww.smashits.com/favicon.ico>; rel="SHORTCUT ICON"
+Link: <http://s.smash.saavncdn.com/scripts/jqueryui/jquery-ui-1.8.2.custom.css>; rel="stylesheet"; type="text/css"
+Set-Cookie: CFID=117157623;expires=Thu, 12-Jun-2042 15:00:40 GMT;path=/
+Set-Cookie: CFTOKEN=92236027;expires=Thu, 12-Jun-2042 15:00:40 GMT;path=/
+Set-Cookie: IPLOC=CZ;domain=.smashits.com;expires=Tue, 26-Jun-2012 15:00:40 GMT;path=/
+Title: A1 Bollywood Hindi Tamil Telugu Indian Music Videos Songs Soundtracks Movie Film and News - SmasHits.com
+X-Meta-Classification: bollywood
+X-Meta-Content-Language: e
+X-Meta-Description: Hindi music, Indian songs, Bollywood Movie soundtracks, desi videos, trailors and news. Hindi, Tamil, Telugu and Malayalam Songs and Videos Online. Remix, Pop and more. Latest Hindi, Tamil and Telugu music and movies. Watch music videos, movie scenes.
+X-Meta-Distribution: Global
+X-Meta-Keywords: hindi,indian,tamil,telugu,malayalam,bollywood,music,songs,movie,movies,desi,video,videos,india,indian songs,review,reviews,song,songs,bhangra,mp3,india,entertainment,news,chat,cricket,punjab,stars,free,film,films,cinema,desi,DSNY,party,remix,DJ,actor,actors,actress,actresses,trailors,trailers,preview,pics,pictures,comedy,directors,heroes,heroines,love,goddesses,jokes,dialogues,ShahRukh,Salman,Akshay,Kumar,Madhuri,Dixit,Manisha,Koirala,Sushmita,Sen,Ashwarya,Rai,Sonali,Bendre,Kajol,tamil,telugu,smashits,smash hits,site,calling card,shaadi,gifts to india,marriage,money transfer,send money,call india,citibank,wire transfer,icici,hdtv,asia,news
+X-Meta-Rating: General
+X-Meta-Revisit-After: 1 days
+X-Meta-ROBOTS: index, follow
+X-Meta-Speedy: noindex,nofollow
+X-Powered-By: ASP.NET

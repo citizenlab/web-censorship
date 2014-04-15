@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Date: Tue, 19 Jun 2012 13:54:57 GMT
+Via: 1.1 varnish
+Age: 4
+Server: Apache
+Vary: cookie
+Content-Length: 12632
+Content-Type: text/html; charset=utf-8
+Client-Date: Mon, 18 Jun 2012 21:38:02 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Link: <http://sethadag.typepad.com/blog/styles.css?v=6>; media="screen"; rel="stylesheet"; type="text/css"
+Link: <http://static.typepad.com/.shared:v20120614.01-0-g5bb9ec1:typepad:en_us/themes/common/print.css>; media="print"; rel="stylesheet"; type="text/css"
+Link: <http://sethadag.typepad.com/blog/atom.xml>; rel="alternate"; title="Posts on 'Satish Seth Adag's blog' (Atom)"; type="application/atom+xml"
+Link: <http://sethadag.typepad.com/blog/index.rdf>; rel="alternate"; title="Posts on 'Satish Seth Adag's blog' (RSS 1.0)"; type="application/rss+xml"
+Link: <http://sethadag.typepad.com/blog/rss.xml>; rel="alternate"; title="Posts on 'Satish Seth Adag's blog' (RSS 2.0)"; type="application/rss+xml"
+Link: <http://www.typepad.com/services/openid/server>; rel="openid.server"
+Link: <http://www.typepad.com/services/rsd/6a01543502ac50970c01543502ac84970c>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Title: Satish Seth Adag's blog
+X-Meta-Generator: http://www.typepad.com/
+X-PhApp: oak-tp-web011
+X-Varnish: 2282953348 2282947056
+X-Webserver: oak-tp-web011

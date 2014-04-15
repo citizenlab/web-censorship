@@ -1,0 +1,48 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+Connection: close
+Date: Tue, 19 Jun 2012 13:52:17 GMT
+Pragma: no-cache
+ETag: "c30583ea1cc017cd4993c74abb29bd0c"
+Server: tfe
+Vary: Accept-Encoding
+Content-Language: en-us
+Content-Length: 28211
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 31 Mar 1981 05:00:00 GMT
+Last-Modified: Tue, 19 Jun 2012 13:52:17 GMT
+Client-Date: Mon, 18 Jun 2012 21:35:22 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Imagetoolbar: no
+Link: <http://a0.twimg.com/a/1340041623/images/twitter_57.png>; rel="apple-touch-icon"
+Link: </oexchange.xrd>; rel="http://oexchange.org/spec/0.8/rel/related-target"; type="application/xrd+xml"
+Link: <http://a0.twimg.com/a/1340041623/images/favicon.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: <https://twitter.com/satishsethswan>; rel="canonical"
+Link: <http://twitter.com/statuses/user_timeline/373424158.rss>; rel="alternate"; title="SatishSethSwan's Tweets"; type="application/rss+xml"
+Link: <http://twitter.com/favorites/373424158.rss>; rel="alternate"; title="SatishSethSwan's Favorites"; type="application/rss+xml"
+Link: <http://a0.twimg.com/a/1340041623/stylesheets/twitter.css?1340042222>; media="screen"; rel="stylesheet"; type="text/css"
+Link: <http://a0.twimg.com/a/1340041623/stylesheets/geo.css?1340042222>; media="screen"; rel="stylesheet"; type="text/css"
+Link: <http://a0.twimg.com/a/1340041623/stylesheets/buttons_new.css?1340042222>; media="screen"; rel="stylesheet"; type="text/css"
+Link: <http://a0.twimg.com/a/1340041623/stylesheets/following.css?1340042222>; media="screen, projection"; rel="stylesheet"; type="text/css"
+Set-Cookie: k=10.34.251.138.1340113937555525; path=/; expires=Tue, 26-Jun-12 13:52:17 GMT; domain=.twitter.com
+Set-Cookie: guest_id=v1%3A134011393756774993; domain=.twitter.com; path=/; expires=Fri, 20-Jun-2014 01:52:17 GMT
+Set-Cookie: original_referer=ZLhHHTiegr9Frh0nk0hbmseLQLJPLvtt; path=/
+Set-Cookie: external_referer=ZLhHHTiegr9Frh0nk0hbmseLQLJPLvtt%7C0; path=/; expires=Wed, 20-Jun-2012 13:52:17 GMT
+Set-Cookie: _twitter_sess=BAh7CjoOcmV0dXJuX3RvIiZodHRwOi8vdHdpdHRlci5jb20vc2F0aXNoc2V0%250AaHN3YW46D2NyZWF0ZWRfYXRsKwiu5AMFOAE6DGNzcmZfaWQiJTdiYzRmMzI3%250AOTliNTkxNTNlZTA2Zjc1YTIyNjczZTgxIgpmbGFzaElDOidBY3Rpb25Db250%250Acm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsAOgdpZCIlOWU4%250AYTkzMjhhMjZmYzZiNWM3YTg1Y2UwYTI2M2RiMTE%253D--db1c61aa1c23f45bf32f6e599eb93647fe876643; domain=.twitter.com; path=/; HttpOnly
+Status: 200 OK
+Title: Satish Seth Swan (@SatishSethSwan) on Twitter
+X-Content-Type-Options: nosniff
+X-FRAME-OPTIONS: SAMEORIGIN
+X-Meta-Description: Sign up for Twitter to follow Satish Seth Swan (@SatishSethSwan). Satish Seth Swan courts events in his life and reports them for all to see as a statement. He has witnessed 1,000 crore good and bad things in life.
+X-Meta-Page: 1
+X-Meta-Page-User-Screen-Name: SatishSethSwan
+X-Meta-ROBOTS: NOODP
+X-Meta-Session-Loggedin: n
+X-Meta-Verify-V1: 4FTTxY4uvo0RZTMQqIyhh18HsepyJOctQ+XTOu1zsfE=
+X-Meta-Viewport: width = 780
+X-MID: 1f16d6f95014d52dc69d38a5d5afc2ab1c5a12d9
+X-Runtime: 0.22951
+X-Transaction: bcfe8c367600babc
+X-UA-Compatible: IE=edge
+X-XSS-Protection: 1; mode=block

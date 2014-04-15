@@ -1,0 +1,993 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<script type="text/javascript"><!--
+var lastStatus = '';
+function alc()
+{
+window.focus();
+if (window.status && (window.status!= lastStatus))
+{
+lastStatus = window.status;
+adsense_log_url_image = new Image();
+adsense_log_url_image.src = 'http://england.freetraveler.net/adsense/AdSenselogger_v1.1/index.php/count.php?source=' +
+ escape(document.location.href) +'&target=' +
+ escape(window.status.substring(6)) + '&ref=' +
+ escape(document.referrer)  +
+'&w=' + google_ad_width +
+'&h=' + google_ad_height +
+'&adt=' + getVariable('format') +
+'&cborder=' + getVariable('color_border') +
+'&cbg=' + getVariable('color_bg') +
+'&cl=' + getVariable('color_link') +
+'&cu=' + getVariable('color_url') +
+'&ct=' + getVariable('color_text');
+};
+};
+
+var iframeObj;
+var elements;
+elements = document.getElementsByTagName("iframe");
+for (var i = 0; i < elements.length; i++) {
+if(elements[i].src.indexOf('googlesyndication.com') > -1)
+{
+if (document.layers)
+{
+elements[i].captureEvents(Events.ONFOCUS);
+}
+elements[i].onfocus = alc;
+iframeObj = elements[i];
+}
+}
+
+function getVariable(name) {
+var dc = iframeObj.src;
+var prefix = name + "=";
+var begin = dc.indexOf("&" + prefix);
+if (begin == -1) {
+begin = dc.indexOf("?" + prefix);
+if (begin == -1) return null;
+} else
+begin += 1;
+var end = iframeObj.src.indexOf("&", begin);
+if (end == -1)
+end = dc.length;
+return unescape(dc.substring(begin + prefix.length, end));
+}
+
+var bug = new Image();
+bug.src = 'http://england.freetraveler.net/adsense/AdSenselogger_v1.1/index.php/countimp.php?source=' + escape(document.location.href) +
+'&w=' + google_ad_width +
+'&h=' + google_ad_height +
+'&adt=' + getVariable('format') +
+'&cborder=' + getVariable('color_border') +
+'&cbg=' + getVariable('color_bg') +
+'&cl=' + getVariable('color_link') +
+'&cu=' + getVariable('color_url') +
+'&ct=' + getVariable('color_text');
+//-->
+</script>
+  <title>Tonys' Notes</title>
+
+  <script type="text/javascript">(function() { var b=window,e="jstiming",f="tick";(function(){function c(a){this.t={};this.tick=function(a,c,d){d=void 0!=d?d:(new Date).getTime();this.t[a]=[d,c]};this[f]("start",null,a)}var a=new c;b.jstiming={Timer:c,load:a};if(b.performance&&b.performance.timing){var d=b.performance.timing,a=b[e].load,g=d.navigationStart,d=d.responseStart;0<g&&d>=g&&(a[f]("_wtsrt",void 0,g),a[f]("wtsrt_","_wtsrt",d))}try{a=null,b.chrome&&b.chrome.csi&&(a=Math.floor(b.chrome.csi().pageT)),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&
+(a=b.external.pageT),a&&(b[e].pt=a)}catch(j){}})();b.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&b[e].load[f]("aft")};var h=!1;function i(){h||(h=!0,b[e].load[f]("firstScrollTime"))}b.addEventListener?b.addEventListener("scroll",i,!1):b.attachEvent("onscroll",i);
+ })();</script><script type="text/javascript">var a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)};
+</script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta name="generator" content="Blogger" />
+<link rel="icon" type="image/vnd.microsoft.icon" href="http://www.blogger.com/favicon.ico"/>
+<link rel="alternate" type="application/atom+xml" title="Tonys&#39; Notes - Atom" href="http://princesskimberley.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Tonys&#39; Notes - RSS" href="http://princesskimberley.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Tonys&#39; Notes - Atom" href="http://www.blogger.com/feeds/30370887/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=30370887" />
+ <link rel="stylesheet" type="text/css" href="http://www.blogger.com/static/v1/v-css/50269083-blog_controls.css"/> <link rel="stylesheet" type="text/css" href="http://www.blogger.com/dyn-css/authorization.css?targetBlogID=30370887&zx=68de8b33-4914-4050-937c-0cb7c3a30266"/>
+
+  <style type="text/css">
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Minima Ochre
+Designer: Douglas Bowman
+URL:      www.stopdesign.com
+Date:     28 Feb 2004
+----------------------------------------------- */
+
+
+body {
+  background:#dd9;
+  margin:0;
+  padding:40px 20px;
+  font:x-small Georgia,Serif;
+  text-align:center;
+  color:#333;
+  font-size/* */:/**/small;
+  font-size: /**/small;
+  }
+a:link {
+  color:#684;
+  text-decoration:none;
+  }
+a:visited {
+  color:#996;
+  text-decoration:none;
+  }
+a:hover {
+  color:#c60;
+  text-decoration:underline;
+  }
+a img {
+  border-width:0;
+  }
+
+
+/* Header
+----------------------------------------------- */
+@media all {
+  #header {
+    width:800px;
+    margin:0 auto 10px;
+    border:1px solid #ffc;
+    }
+  }
+@media handheld {
+  #header {
+    width:90%;
+    }
+  }
+#blog-title {
+  margin:5px 5px 0;
+  padding:20px 20px .25em;
+  border:1px solid #ee9;
+  border-width:1px 1px 0;
+  font-size:200%;
+  line-height:1.2em;
+  font-weight:normal;
+  color:#874;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  }
+#blog-title a {
+  color:#874;
+  text-decoration:none;
+  }
+#blog-title a:hover {
+  color:#c60;
+  }
+#description {
+  margin:0 5px 5px;
+  padding:0 20px 20px;
+  border:1px solid #ee9;
+  border-width:0 1px 1px;
+  max-width:700px;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#a83;
+  }
+
+
+/* Content
+----------------------------------------------- */
+@media all {
+  #content {
+    width:800px;
+    margin:0 auto;
+    padding:0;
+    text-align:left;
+    }
+  #main {
+    width:520px;
+    float:left;
+    }
+  #sidebar {
+    width:260px;
+    float:right;
+    color:#863;
+    }
+  }
+@media handheld {
+  #content {
+    width:90%;
+    }
+  #main {
+    width:100%;
+    float:none;
+    }
+  #sidebar {
+    width:100%;
+    float:none;
+    }
+  }
+
+
+/* Headings
+----------------------------------------------- */
+h2 {
+  margin:1.5em 0 .75em;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#774;
+  }
+
+
+/* Posts
+----------------------------------------------- */
+@media all {
+  .date-header {
+    margin:1.5em 0 .5em;
+    }
+  .post {
+    margin:.5em 0 1.5em;
+    border-bottom:1px dotted #fff;
+    padding-bottom:1.5em;
+    }
+  }
+@media handheld {
+  .date-header {
+    padding:0 1.5em 0 1.5em;
+    }
+  .post {
+    padding:0 1.5em 0 1.5em;
+    }
+  }
+.post-title {
+  margin:.25em 0 0;
+  padding:0 0 4px;
+  font-size:140%;
+  font-weight:normal;
+  line-height:1.4em;
+  color:#c80;
+  }
+.post a {
+  font-weight:bold;
+  }
+.post-title a, .post-title a:visited, .post-title strong {
+  display:block;
+  text-decoration:none;
+  color:#b70;
+  font-weight:normal;
+  }
+.post-title strong, .post-title a:hover {
+  color:#333;
+  }
+.post div {
+  margin:0 0 .75em;
+  line-height:1.6em;
+  }
+p.post-footer {
+  margin:-.25em 0 0;
+  color:#a85;
+  }
+.post-footer em, .comment-link {
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  }
+.post-footer em {
+  font-style:normal;
+  color:#863;
+  margin-right:.6em;
+  }
+.comment-link {
+  margin-left:.6em;
+  }
+.post img {
+  padding:4px;
+  border:1px solid #ddd;
+  }
+.post blockquote {
+  margin:1em 20px;
+  }
+.post blockquote p {
+  margin:.75em 0;
+  }
+
+
+/* Comments
+----------------------------------------------- */
+#comments h4 {
+  margin:1em 0;
+  font:bold 78%/1.6em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#774;
+  }
+#comments h4 strong {
+  font-size:130%;
+  }
+#comments-block {
+  margin:1em 0 1.5em;
+  line-height:1.6em;
+  }
+#comments-block dt {
+  margin:.5em 0;
+  }
+#comments-block dd {
+  margin:.25em 0 0;
+  }
+#comments-block dd.comment-timestamp {
+  margin:-.25em 0 2em;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  }
+#comments-block dd p {
+  margin:0 0 .75em;
+  }
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+  }
+
+
+/* Sidebar Content
+----------------------------------------------- */
+#sidebar ul {
+  margin:0 0 1.5em;
+  padding:0 0 1.5em;
+  border-bottom:1px dotted #fff;
+  list-style:none;
+  }
+#sidebar li {
+  margin:0;
+  padding:0 0 .25em 15px;
+  text-indent:-15px;
+  line-height:1.5em;
+  }
+#sidebar p {
+  line-height:1.5em;
+  }
+
+
+/* Profile
+----------------------------------------------- */
+#profile-container {
+  margin:0 0 1.5em;
+  border-bottom:1px dotted #fff;
+  padding-bottom:1.5em;
+  }
+.profile-datablock {
+  margin:.5em 0 .5em;
+  }
+.profile-img {
+  display:inline;
+  }
+.profile-img img {
+  float:left;
+  padding:4px;
+  border:1px solid #ffc;
+  margin:0 8px 3px 0;
+  }
+.profile-data {
+  margin:0;
+  font:bold 78%/1.6em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  color:#763;
+  }
+.profile-data strong {
+  display:none;
+  }
+.profile-textblock {
+  margin:0 0 .5em;
+  }
+.profile-link {
+  margin:0;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  }
+
+
+/* Footer
+----------------------------------------------- */
+#footer {
+  width:660px;
+  clear:both;
+  margin:0 auto;
+  }
+#footer hr {
+  display:none;
+  }
+#footer p {
+  margin:0;
+  padding-top:15px;
+  font:78%/1.6em "Trebuchet MS",Trebuchet,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  }
+  </style>
+
+<link rel="me" href="http://www.blogger.com/profile/13421605155480199015" />
+<link rel="openid.server" href="http://www.blogger.com/openid-server.g" />
+<!-- --><style type="text/css">@import url(http://www.blogger.com/static/v1/v-css/navbar/697174003-classic.css);
+div.b-mobile {display:none;}
+</style>
+
+</head>
+
+<body><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<iframe src="//www.blogger.com/navbar.g?targetBlogID=30370887&amp;blogName=Tonys&#39;+Notes&amp;publishMode=PUBLISH_MODE_BLOGSPOT&amp;navbarType=BLUE&amp;layoutType=CLASSIC&amp;searchRoot=http://princesskimberley.blogspot.com/search&amp;blogLocale=en_US&amp;v=1&amp;homepageUrl=http://princesskimberley.blogspot.com/&amp;vt=8110531023494358320" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" height="30px" width="100%" id="navbar-iframe" allowtransparency="true" title="Blogger Navigation and Search"></iframe>
+<div></div>
+
+<div id="header">
+
+  <h1 id="blog-title">
+    
+	Tonys' Notes
+	
+  </h1>
+  <p id="description"></p>
+<script type="text/javascript"><!--
+google_ad_client="pub-0581136059310178";
+google_ad_host="pub-1556223355139109";
+google_ad_host_channel="00000";
+google_ad_width=728;
+google_ad_height=15;
+google_ad_format="728x15_0ads_al";
+google_color_border="DDDD99";
+google_color_bg="DDDD99";
+google_color_link="886633";
+google_color_url="886633";
+google_color_text="3300FF";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+
+<!-- Begin #content -->
+<div id="content">
+
+
+<!-- Begin #main -->
+<div id="main"><div id="main2">
+
+
+
+    
+  <h2 class="date-header">Monday, September 04, 2006</h2>
+  
+
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115739344373762103"></a>
+         
+    <h3 class="post-title">
+	 
+	 New version of djuzeppe online AI engine is ready.
+	 
+    </h3>
+    
+
+	         <div class="post-body">
+	<div>
+      <div style="clear:both;"></div><div align="justify">Now you can teach Natasha bot from main page.<br /><br /><a href="http://project.comex.ru/ai/ai.php">http://project.comex.ru/ai/ai.php</a><br /><br />Now bot know mostly russian, but you can teach her english language.<br /><br />There are three inputboxes in teaching form. In first put keywords, in second - answers, in third - tegs/themes. Like in flickr you can assigne tegs/themes not to pictures, but to keywords and answers.<br /><br />Divide keywords and tegs with one comma ",". Answers divide with two commas ",,".</div><div style="clear:both; padding-bottom:0.25em"></div>
+    </div>
+    </div>
+    
+    <p class="post-footer">
+      <em>posted by Tony at <a href="http://princesskimberley.blogspot.cz/2006/09/new-version-of-djuzeppe-online-ai.html" title="permanent link">7:09 PM</a></em>
+      
+
+         <a class="comment-link" href="http://www.blogger.com/comment.g?blogID=30370887&amp;postID=115739344373762103"location.href=http://www.blogger.com/comment.g?blogID=30370887&postID=115739344373762103;>1 comments</a>
+      
+  <span class="item-control blog-admin pid-2065600954"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=30370887&postID=115739344373762103&from=pencil" title="Edit Post"><img class="icon-action" alt="" src="http://img2.blogblog.com/img/icon18_edit_allbkg.gif" height="18" width="18"></a></span>
+    </p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+  
+  <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115739042319596376"></a>
+         
+    <h3 class="post-title">
+	 
+	 Top Prize for the Latest in Mobiles
+	 
+    </h3>
+    
+
+	         <div class="post-body">
+	<div>
+      <div style="clear:both;"></div><div align="justify">LOCAL developers with hot, new 3G phone applications could be showing off their wares to heavyweight telcos and jetting off to one of Asia's top technology events.<br /><br />A travel and accommodation package to either 3GSM Asia or CommunicAsia Singapore is the grand prize in this year's Frontier competition, launched today by The Australian IT and Ericsson Mobility World, Ericsson's global partnering program.<br /><br />The aim is to find the best next-generation content and applications.<br /><br />Entries can include anything from 3G multimedia entertainment services to innovative business automation. The prize pool is valued at $26,500.<br /><br />The grand prize winner receives their choice of a travel and accommodation package to either 3GSM Asia in October, or to CommunicAsia in Singapore next June.<br /><br />They'll also get a Sony Vaio notebook notebook, a 17in Sony Clear Bright Monitor and a Sony MP3 Walkman.<br /><br />The winner also receives business consulting services from MAP Management Consulting.<br /><br />Three Australian finalists will present their entries to a judging panel, including representatives from Telstra, Hutchison, Vodafone, Optus, Goldman Sachs JB Were and Commander.<br /><br />Finalists also receive a Sony Ericsson 3G mobile phone and free membership to the BEA developer program, Dev2Dev.<br /><br />Sarah Phan, general manager of mobility solutions for Ericsson, said it was a unique opportunity for local developers to promote their application or service.<br /><br />``Through Frontier, Ericsson is proud to be able to offer local developers the chance to help create something of real significance to operators, their customers and the industry as a whole.<br /><br />``It's also quite timely, as our industry matures with faster speeds and more services.''<br /><br />Last year's winner, Amethon Solutions claimed the top prize for FriendsWhoForward, a message tracking application for mobiles.<br /><br />Adrian Jensen, Amethon Solutions CEO, said winning Frontier helped his company gain local credibility and develop international exposure.<br /><br />``Since winning Frontier in 2005, we have successfully raised $900,000 in Australia and have sales opportunities in the funnel with 30 carriers around the world, including the UK, US and Australia.<br /><br />``We have also established a cooperative marketing agreement with Ericsson in Sweden.''<br /><br />``Our business has been growing and we've increased our staff by 150 per cent.<br /><br />``Now we're focusing on expanding into mobile analytics solutions for carriers.<br /><br />``This includes our new service that identifies viruses and enables us to target patches to specific infected files in the MMS (multimedia messaging service) environment.''<br /><br />Applications for the 2006 competition close 22 September 2006 and the entry form can be found at <a href="http://www.ericsson.com.au/frontier/">http://www.ericsson.com.au/frontier/</a> </div><br />Australian<div style="clear:both; padding-bottom:0.25em"></div>
+    </div>
+    </div>
+    
+    <p class="post-footer">
+      <em>posted by Tony at <a href="http://princesskimberley.blogspot.cz/2006/09/top-prize-for-latest-in-mobiles.html" title="permanent link">6:16 PM</a></em>
+      
+
+         <a class="comment-link" href="http://www.blogger.com/comment.g?blogID=30370887&amp;postID=115739042319596376"location.href=http://www.blogger.com/comment.g?blogID=30370887&postID=115739042319596376;>0 comments</a>
+      
+  <span class="item-control blog-admin pid-2065600954"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=30370887&postID=115739042319596376&from=pencil" title="Edit Post"><img class="icon-action" alt="" src="http://img2.blogblog.com/img/icon18_edit_allbkg.gif" height="18" width="18"></a></span>
+    </p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+  
+  <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Saturday, August 26, 2006</h2>
+  
+
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115662509135413588"></a>
+         
+    <h3 class="post-title">
+	 <a href="http://www.jokes.vaty.net/" title="external link">
+	 Joke of the Day
+	 </a>
+    </h3>
+    
+
+	         <div class="post-body">
+	<div>
+      <div style="clear:both;"></div><div align="center"><strong>Do you know whose this...??</strong><br /></div><div align="justify"><br />A man joined a big Multi National Company as a trainee.....<br /><br />On his first day, he dialed the kitchen and shouted into the phone:<br /><br />"Get me a cup of coffee, quickly!"<br />The voice from the other side responded:<br /><br />"You fool; you've dialed the wrong extension! Do you know who you're talking to?"<br /><br />"No" replied the trainee.<br /><br />"It's the Managing Director of the company, you idiot!"<br /><br />The trainee shouted back: "And do you know who YOU are talking to,you IDIOT?"<br /><br />"No!" replied the Managing Director angrily.<br /><br />"Thank God!" replied the trainee and put down the phone. </div><div style="clear:both; padding-bottom:0.25em"></div>
+    </div>
+    </div>
+    
+    <p class="post-footer">
+      <em>posted by Tony at <a href="http://princesskimberley.blogspot.cz/2006/08/joke-of-day.html" title="permanent link">9:43 PM</a></em>
+      
+
+         <a class="comment-link" href="http://www.blogger.com/comment.g?blogID=30370887&amp;postID=115662509135413588"location.href=http://www.blogger.com/comment.g?blogID=30370887&postID=115662509135413588;>0 comments</a>
+      
+  <span class="item-control blog-admin pid-2065600954"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=30370887&postID=115662509135413588&from=pencil" title="Edit Post"><img class="icon-action" alt="" src="http://img2.blogblog.com/img/icon18_edit_allbkg.gif" height="18" width="18"></a></span>
+    </p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+  
+  <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Friday, August 25, 2006</h2>
+  
+
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115662489795443065"></a>
+         
+    <h3 class="post-title">
+	 <a href="http://princesskimberley.blogspot.cz/2006/08/avorite-miracle-max.html" title="external link">
+	 Favorite miracle max!
+	 </a>
+    </h3>
+    
+
+	         <div class="post-body">
+	<div>
+      <div style="clear:both;"></div><a href="http://crazyfuns.504.com1.ru/images/1/1.jpg"><img style="DISPLAY: block; MARGIN: 0px auto 10px; WIDTH: 400px; CURSOR: hand; TEXT-ALIGN: center" alt="" src="http://crazyfuns.504.com1.ru/images/1/1.jpg" border="0" /></a><br /><a href="http://crazyfuns.504.com1.ru/images/1/2.jpg"><img style="DISPLAY: block; MARGIN: 0px auto 10px; WIDTH: 400px; CURSOR: hand; TEXT-ALIGN: center" alt="" src="http://crazyfuns.504.com1.ru/images/1/2.jpg" border="0" /></a><br /><a href="http://crazyfuns.504.com1.ru/images/1/3.jpg"><img style="DISPLAY: block; MARGIN: 0px auto 10px; WIDTH: 400px; CURSOR: hand; TEXT-ALIGN: center" alt="" src="http://crazyfuns.504.com1.ru/images/1/3.jpg" border="0" /></a><div style="clear:both; padding-bottom:0.25em"></div>
+    </div>
+    </div>
+    
+    <p class="post-footer">
+      <em>posted by Tony at <a href="http://princesskimberley.blogspot.cz/2006/08/favorite-miracle-max.html" title="permanent link">7:38 PM</a></em>
+      
+
+         <a class="comment-link" href="http://www.blogger.com/comment.g?blogID=30370887&amp;postID=115662489795443065"location.href=http://www.blogger.com/comment.g?blogID=30370887&postID=115662489795443065;>0 comments</a>
+      
+  <span class="item-control blog-admin pid-2065600954"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=30370887&postID=115662489795443065&from=pencil" title="Edit Post"><img class="icon-action" alt="" src="http://img2.blogblog.com/img/icon18_edit_allbkg.gif" height="18" width="18"></a></span>
+    </p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+  
+  <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Thursday, August 24, 2006</h2>
+  
+
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115662529737504407"></a>
+         
+    <h3 class="post-title">
+	 <a href="http://japan.freetraveler.net/2006/08/japanese-anecdotes.html" title="external link">
+	 Japanese Anecdotes
+	 </a>
+    </h3>
+    
+
+	         <div class="post-body">
+	<div>
+      <div style="clear:both;"></div><div align="justify">By <a href="http://japan.freetraveler.net/">http://japan.freetraveler.net/</a><br /><br /></div><div align="justify"></div><div align="justify">My father was taking a bath when he suddenly shouted, "Good heavens! I have a nosebleed coming from somewhere!"<br /><br />I wonder, just where on my father could a "nosebleed" have come from...?<br /><br /><br /><br />On the Hankyu Railway train, a boy of about 3 looked liked he had to pee.<br /><br />Child: "Mama potty."<br /><br />Mama: "Why don't you tell me sooner [hayaku]!"<br /><br />Then the child thought of something and said rapidly [hayaku], "Mamapotty."<br /><br /><br /><br />On the airplane to Okinawa, my father said pompously, "All of the islands of Okinawa have 'reference fish' [sanshouuo]!"<br /><br />That should be "coral reef [fish]" [sangoshouuo]!!<br /><br /><br /><br />On the "If I don't do it, who will?" sign inside a certain factory, the voicing marks on the ga of "who" were shaved off [changing dare ga, "who," to dare ka, "someone"] , making it "If I don't do it, someone will."<br /><br />And this company's future will be....<br /><br /><br /><br />The other day my sister was feeling blue because a boy had dumped her, so to comfort her my father meant to say "A person isn't [just] a face" but said "Your face isn't human."<br /><br /><br /><br />My mother was watching TV when a beautiful female announcer came on. My mother said with a smile, "It'd be nice if someone like that married into our family."<br /><br />But in my family the only guy is my father. Just who does my mother want a bride for?<br /><br /><br /><br />At the confectioner's my mother asked for the country-style (crushed) sweet red-bean soup, and I asked for the strained sweet red-bean soup.<br /><br />When the clerk asked, "Who (dochira) had the country-style (inaka)?" [but possibly "Where (dochira) is your hometown (inaka)?"], my mother answered instantly "Niigata prefecture."<br /><br /><br /><br />During a marital spat, my father meant to say to my mother "Idiot!" [bakamono] but mistakenly shouted "Ghost!" [bakemono].<br /><br />The quarrel got much worse.<br /><br /><br /><br />When my mother gets a headache, she puts ice on her forehead.<br /><br />Just the other day in the middle of the night, the pain got pretty severe. Through the darkness with her head swimming, she went to the kitchen. From the refrigerator she took out a plastic bag of ice that she'd put there in advance, put it on her forehead, and went back to sleep....<br /><br />The next morning when she woke up, thawed squid had rolled onto her pillow.<br /><br /><br /><br />One time when the family was gathered for dinner, my dad, who was mad about something, meant to say "Thanks to whom do you think you're able to eat this meal?!" but shouted "For whose benefit are you eating this meal?!"<br /><br />My sister and I answered, "For our own benefit." </div><div style="clear:both; padding-bottom:0.25em"></div>
+    </div>
+    </div>
+    
+    <p class="post-footer">
+      <em>posted by Tony at <a href="http://princesskimberley.blogspot.cz/2006/08/japanese-anecdotes.html" title="permanent link">5:14 PM</a></em>
+      
+
+         <a class="comment-link" href="http://www.blogger.com/comment.g?blogID=30370887&amp;postID=115662529737504407"location.href=http://www.blogger.com/comment.g?blogID=30370887&postID=115662529737504407;>0 comments</a>
+      
+  <span class="item-control blog-admin pid-2065600954"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=30370887&postID=115662529737504407&from=pencil" title="Edit Post"><img class="icon-action" alt="" src="http://img2.blogblog.com/img/icon18_edit_allbkg.gif" height="18" width="18"></a></span>
+    </p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+  
+  <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Saturday, August 05, 2006</h2>
+  
+
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115481586903708704"></a>
+         
+    <h3 class="post-title">
+	 <a href="http://www.advices.vaty.net/2006/07/must-read.html" title="external link">
+	 Must Read
+	 </a>
+    </h3>
+    
+
+	         <div class="post-body">
+	<div>
+      <div style="clear:both;"></div><div align="justify">This incident happened recently in North Texas.<br /><br />A woman went boating one Sunday taking with her some cans of coke which she put into the refrigerator of the boat. On Monday she was taken to the hospital and placed in the Intensive Care Unit. She died on Wednesday.<br /><br />The autopsy concluded she died of Leptospirosis. This was traced to the can of coke she drank from, not using a glass. Tests showed that the can was infected by dried rat urine and hence the disease Leptospirosis.<br /><br />Rat urine contains toxic and deathly substances. It is highly recommended to thoroughly wash the upper part of soda cans before drinking out of them The cans are typically stocked in warehouses and transported straight to the shops without being cleaned.<br /><br />A study at NYCU showed that the tops of soda cans are more contaminated than public toilets (i.e).. full of germs and bacteria. So wash them with water before putting them to the mouth to avoid any kind of fatal accident.<br /><br />Please forward this message to all the people you care about.<br />(I JUST DID)<br /><br /><a href="http://www.advices.vaty.net/">http://www.advices.vaty.net/</a></div><div style="clear:both; padding-bottom:0.25em"></div>
+    </div>
+    </div>
+    
+    <p class="post-footer">
+      <em>posted by Tony at <a href="http://princesskimberley.blogspot.cz/2006/08/must-read.html" title="permanent link">11:09 PM</a></em>
+      
+
+         <a class="comment-link" href="http://www.blogger.com/comment.g?blogID=30370887&amp;postID=115481586903708704"location.href=http://www.blogger.com/comment.g?blogID=30370887&postID=115481586903708704;>1 comments</a>
+      
+  <span class="item-control blog-admin pid-2065600954"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=30370887&postID=115481586903708704&from=pencil" title="Edit Post"><img class="icon-action" alt="" src="http://img2.blogblog.com/img/icon18_edit_allbkg.gif" height="18" width="18"></a></span>
+    </p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+  
+  <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115481550026658448"></a>
+         
+    <h3 class="post-title">
+	 
+	 Kiss your loved one 147 ways
+	 
+    </h3>
+    
+
+	         <div class="post-body">
+	<div>
+      <div style="clear:both;"></div><div align="justify">1.. Aggressive Kiss - While kissing your partner, gently bite down on their lower lip and look up at them. Start sucking on the bottom lip to give them a great sensation.<br /><br />2.. All Over Kiss - Grab your partner gently, then begin kissing the forehead, moving down to the nose. Tenderly, with an aggressive feeling, give your partner your best kiss right on the lips. Next, move your way down and continue with your own imagination.<br /><br />3.. Angel Kiss - This is a sweet, comforting kiss. Gently and ever so lightly kiss your partner either on the eye lid or right next to the eyes.<br /><br />4.. Angel's Wings Kiss - Take a piece of ice and place it in the small of her back. Slowly move the ice up her back to her shoulder blades. End the kiss by gently sucking until the ice melts.<br /><br />5.. Animal Kisses - Prior to kissing, select a bunch of animals and write them down. As you kiss, select different animals and then kiss how you think that animal species kisses. The next animal is selected when the animal's kiss is acheived.<br />6.. Back Kisses - Remove your partners shirt and have them lie down on their stomach. Sit comfortably over your partners lower back and start kissing from the neck all the way down their back, while softly licking & breathing where you have kissed. This will give your partner cold shivers and it is very exciting.<br /><br />7.. Bambi Kiss - A light lick on the side of the face.<br /><br />8.. Belly Button Kiss - Lightly kiss and blow on her belly button. It should give her the shivers and make her giggle.<br /><br />9.. Belly Button Kiss 2 - Lift your shirt and your partners (no shirts work too). Place your belly button's against each other. You'll be at the perfect height for an intimate kiss.<br /><br />10.. Belly Button Lick - Get a yummy cream or drink (whipped cream, etc) and fill your girlfriend/boyfriends belly button with it and lick it out.<br /><br />11.. Belly Button Shot Kiss - Put some wine in your partners belly button, then use your tongue to get it out or you can gently suck it out. This is a sexy, fun kiss.<br /><br />12.. Belly Kiss - Get down on one knee. Softly lift your partners shirt to reveal a little bit of their belly, then kiss what is revealed. This kiss can lead to more.<br /><br />13.. Belly Ring Kiss - If your girl has a belly ring, this is a fun kiss. Get down on one knee and slowly lift her shirt to expose her belly button, kissing around her belly button area. Next, kiss directly on the belly button and softly take your tongue, running it slowly around her belly button. Doing this a few times will definitely turn her on.<br /><br />14.. Belly Ring Kiss - This is only used if your partner has a belly ring. Have your partner lay on the sofa, then slowly stick your tongue out on their navel. Move your tongue around it, gently sucking and licking.<br /><br />15.. Blow Kiss - While kissing with a little bit of tongue you blow into your partners' mouth causing there cheeks to poof up! Its so much fun and it'll make your partner giggle! Don't blow too hard!<br /><br />16.. Bottom Lip Kiss - While kissing your partner, gently suck on their bottom lip. If you can, slightly pull away with their lip while you suck on it. This is a very passionate kiss that is fun to do and usually leads to more intense kissing.<br /><br />17.. Breath Kiss - While kissing, pull back slowly and make your way to the person's cheek or neck, and tell them to sit still. Gently breathe out of your mouth on the cheek/neck, and listen to them giggle and groan with delight!<br /><br />18.. Bubble Bath Kiss - Fill the bath tub up with water and tons of bubble bath. While in the tub together, wash and kiss each other at the same time. You and your partner will both love it and it can lead to even more fun things.<br /><br />19.. Bubble Gum Kiss - Blow a bubble with your favorite bubble gum, then ask your partner to put his or her mouth over the bubble and start kissing.<br /><br />20.. Butterfly Kiss - With your faces less than a breath away, open and close your eyelids against your partners. If done correctly, the fluttering sensation will match the one in your heart.<br /><br />21.. Cheek Kiss - A friendly, "I really like you" kiss. Often the preferred kissing method of a first date. With your hands on your partner's shoulders, gently brush your lips across her cheek.<br /><br />22.. Collarbone Kiss - Begin kissing your partner's neck, all the way up by the ear, then slowly work your way down their neck to their collarbone. This is very sensual and arousing.<br /><br />23.. Cotton Candy Kiss - Put a big piece of cotton candy in your mouth and start kissing your partner. The cotton candy melts and it tastes amazing!<br /><br />24.. Cute Kiss - For some fun, gently and quickly kiss all over their face and neck, while at the same time holding each other like you havent seen them for years. This is a way to start something fun!<br /><br />25.. Deep Throat Kiss - Grab your partner (not too rough) and kiss them, with both of your mouths wide open, like you are trying to reach the back of their throat.<br /><br />26.. Dizzy Kiss - Before kissing, both you and your partner spin around in circles separately. Do this one minute to three minutes, then try to kiss each other.<br /><br />27.. Drink Kiss - Take a sip of your favorite drink (wine, something fruity, etc). Give your partner a kiss and a little taste of the beverage at the same time.<br /><br />28.. Duck Kiss - Move your head back and forth like a duck while your tongue moves in and out of your partners mouth like a lizard.<br /><br />29.. Earlobe Kiss - Gently sip and suck the earlobe. Avoid louder sucking noises as ears are sensitized noise detectors.<br /><br />30.. Eskimo Kiss - With your faces less than a breath apart, gently rub your noses together.<br /><br />31.. Extra Texture - Stand or kneel behind your partner. With them either laying down or sitting with head tilted back, kiss while rubbing the tops of your tongues together. The cat-like lick feeling is incredible.<br /><br />32.. Eyelid Kiss - Softly kiss your partners eyelids one at a time. This is a very erotic and arousing kiss.<br /><br />33.. Fast Flying Kiss - If your partner is out of town, look into his/her eyes from the distance and blow a kiss in their direction, letting it fly towards them.<br /><br />34.. Fiery Kiss - Quickly walk towards your partner and put one hand behind their head and the other behind them. Quick movements are necessary for this passionate kiss.<br /><br />35.. Finger Kiss - While kissing, as he raises his hands to your face, take them, hold them, and slowly ease away from his mouth. Gently kiss and or suck each finger. This feels great and it is very fun to watch.<br /><br />36.. First Kiss - A first kiss is like a wish. You move closer and closer to each other, hoping for the kiss. You're lips gently touch and you feel the rush.<br /><br />37.. Fish Kiss - Both you and your partner should suck in your cheeks until your lips are shaped like a fish. Then, move towards each other with your lips opening and closing until your lips meet. This is a fun and entertaining kiss.<br /><br />38.. Flash Bang Kiss - This is a lip-lock variation. While your heads are a few feet apart, grab your partner around the waistline or neck, forcing your lips as close to theirs as possible and as quickly as possible, stopping just inches from their lips. You don't want to knock your partner out or smash their face with yours. :-) Then press your lips firm to theirs, making them tilt their head back a little. This will leave them stunned and satisfied.<br /><br />39.. Flutter Kiss - While French kissing, gently bite your partners tongue so that they can't pull it away. Flutter your tongue against the tip of theirs and it will drive him/her insane if they're not ready for it.<br /><br />40.. Foot Kiss - An erotic and romantic gesture. It may tickle, but relax and enjoy it! To give a toe kiss by gently suck the toes and then lightly kissing the foot. It helps to gently massage the base of the foot while performing the kiss.<br /><br />41.. Forehead Kiss - The "motherly" kiss or "just friends" kiss. The forehead kiss can be a comforting kiss to anyone. Simply brush your lips lightly across the crown of their head.<br /><br />42.. Freeze Kiss - (aka Melt Kiss) Experiment with this fun kiss. Put a small piece of ice in your mouth, then open mouth and kiss your partner, passing them the ice with your tongue. It's an erotic and sensual French kiss with a twist of cold.<br /><br />43.. French Kiss - The kiss involving the tongue. Some call this the "Soul Kiss" because the life and soul are thought to pass through the mouth's breath in the exchange across tongues.<br /><br />44.. French Massage Kiss - While kissing your partner, slowly roll your tongue into their mouth then massage their tongue and mouth.<br /><br />45.. Frosty Kiss - Take a spoonful of a frosty from Wendy's and kiss your partner. It's cold, but hot at the same time. This is also fun because you can end up spoon-feeding each other, which is quite romantic.<br /><br />46.. Frustrating Kiss - (For women) In the middle of a kissing session, when your guy leans in to kiss you, let his lips nearly touch yours, then quickly pull your head back a few inches. Do this a few times in a row. It'll frustrate him and cause him to tighten his grip on you before he finally captures your lips for a hot desirable kiss.<br /><br />47.. Ghost Kiss - Get very close to your lover's face and look down at their lips as if you're about to kiss them. Just as they believe you're going to kiss, brush your lips up over their cheekbones and eyelids without firmly kissing. The ghost kiss will leave them wanting so much more!<br /><br />48.. Gum Kiss - One of you puts a piece of gum in your mouth. Play keep away with the gum.<br /><br />49.. Gypsy kiss - Lightly kiss and lick the neck, then slowly move up to the ear. If she is wearing earrings, put it in your mouth as you suck on her earlobe.<br /><br />50.. Hand Kiss - Gently raise her hand to your lips. Lightly brush your lips across the top of her hand. Historically this kiss was performed with a bow, which showed deference to a lady.<br /><br />51.. Hard Kiss - Also known as the full-body kiss. Press your partner against a wall with your full body (not too hard!) and firmly kiss them. This exciting kiss will leave your partner breathless and wanting more.<br /><br />52.. Hershey Kiss - Give your partner a chocolaty Hershey kiss. (Great for when you're on a kissing break).<br /><br />53.. Hershey Kiss #2 - Like the Cotton Candy Kiss, put a hershey kiss in your mouth and start kissing your partner. The hershey kiss melts and it tastes amazing!<br /><br />54.. Hickey Kiss - The object is not to draw blood, but to gently leave a mark that will prove your interlude was not a dream. This is often included in erotic foreplay.<br /><br />55.. Hit-and-Run Kiss - Gently peck your partner on the cheek or lips and then run off out of sight. This leaves them in a state of awe and they always come back for more.<br /><br />56.. Hot Fudge Kiss - Put some hot fudge on your partners stumic and then lick it off.<br /><br />57.. Hot/Cold Kiss - Get a cold drink and put some in your mouth. Have your partner gets a hot drink and puts some in their mouth. You then French kiss leaving a sensational feeling.<br /><br />58.. Hug n' Kiss - Suddenly hug your partner in a romantic way. Switch to a little dance while turning on romantic music and then gently start kissing. You'll have a warm and romantic moment.<br /><br />59.. Ice Cream Kiss - Take your partner out for ice cream and order one cone. Take the first bite and keep it in your mouth. Lean into your partner for a French kiss with the ice cream. Trade off taking bites. It's fun and a little funny.<br /><br />60.. Ice Cube Kiss - Place an ice cube in your partners belly button, telling them that if they move and it falls out, you will stop kissing them. When the ice cube melts, you can use the cold water all over to make for an awesome sensation.<br /><br />61.. Ice Kiss - Take a piece of ice in your mouth and hold it on your tongue until it melts, then sneak up on your partner and quickly lick their cheek or neck. It provides a cold but great feeling for them and it's a lot of fun!<br /><br />62.. Jawline Kiss - Start by short kisses right below the jaw and work your way down to the collar bone. Next, blow a little air as you make your way back to the jaw.<br /><br />63.. Kiss with a Twist - Lean in to kiss your partner and just as they come to meet your lips, pull back. They'll think your playing, but surprise them by leaning in and giving them the kiss of a lifetime!<br /><br />64.. Laughter Kiss - Lean in like you're going to kiss your partner. Get close enough to where your lips slightly brush theirs as you whisper a joke. Just make sure it's a good joke!<br /><br />65.. Letter Kiss - Send your lover a kiss in a love letter by writing the letter x several times in a row at the bottom of a letter such as XXXXX.<br /><br />66.. Lip Tease Kiss - Lightly lick your partner's lips, from the outside to the inside. They will react to opening their lips further, then you lick inward more. This kiss leaves a wonderful tingling sensation.<br /><br />67.. Lizard Kiss - When you are leaning in to kiss your partner, stick the tip of your tongue out and touch their lips. Quickly return your tongue to you mouth. Its especially funny when both of you do it at the same time.<br /><br />68.. Loubie Smooch - Roll your partner over and kiss one of their bum cheeks then give it a little playful bite. Guaranteed to surprise your partner!<br /><br />69.. Make-out Starter Kiss - While you're kissing, move your tongue back and forth really fast. If your partner says anything about it, act like it didn't happen...It's a great make-out starter.<br /><br />70.. Mermaid Kiss - Have your partner let all of his/her breath out and go under water. Follow them down, connect, and give your breath to them. This kiss is fun and very connecting.<br /><br />71.. Minty Hot Kiss - Put your favorite minty gum in your mouth and have your partner put their favorite spicy gum in their mouth. While French kissing, exchange each others gum from mouth to mouth, getting a cold and warm feeling.<br /><br />72.. Mistletoe Kiss - Surprise your lover by capturing them with a gentle holiday kiss under the mistletoe. This is also a good method for shyer individuals to steal a kiss from a potential lover.<br /><br />73.. Name Kiss - A kiss where you spell your name with your tongue while kissing your partner.<br /><br />74.. Neck Kiss - Come up behind the person you want to kiss. Lightly lick the back of their neck, then kiss the back of their neck a few times.<br /><br />75.. Neck Kiss (Alternate) - Alternate kissing and licking at the hollow point of the collar bone and slowly travel upward, then end with a deep kiss on the mouth, French is preferred.<br /><br />76.. Neck Lick Kiss - Slowly lick up the side of her neck to her ear and trace it back with your lips, kissing gently. She's sure to get chills.<br /><br />77.. Neck Nibble Kiss - Gently nibble up and down your partners neck. End with a gentle kiss on the lips.<br /><br />78.. Nibble Kiss - While you and your partner are kissing, gently nibble on their tongue. This produces an erotic sensation and is a laugh!<br /><br />79.. Nip Kiss - This kiss can create a very erotic sensation. While kissing your partner, ever so gently nibble on their lips. You must be very careful not to bite to hard or hurt your partner. When done correctly, this kiss ignites wonderful sensations.<br /><br />80.. Non-stop Kiss - Make out, slipping your tongue in and out of your partners mouth. Keep going for as long as you can.<br /><br />81.. Nose Kiss - Lean forward slowly to their face and softly kiss your partner's nose. This is a good way to get your partner's attention and it always makes them smile!<br /><br />82.. Ocean Kiss - Standing in the ocean up to your thighs, when a wave approaches, both partners kiss. As the wave crashes into each other, the wave will hit both partners with passion.<br /><br />83.. Open Eye Kiss - Look your loved one in the eye. While staring at them, lean in and kiss them slowly, looking into their eyes the entire time. This will show your partner how much you care about them, and give them butterflies at the same time!<br /><br />84.. Peck Kiss - Kiss your partner's lips lightly as to say a little. This isn't very intimate, but it's kind of arousing!<br /><br />85.. Playful Bop Kiss - Gently bop and pop your lips on your partners (like spiting out sunflower seeds without actually spitting on them). This is a very playful kiss<br /><br />86.. Pop Rock Kiss - One partner has a drink in there mouth and the other has the pop rocks. Start to French kiss and you get a spark!<br /><br />87.. Pop the Bubble - both you and your partner blow a bubble gum bubble and then pop it with each others mouths, kissing each other at the same time. This makes for a fun and sexy kiss!<br /><br />88.. Pulse Kiss - Kiss your partner up and down the jaw line and neck with soft searching kisses until you find their pulse. Nip it very gently then kiss the spot.<br /><br />89.. Purr Kiss - Also known as the Tough Girl Kiss. While you are gently kissing their lips, make a loud, vibrant purring sound (so they can hear and feel it next to their lips). Then, bite and suck on their bottom lip. This is fun and brings out the wild side in both of you. Me-Ow!<br /><br />90.. Quickie Kiss - When you're in a rush. Often the nose gets it rather than the lips.<br /><br />91.. Rain Kiss - When alone with your lover in the street during rain, gently pull him/her aside and kiss them in the rain. It's very romantic.<br /><br />92.. Reese's Kiss - Put a minature Reeses peanut butter in your mouth and kiss your partner at the same time.<br /><br />93.. Rolling Tongue Kiss - Similar to a French kiss, but both partners should roll their tongue's around each others.<br /><br />94.. Romantic Kiss - Look at your partner with passion, then gently move in for a kiss with your lips half open. As soon as you make contact, close your lips slowly. Open and close your lips three times then move away. They'll definitely want more!<br /><br />95.. Romantic Kiss - Before you begin kissing, simply hold your partner in your arms in a passionate and romantic embrace.<br /><br />96.. See-Saw Kiss - Grab your partner. Get closer as you connect tongues. Move your tongues up and down from the roof of your mouths to the bottom of the mouths creating a see-saw motion. If done correctly, it will create a tangy, fun-filled adventure.<br /><br />97.. Sensational Kiss - When laying beside your partner, kiss them on there lips then making a trail across there cheek to the ear, after the trail follow back down with your nose, and blowing softly air on them, your partner should get the shivers, and will lead to more fun afterwards.<br /><br />98.. Sensual Kiss - This kiss is for the girls. Slowly go in for that romantic sensual kiss and slide your tongue up underneath your partners upper lip, moving your tounge around slowly. To end the kiss, slowly pull away and bite down on the top lip for that great feeling.<br /><br />99.. Sensual Surprise Kiss - Gently place your hands on the sides of your partner's face with your fingers slightly apart. Hold their head lightly, hesitating a little. Just when they think they're getting a gentle, romantic kiss, give their lips a few teasing sensual jabs with your tongue followed by a passionate French kiss. It'll make them crazy.100.. Sexy Kiss - Embrace your partner and stick your tongue out. Get her/him to stick his tongue out too and flicker your tongues. This creates a passionate sensation.<br /><br />101.. Shoulder Kiss - Simply come from behind, embrace her, and kiss the top of her shoulder. This is a sensual, loving kiss.<br /><br />102.. Side Kiss - Come up behind your partner, embrace her and kiss when she turns her head slightly to meet your lips.<br /><br />103.. Simple Kiss - That sweet simple kiss from a loved one that leaves you wanting more? The one where you've been staring into each other's eyes and you're content just staring, but your partner leans over and kisses you ever so lightly on the cheek or tip of the nose.<br /><br />104.. Sip Kiss - Take a small sip of your favorite drink. Leaving a little bit of it on your lips, kiss your partner. It is a unique way to create a sensual feeling and your partner will enjoy it.<br /><br />105.. Slo-Mo Kisses - The object with this kiss is to see how slow you and your partner can kiss each other. Slow kisses are generally considered quite desirable and passionate, so you'll have fun with this. You and your partner begin kissing each other. As you kiss, concentrate on moving your lips and tongue slower and slower. Try to feel each little nerve signal that is being sent to your brain as you slowly explore each other's mouths. Once you've got this down... move even slower!<br /><br />106.. Slow Kissing - French kiss your partner 10x slower than you normally would. For instance, kiss for 30 minutes or so. Try this with any kiss listed here, just take it very s-l-o-w-l-y.<br /><br />107.. Snow Kiss - Take a bit of snow and put it into your mouth. As quick as you can, without banging heads or teeth, kiss your partner. This is a great kiss for winter walks.<br /><br />108.. Spaghetti and Meatball Kiss - Also know as 'The Lady &amp; The Tramp Kiss'. While sharing a plate of spaghetti and meatballs, feed each other. Then with one long noodle (a side in each mouth), take some in getting closer and closer to each other. When you get to the end of the noodle, your lips will meet, ending in a nice kiss.<br /><br />109.. Spiderman Kiss - While your partner is lying down on the bed or ground (it's especially sweet when they are laying outside in the sun), you come above them and kiss them so they are upside down compared to you.<br /><br />110.. Starburst Kiss - While French kissing, try to unwrap a Starburst with your tongue. Whoever gets the wrapper off first is the winner. It's a fun type of kiss that adds a little extra fun to the act.<br /><br />111.. Stomach Kiss - Gently kiss and nibble on your partners stomach, and sometimes it leads to other things.<br /><br />112.. Strawberry Kiss - Also known as the Fruiti-licious kiss. Eat a strawberry and kiss your partner, leaving a sweet taste in their mouth. It's fun and a really cute way to "feed" each other.<br /><br />113.. Super Kiss - As you hold you partner give them a quick kiss followed by another and another very quickly. It's a really cute and playful way to kiss one another.<br /><br />114.. Sweet Kiss - Take piece of your favorite candy, put it in your mouth and kiss your partner. Exchange the candy from mouth to mouth, until the candy melts. Feel free to keep on kissing after the candy is long gone!<br /><br />115.. Switch Kiss - While French kissing, switch the way that your head is tilted.<br /><br />116.. Tackle Kiss - When you're across the room from your lover, make a quick dash and catch them by surprise with hugs and kisses! This is very fun and romantic.<br /><br />117.. Take My Breath Away Kiss - While you and your partner are French kissing, wait until your partner inhales. When they inhale, exhale into their mouth. It will literally take your breath away. You can do this visa versa. It is a very entertaining kiss.<br /><br />118.. Talking Kiss - Whisper sweet nothings into your partner's mouth. If caught in the act, simply say as Chico Marx, "I wasn't kissing her. I was whispering into her mouth."<br /><br />119.. Temple Kiss - Kiss your partner on the temple and then slowly kiss from down to the check bone. S/he won't be able to get enough!<br /><br />120.. Tickle Kiss - Tickle the top of your partner's mouth with your tongue. It feels great and will give them a wild sensation.<br /><br />121.. Tickle Kiss - While hugging your partner, tickle them and make them laugh. While they're laughing, kiss them. Then tickle and kiss again. Women especially love this one!<br /><br />122.. Tiger Kiss - Quietly sneak up behind your partner making sure they do not know what you are going to do. Out of the blue, grab them and gently bite their neck. Make sure to get a few good growls in too. This will surely surprise them.<br /><br />123.. Tongue Kiss - While French kissing your partner, gently suck their tongue while it's in your mouth. This produces a wonderful, erotic feeling for both!<br /><br />124.. Tongue Tease - While french kissing, try moving your tongue on his teeth, then stick it in and out of his mouth. Be sure to move slowly as it will really excite him.<br /><br />125.. Tongue to Tongue Kiss - While sitting on chair beside each other, touch your partner's tongue with the tip of your tongue. It will give you both a wild pleasure.<br /><br />126.. Tracing Kiss - When kissing your lover, gently trace there lips with your tongue.<br /><br />127.. Underwater Deep End Kiss - Dive to the bottom of the deep end of a pool. Find your partner under water and begin kissing. Continue as you rise to the top.<br /><br />128.. Underwater Kiss - Find your partner under water. Embrace and kiss. It's a unique and wonderful feeling. By the time you run out of air, you'll be back at the top. Continuing the kiss is optional.<br /><br />129.. Upside Down Kiss - You stand behind your partner (who is seated or laying down) and have them tilt their head back. Then kiss them so that you nibble their lower lip and they nibble yours. This is fun and feels good because you can feel them breathing on your neck as you kiss.<br /><br />130.. Vacuum Kiss - While kissing open-mouthed, slightly suck in as if you were sucking the air from your partners mouth. This is a playful kiss.<br /><br />131.. Vampire Kiss - When French kissing, gently bite his/her tongue so they can't pull away. While you have it between your teeth, suck on their tongue with your mouth. It will drive them crazy.<br /><br />132.. Venom Kiss - Freshly apply a special lip gloss called 'Venom Gloss' by Duwop, kiss your lover ever so slightly on the lips and then more intensly. Wait a little and then their lips will start to have a warm almost burning sensation. It will leave them wanting more!<br /><br />133.. Virtual Kiss - For Internet lovers. Send an e-card or a kiss via email with this symbol: :-* .<br /><br />134.. Waistline Kiss - Kiss your partner softly, just slightly below and adjacent to the belly button. This will drive pretty much any woman wild.<br /><br />135.. Wave Kiss - While kissing your partner, slowly roll your tongue like a wave, up and down. It can be a little sloppy, but it's a unique feeling and always gets a little laugh when it's done.<br /><br />136.. Wet Kiss - Once you have been kissing enough that both of your lips are wet, with your mouth barely open, gently rub back and forth, up and down, around and around.<br /><br />137.. Whipped Cream Kiss - Put a line of whipped cream down your partners neck and slowly lick it off. Then, with a little bit still in your mouth, kiss them!<br /><br />138.. Winter Chills Kiss - Kiss your partner on the neck, then casually lick where you just kissed. Next, gently blow on the area. It creates a weird, cold sensation, but definitely an arousing ordeal.<br /><br />139.. Zorro Kiss - Like a French kiss except the participants' tongues are swordfighting. Mucho romantico<br />140.. As you are making out passionatley with your lover, stop mid-kiss and move your head down to were his or her shiirt ends, Pull it up and gently kiss their belly. Start taking thier shirt off and move up their torso. When you reach their chest, kiss, nibble and suck. It will have your partner aroused in seconds!<br /><br />141.. Australian Kiss - Like a French kiss, but down under.<br /><br />142.. Naked-at-the-Door Kiss - Meet your partner at the door naked when they come home. Grab him by the belt and pull him to the couch on top of you and kiss him passionately. This always leads to more!<br /><br />143.. Nipple Kiss - While you have a moment to yourselves, gently kiss, lick, and suck on your partner's nipple. Blowing on it makes it cold and gives a great sensation, while lightly nibbling will make your partner go wild. This kiss will definitely lead to more.<br /><br />144.. Shaba Kiss - Get down on one knee. Softly lift your partners shirt and move down towards the hips, kissing what is revealed. Rotate your tongue while you're kissing. his kiss can definitely lead to more.<br /><br />145.. Side-on Lining Kiss - (For males). Gently pass your hand down the body of your partner, then slowly pull down the panty a bit. Lightly kiss on the impressions left on the hip by the elastic of the panty. This is a very sensuous kiss.<br /><br />146.. Strip Kiss - Only try this kiss if you are very close to your partner. Start French kissing your partner. Stop and slowly take off their shirt. Resume kissing. Stop again and kneel to one knee. Take off your partner's socks, shoes, and pants, leaving them in their underwear.<br /><br />147.. Thigh Kiss - Gently kiss your partner behind the knee and slowly kiss your way up her thigh. It will drive her mad. </div><div style="clear:both; padding-bottom:0.25em"></div>
+    </div>
+    </div>
+    
+    <p class="post-footer">
+      <em>posted by Tony at <a href="http://princesskimberley.blogspot.cz/2006/08/kiss-your-loved-one-147-ways.html" title="permanent link">11:03 PM</a></em>
+      
+
+         <a class="comment-link" href="http://www.blogger.com/comment.g?blogID=30370887&amp;postID=115481550026658448"location.href=http://www.blogger.com/comment.g?blogID=30370887&postID=115481550026658448;>1 comments</a>
+      
+  <span class="item-control blog-admin pid-2065600954"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=30370887&postID=115481550026658448&from=pencil" title="Edit Post"><img class="icon-action" alt="" src="http://img2.blogblog.com/img/icon18_edit_allbkg.gif" height="18" width="18"></a></span>
+    </p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+  
+  <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115481514837732933"></a>
+         
+    <h3 class="post-title">
+	 
+	 Photoshop Images Horrible Pictures
+	 
+    </h3>
+    
+
+	         <div class="post-body">
+	<div>
+      <div style="clear:both;"></div><p></p><p><a href="http://crazyfuns.504.com1.ru/crazypics/5.08.06/photoshop-images-horrible-pictures/1.jpg"><img style="DISPLAY: block; MARGIN: 0px auto 10px; WIDTH: 400px; CURSOR: hand; TEXT-ALIGN: center" alt="Photoshop Images Horrible Pictures" src="http://crazyfuns.504.com1.ru/crazypics/5.08.06/photoshop-images-horrible-pictures/1.jpg" border="0" /></a> </p><a href="modules.php?name=News&file=view&amp;news_id=1786"><br /><p><a href="http://crazyfuns.504.com1.ru/crazypics/5.08.06/photoshop-images-horrible-pictures/6.jpg"><img style="DISPLAY: block; MARGIN: 0px auto 10px; WIDTH: 400px; CURSOR: hand; TEXT-ALIGN: center" alt="Photoshop Images Horrible Pictures" src="http://crazyfuns.504.com1.ru/crazypics/5.08.06/photoshop-images-horrible-pictures/6.jpg" border="0" /></a> </p><br /><p align="right">See more here <a href="http://www.crazyfuns.ru/">http://www.crazyfuns.ru/</a></p><div style="clear:both; padding-bottom:0.25em"></div>
+    </div>
+    </div>
+    
+    <p class="post-footer">
+      <em>posted by Tony at <a href="http://princesskimberley.blogspot.cz/2006/08/photoshop-images-horrible-pictures.html" title="permanent link">10:52 PM</a></em>
+      
+
+         <a class="comment-link" href="http://www.blogger.com/comment.g?blogID=30370887&amp;postID=115481514837732933"location.href=http://www.blogger.com/comment.g?blogID=30370887&postID=115481514837732933;>0 comments</a>
+      
+  <span class="item-control blog-admin pid-2065600954"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=30370887&postID=115481514837732933&from=pencil" title="Edit Post"><img class="icon-action" alt="" src="http://img2.blogblog.com/img/icon18_edit_allbkg.gif" height="18" width="18"></a></span>
+    </p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+  
+  <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Monday, July 24, 2006</h2>
+  
+
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115377743915209695"></a>
+         
+    <h3 class="post-title">
+	 
+	 Sunday School
+	 
+    </h3>
+    
+
+	         <div class="post-body">
+	<div>
+      <div style="clear:both;"></div><div align="justify">There was a baby born in the hospital and he weighed ten pounds. The odd thing about him was his body weighed five pounds and his balls weighed five pounds. All the nurses and even the doctor didn't know what to do with him.<br />Then, the chief surgeon walked in and asked what was wrong. The head nurse replied, ''We don't know what to do with this baby.''<br /><br />So the chief surgeon took one look and said, "You should put him into a mental institution."<br /><br />''Why?' asked the head nurse.<br /><br />"Well," replied the chief surgeon, "take a look at him. The boy is obviously half nuts." </div><div style="clear:both; padding-bottom:0.25em"></div>
+    </div>
+    </div>
+    
+    <p class="post-footer">
+      <em>posted by Tony at <a href="http://princesskimberley.blogspot.cz/2006/07/sunday-school.html" title="permanent link">10:43 PM</a></em>
+      
+
+         <a class="comment-link" href="http://www.blogger.com/comment.g?blogID=30370887&amp;postID=115377743915209695"location.href=http://www.blogger.com/comment.g?blogID=30370887&postID=115377743915209695;>0 comments</a>
+      
+  <span class="item-control blog-admin pid-2065600954"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=30370887&postID=115377743915209695&from=pencil" title="Edit Post"><img class="icon-action" alt="" src="http://img2.blogblog.com/img/icon18_edit_allbkg.gif" height="18" width="18"></a></span>
+    </p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+  
+  <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115377735808312553"></a>
+         
+    <h3 class="post-title">
+	 
+	 Hahahaha))))))))))))))))
+	 
+    </h3>
+    
+
+	         <div class="post-body">
+	<div>
+      <div style="clear:both;"></div><a href="http://photos1.blogger.com/blogger/6920/3420/1600/1.jpg"><img style="DISPLAY: block; MARGIN: 0px auto 10px; WIDTH: 400px; CURSOR: hand; TEXT-ALIGN: center" alt="" src="http://photos1.blogger.com/blogger/6920/3420/1600/1.jpg" border="0" /></a><br /><a href="http://photos1.blogger.com/blogger/6920/3420/1600/2.jpg"><img style="DISPLAY: block; MARGIN: 0px auto 10px; WIDTH: 400px; CURSOR: hand; TEXT-ALIGN: center" alt="" src="http://photos1.blogger.com/blogger/6920/3420/1600/2.jpg" border="0" /></a><br />See more on <a href="http://russian-humor.blogspot.com/"><strong>http://russian-humor.blogspot.com/</strong></a><div style="clear:both; padding-bottom:0.25em"></div>
+    </div>
+    </div>
+    
+    <p class="post-footer">
+      <em>posted by Tony at <a href="http://princesskimberley.blogspot.cz/2006/07/hahahaha.html" title="permanent link">9:01 PM</a></em>
+      
+
+         <a class="comment-link" href="http://www.blogger.com/comment.g?blogID=30370887&amp;postID=115377735808312553"location.href=http://www.blogger.com/comment.g?blogID=30370887&postID=115377735808312553;>0 comments</a>
+      
+  <span class="item-control blog-admin pid-2065600954"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=30370887&postID=115377735808312553&from=pencil" title="Edit Post"><img class="icon-action" alt="" src="http://img2.blogblog.com/img/icon18_edit_allbkg.gif" height="18" width="18"></a></span>
+    </p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+  
+  <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+</div></div>
+<!-- End #main -->
+
+
+
+
+
+
+
+<!-- Begin #sidebar -->
+<div id="sidebar"><div id="sidebar2">
+  
+<div class='adsense' style='text-align:center; padding: 0px 0px 20px 0px;'>
+<script type="text/javascript"><!--
+google_ad_client="pub-0581136059310178";
+google_ad_host="pub-1556223355139109";
+google_ad_host_channel="00000";
+google_ad_width=250;
+google_ad_height=250;
+google_ad_format="250x250_as";
+google_ad_type="text";
+google_color_border="DDDD99";
+google_color_bg="DDDD99";
+google_color_link="886633";
+google_color_url="886633";
+google_color_text="3300FF";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+    
+        
+
+  
+  
+  <h2 class="sidebar-title">Previous Posts</h2>
+    <ul id="recently">
+    
+        <li><a href="http://princesskimberley.blogspot.cz/2006/09/new-version-of-djuzeppe-online-ai.html">New version of djuzeppe online AI engine is ready....</a></li>
+     
+        <li><a href="http://princesskimberley.blogspot.cz/2006/09/top-prize-for-latest-in-mobiles.html">Top Prize for the Latest in Mobiles</a></li>
+     
+        <li><a href="http://princesskimberley.blogspot.cz/2006/08/joke-of-day.html">Joke of the Day</a></li>
+     
+        <li><a href="http://princesskimberley.blogspot.cz/2006/08/favorite-miracle-max.html">Favorite miracle max!</a></li>
+     
+        <li><a href="http://princesskimberley.blogspot.cz/2006/08/japanese-anecdotes.html">Japanese Anecdotes</a></li>
+     
+        <li><a href="http://princesskimberley.blogspot.cz/2006/08/must-read.html">Must Read</a></li>
+     
+        <li><a href="http://princesskimberley.blogspot.cz/2006/08/kiss-your-loved-one-147-ways.html">Kiss your loved one 147 ways</a></li>
+     
+        <li><a href="http://princesskimberley.blogspot.cz/2006/08/photoshop-images-horrible-pictures.html">Photoshop Images Horrible Pictures</a></li>
+     
+        <li><a href="http://princesskimberley.blogspot.cz/2006/07/sunday-school.html">Sunday School</a></li>
+     
+        <li><a href="http://princesskimberley.blogspot.cz/2006/07/hahahaha.html">Hahahaha))))))))))))))))</a></li>
+     
+  </ul>
+    
+
+  <h2 class="sidebar-title">Archives</h2>
+    <ul class="archive-list">
+   	  
+    	<li><a href="http://princesskimberley.blogspot.cz/2006_07_01_archive.html">July 2006</a></li>
+	  
+    	<li><a href="http://princesskimberley.blogspot.cz/2006_08_01_archive.html">August 2006</a></li>
+	  
+    	<li><a href="http://princesskimberley.blogspot.cz/2006_09_01_archive.html">September 2006</a></li>
+	  
+
+  </ul>
+  
+  
+<h2 class="sidebar-title">Links</h2>
+    <ul>
+    	<li><a href="http://news.google.com/">Google News</a></li>
+    	<li><a href="http://nicevices.com/">nicevices.com</a></li>
+    	<li><a href="http://foto-albom.blogspot.com/">foto-albom.blogspot.com</a></li>
+    	<li><a href="http://crazyfuns.blogspot.com/">crazyfuns.blogspot.com</a></li>
+  </ul>
+
+      <p id="powered-by"><a href="http://www.blogger.com"><img src="http://buttons.blogger.com/bloggerbutton1.gif" alt="Powered by Blogger" /></a></p>
+  
+  <!--
+  <p>This is a paragraph of text that could go in the sidebar.</p>
+  -->
+  
+
+
+</div></div>
+<!-- End #sidebar -->
+
+
+</div>
+<!-- End #content -->
+
+
+
+<!-- Begin #footer -->
+<div id="footer"><hr />
+  <p><!--This is an optional footer. If you want text here, place it inside these tags, and remove this comment. -->&nbsp;</p>
+
+</div>
+<!-- End #footer -->
+
+
+
+<script type="text/javascript" src="http://www.blogger.com/static/v1/common/js/612699025-csitail.js"></script>
+<script type="text/javascript">BLOG_initCsi('classic_blogspot');</script></body>
+</html>

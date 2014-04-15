@@ -1,0 +1,4 @@
+500 Can't connect to torrentssection.com:80 (Bad hostname 'torrentssection.com')
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 23:27:05 GMT
+Client-Warning: Internal response

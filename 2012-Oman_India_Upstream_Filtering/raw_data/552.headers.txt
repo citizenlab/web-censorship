@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Date: Tue, 19 Jun 2012 14:46:10 GMT
+Pragma: no-cache
+Server: Microsoft-IIS/7.5
+Content-Language: EN
+Content-Length: 86556
+Content-Type: text/html
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Client-Date: Mon, 18 Jun 2012 22:29:16 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Link: <favicon.ico>; rel="SHORTCUT ICON"
+Link: <style.css>; rel="stylesheet"
+Set-Cookie: PHPSESSID=3neodplj28drhgvtlv4mpb7de3; path=/
+Set-Cookie: channeltype=hindi; expires=Thu, 27-Sep-2012 14:46:10 GMT
+Set-Cookie: PHPSESSID=57iia15a9l161vnekgi7i7mrb1; path=/
+Title: Sangeethouse - Hindi Songs Hindi music, Hindi movies, Hindi videos, Hindi lyrics, Hindi actors and actresses
+X-Meta-Description: Hindi Songs - Latest Hindi music, Hindi videos and movie trailers, lyrics, celebrity photo galleries and more.
+X-Meta-Distribution: Global
+X-Meta-Document-Rating: safe for kids
+X-Meta-Keywords: Hindi music, Hindi movies, Hindi songs, Indian music, classical, instrumental, Hindi karaoke songs, carnatic music, Hindi actors, Hindi actresses, Hindi news, Hindi celebrity photos, gallery, Indian actors, filmography, live Indian radios
+X-Meta-ROBOTS: index, follow
+X-Powered-By: PHP/5.3.6

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 14:44:15 GMT
+Server: Apache/2.2.22 (CentOS)
+Content-Type: text/html; charset=ISO-8859-1
+Client-Date: Mon, 18 Jun 2012 22:27:18 GMT
+Client-Peer: 74.220.199.8:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <//www.hostmonster.com/media/shared/info/index/_hm/home.css>; rel="stylesheet"; type="text/css"
+Link: <//www.hostmonster.com/media/shared/general/_hm/homestyle.css>; rel="stylesheet"; type="text/css"
+Title: Welcome town67.com - Hostmonster.com
+X-Meta-Revisit-After: 10
+X-Meta-ROBOTS: NOINDEX, NOFOLLOW

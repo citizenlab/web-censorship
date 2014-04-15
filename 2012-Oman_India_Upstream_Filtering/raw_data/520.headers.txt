@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: close
+Date: Tue, 19 Jun 2012 14:44:05 GMT
+Pragma: no-cache
+Server: Apache
+Content-Type: text/html
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Client-Date: Mon, 18 Jun 2012 22:27:09 GMT
+Client-Peer: 174.122.2.174:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </favicon.ico>; rel="icon"; type="image/ico"
+Link: <includes/css/general.css>; rel="stylesheet"; type="text/css"
+Link: <includes/css/AutoComplete.css>; rel="stylesheet"; type="text/css"
+Link: <common/calendar/calendar.css>; rel="stylesheet"; type="text/css"
+Set-Cookie: PHPSESSID=056af17155791fb855e66b2167dd49d8; path=/
+Title: Topupmp3.com - Hindi Songs | Download Hindi Songs | Ghazals Songs | Telugu Songs | Telugu Songs Download | Tamil Songs | Tamil Songs Download
+X-Meta-Description: Welcome to only ad free Indian music portal. Hindi songs, tamil songs and telugu songs available for download in mp3 format all for free.
+X-Meta-Googlebot: INDEX,FOLLOW
+X-Meta-Keywords: Hindi songs, download hindi songs, tamil songs, tamil songs download, telugu songs, telugu songs download, free hindi songs download, hindi movie songs, tamil movie songs, telugu movie songs, download Punjabi songs
+X-Meta-Revisit-After: 2 Days
+X-Meta-ROBOTS: INDEX, FOLLOW

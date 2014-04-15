@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache, must-revalidate, proxy-revalidate
+Date: Tue, 19 Jun 2012 13:55:17 GMT
+Pragma: no-cache
+Server: Microsoft-IIS/7.5
+Content-Length: 99986
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Client-Date: Mon, 18 Jun 2012 21:38:27 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Link: <http://www.myspace.com/satishsethreliance>; rel="canonical"
+Link: <http://a4.ec-images.myspacecdn.com/profile01/114/7214205e108e4007ba68698d9512763d/p.jpg>; rel="image_src"
+Link: <http://x.myspacecdn.com/modules/common/static/css/futuraglobal_jttlcbyk.css>; rel="stylesheet"; type="text/css"
+Link: <http://x.myspacecdn.com/modules/common/static/css/futura/iconsie7_qp_u23bi.css>; rel="stylesheet"; type="text/css"
+Link: <http://api.myspace.com/openid>; rel="openid2.provider"; type="application/x-openid-kvf"
+Link: <http://x.myspacecdn.com/modules/profiles/static/css/basebundle_-spdtipa.css>; rel="stylesheet"; type="text/css"
+Link: <http://x.myspacecdn.com/modules/profiles/static/css/sites_r2p-ivcc.css>; rel="stylesheet"; type="text/css"
+Link: </Modules/PageEditor/Handlers/Profiles/ThemeCss.ashx?themeId=319>; rel="stylesheet"; title="UserStyle"; type="text/css"
+Refresh: 0;url=/help/nojs
+Set-Cookie: MSCulture=IP=x.x.x.x&IPCulture=en-US&PreferredCulture=en-US&PreferredCulturePending=&Country=T00=&ForcedExpiration=634756857086410621&timeZone=0&myStuffDma=&myStuffMarket=&USRLOC=QXJlYUNvZGU9MCZDaXR5PU11c2NhdCZDb3VudHJ5Q29kZT1PTSZDb3VudHJ5TmFtZT1PbWFuJkRtYUNvZGU9MCZMYXRpdHVkZT0yMy42MTMzJkxvbmdpdHVkZT01OC41OTMzJlBvc3RhbENvZGU9JlJlZ2lvbk5hbWU9MDYmTG9jYXRpb25JZD0w&UserFirstVisit=1; domain=.myspace.com; expires=Tue, 26-Jun-2012 13:55:08 GMT; path=/
+Set-Cookie: SessionDDF2=nBjMMaLrdexKist8pSqy/fI6ckSZna1Svftz1GusyT4wR+Ii4nfml7kc7b2kKUzlLvy+uebVK3HzHOv4izQchw==; domain=.myspace.com; expires=Sat, 19-Jun-2032 13:55:08 GMT; path=/
+Set-Cookie: MSCOUNTRY=OM; domain=.myspace.com; expires=Tue, 26-Jun-2012 13:55:08 GMT; path=/
+Set-Cookie: FRNDIDxr2g=573477860; domain=.myspace.com; expires=Wed, 20-Jun-2012 01:55:16 GMT; path=/
+Title: Satish Seth (Satish Seth Reliance) on Myspace
+X-AspNet-Version: 4.0.30319
+X-FRAME-OPTIONS: allow-from: http://www.yahoo.com
+X-Meta-Description: Satish Seth (Satish Seth Reliance)'s profile on Myspace, the leading social entertainment destination powered by the passion of our fans.
+X-Meta-Fragment: !
+X-Meta-Keywords: friends networking sharing photos finding friends blogs journals blogging journaling bands music rate pics join groups forums classifieds online social networking
+X-Meta-Title: Satish Seth (Satish Seth Reliance) on Myspace
+X-PoweredBy: Caffiene
+X-Server: 41386d342ee98d3502ed382c42a213682e3bacea23cd1003
+X-UA-Compatible: IE=edge

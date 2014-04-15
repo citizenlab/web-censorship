@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Tue, 19 Jun 2012 16:00:44 GMT
+Server: Apache/2.2.21 (Unix) mod_ssl/2.2.21 OpenSSL/1.0.0-fips mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+Content-Type: text/html; charset=UTF-8
+Expires: Mon, 18 Jun 2012 16:00:44 GMT
+Client-Date: Mon, 18 Jun 2012 23:43:47 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://ginbig.com/css/style.css>; rel="stylesheet"; title="main"; type="text/css"
+Link: <imagest/GinBig.ico>; rel="icon"; type="image/x-icon"
+Link: <imagest/GinBig.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: <http://ginbig.com/main.css>; rel="stylesheet"; type="text/css"
+Title: GinBig - Easy way to share your files
+X-Meta-Description: Free file upload service
+X-Meta-Keywords: file upload,share files,free upload

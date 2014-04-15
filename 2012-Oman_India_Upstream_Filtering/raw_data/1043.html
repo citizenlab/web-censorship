@@ -1,0 +1,1249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+        
+        <title>Download free files direct from rapidshare, megaupload, hotfile, 4shared etc. No torrent - only free downloads software, music, movies, games, books, graphics - BergFiles.com</title>
+        <meta name="description" content="Bergfiles enables users to direct download  the rapidshare different files, like movies, music, games, software and e-books and download free files from megaupload, hotfile, mediafire, 4shared." />
+        
+        
+        <meta name="google-site-verification" content="Zomo9iE0b5are2kbwspD6sHZTxB4EaM2Vcnaqry-aHA" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <style media="all" type="text/css">
+                @import "http://static.bergfiles.com/css/all.css";
+                @import "http://static.bergfiles.com/css/form.css";
+        </style>
+        <script type="text/javascript" src="http://static.bergfiles.com/js/jquery-1.2.3.pack.js"></script>
+        <script type="text/javascript" src="http://static.bergfiles.com/js/jquery.jcarousel.pack.js"></script>
+    <script type="text/javascript" src="http://static.bergfiles.com/js/form.js"></script>
+    <script type="text/javascript" src="http://static.bergfiles.com/js/func.js"></script>
+    <script type="text/javascript" src="http://static.bergfiles.com/js/thickbox.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://static.bergfiles.com/skins/jquery.jcarousel.css" />
+        <link rel="stylesheet" type="text/css" href="http://static.bergfiles.com/skins/tango/skin.css" />
+    <link rel="stylesheet" type="text/css" href="http://static.bergfiles.com/css/thickbox.css" />
+        <script type="text/javascript">
+        jQuery(document).ready(function() {
+                jQuery('#mycarousel').jcarousel({
+                        vertical: true,
+                        scroll: 1,
+            width: 120,
+            height: 400
+                });
+        id2 = $("input[name='type']").val();
+        if(id2=='' || id2=='all') id2='0';
+        $("li#l"+id2).addClass("active");
+        });
+        </script>
+        <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="http://static.bergfiles.com/css/ie6.css" media="screen"/><![endif]-->
+</head>
+<body id="home" onload="document.getElementById('query').focus()">
+        <!-- top -->
+        <div id="top">
+
+    <ul><li class="active"><a href="/">Home</a></li><li><a href="/trends/file">File trends</a></li><li><a href="/trends/search">Search trends</a></li><li><a href="/latest">Latest</a></li><li><a href="/browse">Browse</a></li></ul>
+
+        <span class="userinfo">
+        
+        
+        </span>
+        
+        </div><!-- END top -->
+        <!-- header -->
+        <div id="header">
+    <div id="login-pop">
+                        <form action="/login" method="post">
+            <div id="login-top">
+                                Please enter your login details to<br />proceed to your member's area
+                                <a class="close" href="javascript:loginform('hide');">x</a>
+                        </div>
+                        <div class="s-body">
+                                <label>E-mail:</label>
+                                <div class="text"><input type="text" name="email" /></div>
+                                <label>Password:</label>
+                                <div class="text"><input type="password" name="password" /></div>
+                                <span class="pers"></span>
+                        </div>
+                        <div id="login-bottom">
+                                <input type="submit" class="button" value="Login" />
+                                <a class="left" href="/lostpw">Forgot your password?</a>
+                        </div>
+            </form>
+                </div>
+        <!-- signup popup -->
+                <div id="signup-pop">
+                        <div id="signup-top">
+            
+                                Sign up to get instant<br />unlimited access to download
+                                <a href="javascript:signupform('hide');" class="close">x</a>
+                        </div>
+            <div id="reg1" class="s-error">Empty fields left<br /><br /></div>
+            <div id="reg2" class="s-error">Password and Password Confirmation doesn`t match<br /><br /></div>
+            <div id="reg3" class="s-error">Incorrect e-mail address<br /><br /></div>
+            <div id="reg4" class="s-error">Password length must be 6-15 chars<br /><br /></div>
+            <div id="reg5" class="s-error">Username length must be 6-15 chars<br /><br /></div>
+            <div id="reg6" class="s-error">That username already exists<br /><br /></div>
+            <div id="reg7" class="s-error">That e-mail already exists<br /><br /></div>
+            <div id="reg8" class="s-error">You're successfully registered. Please check your e-mail to conform registration<br /><br /></div>
+                        <div class="s-body">
+                                <label>Login:</label>
+                                <div class="text"><input type="text" name="reg_login" /></div>
+                                <label>E-mail:</label>
+                                <div class="text"><input type="text" name="reg_email" /></div>
+                                <label>Password:</label>
+                                <div class="text"><input type="password" name="reg_password" /></div>
+                                <label>Password repeat:</label>
+                                <div class="text"><input type="password" name="reg_repassword" /></div>
+                                <span class="pers"></span>
+                        </div>
+                        <div id="signup-bottom">
+                                <input type="button" value="Signup" class="button" onclick="javascript: signup1();" />
+                        </div>
+                </div><!-- END signup popup -->
+                
+                <div id="popup-links">
+                        <ul>
+                                <li id="li_login" class="link-login">
+                                
+                                        <a href="javascript:loginform('show');">Login<span></span></a>
+                                
+                                </li>
+                                <li id="li_signup" class="link-signup"><a href="javascript:signupform('show');">Signup<span></span></a></li>
+                        </ul>
+                </div>
+                <div class="container">
+                        <h1><a href="/">BergFiles</a></h1>
+            
+        <form  action="/s" method="post" name="search" id="search">
+        <input type="hidden" name="type" value="" />
+        <input type="hidden" name="lucky" value="" id="lucky_flag" />
+                <div class="search">
+                        <ul class="search-area">
+                                <li id="l0"><a href="javascript:jselect(0);">All<span></span></a></li>
+                                <li id="l1"><a href="javascript:jselect(1);">Archive<span></span></a></li>
+                                <li id="l6"><a href="javascript:jselect(6);">Appl<span></span></a></li>
+                                <li id="l4"><a href="javascript:jselect(4);">Books<span></span></a></li>
+                                <li id="l5"><a href="javascript:jselect(5);">Graphics<span></span></a></li>
+                                <li id="l3"><a href="javascript:jselect(3);">Movies<span></span></a></li>
+                                <li id="l2"><a href="javascript:jselect(2);">Music<span></span></a></li>
+                        </ul>
+                <div class="search-field">
+                <div class="text"><input id="query" name="q" type="text" value="" /></div>
+                <select name="hosting" id="hosting">
+                        <option value="0">All</option>
+                        <option value="1">Rapidshare</option>
+                        <option value="4">Megaupload</option>
+                        <option value="27">Hotfile</option>
+                        <option value="23">4shared</option>
+                        <option value="15">Mediafire</option>
+                        <option value="12">Depositfiles</option>
+                        <option value="22">Netload</option>
+                        <option value="13">Filefactory</option>
+                        <option value="9">Easy-share</option>
+                        <option value="5">Badongo</option>
+                        <option value="25">Letitbit</option>
+                        <option value="29">Sendspace</option>
+                        <option value="30">Fileserve</option>
+                </select>
+                </div>
+				
+				<ul class="buts">
+					<li><a href="javascript: search();" class="but-search">Search</a></li>
+					<li><a href="javascript: search_lucky()" class="but-lucky">I'm feeling lucky!</a></li>
+				</ul>
+			</div>
+	</form>
+
+                </div>
+        </div><!-- END header -->
+    
+<div id="content">
+        <div id="sidebar">
+			
+			<div class="headline">
+					<h2><span>Browse</span><em></em></h2>
+			</div>
+			<ul class="cats">
+					<li><a href="/applications"><strong>Applications</strong> <span class="comments">6564</span> <span class="new">+1</span><div id="p2"></div></a></li>
+					<li><a href="/books"><strong>E-books</strong> <span class="comments">4082</span> <span class="new">+1</span><div id="p3"></div></a></li>
+					<li><a href="/games"><strong>Games</strong> <span class="comments">3675</span> <span class="new">+2</span><div id="p4"></div></a></li>
+					<li><a href="/graphics"><strong>Graphics</strong> <span class="comments">2430</span> <span class="new">+0</span><div id="p1"></div></a></li>
+					<li><a href="/movies"><strong>Movies</strong> <span class="comments">9336</span> <span class="new">+3</span><div id="p5"></div></a></li>
+					<li><a href="/music"><strong>Music</strong> <span class="comments">7816</span> <span class="new">+2</span><div id="p6"></div></a></li>
+					<li><a href="/other"><strong>Other</strong> <span class="comments">534</span> <span class="new">+1</span><div id="p8"></div></a></li>
+			</ul>
+			
+			<div id="banners-10"></div>
+			<div id="banners-20"></div>
+			<div id="banners-30"></div>
+			
+			<div class="facebook-header">
+					<h2><span>Find us on Facebook</span><em></em></h2>
+			</div>
+			<div class="facebook-block">
+				<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FBergFiles-Files-Search-Engine%2F132964106753039&locale=en_US&width=221&connections=6&stream=true&header=false&height=610" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:221px; height:610px;" allowTransparency="true"></iframe>
+			</div>
+			<div class="twitter-header">
+					<h2><span>Follow us on Twitter</span><em></em></h2>
+			</div>
+			<div class="twitter-block">
+				<a href="http://twitter.com/bergfiles" target="_blank"><img alt="follow us on twitter" src="http://static.bergfiles.com/images/twitter_logo_small.png" /></a><a href="http://twitter.com/bergfiles" target="_blank" style="float: none;">Official BergFiles.com Twitter</a>
+				<div>
+					<a target="_blank" href="http://feeds.feedburner.com/~r/bergfilescom/~6/1"><img src="http://feeds.feedburner.com/bergfilescom.1.gif" alt="Berg Files Latest Tweets" style="border:0"></a>
+				</div>
+			</div>
+			
+			
+			
+			
+            <div class="sorter">
+                                <ul>
+                                        <li class="active"><a href="#">New</a><em></em></li>
+                                </ul>
+                                <div class="selector">
+                                </div>
+                        </div>
+<ul id="mycarousel" class="jcarousel jcarousel-skin-tango">
+                                <li>
+                                        <img src="http://static.bergfiles.com/images/kickass.jpg" alt="" />
+                                        <div class="txt">
+                                                <h5>Kick-Ass</h5>
+                                                <p>
+                                                        <a href="#">Action</a> | <a href="#">Comedy</a> | <a href="#">Drama</a><br />
+                                                        <span class="size">Runtime: 117 min</span><br />
+                            USA | UK 2010
+                                                </p>
+                                                <div class="wrap">
+                                                </div>
+                                                <a href="/s/kick-ass" class="download">Download</a>
+                                        </div>
+                                </li>
+                                <li>
+                                        <img src="http://static.bergfiles.com/images/islandz.jpg" alt="" />
+                                        <div class="txt">
+                                                <h5>Shutter Island</h5>
+                                                <p>
+                                                        <a href="#">Mystery</a> | <a href="#">Drama</a> | <a href="#">Thriller</a><br />
+                                                        <span class="size">Runtime: 138 min</span>
+                            USA 2010
+                                                </p>
+                                                <div class="wrap">
+                                                </div>
+                                                <a href="/s/shutter-island" class="download">Download</a>
+                                        </div>
+                                </li>
+                                <li>
+                                        <img src="http://static.bergfiles.com/images/dragonl.jpg" alt="" />
+                                        <div class="txt">
+                                                <h5>How to Train Your Dragon</h5>
+                                                <p><a href="#">Animation</a> | <a href="#">Adventure</a> | <a href="#">Comedy</a> | <a href="#">Fantasy</a><br />
+                                                        <span class="size">Runtime: 98 min</span>
+                            USA 2010
+                                                </p>
+                                                <div class="wrap">
+                                                </div>
+                                                <a href="/s/how-to-train-your-dragon" class="download">Download</a>
+                                        </div>
+                                </li>
+                                <li>
+                                        <img src="http://static.bergfiles.com/images/alicecp.jpg" alt="" />
+                                        <div class="txt">
+                                                <h5>Alice in Wonderland</h5>
+                                                <p>
+                                                        <a href="#">Adventure</a> | <a href="#">Family</a> | <a href="#">Fantasy</a><br />
+                                                        <span class="size">Runtime: 108 min</span><br />
+                            USA 2010
+                                                </p>
+                                                <div class="wrap">
+                                                </div>
+                                                <a href="/s/alice-in-wonderland" class="download">Download</a>
+                                        </div>
+                                </li>
+                                <li>
+                                        <img src="http://static.bergfiles.com/images/titansh.jpg" alt="" />
+                                        <div class="txt">
+                                                <h5>Clash of the Titans</h5>
+                                                <p>
+                                                        <a href="#">Action</a> | <a href="#">Adventure</a> | <a href="#">Drama</a> | <a href="#">Fantasy</a><br />
+                                                        <span class="size">Runtime: 106 min</span><br />
+                            UK | USA 2010
+                                                </p>
+                                                <div class="wrap">
+                                                </div>
+                                                <a href="/s/clash-of-the-titans" class="download">Download</a>
+                                        </div>
+                                </li>
+                        </ul>
+
+			<div id="banners-11"></div>
+			<div id="banners-21"></div>
+			<div id="banners-31"></div>
+		</div>
+<!-- END sidebar -->
+        
+
+ <div id="maincol">
+                        <div class="headline">
+                                <h1><span>Recent Tags</span><em></em></h1>
+                        </div>
+            <ul class="results">
+                                        <li><a href="http://www.bergfiles.net/download/70 448" style="font-size:15px;">70 448</a></li><li><a href="http://www.rapidmusicsearch.com/music/enigma-age-of-lonelieness-mp3" style="font-size:13px;">enigma age of lonelieness mp3</a></li><li><a href="http://www.bergfiles.net/download/50 cent feat timberlake" style="font-size:13px;">50 cent feat timberlake</a></li><li><a href="http://www.videosharesearch.com/list/child-porn-sex-video-download" style="font-size:14px;">child porn sex video download</a></li><li><a href="http://www.videosharesearch.com/list/pakistani-11-years-old-girls-fucking-video" style="font-size:18px;">pakistani 11 years old girls fucking video</a></li><li><a href="http://www.general-files.com/files-j/jamey-aebersold/" style="font-size:15px;">jamey aebersold</a></li><li><a href="http://www.general-files.com/files-n/nicola-fasano-vs/" style="font-size:12px;">nicola fasano vs</a></li><li><a href="http://www.owlsearch.com/search/s-w-a-t-dvdrip-xvid-imbt" style="font-size:12px;">s w a t dvdrip xvid imbt</a></li><li><a href="http://www.general-files.com/files-k/kern/" style="font-size:13px;">kern</a></li><li><a href="http://www.owlsearch.com/search/razormix" style="font-size:12px;">razormix</a></li><li><a href="http://www.freesubtitle.com/key/angel-na-de-na-remix" style="font-size:12px;">angel na de na remix</a></li><li><a href="/s/hentian ini xpdc" style="font-size:13px;">hentian ini xpdc</a></li><li><a href="http://www.freesubtitle.com/key/arjona-sin-ti-sin-mi" style="font-size:12px;">arjona sin ti sin mi</a></li><li><a href="/s/stromae" style="font-size:14px;">stromae</a></li><li><a href="http://www.general-files.com/files-n/nihil-young/" style="font-size:12px;">nihil young</a></li><li><a href="http://www.freesubtitle.com/key/50-cents-greatests-hits" style="font-size:12px;">50 cents greatests hits</a></li><li><a href="http://www.owlsearch.com/search/el-boys-c-los-infieles" style="font-size:12px;">el boys c los infieles</a></li><li><a href="http://www.general-files.com/files-n/nfs-pro/" style="font-size:12px;">nfs pro</a></li><li><a href="http://www.rafsearch.com/find/alex-harvey-the-mafia-stole-my-guitar" style="font-size:12px;">alex harvey the mafia stole my guitar</a></li><li><a href="http://www.rafsearch.com/find/vesela" style="font-size:13px;">vesela</a></li><li><a href="http://www.general-files.com/files-l/lush-life/" style="font-size:13px;">lush life</a></li><li><a href="http://www.general-files.com/files-u/urotsukidoji-i/" style="font-size:14px;">urotsukidoji i</a></li><li><a href="http://www.bergfiles.net/download/gulliver s travels" style="font-size:13px;">gulliver s travels</a></li><li><a href="http://www.rafsearch.com/find/alexia" style="font-size:13px;">alexia</a></li><li><a href="http://www.general-files.com/files-b/bass-method/" style="font-size:14px;">bass method</a></li><li><a href="http://www.bergfiles.net/download/solution introduction to mathematical statistics" style="font-size:12px;">solution introduction to mathematical statistics</a></li><li><a href="http://www.general-files.com/files-p/piotr-rogucki/" style="font-size:13px;">piotr rogucki</a></li><li><a href="http://www.freesubtitle.com/key/udit-narayan-agar-main-kahoon" style="font-size:13px;">udit narayan agar main kahoon</a></li><li><a href="http://www.rapidmusicsearch.com/music/turkish-music-videos" style="font-size:12px;">turkish music videos</a></li><li><a href="http://www.general-files.com/files-g/gente-grande-dublado/" style="font-size:16px;">gente grande dublado</a></li>
+                                </ul>
+                        <div id="banners-12"></div>
+                        <div class="table-sort">
+                                <ul>
+                                        <li id="trends_files_head_1" class="active"><a href="javascript:ShowTab(1, 3, 'trends_files_tab_', 'trends_files_head_');">Today Hot Files<em></em></a></li>
+                                        <li id="trends_files_head_2"><a href="javascript:ShowTab(2, 3, 'trends_files_tab_', 'trends_files_head_');">Weekly Hot Files<em></em></a></li>
+                                        <li id="trends_files_head_3"><a href="javascript:ShowTab(3, 3, 'trends_files_tab_', 'trends_files_head_');">Monthly Hot Files<em></em></a></li>
+                                </ul>
+                                <div class="table-tools">
+                                </div>
+                        </div>
+                                        
+
+                        <table id="trends_files_tab_1" class="maintable">
+                                <thead>
+                                        <tr>
+                                                <th>Name</th>
+                                                <th width="60"><img alt="" class="left" src="http://static.bergfiles.com/images/i-share.gif" />&nbsp;Share</th>
+                                                <th><img alt="" class="left" src="http://static.bergfiles.com/images/i-download.gif" />&nbsp;&nbsp;Download</th>
+                                        </tr>
+                                </thead>
+                                <tbody>
+                                
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf197ae92dhfi0">L4D2SP 3.2.exe</a></h4>
+                                                </td>
+                                                <td>mediafire.com</td>
+                                                <td class="down-cell"><a href="/i/bf197ae92dhfi0">Download</a></td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bfe6408a2hfi0">Idho idho en&shy;<wbr />nenjile.MP3</a></h4>
+                                                </td>
+                                                <td>mediafire.com</td>
+                                                <td class="down-cell"><a href="/i/bfe6408a2hfi0">Download</a></td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf3719d5e2hfi0">Wiz Khalifa-Deal Or&shy;<wbr />No Deal.zip</a></h4>
+                                                </td>
+                                                <td>mediafire.com</td>
+                                                <td class="down-cell"><a href="/i/bf3719d5e2hfi0">Download</a></td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf5496760dh17i0">way, margaret -&shy;<wbr />diamond valley.pdf</a></h4>
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf5496760dh17i0">Download</a></td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf4a51391dh32i0">Actualizacion_ZTE_MF&shy;<wbr />626.zip</a></h4>
+                                                </td>
+                                                <td></td>
+                                                <td class="down-cell"><a href="/i/bf4a51391dh32i0">Download</a></td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf597c89aeh5i0">Introduction_to_Mana&shy;<wbr />gement_Science_-_A_M&shy;<wbr />odeling_and_Case_Stu&shy;<wbr />dies_Approach_with_S&shy;<wbr />preadsheets._Frederi&shy;<wbr />ck_S._Hillier_Mark_S&shy;<wbr />._Hillier_PDF.pdf</a></h4>
+                                                </td>
+                                                <td>badongo.com</td>
+                                                <td class="down-cell"><a href="/i/bf597c89aeh5i0">Download</a></td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf4c41eee6h17i0">Water Treatment&shy;<wbr />Plant.pdf</a></h4>
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf4c41eee6h17i0">Download</a></td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf5164e0a9hfi0">Society hentai -&shy;<wbr />Doctor Shamelesse&shy;<wbr />Parte 1[Alisson].mp4</a></h4>
+                                                </td>
+                                                <td>mediafire.com</td>
+                                                <td class="down-cell"><a href="/i/bf5164e0a9hfi0">Download</a></td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf594d803ah0i0">The_Memory_Palace_PD&shy;<wbr />F.pdf</a></h4>
+                                                </td>
+                                                <td>other</td>
+                                                <td class="down-cell"><a href="/i/bf594d803ah0i0">Download</a></td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf17fc70h1i0">Queen_Pen_-_Conversa&shy;<wbr />tions_With_Queen__20&shy;<wbr />01_.zip</a></h4>
+                                                </td>
+                                                <td>rapidshare.com</td>
+                                                <td class="down-cell"><a href="/i/bf17fc70h1i0">Download</a></td>
+                                        </tr>
+                                        
+                                
+                                </tbody>
+                        </table>
+                        <table id="trends_files_tab_2" class="maintable" style="display: none;">
+                                <thead>
+                                        <tr>
+                                                <th>Name</th>
+                                                <th width="60"><img alt="" class="left" src="http://static.bergfiles.com/images/i-share.gif" />&nbsp;Share</th>
+                                                <th><img alt="" class="left" src="http://static.bergfiles.com/images/i-download.gif" />&nbsp;&nbsp;Download</th>
+                                        </tr>
+                                </thead>
+                                <tbody>
+                                
+											<tr class="alt">
+													<td class="main-cell">
+															<h4><a href="/i/bfe010a69h17i0">FILME ANJOS DE CARA&shy;<wbr />SUJA DUBLADO AVI.rar</a></h4>
+													</td>
+													<td>4shared.com</td>
+													<td class="down-cell"><a href="/i/bfe010a69h17i0">Download</a></td>
+											</tr>
+											
+											<tr >
+													<td class="main-cell">
+															<h4><a href="/i/bf51892ec3hfi0">HD2_Updatable_XBmod_&shy;<wbr />Yuki_v2.1.zip</a></h4>
+													</td>
+													<td>mediafire.com</td>
+													<td class="down-cell"><a href="/i/bf51892ec3hfi0">Download</a></td>
+											</tr>
+											
+											<tr class="alt">
+													<td class="main-cell">
+															<h4><a href="/i/bf50efc147hfi0">Topa y Muni 2012.doc</a></h4>
+													</td>
+													<td>mediafire.com</td>
+													<td class="down-cell"><a href="/i/bf50efc147hfi0">Download</a></td>
+											</tr>
+											
+											<tr >
+													<td class="main-cell">
+															<h4><a href="/i/bf5096979eh17i0">TMACv6.0.3_Setup.zip</a></h4>
+													</td>
+													<td>4shared.com</td>
+													<td class="down-cell"><a href="/i/bf5096979eh17i0">Download</a></td>
+											</tr>
+											
+											<tr class="alt">
+													<td class="main-cell">
+															<h4><a href="/i/bf493db5beh32i0">Nokia Ovi Suite&shy;<wbr />2.5.0.167&shy;<wbr />[multilive.net].exe</a></h4>
+													</td>
+													<td></td>
+													<td class="down-cell"><a href="/i/bf493db5beh32i0">Download</a></td>
+											</tr>
+											
+											<tr >
+													<td class="main-cell">
+															<h4><a href="/i/bf200d657eh1ei0">SE_Navcore.9.205.547&shy;<wbr />817.rar</a></h4>
+													</td>
+													<td>fileserve.com</td>
+													<td class="down-cell"><a href="/i/bf200d657eh1ei0">Download</a></td>
+											</tr>
+											
+											<tr class="alt">
+													<td class="main-cell">
+															<h4><a href="/i/bf4d5e1a8chfi0">NXT.19.1010.MyEgy.Co&shy;<wbr />M.rmvb</a></h4>
+													</td>
+													<td>mediafire.com</td>
+													<td class="down-cell"><a href="/i/bf4d5e1a8chfi0">Download</a></td>
+											</tr>
+											
+											<tr >
+													<td class="main-cell">
+															<h4><a href="/i/bf3dc50cfch1fi0">La mexicanita se&shy;<wbr />mete un cepillo de&shy;<wbr />dientes.avi</a></h4>
+													</td>
+													<td>filesonic.com</td>
+													<td class="down-cell"><a href="/i/bf3dc50cfch1fi0">Download</a></td>
+											</tr>
+											
+											<tr class="alt">
+													<td class="main-cell">
+															<h4><a href="/i/bf540f9fb1hci0">Zuzinka_showing_off_&shy;<wbr />on_a_bus.wmv</a></h4>
+													</td>
+													<td>depositfiles.com</td>
+													<td class="down-cell"><a href="/i/bf540f9fb1hci0">Download</a></td>
+											</tr>
+											
+											<tr >
+													<td class="main-cell">
+															<h4><a href="/i/bf4db62351h32i0">Digital Nottich -&shy;<wbr />Gaida Step&shy;<wbr />(Original).mp3</a></h4>
+													</td>
+													<td></td>
+													<td class="down-cell"><a href="/i/bf4db62351h32i0">Download</a></td>
+											</tr>
+											
+                                </tbody>
+                        </table>
+                        <table id="trends_files_tab_3" class="maintable" style="display: none;">
+                                <thead>
+                                        <tr>
+                                                <th>Name</th>
+                                                <th width="60"><img alt="" class="left" src="http://static.bergfiles.com/images/i-share.gif" />&nbsp;Share</th>
+                                                <th><img alt="" class="left" src="http://static.bergfiles.com/images/i-download.gif" />&nbsp;&nbsp;Download</th>
+                                        </tr>
+                                </thead>
+                                <tbody>
+                                
+                                        
+											
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf3c6f4f50h1fi0">ko_project_professio&shy;<wbr />nal_2010_with_sp1_x8&shy;<wbr />6_x64_dvd_731535-.is&shy;<wbr />o</a></h4>
+                                                </td>
+                                                <td>filesonic.com</td>
+                                                <td class="down-cell"><a href="/i/bf3c6f4f50h1fi0">Download</a></td>
+                                        </tr>
+                                        
+											
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf4b4c8b35h32i0">Wall-Street-The-Othe&shy;<wbr />r-Las-Vegas-by-Nicol&shy;<wbr />as-Darvas-the-author&shy;<wbr />-of-How-I-Made-20000&shy;<wbr />00-In-The-Stock-Mark&shy;<wbr />et-by-Nicolas-Darvas&shy;<wbr />.pdf</a></h4>
+                                                </td>
+                                                <td></td>
+                                                <td class="down-cell"><a href="/i/bf4b4c8b35h32i0">Download</a></td>
+                                        </tr>
+                                        
+											
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf427a27ffh22i0">uc3.real.fix.fast.lo&shy;<wbr />ading.part1.rar</a></h4>
+                                                </td>
+                                                <td></td>
+                                                <td class="down-cell"><a href="/i/bf427a27ffh22i0">Download</a></td>
+                                        </tr>
+                                        
+											
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf51a825eah32i0">Battleme-Pocket-Full&shy;<wbr />-of-Flies.mp3</a></h4>
+                                                </td>
+                                                <td></td>
+                                                <td class="down-cell"><a href="/i/bf51a825eah32i0">Download</a></td>
+                                        </tr>
+                                        
+											
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf172a0f73hfi0">Depeche Mode&shy;<wbr />(Continuous Mix By&shy;<wbr />Mount Sims).mp3</a></h4>
+                                                </td>
+                                                <td>mediafire.com</td>
+                                                <td class="down-cell"><a href="/i/bf172a0f73hfi0">Download</a></td>
+                                        </tr>
+                                        
+											
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf4a78de40h1ei0">Notte.scs</a></h4>
+                                                </td>
+                                                <td>fileserve.com</td>
+                                                <td class="down-cell"><a href="/i/bf4a78de40h1ei0">Download</a></td>
+                                        </tr>
+                                        
+											
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bfdf6cf5hfai0">Private---Gold-67---&shy;<wbr />Millionaire.avi</a></h4>
+                                                </td>
+                                                <td>letitbit.net</td>
+                                                <td class="down-cell"><a href="/i/bfdf6cf5hfai0">Download</a></td>
+                                        </tr>
+                                        
+											
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf4ab3bd96hfi0">Eptic - Like A Boss&shy;<wbr />EP.zip</a></h4>
+                                                </td>
+                                                <td>mediafire.com</td>
+                                                <td class="down-cell"><a href="/i/bf4ab3bd96hfi0">Download</a></td>
+                                        </tr>
+                                        
+											
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bfbd5e28chfi0">Efrain Berry Vivir&shy;<wbr />sin ti.rar</a></h4>
+                                                </td>
+                                                <td>mediafire.com</td>
+                                                <td class="down-cell"><a href="/i/bfbd5e28chfi0">Download</a></td>
+                                        </tr>
+                                        
+											
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf4601e104h21i0">Gladinet.Pro.3.2.761&shy;<wbr />.rar</a></h4>
+                                                </td>
+                                                <td></td>
+                                                <td class="down-cell"><a href="/i/bf4601e104h21i0">Download</a></td>
+                                        </tr>
+                                        
+                                
+                                </tbody>
+                        </table>
+                                
+                        <div class="table-sort">
+                                <ul>
+                                        <li id="trends_search_head_1" class="active"><a href="javascript:ShowTab(1, 3, 'trends_search_tab_', 'trends_search_head_');">Today Hot Trends<em></em></a></li>
+                                        <li id="trends_search_head_2"><a href="javascript:ShowTab(2, 3, 'trends_search_tab_', 'trends_search_head_');">Weekly Hot Trends<em></em></a></li>
+                                        <li id="trends_search_head_3"><a href="javascript:ShowTab(3, 3, 'trends_search_tab_', 'trends_search_head_');">Monthly Hot Trends<em></em></a></li>
+                                </ul>
+                                <div class="table-tools">
+                                </div>
+                        </div>
+                                        
+
+                        <table id="trends_search_tab_1" class="maintable">
+                                <thead>
+                                        <tr>
+                                                <th>Name</th>
+                                                <th>Results</th>
+                                        </tr>
+                                </thead>
+                                <tbody>
+                                
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/dj+julio+intro">dj julio intro</a></h4>
+                                                </td>
+                                                <td class="down-cell">79</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/chatzppl">chatzppl</a></h4>
+                                                </td>
+                                                <td class="down-cell">4</td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/fuckable+lola">fuckable lola</a></h4>
+                                                </td>
+                                                <td class="down-cell">57</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/nelia">nelia</a></h4>
+                                                </td>
+                                                <td class="down-cell">83</td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/lsm09">lsm09</a></h4>
+                                                </td>
+                                                <td class="down-cell">42</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/brewii+homebrew">brewii homebrew</a></h4>
+                                                </td>
+                                                <td class="down-cell">7</td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/pkf">pkf</a></h4>
+                                                </td>
+                                                <td class="down-cell">123</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/sexiibrii">sexiibrii</a></h4>
+                                                </td>
+                                                <td class="down-cell">1</td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/tattgoddess">tattgoddess</a></h4>
+                                                </td>
+                                                <td class="down-cell">3</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/kylie+freeman+vicky+the+107+minutes+collection">kylie freeman vicky the 107 minutes collection</a></h4>
+                                                </td>
+                                                <td class="down-cell">2</td>
+                                        </tr>
+                                        
+                                
+                                </tbody>
+                        </table>
+                        <table id="trends_search_tab_2" class="maintable" style="display: none;">
+                                <thead>
+                                        <tr>
+                                                <th>Name</th>
+                                                <th>Results</th>
+                                        </tr>
+                                </thead>
+                                <tbody>
+                                
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/sons+of+anarchy+s01e01">sons of anarchy s01e01</a></h4>
+                                                </td>
+                                                <td class="down-cell">259</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/xxmeganfuxxx">xxmeganfuxxx</a></h4>
+                                                </td>
+                                                <td class="down-cell">1</td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/issue+10">issue 10</a></h4>
+                                                </td>
+                                                <td class="down-cell">44</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/seven+virgin">seven virgin</a></h4>
+                                                </td>
+                                                <td class="down-cell">18</td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/ccc+sexual+fantasy+pdf">ccc sexual fantasy pdf</a></h4>
+                                                </td>
+                                                <td class="down-cell">23</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/trib+0355">trib 0355</a></h4>
+                                                </td>
+                                                <td class="down-cell">17</td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/heavy+handfuls">heavy handfuls</a></h4>
+                                                </td>
+                                                <td class="down-cell">5</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/dj+julio+intro">dj julio intro</a></h4>
+                                                </td>
+                                                <td class="down-cell">79</td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/nina+bruhns">nina bruhns</a></h4>
+                                                </td>
+                                                <td class="down-cell">44</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/anael">anael</a></h4>
+                                                </td>
+                                                <td class="down-cell">119</td>
+                                        </tr>
+                                        
+                                
+                                </tbody>
+                        </table>
+                        <table id="trends_search_tab_3" class="maintable" style="display: none;">
+                                <thead>
+                                        <tr>
+                                                <th>Name</th>
+                                                <th>Results</th>
+                                        </tr>
+                                </thead>
+                                <tbody>
+                                
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/moneymaker3061">moneymaker3061</a></h4>
+                                                </td>
+                                                <td class="down-cell">3</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/hawtgirls1234">hawtgirls1234</a></h4>
+                                                </td>
+                                                <td class="down-cell">7</td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/video+angels+ls+models">video angels ls models</a></h4>
+                                                </td>
+                                                <td class="down-cell">32</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/lilit2917">lilit2917</a></h4>
+                                                </td>
+                                                <td class="down-cell">21</td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/sex+family+wmv">sex family wmv</a></h4>
+                                                </td>
+                                                <td class="down-cell">66</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/moneymaker">moneymaker</a></h4>
+                                                </td>
+                                                <td class="down-cell">243</td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/lsm+sets">lsm sets</a></h4>
+                                                </td>
+                                                <td class="down-cell">73</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/young+americans">young americans</a></h4>
+                                                </td>
+                                                <td class="down-cell">206</td>
+                                        </tr>
+                                        
+                                        <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/girls1">girls1</a></h4>
+                                                </td>
+                                                <td class="down-cell">410</td>
+                                        </tr>
+                                        
+                                        <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/s/elliniko">elliniko</a></h4>
+                                                </td>
+                                                <td class="down-cell">155</td>
+                                        </tr>
+                                        
+                                
+                                </tbody>
+                        </table>
+                        
+                        <div class="table-sort">
+                                <ul>
+                                        <li class="active"><a href="#">Last Added Files<em></em></a></li>
+                                </ul>
+                                <div class="table-tools">
+                                </div>
+                        </div>
+                        <table class="maintable">
+                                <thead>
+                                        <tr>
+                                                <th>Name</th>
+                                                <th width="60"><img alt="" class="left" src="http://static.bergfiles.com/images/i-share.gif" />&nbsp;Share</th>
+                                                <th><img alt="" class="left" src="http://static.bergfiles.com/images/i-download.gif" />&nbsp;&nbsp;Download</th>
+                                        </tr>
+                                </thead>
+                                <tbody>
+                
+                                
+                                    <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4ac36h17i0">C270__MCU_FULL.bin</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>8.00</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.bin</strong></div>
+                                                        
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf59b4ac36h17i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4b018h0i0">3302.pdf</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>28</strong> Kb &nbsp; 
+                                                        
+                                                        Ext: <strong>.pdf</strong></div>
+                                                        
+                                                </td>
+                                                <td>other</td>
+                                                <td class="down-cell"><a href="/i/bf59b4b018h0i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4ac6dh17i0">Aku Ingin Mencintaimu.mp3</a></h4>
+                                                        <div class="description">Title: Aku Ingin&shy;<wbr />Mencintaimu Artist:&shy;<wbr />Edcoustic Genre: Bit&shy;<wbr />Rate: 128 kbps</div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>3.85</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.mp3</strong></div>
+                                                        
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf59b4ac6dh17i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4af81h17i0">ADW Launcher EX&shy;<wbr />v1.3.2.apk</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>1.10</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.apk</strong></div>
+                                                        
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf59b4af81h17i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4afc7h0i0">Dadi Janki-UK Teachers&shy;<wbr />Retreat-May 6th 2012.MP3</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>4.99</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.mp3</strong></div>
+                                                        
+                                                </td>
+                                                <td>other</td>
+                                                <td class="down-cell"><a href="/i/bf59b4afc7h0i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4afdah0i0">2010CAFR.pdf</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>3.35</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.pdf</strong></div>
+                                                        
+                                                </td>
+                                                <td>other</td>
+                                                <td class="down-cell"><a href="/i/bf59b4afdah0i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4accfh17i0">Domeny.mp3</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>3.80</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.mp3</strong></div>
+                                                        
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf59b4accfh17i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4acd6h17i0">7. User Groups dan&shy;<wbr />Permission.pdf</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>186</strong> Kb &nbsp; 
+                                                        
+                                                        Ext: <strong>.pdf</strong></div>
+                                                        
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf59b4acd6h17i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4acb0h17i0">BABY ALICE - PINA COLADA&shy;<wbr />BOY [The  dj chakalau&shy;<wbr />Remix].mp3</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>6.20</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.mp3</strong></div>
+                                                        
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf59b4acb0h17i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4ae67h17i0">aquecimento_da_mineira_2.&shy;<wbr />wma</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>3.05</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.wma</strong></div>
+                                                        
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf59b4ae67h17i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4af1bh17i0">Wild.Things.Foursome_clip&shy;<wbr />1.flv</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>69.77</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.flv</strong></div>
+                                                        
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf59b4af1bh17i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4afebh0i0">Sinodo47.doc</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>1.11</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.doc</strong></div>
+                                                        
+                                                </td>
+                                                <td>other</td>
+                                                <td class="down-cell"><a href="/i/bf59b4afebh0i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4b038h0i0">OPERE EDILI ED AFFINI&shy;<wbr />Computo metrico&shy;<wbr />estimativo.PDF</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>1.02</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.pdf</strong></div>
+                                                        
+                                                </td>
+                                                <td>other</td>
+                                                <td class="down-cell"><a href="/i/bf59b4b038h0i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4b045h0i0">video424323-400X225.flv</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>2.28</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.flv</strong></div>
+                                                        
+                                                </td>
+                                                <td>other</td>
+                                                <td class="down-cell"><a href="/i/bf59b4b045h0i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4ae7fh17i0">Winter Ak47 with world&shy;<wbr />model.rar</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>163</strong> Kb &nbsp; 
+                                                        
+                                                        Ext: <strong>.rar</strong></div>
+                                                        
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf59b4ae7fh17i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4afa7h17i0">J</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>32.71</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.</strong></div>
+                                                        
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf59b4afa7h17i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4ad5ah17i0">(2) 0 (133).jpg</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>67</strong> Kb &nbsp; 
+                                                        
+                                                        Ext: <strong>.jpg</strong></div>
+                                                        
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf59b4ad5ah17i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4afffh0i0">DEL_0167.pdf</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>252</strong> Kb &nbsp; 
+                                                        
+                                                        Ext: <strong>.pdf</strong></div>
+                                                        
+                                                </td>
+                                                <td>other</td>
+                                                <td class="down-cell"><a href="/i/bf59b4afffh0i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr class="alt">
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4ac8fh17i0">Mc Taty e As Gulosas -&shy;<wbr />Senta na Pica sem D</a></h4>
+                                                        <div class="description">Title: Senta na Pica sem&shy;<wbr />D</div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>3.39</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.</strong></div>
+                                                        
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf59b4ac8fh17i0">Download</a></td>
+                                        </tr>
+                                
+                                    <tr >
+                                                <td class="main-cell">
+                                                        <h4><a href="/i/bf59b4ada9h17i0">75-1992-Spa.zip</a></h4>
+                                                        <div class="description"></div>
+                                                        <div class="size">
+                                                        
+                                                        Size: <strong>1.74</strong> Mb &nbsp; 
+                                                        
+                                                        Ext: <strong>.zip</strong></div>
+                                                        
+                                                </td>
+                                                <td>4shared.com</td>
+                                                <td class="down-cell"><a href="/i/bf59b4ada9h17i0">Download</a></td>
+                                        </tr>
+                                
+                                
+                                </tbody>
+                        </table>
+			<div id="banners-13"></div>
+            <div class="tagcloud">
+                                <div class="inner">
+                                        
+                                </div>
+                        </div>
+                </div>     
+
+
+    </div>
+    <div id="bottom">
+                <!-- bottom line -->
+                <div id="bottom-line">
+                        <div class="container">
+                                <ul class="tools">
+                    <li><a href="/privacy">Privacy</a></li>
+                    <li><a href="/contact">Contact us</a></li>
+                                        <li><a href="/dmca">DMCA</a></li>
+                    <li><a href="/latest">Latest files</a></li>
+                                        <li><a href="/faq">Faq</a></li>
+                                        
+                                </ul>
+                                <ul class="ab-up">
+                                        <li><a href="/aboutus">About us</a></li>
+                                        <li><a href="/submit">Submit links</a></li>
+                                </ul>
+                                <ul class="bookmark"> 
+                                        <li class="book"><span>Bookmark us</span></li>
+                                        <li>
+                                            <!-- AddThis Button BEGIN -->
+                                            <div class="addthis_toolbox addthis_default_style">
+                                                <a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4c9c70c7252e440d" class="addthis_button_compact">Share</a>
+                                                <span class="addthis_separator">|</span>
+                                                <a class="addthis_button_myspace"></a>
+                                                <a class="addthis_button_google"></a>
+                                                <a class="addthis_button_email"></a>
+                                                <a class="addthis_button_favorites"></a>
+                                            </div>
+                                            
+                                            <!-- AddThis Button END -->
+                                        </li>
+                                        <li>
+                                            <div class="addthis_toolbox addthis_default_style ">
+												<a class="addthis_button_google_plusone" g:plusone:size="medium" addthis:url="http://www.bergfiles.com/"></a>
+												<a class="addthis_button_tweet" addthis:url="http://www.bergfiles.com/"></a>
+												<a class="addthis_button_facebook_like" addthis:url="http://www.bergfiles.com/" fb:like:layout="button_count" fb:like:send="false" fb:like:show_faces="false" fb:like:width="140"></a>
+											</div>
+                                        </li>
+                                </ul>
+                                
+                        </div>
+                </div>
+								<!-- END bottom -->
+                <!-- footer -->
+                <div id="footer">
+                        <div class="container">
+                                <span class="copy">Copyright &copy; <a href="/">Bergfiles.com</a></span>
+
+                        </div>
+                </div><!-- END footer -->
+        </div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17561575-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4c9c70c7252e440d"></script>
+</body>
+</html>

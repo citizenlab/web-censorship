@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Connection: close
+Date: Tue, 19 Jun 2012 13:50:21 GMT
+ETag: "a80f8587-812e-4062-b150-3cfedbaffb72"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 13:50:21 GMT
+Last-Modified: Fri, 17 Feb 2012 00:21:50 GMT
+Client-Date: Mon, 18 Jun 2012 21:33:25 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Link: <http://satishseth.blogspot.cz/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://satishseth.blogspot.com/>; rel="canonical"
+Link: <http://satishseth.blogspot.com/feeds/posts/default>; rel="alternate"; title="Satish Seth - Atom"; type="application/atom+xml"
+Link: <http://satishseth.blogspot.com/feeds/posts/default?alt=rss>; rel="alternate"; title="Satish Seth - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/6102649672796595803/posts/default>; rel="service.post"; title="Satish Seth - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=6102649672796595803>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/profile/04364800807269023111>; rel="me"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://satishseth.blogspot.com/>; rel="openid.delegate"
+Link: <http://www.blogger.com/static/v1/widgets/2098323231-widget_css_2_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=6102649672796595803&zx=a80f8587-812e-4062-b150-3cfedbaffb72>; rel="stylesheet"; type="text/css"
+Title: Satish Seth
+X-Content-Type-Options: nosniff
+X-Meta-Generator: blogger
+X-Meta-MSSmartTagsPreventParsing: true
+X-Meta-Viewport: width=1100
+X-UA-Compatible: IE=EmulateIE7
+X-XSS-Protection: 1; mode=block

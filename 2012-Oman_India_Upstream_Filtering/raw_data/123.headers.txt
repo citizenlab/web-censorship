@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 13:40:19 GMT
+Pragma: no-cache
+Accept-Ranges: bytes
+Server: Apache/2.0.46 (Red Hat)
+Content-Type: text/html
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Last-Modified: Tue, 19 Jun 2012 13:40:20 GMT
+Client-Date: Mon, 18 Jun 2012 21:23:24 GMT
+Client-Peer: 64.62.135.27:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://mackers-world.com/index.php?css=weblog/weblog_css.v.1325199408>; media="all"; rel="stylesheet"; type="text/css"
+Link: <http://mackers-world.com/images/main/favicon.ico>; rel="shortcut icon"
+Link: <http://mackers-world.com/index.php/weblog/rss_2.0>; rel="alternate"; title="RSS 2.0"; type="application/rss+xml"
+Link: <http://mackers-world.com/index.php/weblog/rss_1.0>; rel="alternate"; title="RSS 1.0"; type="application/rss+xml"
+Link: <http://mackers-world.com/index.php/weblog/rss_atom>; rel="alternate"; title="RSS Atom"; type="application/rss+xml"
+Link: <http://mackers-world.com/images/main/favicon.ico>; rel="icon"
+Set-Cookie: exp_last_visit=1024771219; expires=Wed, 19-Jun-2013 13:40:19 GMT; path=/
+Set-Cookie: exp_last_activity=1340131219; expires=Wed, 19-Jun-2013 13:40:19 GMT; path=/
+Set-Cookie: exp_tracker=a%3A1%3A%7Bi%3A0%3Bs%3A5%3A%22index%22%3B%7D; path=/
+Title: Macker's World
+X-Powered-By: PHP/4.3.2

@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: close
+Date: Tue, 19 Jun 2012 14:44:31 GMT
+Pragma: no-cache
+Server: Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/0.9.8e-fips-rhel5 DAV/2 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+Content-Type: text/html; charset=utf-8
+Expires: Mon, 1 Jan 2001 00:00:00 GMT
+Last-Modified: Tue, 19 Jun 2012 14:44:33 GMT
+Client-Date: Mon, 18 Jun 2012 22:27:37 GMT
+Client-Peer: 184.173.197.86:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Content-Base: http://100india.com/
+Link: </favicon.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: <http://100india.com/templates/magazine_plazza/css/dropdowntpmenu.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.100india.com/templates/magazine_plazza/css/mycss.css>; rel="stylesheet"; type="text/css"
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Set-Cookie: 75c0e47ff3ac49bc3554cf764e9afc02=b22f6ae1d3450a234ac24072be1987b2; path=/
+Title: Orkut Birthday Scraps - Funny Scraps,Friendship Scraps,Belated Birthday,orkut Image scraps,Orkut scraps,orkut picture scraps,orkut image scrap,orkut fun scraps,picture scraps
+X-Meta-Description: Latest Orkut scraps,orkut Birthday scraps,friendShip scraps birthday scraps,Love Scraps,bollywood videos, orkut chat,actress wallpapers,hindi songs,orkut india chat, New Year Scraps, christmas scraps Orkut Graphics diwali greetings belated scraps,orkut scraps,orkut Image scraps,Orkut scraps,orkut picture scraps,orkut image scrap,orkut fun scraps,orkut scrap images,picture scraps 100india.com 100 india
+X-Meta-Generator: Joomla! 1.5 - Open Source Content Management
+X-Meta-Keywords: orkut scraps,Orkut Birthday Scraps,orkut testimonials,friendship scraps,love scraps,funny scraps,actress wallpapers,movie songs,Bollywood songs,bollywood videos,love songs,orkut india chat, hindi news, earn money, action games, action, actress, movies, cricket, horoscope, news, blog,
+X-Meta-ROBOTS: index, follow
+X-Powered-By: PHP/5.2.17

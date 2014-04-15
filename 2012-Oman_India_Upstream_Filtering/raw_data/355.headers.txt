@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 13:59:49 GMT
+Server: Apache/2.2.17 (Ubuntu)
+Vary: Accept-Encoding
+Content-Length: 1179
+Content-Type: text/html
+Client-Date: Mon, 18 Jun 2012 21:42:52 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Set-Cookie: uid=www4fe085d552e520.63082369; expires=Thu, 19-Jul-2012 13:59:49 GMT
+Set-Cookie: WEB=W1; path=/
+Title: unicreation2u.com: The Leading Uni Creation 2u Site on the Net
+X-Powered-By: PHP/5.3.5-1ubuntu7.8

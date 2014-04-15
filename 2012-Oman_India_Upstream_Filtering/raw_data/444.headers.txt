@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache, must-revalidate, max-age=0
+Connection: close
+Date: Tue, 19 Jun 2012 14:19:06 GMT
+Pragma: no-cache
+Server: Apache/2.2.21 (Unix) mod_ssl/2.2.21 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+Content-Type: text/html;charset=UTF-8
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Last-Modified: Tue, 19 Jun 2012 06:34:50 GMT
+Client-Date: Mon, 18 Jun 2012 22:02:10 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+X-Meta-Distribution: global
+X-Meta-Language: en, sv
+X-Meta-ROBOTS: follow, all
+X-Powered-By: PHP/5.3.9

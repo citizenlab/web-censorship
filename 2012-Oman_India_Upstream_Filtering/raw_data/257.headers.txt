@@ -1,0 +1,11 @@
+HTTP/1.0 504 Gateway Timeout
+Date: Tue, 19 Jun 2012 09:40:11 GMT
+Server: Mikrotik HttpProxy
+Content-Length: 753
+Content-Type: text/html
+Expires: Tue, 19 Jun 2012 09:40:11 GMT
+Client-Date: Mon, 18 Jun 2012 21:37:03 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Proxy-Connection: close
+Title: ERROR: Gateway Timeout

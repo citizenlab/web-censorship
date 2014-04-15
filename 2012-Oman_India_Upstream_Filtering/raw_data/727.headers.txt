@@ -1,0 +1,39 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Connection: close
+Date: Tue, 19 Jun 2012 15:19:05 GMT
+ETag: "fc56bf8b-d19b-455b-a998-4a361ca3b237"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 15:19:05 GMT
+Last-Modified: Mon, 21 May 2012 22:43:40 GMT
+Client-Date: Mon, 18 Jun 2012 23:02:08 GMT
+Client-Peer: 209.85.225.121:80
+Client-Response-Num: 1
+Link: <http://telugutheater.webs.com/favicon.ico>; rel="shortcut icon"
+Link: <http://telugutheater.webs.com/favicon.ico>; rel="icon"; type="image/vnd.microsoft.icon"
+Link: <http://www.telugu-theater.com/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://www.telugu-theater.com/>; rel="canonical"
+Link: <http://www.telugu-theater.com/feeds/posts/default>; rel="alternate"; title="TELUGU THEATER - Atom"; type="application/atom+xml"
+Link: <http://www.telugu-theater.com/feeds/posts/default?alt=rss>; rel="alternate"; title="TELUGU THEATER - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/2843108119484852221/posts/default>; rel="service.post"; title="TELUGU THEATER - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=2843108119484852221>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://www.telugu-theater.com/>; rel="openid.delegate"
+Link: <http://www.blogger.com/static/v1/widgets/1355816394-widget_css_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=2843108119484852221&zx=fc56bf8b-d19b-455b-a998-4a361ca3b237>; rel="stylesheet"; type="text/css"
+Link: <http://telugutheater.webs.com/favicon.ico>; rel="shortcut icon"
+Link: <http://telugutheater.webs.com/favicon.ico>; rel="icon"; type="image/vnd.microsoft.icon"
+Title: TELUGU THEATER
+Title: TELUGU THEATER
+X-Content-Type-Options: nosniff
+X-Meta-Author: telugutheater
+X-Meta-Description: Telugu Movies Online,Hindi Movies online,High Quality Telugu movies dvds online,Watch high quality (HQ) telugu movies free,telugu movies english subtitle,hindi movies english subtitle,telugu movies,live telugu tv,hindi movie dvds online,Watch Hindi Movies Online,Watch Telugu Movies Online
+X-Meta-Generator: blogger
+X-Meta-Google-Site-Verification: _dbSK29e3AJ_7M-kpGlKB_S0jXriJgNOcTopaFmwlY8
+X-Meta-Keywords: ,high quality telugu movies dvd,watch movies online,telugu DVD movies, telugu movies,Hindi movies online,telugutheater,telugu theatre, watch telugu movie, online telugu movie, telugu movie english subtitle, live telugu movie, telugu movie dvd, watch telugu movies, new telugu movie,new hindi movie, watch online telugu movies, watch hindi movies online,free telugu movie online, high quality telugu movies online, free telugu movies online, watch online telugu movie, telugu movie streaming, latest telugu movies, telugu movie dvds,new telugu movies, online old telugu movies, live online telugu movie, watch free online telugu movie, latest online telugu movie, telugu movie divx, veoh, watch telugu movies for free, watch telugu movies free, watch old telugu movies, latest telugu movies online, watch latest telugu movies online, watch latest telugu movies, telugu movie online for free, new telugu movies online watch, watch old telugu movies online,free telugu movies to watch online, watching telugu movies online, watch telugu movies online for free, telugu movies streaming, telugu movie online streaming, telugu movies online videos 
+X-Meta-MSSmartTagsPreventParsing: true
+X-Meta-ROBOTS: ALL
+X-Meta-Videozer: videozer.com-rajtamil-a7bbdc1cb67ef3dff65bde238a06bdbc
+X-Meta-Y-Key: fdf2a8ff4f174ca0
+X-XSS-Protection: 1; mode=block

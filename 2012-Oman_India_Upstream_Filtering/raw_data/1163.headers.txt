@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 16:16:22 GMT
+Server: nginx
+Vary: Accept-Encoding
+Content-Type: text/html; charset=utf-8
+Client-Date: Mon, 18 Jun 2012 23:59:25 GMT
+Client-Peer: 72.20.36.113:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </favicon.ico>; rel="shortcut icon"
+Link: </i/main.css>; rel="stylesheet"; type="text/css"
+Link: <http://pastebin.com/>; rel="canonical"
+Set-Cookie: cookie_key=1; expires=Tue, 17-Jul-2012 16:16:22 GMT; path=/; domain=.pastebin.com
+Set-Cookie: realuser=1; expires=Wed, 20-Jun-2012 16:16:22 GMT; path=/
+Title: Pastebin.com - #1 paste tool since 2002!
+X-Meta-Description: Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time.
+X-Meta-Google-Site-Verification: jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A

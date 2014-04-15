@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Connection: close
+Date: Tue, 19 Jun 2012 13:58:05 GMT
+ETag: "c4487833-de15-45f8-859a-ed7e536a774a"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 13:58:05 GMT
+Last-Modified: Wed, 14 Mar 2012 13:20:20 GMT
+Client-Date: Mon, 18 Jun 2012 21:41:09 GMT
+Client-Peer: 74.125.226.74:80
+Client-Response-Num: 1
+Link: <http://satishsethreliance.blogspot.cz/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://satishsethreliance.blogspot.com/2011/09/satish-seth-reliance-on-his-adag-amma.html>; rel="canonical"
+Link: <http://satishsethreliance.blogspot.com/feeds/posts/default>; rel="alternate"; title="Satish Seth - Atom"; type="application/atom+xml"
+Link: <http://satishsethreliance.blogspot.com/feeds/posts/default?alt=rss>; rel="alternate"; title="Satish Seth - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/6658485744640201411/posts/default>; rel="service.post"; title="Satish Seth - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=6658485744640201411>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://satishsethreliance.blogspot.com/feeds/9075377999718835735/comments/default>; rel="alternate"; title="Satish Seth - Atom"; type="application/atom+xml"
+Link: <http://img.youtube.com/vi/kg_MhFR50OE/default.jpg>; rel="image_src"
+Link: <http://www.blogger.com/static/v1/widgets/2098323231-widget_css_2_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=6658485744640201411&zx=c4487833-de15-45f8-859a-ed7e536a774a>; rel="stylesheet"; type="text/css"
+Title: Satish Seth: Satish Seth reliance on his Adag (Amma daddy as gods) parents amuses fri...
+X-Content-Type-Options: nosniff
+X-Meta-Generator: blogger
+X-Meta-MSSmartTagsPreventParsing: true
+X-Meta-Viewport: width=1100
+X-UA-Compatible: IE=EmulateIE7
+X-XSS-Protection: 1; mode=block

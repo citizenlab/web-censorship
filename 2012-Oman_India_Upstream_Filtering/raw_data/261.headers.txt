@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Cache-Control: private, proxy-revalidate
+Connection: close
+Date: Tue, 19 Jun 2012 13:54:17 GMT
+Age: 14
+ETag: GgZzjO8q7EOZUg8CusGoTxuhVw
+Server: GoatProxy 1.0
+Vary: Accept-Encoding,ETag
+Content-MD5: jO8q7EOZUg8CusGoTxuhVw
+Content-Type: text/html; charset=utf-8
+Client-Date: Mon, 18 Jun 2012 21:37:21 GMT
+Client-Peer: 208.93.0.128:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://l-stat.livejournal.com/img/userinfo.ico?v=93>; rel="shortcut icon"; type="image/x-icon"
+Link: <http://l-stat.livejournal.com/img/userinfo.gif?v=93>; rel="icon"; type="image/gif"
+Link: <http://satishsethadag.livejournal.com/data/rss>; rel="alternate"; title="RSS"; type="application/rss+xml"
+Link: <http://satishsethadag.livejournal.com/data/atom>; rel="alternate"; title="Atom"; type="application/atom+xml"
+Link: <http://www.livejournal.com/interface/atomapi/satishsethadag/feed>; rel="service.feed"; title="AtomAPI-enabled feed"; type="application/atom+xml"
+Link: <http://www.livejournal.com/interface/atomapi/satishsethadag/post>; rel="service.post"; title="Create a new post"; type="application/atom+xml"
+Link: <http://www.livejournal.com/openid/server.bml>; rel="openid2.provider"
+Link: <http://www.livejournal.com/openid/server.bml>; rel="openid.server"
+Link: <http://l-stat.livejournal.com/ad_base.css?v=1313682784>; rel="stylesheet"; type="text/css"
+Link: <http://satishsethadag.livejournal.com/data/foaf>; rel="meta"; title="FOAF"; type="application/rdf+xml"
+Link: <http://l-stat.livejournal.com/??lj_base.css,contextualhover.css,esn.css,controlstrip-new.css,widgets/calendar.css,share.css,widgets/qotd.css?v=1340088449>; rel="stylesheet"; type="text/css"
+Link: <http://l-stat.livejournal.com/??sup/s/print.css?v=1340088449>; media="print"; rel="stylesheet"; type="text/css"
+Link: <http://l-stat.livejournal.com/??sup/s/style.css,sup/s/x-0.css,sup/s/x-1.css,sup/s/x-1-2.css?v=1340088449>; media="screen"; rel="stylesheet"; type="text/css"
+Link: <http://satishsethadag.livejournal.com/friends>; rel="group friends made"; title="LiveJournal friends"
+Title: satishsethadag
+X-AWS-Id: ws28
+X-Beta: http://varnish
+X-Gateway: bil1-swlb04
+X-UA-Compatible: IE=EmulateIE7; IE=EmulateIE9
+X-Varnish: 177105636 177102083
+X-VWS-Id: bil1-varn29
+X-XRDS-Location: http://satishsethadag.livejournal.com/data/yadis

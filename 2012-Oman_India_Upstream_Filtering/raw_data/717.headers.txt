@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Date: Tue, 19 Jun 2012 15:13:17 GMT
+ETag: "89531cd5-cbbf-469f-af70-8eddbac55ca4"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 15:13:17 GMT
+Last-Modified: Tue, 19 Jun 2012 15:10:09 GMT
+Client-Date: Mon, 18 Jun 2012 22:56:29 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://1.bp.blogspot.com/-aA6LED4o72w/Tt8PJuXFVoI/AAAAAAAABSc/Vk7sj9OvEMo/s1600/ico.png>; rel="shortcut icon"; type="png"
+Link: <http://2.bp.blogspot.com/-fKgu9r61-zg/Tt77M5X2N4I/AAAAAAAABSQ/IR_jcNhIAjM/s1600/tcs.jpg>; rel="image_src"
+Link: <http://fonts.googleapis.com/css?family=Open+Sans:400,6500>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/static/v1/widgets/1355816394-widget_css_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=8034346028444136825&zx=89531cd5-cbbf-469f-af70-8eddbac55ca4>; rel="stylesheet"; type="text/css"
+Title: Telugu Cinema Screen.in | Gabbar Singh Movie Review |No 1 site for latest telugu ,tamil ,hindi movies download Mediafire links
+X-Content-Type-Options: nosniff
+X-Meta-AlexaVerifyID: PSbV2LxDLKbPdQTj7TeENytKIzw
+X-Meta-Description: Complete home for Telugu Cinema - News, Gossip, Reviews, Galleries, Photo shoots, MP3 Songs, Video Trailers, Actress Spicy Gallery.. etc,
+X-Meta-Google-Site-Verification: zmxMEteO0qgJKhC-HrGXruNrR4UNYHjtXrgDB8guGnc
+X-Meta-Googlebot: ALL, INDEX, FOLLOW
+X-Meta-Keywords: spicy movie stills,spicy heroins, spicy actress, spicy tollywood, hot actress, sexy actress, sexy tollywood, actress boobs, desi pictures, entertainment, tollywood film news, free mobile updates, ceicket score sms updates,  sms updates cricket scores, sms scope,smsscope, smsscope.com, sms, scope, southscope, spicy content
+X-Meta-SPIDERS: ALL
+X-XSS-Protection: 1; mode=block

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 15:22:07 GMT
+Server: Apache/2.2.3 (CentOS)
+Content-Type: text/html; charset=UTF-8
+Client-Date: Mon, 18 Jun 2012 23:05:21 GMT
+Client-Peer: 94.185.82.42:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </style.css>; rel="stylesheet"; type="text/css"
+Link: </rss/index.xml>; rel="alternate"; title="Torrent Crazy RSS feed"; type="application/rss+xml"
+Link: </favicon.png>; rel="shortcut icon"; type="image/x-icon"
+Title: Torrent Crazy - The simplest torrent site
+X-Powered-By: PHP/5.1.6

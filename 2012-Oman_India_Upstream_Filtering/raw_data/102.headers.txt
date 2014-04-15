@@ -1,0 +1,4 @@
+500 Can't connect to bloodrovaltriped.com:80 (Bad hostname 'bloodrovaltriped.com')
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 21:21:48 GMT
+Client-Warning: Internal response

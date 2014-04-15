@@ -1,0 +1,22 @@
+HTTP/1.0 200 OK
+Cache-Control: no-cache
+Connection: Keep-Alive
+Date: Tue, 19 Jun 2012 10:23:35 GMT
+Accept-Ranges: bytes
+Age: 69599
+ETag: "b582b4e512acd1:0"
+Server: Microsoft-IIS/7.5
+Content-Length: 9342
+Content-Type: text/html
+Last-Modified: Fri, 04 May 2012 14:26:30 GMT
+Client-Date: Mon, 18 Jun 2012 22:20:29 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Keep-Alive: 300
+Link: <favicon.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: <favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <css/style.css>; rel="stylesheet"; type="text/css"
+Title: Domain Default page
+X-Cache: HIT
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin

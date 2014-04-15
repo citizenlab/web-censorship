@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Connection: close
+Date: Tue, 19 Jun 2012 15:13:39 GMT
+ETag: "30601dd7-8824-4a4b-8957-7903e664a8f1"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 15:13:39 GMT
+Last-Modified: Tue, 19 Jun 2012 09:33:36 GMT
+Client-Date: Mon, 18 Jun 2012 22:56:48 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Link: <http://www.watchtelugu.com/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://www.watchtelugu.com/>; rel="canonical"
+Link: <http://www.watchtelugu.com/feeds/posts/default>; rel="alternate"; title="WatchTelugu - Atom"; type="application/atom+xml"
+Link: <http://www.watchtelugu.com/feeds/posts/default?alt=rss>; rel="alternate"; title="WatchTelugu - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/6926911653038703507/posts/default>; rel="service.post"; title="WatchTelugu - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=6926911653038703507>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://www.watchtelugu.com/>; rel="openid.delegate"
+Link: <http://www.blogger.com/static/v1/widgets/1355816394-widget_css_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=6926911653038703507&zx=30601dd7-8824-4a4b-8957-7903e664a8f1>; rel="stylesheet"; type="text/css"
+Title: WatchTelugu
+X-Content-Type-Options: nosniff
+X-Meta-Generator: blogger
+X-Meta-MSSmartTagsPreventParsing: true
+X-XSS-Protection: 1; mode=block

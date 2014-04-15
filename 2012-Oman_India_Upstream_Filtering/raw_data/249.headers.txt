@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 13:53:24 GMT
+Server: Apache
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Client-Date: Mon, 18 Jun 2012 21:36:28 GMT
+Client-Peer: 184.173.98.184:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://assets.tumblr.com/images/favicon.gif?2>; rel="icon"; type="image/gif"
+Link: <http://assets.tumblr.com/images/apple_touch_icon.png?2>; rel="apple-touch-icon-precomposed"
+Link: <http://assets.tumblr.com/stylesheets/compressed/global.css?967>; rel="stylesheet"; type="text/css"
+Link: <http://assets.tumblr.com/stylesheets/compressed/onboarding.css?967>; rel="stylesheet"; type="text/css"
+Link: <http://assets.tumblr.com/stylesheets/compressed/dashboard.css?967>; rel="stylesheet"; type="text/css"
+Link: <http://assets.tumblr.com/stylesheets/compressed/tag.css?967>; rel="stylesheet"; type="text/css"
+Link: <http://assets.tumblr.com/stylesheets/compressed/ie.css?967>; rel="stylesheet"; type="text/css"
+P3P: CP="ALL ADM DEV PSAi COM OUR OTRo STP IND ONL"
+Set-Cookie: tmgioct=aK5KKbOt1XjE2jS7DQcis8mK; expires=Fri, 17-Jun-2022 13:53:24 GMT; path=/; httponly
+Title: satish seth | Tumblr
+X-Dns-Prefetch-Control: off
+X-Meta-Viewport: width=960
+X-Tumblr-Usec: D=73210

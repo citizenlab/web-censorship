@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Mon, 18 Jun 2012 20:08:27 GMT
+Accept-Ranges: bytes
+ETag: "8df4b1143cbcc21:c6f"
+Server: Microsoft-IIS/5.0
+Content-Length: 1187
+Content-Location: http://www.bajrangdal.org/Index.htm
+Content-Type: text/html
+Last-Modified: Wed, 15 Jan 2003 02:16:15 GMT
+Client-Date: Mon, 18 Jun 2012 20:08:30 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Title: Welcome
+X-Meta-Generator: Microsoft FrontPage 4.0
+X-Meta-ProgId: FrontPage.Editor.Document
+X-Powered-By: ASP.NET

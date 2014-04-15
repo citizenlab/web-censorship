@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 16:26:00 GMT
+Accept-Ranges: bytes
+ETag: "49-4df437bc-0"
+Server: LiteSpeed
+Content-Length: 73
+Content-Type: text/html
+Last-Modified: Sun, 12 Jun 2011 03:51:24 GMT
+Client-Date: Tue, 19 Jun 2012 00:09:02 GMT
+Client-Peer: 85.17.12.100:80
+Client-Response-Num: 1

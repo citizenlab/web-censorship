@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Cache-Control: private, no-cache, no-store, must-revalidate
+Connection: close
+Date: Tue, 19 Jun 2012 14:08:21 GMT
+Pragma: no-cache
+Content-Length: 14747
+Content-Type: text/html; charset=utf-8
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+Client-Date: Mon, 18 Jun 2012 21:51:25 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Link: <http://www.facebook.com/media/set/?set=a.228899373874308.46433.100002627423113&type=3>; media="handheld"; rel="alternate"
+Link: <http://static.ak.fbcdn.net/rsrc.php/yi/r/q9U99v3_saj.ico>; rel="shortcut icon"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yw/r/g1Hw-PcFOcK.css>; rel="stylesheet"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yW/r/mklnYiSbYM2.css>; rel="stylesheet"
+P3P: CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"
+Refresh: 0; URL=/media/set/?set=a.228899373874308.46433.100002627423113&type=3&_fb_noscript=1
+Set-Cookie: datr=1YfgTx31wwXKEQHfHrfUI4y5; expires=Thu, 19-Jun-2014 14:08:21 GMT; path=/; domain=.facebook.com; httponly
+Set-Cookie: lsd=AVrmyu5e; path=/; domain=.facebook.com
+Set-Cookie: reg_ext_ref=http%3A%2F%2Fwww.yahoo.com; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_gate=http%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.228899373874308.46433.100002627423113%26type%3D3; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_ref=http%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.228899373874308.46433.100002627423113%26type%3D3; path=/; domain=.facebook.com
+Title: Facebook
+X-Content-Type-Options: nosniff
+X-FB-Debug: Pol4Vspp/EVueI4f9dC6YEAd2KmjPjv58H50+e2mhYA=
+X-FRAME-OPTIONS: DENY
+X-Meta-Charset: utf-8
+X-Meta-Description:  Facebook is a social utility that connects people with friends and others who work, study and live around them. People use Facebook to keep up with friends, upload an unlimited number of photos, post links and videos, and learn more about the people they meet.
+X-Meta-ROBOTS: noodp, noydir
+X-UA-Compatible: IE=edge,chrome=1
+X-XSS-Protection: 1; mode=block

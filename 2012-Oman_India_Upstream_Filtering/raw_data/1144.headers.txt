@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Date: Tue, 19 Jun 2012 16:08:22 GMT
+Server: Apache
+Content-Type: text/html; charset=UTF-8
+Client-Date: Mon, 18 Jun 2012 23:51:38 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <https://sites.google.com/site/sportsmoviesongs/favicon.ico?attredirects=0>; rel="shortcut icon"; type="image/x-icon"
+Link: <http://nowwatchtvlive.com/wp-content/themes/alibi3col/style.css>; media="screen"; rel="stylesheet"; type="text/css"
+Link: <http://nowwatchtvlive.com/feed/>; rel="alternate"; title="Nowwatchtvlive.Com RSS Feed"; type="application/rss+xml"
+Link: <http://nowwatchtvlive.com/xmlrpc.php>; rel="pingback"
+Link: <http://nowwatchtvlive.com/wp-content/plugins/contact-form-7/styles.css?ver=3.1.1>; id="contact-form-7-css"; media="all"; rel="stylesheet"; type="text/css"
+Link: <http://nowwatchtvlive.com/wp-content/plugins/wp-pagenavi-style/css/css3_purple_glossy.css?ver=1.0>; id="wp-pagenavi-style-css"; media="all"; rel="stylesheet"; type="text/css"
+Link: <http://nowwatchtvlive.com/xmlrpc.php?rsd>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://nowwatchtvlive.com/wp-includes/wlwmanifest.xml>; rel="wlwmanifest"; type="application/wlwmanifest+xml"
+Link: <http://nowwatchtvlive.com/>; rel="canonical"
+Title: Watch Online Tv Channels: Live Sports Streaming, Indian, Pakistani, UK, USA Channels & Cricket Streams
+X-Meta-Author: Nowwatchtvlive
+X-Meta-Copyright: Copyright 2011 Nowwatchtvlive.com. All Rights Reserved.
+X-Meta-Description: Watch Live Tv Channels,Sports events,Football matches,Soccer,Cricket channels,Basketball,NBA,NFL streaming free online.Free Indian & Pakistani Tv,UK,Usa Channels.
+X-Meta-DEVELOPER: Nowwatchtvlive Team
+X-Meta-Distribution: Global
+X-Meta-Generator: WordPress 3.3.2
+X-Meta-Google-Site-Verification: Hlvh-tu1uo9DhAuPN0A-DiAYg0J6s9dTe7fl-F_7w9k
+X-Meta-Googlebot: index, follow
+X-Meta-Keywords: live tv free,latest movies online,USa Channels,indian Channels,fox Channel,ABC Channel,abc family,Tnt,CBS,ESPNU,Speed,Nascar,TBS,NBC,ESPN Channel,Sky Sorts,football,nhl mlb, Schedules,nfl,Euro2012,Cricket,Golf,NHL,Formula1,Cycling,Tennis,ATP,WTA,Handball, Horse Racing,Boxing,UEFA,serie a,premier league,la liga,bundesliga,free satellite tv,live sport streams,live football,English Premier League,Seria,ufc,wwe,Bundesliga,tamil tv channels,upcoming News,entertainment,Bollywood & Hollywood news,celebrity gossip
+X-Meta-Msvalidate.01: 938988818FCEB789E09AEC3BC3E234D9
+X-Meta-Owner: Nowwatchtvlive
+X-Meta-Revisit-After: 1 days
+X-Meta-ROBOTS: index, follow
+X-Pingback: http://nowwatchtvlive.com/xmlrpc.php
+X-Powered-By: PHP/5.3.13

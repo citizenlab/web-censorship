@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: private, max-age=604800
+Date: Tue, 19 Jun 2012 13:50:45 GMT
+Location: https://profiles.google.com/103976341793285625231/about
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 13:50:45 GMT
+Client-Date: Mon, 18 Jun 2012 21:33:49 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Client-Warning: Redirect loop detected (max_redirect = 7)
+Title: Moved Permanently
+X-Content-Type-Options: nosniff
+X-FRAME-OPTIONS: SAMEORIGIN
+X-XSS-Protection: 1; mode=block

@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Date: Tue, 19 Jun 2012 15:30:16 GMT
+ETag: "68ae16ed-ef17-43a8-89b0-e80d3d936d12"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 15:30:16 GMT
+Last-Modified: Sun, 03 Jun 2012 13:48:58 GMT
+Client-Date: Mon, 18 Jun 2012 23:13:26 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://telugustudio4u.blogspot.com/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://telugustudio4u.blogspot.com/>; rel="canonical"
+Link: <http://telugustudio4u.blogspot.com/feeds/posts/default>; rel="alternate"; title="telugustudio4u - Atom"; type="application/atom+xml"
+Link: <http://telugustudio4u.blogspot.com/feeds/posts/default?alt=rss>; rel="alternate"; title="telugustudio4u - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/3728828220502250426/posts/default>; rel="service.post"; title="telugustudio4u - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=3728828220502250426>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://telugustudio4u.blogspot.com/>; rel="openid.delegate"
+Link: <http://www.blogger.com/static/v1/widgets/1355816394-widget_css_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <//www.google.com/uds/css/gsearch.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=3728828220502250426&zx=68ae16ed-ef17-43a8-89b0-e80d3d936d12>; rel="stylesheet"; type="text/css"
+Title: telugustudio4u
+X-Content-Type-Options: nosniff
+X-Meta-Generator: blogger
+X-Meta-MSSmartTagsPreventParsing: true
+X-XSS-Protection: 1; mode=block

@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Cache-Control: private, no-cache, no-store, must-revalidate
+Connection: close
+Date: Tue, 19 Jun 2012 14:07:17 GMT
+Pragma: no-cache
+Content-Length: 34651
+Content-Type: text/html; charset=utf-8
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+Client-Date: Mon, 18 Jun 2012 21:50:21 GMT
+Client-Peer: 69.171.228.74:80
+Client-Response-Num: 1
+Link: <http://www.facebook.com/>; media="handheld"; rel="alternate"
+Link: <http://static.ak.fbcdn.net/rsrc.php/yi/r/q9U99v3_saj.ico>; rel="shortcut icon"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yw/r/g1Hw-PcFOcK.css>; rel="stylesheet"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yW/r/mklnYiSbYM2.css>; rel="stylesheet"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yY/r/yJvN2AT6gdW.css>; rel="stylesheet"
+P3P: CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"
+Refresh: 0; URL=/?_fb_noscript=1
+Set-Cookie: datr=lYfgT4Brk4QmBYq8LlV5EHz7; expires=Thu, 19-Jun-2014 14:07:17 GMT; path=/; domain=.facebook.com; httponly
+Set-Cookie: lsd=AVoMkgdY; path=/; domain=.facebook.com
+Set-Cookie: reg_ext_ref=http%3A%2F%2Fwww.yahoo.com; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_gate=http%3A%2F%2Fwww.facebook.com%2F; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_ref=http%3A%2F%2Fwww.facebook.com%2F; path=/; domain=.facebook.com
+Title: Vítejte na Facebooku – zaregistrujte se, přihlaste se a zjistěte více
+X-Content-Type-Options: nosniff
+X-FB-Debug: +dWK6a18cIZXpwnz8lvF2Iv9K70FtFgoJOSZnYz529Y=
+X-FRAME-OPTIONS: DENY
+X-Meta-Charset: utf-8
+X-Meta-Description:  Facebook je socíální síť, která umožňuje komunikaci s přáteli, spolupracovníky, spolužáky a lidmi z okolí. Na Facebooku můžete kontaktovat přátele, nahrávat neomezené množství fotek, přidávat odkazy a videa a budete mít informace o svých známých.
+X-Meta-ROBOTS: noodp, noydir
+X-UA-Compatible: IE=edge,chrome=1
+X-XSS-Protection: 1; mode=block

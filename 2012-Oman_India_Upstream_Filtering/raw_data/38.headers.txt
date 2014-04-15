@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: close
+Date: Mon, 18 Jun 2012 20:08:00 GMT
+Pragma: no-cache
+Server: Microsoft-IIS/6.0
+Content-Type: text/html; charset=utf-8
+Expires: Mon, 1 Jan 2001 00:00:00 GMT
+Last-Modified: Mon, 18 Jun 2012 20:08:00 GMT
+Client-Date: Mon, 18 Jun 2012 20:08:02 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Link: </index.php?format=feed&type=rss>; rel="alternate"; title="RSS 2.0"; type="application/rss+xml"
+Link: </index.php?format=feed&type=atom>; rel="alternate"; title="Atom 1.0"; type="application/atom+xml"
+Link: </templates/gteknologies-webware-ajk/favicon.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: </modules/mod_phocagallery_image/assets/phocagallery_module_image.css>; rel="stylesheet"; type="text/css"
+Link: </media/system/css/modal.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.ajk.gov.pk/templates/system/css/system.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.ajk.gov.pk/templates/system/css/general.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.ajk.gov.pk/templates/gteknologies-webware-ajk/css/template.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.ajk.gov.pk/templates/gteknologies-webware-ajk/css/typo.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.ajk.gov.pk/templates/gteknologies-webware-ajk/css/chrome.css>; rel="stylesheet"; type="text/chrome"
+Link: <http://www.ajk.gov.pk/templates/gteknologies-webware-ajk/ja_menus/ja_moomenu/ja.moomenu.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.ajk.gov.pk/templates/gteknologies-webware-ajk/ja_menus/hover/ja.menuhover.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.ajk.gov.pk/templates/gteknologies-webware-ajk/ja_menus/hover/ja.topoverride.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.ajk.gov.pk/templates/gteknologies-webware-ajk/css/colors/green.css>; rel="stylesheet"; type="text/css"
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Set-Cookie: d9ce17fb0d67f02cb1b31ea57548422f=2of8plkim27pumelh6038foi73; path=/
+Set-Cookie: gteknologies-webware-ajk_tpl=gteknologies-webware-ajk; expires=Sat, 08-Jun-2013 20:08:00 GMT; path=/
+Title: Azad Jammu & Kashmir
+X-Meta-Description: AJK PORTAL,ajk website, ajk web portal, ajk, azad jammu and kashmir
+X-Meta-Generator: Joomla! 1.5 - Open Source Content Management
+X-Meta-Keywords: AJK PORTAL,ajk website, ajk web portal, ajk, azad jammu and kashmir
+X-Meta-Robots: index, follow
+X-Powered-By: ASP.NET
+X-Powered-By: PHP/5.2.8

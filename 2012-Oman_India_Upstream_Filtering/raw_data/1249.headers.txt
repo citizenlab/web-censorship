@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Mon, 09 Jul 2012 20:11:27 GMT
+Accept-Ranges: bytes
+ETag: "b8cb6-427-47c6c21c95f00"
+Server: Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.23 with Suhosin-Patch mod_ssl/2.2.8 OpenSSL/0.9.8g
+Vary: Accept-Encoding
+Content-Length: 1063
+Content-Type: text/html; charset=utf-8
+Last-Modified: Tue, 05 Jan 2010 15:02:52 GMT
+Client-Date: Mon, 09 Jul 2012 20:11:27 GMT
+Client-Peer: 208.78.99.39:80
+Client-Response-Num: 1
+Title: nndh.com For Sale

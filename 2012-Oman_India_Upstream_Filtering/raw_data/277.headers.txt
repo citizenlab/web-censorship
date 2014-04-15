@@ -1,0 +1,36 @@
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Cache-Control: no-store
+Connection: close
+Date: Tue, 19 Jun 2012 13:55:29 GMT
+Pragma: no-cache
+Age: 0
+Server: ATS/3.0.4
+Vary: Accept-Encoding
+Content-Language: en-US
+Content-Type: text/html;charset=UTF-8
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Client-Date: Mon, 18 Jun 2012 21:38:34 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://s3.licdn.com/scds/common/u/img/favicon_v3.ico>; rel="shortcut icon"; type="image/ico"
+Link: </img/icon/apple-touch-icon.png>; rel="apple-touch-icon-precomposed"
+Link: <http://s3.licdn.com/scds/concat/common/css?h=3bifs78lai5i0ndyj1ew7316e-f50e935yfxr9e6txwchf6f5rh-c5839km74lqu75dnankln5rgt-4uu2pkz5u0jch61r2nhpyyrn8-9t5e1knzidyvkpf0z8e0jmadj-25a3hrghv63tplct2jcz35xds-4om4nn3a2z730xs82d78xj3be-bigga6m9j58j1ibtzsfwdqwcq-ct4kfyj4tquup0bvqhttvymms-9zbbsrdszts09by60it4vuo3q-4uxu0ysdiw1f1nqnc7pu0c7gi-35865syxlga19l88y4duqyqms-34ek09xzsd1g2pd7vvncpuypc-1137x3npoqxfrtdyrzxxfg6r-2pkp5ymkf2bt6pt2kpsxpw717>; rel="stylesheet"; type="text/css"
+Link: <http://s3.licdn.com/scds/concat/common/css?h=4qfuptzr9frqgvw6icehbmuli-85257xxu2dble0xkpkvkhxuxw-9itc5ag0bkpmcad4ty32zqvjj>; rel="stylesheet"; type="text/css"
+P3P: CP="CAO DSP COR CUR ADMi DEVi TAIi PSAi PSDi IVAi IVDi CONi OUR DELi SAMi UNRi PUBi OTRi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT POL PRE"
+Set-Cookie: _lipt=deleteMe; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: bcookie="v=2&85629bcf-8733-4232-9c29-26cdbc172d59"; Version=1; Domain=linkedin.com; Max-Age=63072000; Expires=Thu, 19-Jun-2014 13:55:29 GMT; Path=/
+Set-Cookie: leo_auth_token="GST:U0cs2Rx-JwgrslrrIJ_RRiNM_dNb9QnrF9EseJgBigdr9QmibEbJLc:1340114129:34cf1ca8fd63e45ffbed3c802c32e74c6e09e45a"; Version=1; Max-Age=1799; Expires=Tue, 19-Jun-2012 14:25:28 GMT; Path=/
+Set-Cookie: sl="delete me"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: s_leo_auth_token="delete me"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: visit="v=1&G"; Version=1; Max-Age=63072000; Expires=Thu, 19-Jun-2014 13:55:29 GMT; Path=/
+Set-Cookie: JSESSIONID="ajax:7676433991917648955"; Version=1; Path=/
+Set-Cookie: X-LI-IDC=C1
+Title: Profile Not Found | LinkedIn
+X-FRAME-OPTIONS: SAMEORIGIN
+X-Meta-AnalyticsURL: /analytics/noauthtracker
+X-Meta-Description: LinkedIn strengthens and extends your existing network of trusted contacts. LinkedIn is a networking tool that helps you discover inside connections to recommended job candidates, industry experts and business partners.
+X-Meta-PageImpressionID: 16782001-db58-4cd0-a33f-9d3743f1f92a
+X-Meta-PageKey: nprofile-public-not-found
+X-UA-Compatible: IE=8

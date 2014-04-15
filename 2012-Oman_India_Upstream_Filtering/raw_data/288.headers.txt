@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=5
+Connection: close
+Date: Tue, 19 Jun 2012 13:56:14 GMT
+ETag: "1339477410000|#public|0|en|||0"
+Server: GSE
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 19 Jun 2012 13:56:19 GMT
+Last-Modified: Tue, 12 Jun 2012 05:03:30 GMT
+Client-Date: Mon, 18 Jun 2012 21:39:17 GMT
+Client-Peer: 74.125.226.65:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Inc/CN=Google Internet Authority
+Client-SSL-Cert-Subject: /C=US/ST=California/L=Mountain View/O=Google Inc/CN=*.google.com
+Client-SSL-Cipher: RC4-SHA
+Client-SSL-Warning: Peer certificate not verified
+Link: <//www.google.com/images/icons/product/sites-16.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: <https://ssl.gstatic.com/sites/p/4e7dfe/system/app/images/apple-touch-icon.png>; rel="apple-touch-icon"; type="image/png"
+Link: <https://ssl.gstatic.com/sites/p/4e7dfe/system/app/pagetypes/announcements/announcements.css>; rel="stylesheet"; type="text/css"
+Link: <https://ssl.gstatic.com/sites/p/4e7dfe/system/app/themes/simple/standard-css-simple-ltr-ltr.css>; rel="stylesheet"; type="text/css"
+Link: </site/satishsethreliance/_/rsrc/1339477410000/system/app/css/overlay.css?cb=simple860px325200goog-ws-right>; rel="stylesheet"; type="text/css"
+Link: </site/satishsethreliance/_/rsrc/1339477410000/system/app/css/symbolfont.css>; rel="stylesheet"; type="text/css"
+Link: </site/satishsethreliance/_/rsrc/1339477410000/system/app/css/camelot/allthemes-view.css>; rel="stylesheet"; type="text/css"
+Link: <https://sites.google.com/site/satishsethreliance/journal-blog/posts.xml>; rel="alternate"; title="Atom feed for satishsethreliance:Journal/Blog"; type="application/atom+xml"
+Title: Journal/Blog - Satish Seth Reliance
+X-Content-Type-Options: nosniff
+X-Robots-Tag: noarchive
+X-UA-Compatible: chrome=1
+X-XSS-Protection: 1; mode=block

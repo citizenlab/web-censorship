@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Connection: close
+Date: Tue, 19 Jun 2012 15:48:12 GMT
+Pragma: private
+Server: Apache/2.2.17 (EL)
+Vary: Accept-Encoding
+Content-Type: text/html; charset=ISO-8859-1
+Expires: Tue, 19 Jun 2012 15:48:12 GMT
+Client-Date: Mon, 18 Jun 2012 23:31:16 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://www.lazydesis.com/>; rel="canonical"
+Link: <http://www.lazydesis.com/cache/1576234060.css>; rel="stylesheet"; type="text/css"
+Link: <http://feeds.feedburner.com/Lazydesis>; rel="alternate"; title="Lazydesis RSS Feed"; type="application/rss+xml"
+Set-Cookie: bbsessionhash=366d9ae871d647ea017857835c49d4e8; path=/; HttpOnly
+Set-Cookie: bblastvisit=1340120892; expires=Wed, 19-Jun-2013 15:48:12 GMT; path=/
+Set-Cookie: bblastactivity=0; expires=Wed, 19-Jun-2013 15:48:12 GMT; path=/
+Title: Lazydesis
+X-Meta-Description: Free Movies and Music Download. Watch Movies Online. Free Downloadable Movies and Music.
+X-Meta-Generator: vBulletin 3.8.6
+X-Meta-Keywords: free movies, movies, watch movies online, full length movies, downloadable movies,  music downloads, listen music, downloads music,free music, free software, software, bollywood, bollywood song, telugu baby names, telugu songs
+X-Meta-Verify-V1: UpoQjKwTf5EzwQ6tDDrL6H8kztbs3bNZ2Kfgl2P+KVI=
+X-Powered-By: PHP/5.2.16

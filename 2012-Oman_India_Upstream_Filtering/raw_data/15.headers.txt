@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=300, must-revalidate
+Date: Mon, 18 Jun 2012 20:05:17 GMT
+Server: nginx
+Vary: Accept-Encoding
+Vary: Cookie
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Mon, 18 Jun 2012 20:05:17 GMT
+Client-Date: Mon, 18 Jun 2012 20:05:33 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://wp.me/cwAA>; rel=shortlink
+Title: Kafila
+X-Hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+X-Meta-Application-Name: Kafila
+X-Meta-Description: media | politics | dissent (by Shivam Vij)
+X-Meta-Generator: WordPress.com
+X-Meta-Msapplication-Task: name=Subscribe;action-uri=http://kafila.org/feed/;icon-uri=http://1.gravatar.com/blavatar/d86c1ba31b24b475e5e4de0a0442bf4c?s=16
+X-Meta-Msapplication-Task: name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico
+X-Meta-Msapplication-Task: name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico
+X-Meta-Msapplication-Task: name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico
+X-Meta-Msapplication-Tooltip: media | politics | dissent
+X-Meta-Msapplication-Window: width=device-width;height=device-height
+X-Meta-Title: Kafila on WordPress.com
+X-Nananana: Batcache
+X-Pingback: http://kafila.org/xmlrpc.php

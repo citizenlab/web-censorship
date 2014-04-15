@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Date: Tue, 19 Jun 2012 13:51:49 GMT
+Pragma: no-cache
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Client-Date: Mon, 18 Jun 2012 21:34:54 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://www.blogger.com/static/v1/v-css/3939536041-new_ui_static_pages_rtl.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/feeds/03550922789477190410/blogs>; rel="alternate"; title="Satish Seth Investment's Blogs"; type="application/atom+xml"
+Link: <http://www.blogger.com/feeds/03550922789477190410/blogs?alt=atom-service>; rel="service"; title="Satish Seth Investment's Blogs"; type="application/atomsvc+xml"
+Link: <http://satishsethinvestment.blogspot.com/>; rel="me"
+P3P: CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+Set-Cookie: blogger_TID=a26e0715a824d541; HttpOnly
+Title: Blogger: وضع المستخدم: Satish Seth Investment
+X-Content-Type-Options: nosniff
+X-FRAME-OPTIONS: SAMEORIGIN
+X-Meta-Description: Blogger هي أداة مجانية لنشر المدوّنات من Google تساعدك على مشاركة أفكارك بسهولة تامة مع العالم من حولك. فأداة Blogger تجعل من تدوين النصوص والصور ومقاطع الفيديو على مدوّنتك الشخصية أو الجماعية أمرًا في غاية البساطة.
+X-Meta-Keywords: مدوّنة، مدوّنة مجانية، مدوّنة شخصية، إنشاء مدوّنة، مدوّنة جديدة، blogger، blogspot، blog، blogger.com، blogspot.com، free blog، personal blog، weblog، create blog، new blog
+X-XSS-Protection: 1; mode=block

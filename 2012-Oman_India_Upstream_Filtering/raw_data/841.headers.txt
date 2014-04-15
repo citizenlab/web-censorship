@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Date: Tue, 19 Jun 2012 15:28:21 GMT
+Pragma: private
+Server: Apache/2.2.21 (Unix) mod_ssl/2.2.21 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635 PHP/5.3.8
+Content-Type: text/html; charset=ISO-8859-1
+Expires: -1
+Client-Date: Mon, 18 Jun 2012 23:11:30 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <clientscript/vbulletin_important.css?v=386>; rel="stylesheet"; type="text/css"
+Link: <images/styles/Guru_Style/style/blue.css>; media="screen"; rel="alternate stylesheet"; title="blue-theme"; type="text/css"
+Link: <external.php?type=RSS2>; rel="alternate"; title="DownloadsGuru RSS Feed"; type="application/rss+xml"
+Set-Cookie: bbsessionhash=c62b0cf64f6a4f130158faf4ddc7e3f2; path=/; HttpOnly
+Set-Cookie: bblastvisit=1340119701; expires=Wed, 19-Jun-2013 15:28:21 GMT; path=/
+Set-Cookie: bblastactivity=0; expires=Wed, 19-Jun-2013 15:28:21 GMT; path=/
+Title: DownloadsGuru - Powered by vBulletin
+X-Meta-Description: Free Movies and Music Download. Watch Movies Online. Free Downloadable Movies and Music.
+X-Meta-Generator: vBulletin 3.8.6
+X-Meta-Keywords: free movies, movies, watch movies online, full length movies, downloadable movies, music downloads, listen music, downloads music, free music, free software, software, bollywood, bollywood song, telugu baby names, telugu songs,Teen Maar First Day Collections,Teen Maar Box Office Report, Telugu Latest Movies, Telugu Film Reviews, Telugu Cinema Reviews, Telugu Film Heroines, India Telugu Movies, Telugu Movie Downloads, Telugu Movie Songs Free Download, Telugu Music, Telugu Film Songs, Online Telugu Songs, Telugu Movie Actress, Telugu Movie Songs, Movie Actors, Telugu Video Songs, Top Political News, Political Issues, Political Current Events,  Telugu Movies, Telugu Cinema, Telugu Cinema Reviews, Telugu Movie Reviews, Telugu Cinema Songs, Telugu Movie Stills, Telugu mp3 Songs Downloads, Latest Telugu Cinema Reviews, Andhra Pradesh, Andhra Politics, News, Reviews and Schedules, telugu movie news, telugu movie schedules, telugu cinema schedules, tollywood, telugu box office, news update
+X-Powered-By: PHP/5.3.8
+X-UA-Compatible: IE=7

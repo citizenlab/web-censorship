@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=143, must-revalidate
+Date: Mon, 18 Jun 2012 20:09:06 GMT
+Server: nginx
+Vary: Accept-Encoding
+Vary: Cookie
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Mon, 18 Jun 2012 20:06:29 GMT
+Client-Date: Mon, 18 Jun 2012 20:09:15 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://wp.me/2awqS>; rel=shortlink
+Title: DAWN.COM | Latest News, Breaking News, Pakistan News, Pakistani News, World News, Business, Business News, Science and Technology, Entertainment News, Sport News, Cricket, South Asia, South Asia News, Memo Gate
+X-Hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+X-Meta-Application-Name: DAWN.COM
+X-Meta-Charset: UTF-8
+X-Meta-Generator: WordPress.com
+X-Meta-Google-Site-Verification: xc5swPlXmKrI9_kDx9pdr156AcYt_OE7cOAyzJ2X3V4
+X-Meta-Msapplication-Task: name=Subscribe;action-uri=http://dawn.com/feed/;icon-uri=http://1.gravatar.com/blavatar/79249444ee9822338b2ad4c11ca35499?s=16
+X-Meta-Msapplication-Tooltip: Latest News, Breaking News, Pakistan News, Pakistani News, World News, Business, Business News, Science and Technology, Entertainment News, Sport News, Cricket, South Asia, South Asia News, Memo Gate
+X-Meta-Msapplication-Window: width=device-width;height=device-height
+X-Meta-Viewport: width=device-width
+X-Nananana: Batcache
+X-Pingback: http://dawn.com/xmlrpc.php
+X-UA-Compatible: IE=7

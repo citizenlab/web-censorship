@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Tue, 19 Jun 2012 14:08:32 GMT
+Accept-Ranges: bytes
+ETag: "5710029-1191-4bd38c2829a80"
+Server: Apache
+Content-Length: 4497
+Content-Type: text/html
+Last-Modified: Mon, 09 Apr 2012 06:03:06 GMT
+Client-Date: Mon, 18 Jun 2012 23:48:51 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Link: <www.moviejockey.com/forum/forumdisplay.php?f=306.css>; media="scan"; rel="stylesheet"; type="text/css"
+MS-Author-Via: DAV
+Title: MovieJockey.Com - Upgraded MJ 2.0
+X-Powered-By: PleskLin

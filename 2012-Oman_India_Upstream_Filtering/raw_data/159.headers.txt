@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cache-Control: private, no-cache, no-store, proxy-revalidate, no-transform
+Connection: close
+Date: Tue, 19 Jun 2012 13:46:37 GMT
+Pragma: no-cache
+Pragma: no-cache
+Server: nginx
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Client-Date: Mon, 18 Jun 2012 21:26:36 GMT
+Client-Peer: 72.20.18.6:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </css/style.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.zone-h.org/>; rel="canonical"
+Link: <http://www.zone-h.org/rss/news>; rel="alternate"; title="Zone-H News"; type="application/rss+xml"
+Link: <http://www.zone-h.org/rss/defacements>; rel="alternate"; title="Zone-H Defacements"; type="application/rss+xml"
+Link: <http://www.zone-h.org/rss/specialdefacements>; rel="alternate"; title="Zone-H Special Defacements"; type="application/rss+xml"
+Title: Zone-H.org - Unrestricted information
+X-FRAME-OPTIONS: SAMEORIGIN
+X-Meta-Description: Zone-H - Unrestricted Information - A global view to the world with a stress on the ITsec
+X-Meta-Google-Site-Verification: IV27xhD1i2cR9z4XFr_gi8P-0sU6oqAUsOyUlvuD7i0
+X-Meta-Google-Site-Verification: IRNYr6gINTjEqcnCZQqKShEdzOrwpYS_V4ohXhjNH8M
+X-Meta-Keywords: zone-h,hands on hacking,ethical hacking,hacker course,hacking seminar,seminario,security seminar,security course,securityfocus,penetration test,antivirus,antispam,hacking inside,defacement,defacements,hacker,hackers,cracker,crackers,defacer,defacers,security,advisory,advisories,news,it,itsec,information,technology,defaced,attacks,cybercrime,attacks archive,attack,cyberterrorism,sql injection,buffer overflow,stack overflow,heap overflow,file inclusion,directory traversal, terrorism, counter terrorism, intelligence, geopolitic, warfare

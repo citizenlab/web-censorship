@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Connection: close
+Date: Tue, 19 Jun 2012 15:29:25 GMT
+ETag: "5511fdad-00ad-4d7d-8a19-315e05ce3fae"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 15:29:25 GMT
+Last-Modified: Mon, 18 Jun 2012 16:40:17 GMT
+Client-Date: Mon, 18 Jun 2012 23:12:29 GMT
+Client-Peer: 74.125.226.75:80
+Client-Response-Num: 1
+Link: <http://etamilcine.blogspot.in/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://etamilcine.blogspot.com/>; rel="canonical"
+Link: <http://etamilcine.blogspot.com/feeds/posts/default>; rel="alternate"; title="watch tamil Entertainment - Atom"; type="application/atom+xml"
+Link: <http://etamilcine.blogspot.com/feeds/posts/default?alt=rss>; rel="alternate"; title="watch tamil Entertainment - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/8795811589112728306/posts/default>; rel="service.post"; title="watch tamil Entertainment - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=8795811589112728306>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <https://profiles.google.com/114412413357769143284>; rel="me"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://etamilcine.blogspot.com/>; rel="openid.delegate"
+Link: <https://profiles.google.com/114412413357769143284>; rel="publisher"
+Link: <http://www.blogger.com/static/v1/widgets/2098323231-widget_css_2_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=8795811589112728306&zx=5511fdad-00ad-4d7d-8a19-315e05ce3fae>; rel="stylesheet"; type="text/css"
+Set-Cookie: blogger_TID=8bd8d14616f822f8; HttpOnly
+Title: watch tamil Entertainment
+X-Content-Type-Options: nosniff
+X-Meta-Generator: blogger
+X-Meta-MSSmartTagsPreventParsing: true
+X-Meta-Viewport: width=1100
+X-UA-Compatible: IE=EmulateIE7
+X-XSS-Protection: 1; mode=block

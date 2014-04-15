@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Tue, 19 Jun 2012 15:52:20 GMT
+Server: nginx admin
+Content-Length: 0
+Content-Type: text/html
+Client-Date: Mon, 18 Jun 2012 23:35:22 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+X-Cache: HIT from Backend
+X-Powered-By: PHP/5.2.17

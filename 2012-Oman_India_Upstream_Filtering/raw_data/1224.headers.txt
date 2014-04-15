@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Date: Tue, 19 Jun 2012 16:28:19 GMT
+ETag: "398b90bb-1ea0-4b9d-be7d-9f8be727a610"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 16:28:19 GMT
+Last-Modified: Tue, 12 Jun 2012 16:39:15 GMT
+Client-Date: Tue, 19 Jun 2012 00:11:37 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://www.garammagaram.com/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://www.garammagaram.com/>; rel="canonical"
+Link: <http://www.garammagaram.com/feeds/posts/default>; rel="alternate"; title="GaramMaGaram.com - Atom"; type="application/atom+xml"
+Link: <http://www.garammagaram.com/feeds/posts/default?alt=rss>; rel="alternate"; title="GaramMaGaram.com - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/1047606701761472211/posts/default>; rel="service.post"; title="GaramMaGaram.com - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=1047606701761472211>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/profile/12710721256057120056>; rel="me"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://www.garammagaram.com/>; rel="openid.delegate"
+Link: <YOUR-FAVICON-URL>; rel="shortcut icon"; type="image/vnd.microsoft.icon"
+Link: <http://www.blogger.com/static/v1/widgets/1355816394-widget_css_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=1047606701761472211&zx=398b90bb-1ea0-4b9d-be7d-9f8be727a610>; rel="stylesheet"; type="text/css"
+Title: GaramMaGaram.com
+X-Content-Type-Options: nosniff
+X-Meta-Description: DESCRIPTION HERE
+X-Meta-Generator: blogger
+X-Meta-Keywords: KEYWORDS HERE
+X-Meta-MSSmartTagsPreventParsing: true
+X-XSS-Protection: 1; mode=block

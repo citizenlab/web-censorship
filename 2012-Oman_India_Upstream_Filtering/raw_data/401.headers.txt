@@ -1,0 +1,26 @@
+HTTP/1.1 404 Not Found
+Date: Tue, 19 Jun 2012 14:09:09 GMT
+Content-Length: 16108
+Content-Type: text/html; charset=utf-8
+Client-Date: Mon, 18 Jun 2012 21:52:13 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Link: <http://www.facebook.com/#!media/set/?set=a.228899373874308.46433.100002627423113&type=3>; media="handheld"; rel="alternate"
+Link: <http://static.ak.fbcdn.net/rsrc.php/yi/r/q9U99v3_saj.ico>; rel="shortcut icon"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yw/r/g1Hw-PcFOcK.css>; rel="stylesheet"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yW/r/mklnYiSbYM2.css>; rel="stylesheet"
+P3P: CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"
+Refresh: 0; URL=/?_fb_noscript=1#!media/set/?set=a.228899373874308.46433.100002627423113&type=3
+Set-Cookie: datr=BYjgT7Ed0mcBN0acieBQ_VEc; expires=Thu, 19-Jun-2014 14:09:09 GMT; path=/; domain=.facebook.com; httponly
+Set-Cookie: lsd=AVqTiVGO; path=/; domain=.facebook.com
+Set-Cookie: reg_ext_ref=http%3A%2F%2Fwww.yahoo.com; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_gate=http%3A%2F%2Fwww.facebook.com%2F%23%21media%2Fset%2F%3Fset%3Da.228899373874308.46433.100002627423113%26type%3D3; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_ref=http%3A%2F%2Fwww.facebook.com%2F%23%21media%2Fset%2F%3Fset%3Da.228899373874308.46433.100002627423113%26type%3D3; path=/; domain=.facebook.com
+Title: Stránka nenalezena | Facebook
+X-Content-Type-Options: nosniff
+X-FB-Debug: niNPne36nltz8oppJDG6Vr8QzBWwMbTYYWVszoLqZkM=
+X-FRAME-OPTIONS: deny
+X-Meta-Charset: utf-8
+X-Meta-Description:  Facebook je socíální síť, která umožňuje komunikaci s přáteli, spolupracovníky, spolužáky a lidmi z okolí. Na Facebooku můžete kontaktovat přátele, nahrávat neomezené množství fotek, přidávat odkazy a videa a budete mít informace o svých známých.
+X-Meta-ROBOTS: noodp, noydir
+X-UA-Compatible: IE=edge,chrome=1

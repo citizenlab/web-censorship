@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Connection: close
+Date: Tue, 19 Jun 2012 13:50:48 GMT
+Pragma: no-cache
+Server: GSE
+Vary: Accept
+Content-Type: text/html; charset=utf-8
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Client-Date: Mon, 18 Jun 2012 21:33:52 GMT
+Client-Peer: 74.125.226.70:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Google Inc/CN=Google Internet Authority
+Client-SSL-Cert-Subject: /C=US/ST=California/L=Mountain View/O=Google Inc/CN=*.google.com
+Client-SSL-Cipher: RC4-SHA
+Client-SSL-Warning: Peer certificate not verified
+Content-Base: https://profiles.google.com/
+Link: </_/apps-static/_/ss/home/ver=-w0pn0i29p5nk/am=!O45yp79Vn2eJlP3iSXzxu7Pw9gwJ0WAwR850hQ02tfMr/bf=EQ/r=O/rs=AItRSTMx56WkpKY-m6ELPPCoeBSJNoPekQ>; id="ss"; rel="stylesheet"
+Link: <//www.google.com/favicon.ico>; rel="shortcut icon"
+Link: <https://profiles.google.com/103976341793285625231>; rel="canonical"
+Title: Satish Seth Swan - profil Google
+X-Content-Type-Options: nosniff
+X-FRAME-OPTIONS: SAMEORIGIN
+X-Meta-Description: Satish Seth Swan - Satish Seth Swan courts events in his life and reports them for all to see as a statement. He has witnessed 1,000 crore good and bad things in life and will share them with you. His lifetime of
+X-UA-Compatible: IE=9, IE=8, chrome=1
+X-WebKit-CSP-Report-Only: default-src 'unsafe-inline' 'unsafe-eval' https: chrome-extension:; frame-src about: https: chrome-extension:; report-uri /_/cspreport
+X-XSS-Protection: 1; mode=block

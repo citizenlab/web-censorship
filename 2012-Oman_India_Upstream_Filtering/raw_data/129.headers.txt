@@ -1,0 +1,4 @@
+500 Can't connect to google0.ingo:80 (Bad hostname 'google0.ingo')
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 21:24:34 GMT
+Client-Warning: Internal response

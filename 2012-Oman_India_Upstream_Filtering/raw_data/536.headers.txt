@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 14:45:29 GMT
+Accept-Ranges: bytes
+ETag: "6128353-6f-9b701b00"
+Server: Apache
+Content-Length: 111
+Content-Type: text/html
+Last-Modified: Thu, 28 Jul 2011 02:06:04 GMT
+Client-Date: Mon, 18 Jun 2012 22:28:32 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Refresh: 0;URL=/cgi-sys/defaultwebpage.cgi

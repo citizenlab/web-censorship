@@ -1,0 +1,4 @@
+500 Can't connect to apden.com:80 (Bad hostname 'apden.com')
+Content-Type: text/plain
+Client-Date: Tue, 19 Jun 2012 00:04:27 GMT
+Client-Warning: Internal response

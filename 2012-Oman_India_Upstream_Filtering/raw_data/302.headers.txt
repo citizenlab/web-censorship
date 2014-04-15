@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Date: Tue, 19 Jun 2012 13:56:59 GMT
+Pragma: no-cache
+Server: Apache
+Content-Type: text/html
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Client-Date: Mon, 18 Jun 2012 21:40:09 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </channels/satishsethswan/rss.xml>; rel="alternate"; title="satishsethswan's Channel RSS Feed"; type="application/rss+xml"
+Link: <http://s.mcstatic.com/Images/favicon.png>; rel="icon"; type="image/png"
+Link: <http://s.mcstatic.com/Images/favicon.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: <http://s4.mcstatic.com/CSS/Global/?v=7918>; rel="stylesheet"; type="text/css"
+Link: <http://s6.mcstatic.com/CSS/UserChannels/?v=7918>; rel="stylesheet"; type="text/css"
+Link: <http://s.mcstatic.com/CSS/ItemCatalog-4.css?v=7918>; rel="stylesheet"; type="text/css"
+P3P: CP="NOI CUR ADM OUR NOR STA NID"
+Set-Cookie: PHPSESSID=af1e4490580423d27a0d4f8a98e15563; path=/; domain=.metacafe.com
+Set-Cookie: OAGEO=OM%7C06%7CMuscat%7C%7C23.6133%7C58.5933%7C%7C%7C%7C%7C; path=/; domain=.metacafe.com
+Set-Cookie: OAID=f8d1bab52adfc644eeeaebf22a3db9ad; expires=Wed, 19-Jun-2013 13:56:59 GMT; path=/; domain=.metacafe.com
+Set-Cookie: User=%7B%22sc%22%3A1%2C%22visitID%22%3A%2223f32dcc0acbfaea47493eaf66792b51%22%2C%22LEID%22%3A44%2C%22LangID%22%3A%22en%22%2C%22npUserLocations%22%3A%5B164%5D%2C%22npUserLanguages%22%3A%5B0%5D%2C%22ffilter%22%3Atrue%2C%22referrer%22%3A%22http%3A%5C%2F%5C%2Fwww.yahoo.com%22%2C%22pve%22%3A1%2C%22fbconnected%22%3Afalse%7D; expires=Sun, 18-Jun-2017 13:56:59 GMT; path=/; domain=.metacafe.com
+Set-Cookie: dsavip=3417313452.20480.0000; expires=Tue, 19-Jun-2012 14:56:59 GMT; path=/
+Title: satishsethswan's Channel at Metacafe
+X-Meta-Author: metacafe.com
+X-Meta-Classification: Humor,Entertainment
+X-Meta-Copyright: http://www.metacafe.com
+X-Meta-ROBOTS: noodp

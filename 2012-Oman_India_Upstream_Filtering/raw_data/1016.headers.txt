@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Date: Tue, 19 Jun 2012 16:04:23 GMT
+Pragma: private
+Server: nginx/1.0.12
+Content-Length: 79382
+Content-Type: text/html; charset=ISO-8859-1
+Client-Date: Mon, 18 Jun 2012 23:33:39 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Content-Base: http://www.legendarydevils.com/
+Link: <http://www.legendarydevils.com/>; rel="canonical"
+Link: <http://www.legendarydevils.com/favicon.ico>; rel="Shortcut Icon"; type="image/x-icon"
+Link: <http://www.legendarydevils.com/external.php?type=RSS2>; rel="alternate"; title="Rapidshare Downloads Forums RSS Feed"; type="application/rss+xml"
+Link: <http://www.legendarydevils.com/css.php?styleid=6&langid=1&d=1338835148&td=ltr&sheet=bbcode.css,editor.css,popupmenu.css,reset-fonts.css,vbulletin.css,vbulletin-chrome.css,vbulletin-formcontrols.css,>; rel="stylesheet"; type="text/css"
+Link: <http://www.legendarydevils.com/css.php?styleid=6&langid=1&d=1338835148&td=ltr&sheet=forumbits.css,forumhome.css,widgets.css,sidebar.css,options.css,tagcloud.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.legendarydevils.com/css.php?styleid=6&langid=1&d=1338835148&td=ltr&sheet=additional.css>; rel="stylesheet"; type="text/css"
+Set-Cookie: bb_sessionhash=346dac3f24b7780ea7d6a2a0d00e8a56; path=/; HttpOnly
+Set-Cookie: bb_lastvisit=1340121862; expires=Wed, 19-Jun-2013 16:04:22 GMT; path=/
+Set-Cookie: bb_lastactivity=0; expires=Wed, 19-Jun-2013 16:04:22 GMT; path=/
+Set-Cookie: vbseo_loggedin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+Title: Rapidshare Downloads Forums
+X-Meta-Description: A large Rapidshare Downloads Forums which provides latest Applications, Games, Movies, Music, Mac, E-Books and much more.
+X-Meta-Fileserve: fileserve.com-dheeraj4uuu-a82ed528e2511d3232d2c92e274ffe31
+X-Meta-Generator: vBulletin 4.1.5
+X-Meta-Google-Site-Verification: QP5P2g_XAlIChpqCYoW-U5JX1gVTK7tA9r7ifVT-Pok
+X-Meta-Hotfile: hotfile.com-dheeraj4uuu-af54a16717b8fcb
+X-Meta-Keywords: rapidshare, downloads, forums, legendarydevils, megaupload, torrent, free, full, free movie, mp3 download, rapidshare download, hotfile download, forum, download, software, games, movies, tv shows, ebooks, templates, crack, serial, keygen
+X-Meta-Msvalidate.01: 6563ADF84B513B146BFF21163D8BB0D9
+X-Meta-Msvalidate.01: 69F3C9ADD4DC7A8DAC0E27E8C61C042D
+X-Meta-Vb-Meta-Bburl: http://www.legendarydevils.com
+X-Meta-Verifyownership: df4f781fbd8fbb8e0e8eedafc55daa5d
+X-Powered-By: PHP/5.3.10

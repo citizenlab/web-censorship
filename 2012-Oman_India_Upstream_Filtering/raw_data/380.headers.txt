@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Tue, 19 Jun 2012 14:07:37 GMT
+Accept-Ranges: bytes
+ETag: "459006-6f-4b0a9ebde0400"
+Server: Apache/2.2.21 (Unix) mod_ssl/2.2.21 OpenSSL/0.9.8e-fips-rhel5 mod_fcgid/2.3.6 Phusion_Passenger/3.0.9 mod_bwlimited/1.4
+Content-Length: 111
+Content-Type: text/html
+Last-Modified: Tue, 01 Nov 2011 10:36:00 GMT
+Client-Date: Mon, 18 Jun 2012 21:50:41 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Refresh: 0;URL=/cgi-sys/defaultwebpage.cgi

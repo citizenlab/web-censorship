@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Date: Mon, 18 Jun 2012 20:03:50 GMT
+ETag: "698a1b56-f1c0-413d-8261-d572e0338991"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Mon, 18 Jun 2012 20:03:50 GMT
+Last-Modified: Mon, 18 Jun 2012 18:04:30 GMT
+Client-Date: Mon, 18 Jun 2012 20:03:53 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://exposingtheleft.blogspot.com/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://exposingtheleft.blogspot.com/>; rel="canonical"
+Link: <http://exposingtheleft.blogspot.com/feeds/posts/default>; rel="alternate"; title="OpiniPundit - Atom"; type="application/atom+xml"
+Link: <http://exposingtheleft.blogspot.com/feeds/posts/default?alt=rss>; rel="alternate"; title="OpiniPundit - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/10852054/posts/default>; rel="service.post"; title="OpiniPundit - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=10852054>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/profile/10320707905808135206>; rel="me"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://exposingtheleft.blogspot.com/>; rel="openid.delegate"
+Link: <http://www.blogger.com/static/v1/widgets/1355816394-widget_css_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=10852054&zx=698a1b56-f1c0-413d-8261-d572e0338991>; rel="stylesheet"; type="text/css"
+Title: OpiniPundit
+X-Content-Type-Options: nosniff
+X-Meta-Generator: blogger
+X-Meta-MSSmartTagsPreventParsing: true
+X-XSS-Protection: 1; mode=block

@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Date: Tue, 19 Jun 2012 14:10:01 GMT
+Accept-Ranges: bytes
+Server: Apache
+Content-Length: 38469
+Content-Type: text/html
+Last-Modified: Tue, 19 Jun 2012 10:39:49 GMT
+Client-Date: Mon, 18 Jun 2012 21:53:14 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Link: <css/home_warid.css>; rel="stylesheet"; type="text/css"
+Title: .:: ApniISP.Com ::. Latest Indian & Pakistani Songs, Free Polyphonic Ringtones, Wallpapers.
+X-Cache-Lookup: HIT
+X-Meta-Category: Entertainment
+X-Meta-Description: ApniISP is leading website of Pakistani & Indian music with large collection of songs available for download, watch & download latest pakistani videos, updates on concerts & bollywood movie reviews, Pakistan's biggest entertainment portal.
+X-Meta-Distribution: Global
+X-Meta-Keywords: pakistani music, pakistani songs, indian music, indian songs, download mp3 songs, music, coke studio, mp3, bollywood songs, free mp3 music download, ringtones, free ringtones, free polyphonic ringtones, download free ringtones, games, free games, free online games, online games, wallpapers, free wallpapers, desktop wallpapers, bollywood wallpapers, celebrity interviews, greeting cards, free greeting cards, jokes, free jokes, funny jokes, recipes, quiz, katrina kaif, kareena kapoor, bipasha basu, deepika padukone, priyanka chopra, shahrukh khan, salman khan, ranbir kapoor, shahid kapoor, imran khan, arjun rampal, akshay kumar, ali zafar, atif aslam, faakhir, fuzon, hadiqa kiyani, jal, najam sheraz, noori, shehzad roy, call, strings, ahmed jehanzeb, roxen, annie, ali azmat, band
+X-Meta-Resource-Type: document
+X-Meta-Revisit-After: 1 days
+X-Meta-ROBOTS: all
+X-Meta-ROBOTS: INDEX,FOLLOW

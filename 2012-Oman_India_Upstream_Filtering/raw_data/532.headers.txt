@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Cache-Control: post-check=0, pre-check=0
+Connection: close
+Date: Tue, 19 Jun 2012 14:45:03 GMT
+Pragma: no-cache
+ETag: 6666cd76f96956469e7be39d750cc7d9
+Server: Apache/2.2.15 (CentOS)
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Expires: Mon, 1 Jan 2001 00:00:00 GMT
+Last-Modified: Tue, 19 Jun 2012 14:45:03 GMT
+Client-Date: Mon, 18 Jun 2012 22:28:06 GMT
+Client-Peer: 108.163.159.34:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Content-Base: http://bharatlover.com/
+Link: </index.php?format=feed&type=rss>; rel="alternate"; title="RSS 2.0"; type="application/rss+xml"
+Link: </index.php?format=feed&type=atom>; rel="alternate"; title="Atom 1.0"; type="application/atom+xml"
+Link: </index.php?jat3action=gzip&jatype=css&jafile=t3-assets%2Fcss0bb76.css>; rel="stylesheet"; type="text/css"
+Link: </index.php?jat3action=gzip&jatype=css&jafile=t3-assets%2Fcss294fd.css>; rel="stylesheet"; type="text/css"
+Link: </plugins/system/jat3/base-themes/default/images/favicon.ico>; rel="shortcut icon"; type="image/x-icon"
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Set-Cookie: b4bfe97c8894f4ee696db9d849d5da77=irn9gtk14ac6p9etd9o41ob3e1; path=/
+Title: Watch Full Hindi Movies Online, Bollywood Movie Videos Songs Online
+X-Meta-Description: Online Hindi Movies Watch Latest and Oldest Hindi Music Videos Online, Film Bollywood Movie Online, Hindi Movie Online, Lyrics, Listen Mp3, Bollywood Actor Photos
+X-Meta-Generator: Joomla! 1.5 - Open Source Content Management
+X-Meta-Keywords: Online Hindi Movies Watch Hindi Movie Video Songs Online, Bollywood Music, Watch Bollywood Film Old hindi Movie Songs, Indian songs, Indian Movie Online
+X-Meta-ROBOTS: index, follow
+X-Powered-By: PHP/5.3.3

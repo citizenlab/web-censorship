@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Date: Tue, 19 Jun 2012 14:12:18 GMT
+Pragma: no-cache
+Server: Microsoft-IIS/6.0
+Content-Length: 60206
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Client-Date: Mon, 18 Jun 2012 21:55:21 GMT
+Client-Peer: 68.178.232.100:80
+Client-Response-Num: 1
+Set-Cookie: fc=fcVal=870071849663322112; domain=desihits.net; expires=Fri, 01-Jan-2038 07:00:00 GMT; path=/
+Title: desihits.net
+X-AspNet-Version: 2.0.50727
+X-Meta-ROBOTS: index,nofollow
+X-Powered-By: ASP.NET

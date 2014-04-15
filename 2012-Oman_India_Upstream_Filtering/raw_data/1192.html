@@ -1,0 +1,2285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="http://images.desitara.com/css_v3/img/default/favicon.ico" type="icon" rel="icon" /><link href="http://images.desitara.com/css_v3/img/default/favicon.ico" type="icon" rel="shortcut icon" /><title>Showcase Talent | Portal | Community | Hunt | Contest | Events | Videos</title>
+<meta name="description" content="Desitara is a unique online Talent Search Portal to showcase your talent, talent videos, talent hunt, talent contest, explore talent, blogs, events and many more." />
+<meta name="keywords" content=" showcase talent, talent portal, talent community, talent hunt, talent contest, events, talent videos, online talent community, online talent portal, online talent contest, explore talent, got talent, talent search" />
+<meta name="google-site-verification" content="jhJnJOZbCBtyFZgoL00yBuMJKqanH3I9Fzuzy9L3pcU" />
+
+<meta name="alexaVerifyID" content="uXEN6S4pJ8wjVGmtjDuHGzB5oYk" />
+<meta property="fb:app_id" content="307498699284906" />
+<!-- meta for search purpose start -->
+<!-- meta for search purpose end -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://images.desitara.com/css_v3/css/newtheme/site/default.css" /><script type="text/javascript" src="http://static.desitara.com/jsv3/jquery/jquery_1_3_2.js"></script><script type="text/javascript" src="http://static.desitara.com/jsv3/jquery/jquery.jcarousel.js"></script><script type="text/javascript" src="http://static.desitara.com/jsv3/common.js"></script>
+
+
+
+<script>
+var sessionfb = "";
+var fbredirect = "http://www.desitara.com/users/fbSessionDel/facebook:true";
+if(window!=window.top) {
+	window.location = fbredirect;
+}else if(window == window.top && sessionfb == 1){
+	window.location = fbredirect;
+}
+</script>
+
+<script>
+var zedoadvtids = new Array(); // 870 - refresh ads
+dt(document).ready(function(){
+	var the_objasasa = dt('.single_row').ThreeDots({
+		max_rows: 1,
+		whole_word:false
+	});
+	var the_objasasa = dt('.double_row').ThreeDots({
+		max_rows: 2,
+		whole_word:false
+	});
+	var the_objasasa = dt('.three_row').ThreeDots({
+		max_rows: 3,
+		whole_word:false
+	});
+});
+//var serverTime = '1340123097';
+dt.loadingMessage = '<p><img src="http://images.desitara.com/css_v3/img/common/loader_black_bg.gif"/>Loading...</p>';
+</script>
+
+<script>
+var serverTime = '1340123097';
+</script>
+
+<script>
+dt.site_base_url = '';
+dt.current_url = '/';
+var menu_array = {};
+var menu_count_array = {};
+function setsrchtype(typevalue,typekey, searchDefaultValue, engtypes)
+{
+	if(engtypes == 'Blogs')
+		engtypes = 'Wpblogs';
+	document.getElementById('toptype').value = engtypes;
+	if((document.topstartsearch.topterm.value == searchDefaultValue)||(document.topstartsearch.topterm.value == '')){
+		document.topstartsearch.topterm.value = '';
+		return false;
+	}
+//	document.getElementById('settype').innerHTML = typevalue;
+	document.getElementById('topstartsearch').submit();
+}
+function isIE6()
+{
+	if (/MSIE (\d+\.\d+);/.test(navigator.userAgent))
+	{ //test for MSIE x.x;
+	 var ieversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+	 if (ieversion<=6) return true;
+	 else return false;
+	}
+}
+function isSafari(){
+	if (/Safari/.test(navigator.userAgent))
+		return true;
+	else
+		return false;
+}
+</script>
+
+</head>
+ 
+<body>
+<div id="fb-root"></div>
+<script>
+ window.fbAsyncInit = function() {
+    FB.init({
+	    appId  : '307498699284906',
+	    status : true, // check login status
+	    cookie : true, // enable cookies to allow the server to access the session
+	    xfbml  : true, // parse XFBML
+	    channelUrl : 'http://www.desitara.com/channel.html', // channel.html file
+	    oauth  : true // enable OAuth 2.0
+    }); 
+  };
+  (function() {
+     var e = document.createElement('script'); e.async = true;
+     e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+     document.getElementById('fb-root').appendChild(e);
+   }());
+function fblogin() {
+  FB.login(function(response) {
+	if(response.session) {
+	    if (response.perms) {
+	    	window.location = "http://www.desitara.com/users/fblogin";
+	    } else {
+	      // user is logged in, but did not grant any permissions --- dont do anything
+	    }
+	}else {
+			FB.getLoginStatus(function(response) {
+			  if (response.status === 'connected') {
+			    // the user is logged in and connected to your app, and response.authResponse supplies the user's ID, a valid access token, a signed request, and the time the access token and signed request each expire
+			    var uid = response.authResponse.userID;
+			    var accessToken = response.authResponse.accessToken;
+			    window.location = "http://www.facebook.com/dialog/oauth?client_id=307498699284906&redirect_uri=http%3A%2F%2Fwww.desitara.com%2Fusers%2Ffblogin";
+			  } else if (response.status === 'not_authorized') {
+			    // the user is logged in to Facebook, but not connected to the app
+			  } else {
+			    // the user isn't even logged in to Facebook.
+			  }
+		});
+	    // user is not logged in
+	}
+	}, {scope:'email,user_birthday,user_about_me,user_events,user_groups,user_hometown,user_location,publish_stream'});
+  }
+  function chkfblogin(){
+		 fblogin();
+		dt.loginDialog.hide();
+	}
+</script>
+<!-- top header ad -->
+<div class="v4_topadv">
+</div>
+<!-- top header ad over -->
+<div  id='index'>
+  <!--googleoff: all-->
+
+	    <textarea STYLE="display:none" id="user_data">
+    {"Config":{"userAgent":"76d59d2b0a3d39c65cf1530e3266197d","time":1340150096,"timeout":10},"new_version":"1","User":{"id":0,"user_name":""}}    </textarea>
+
+<!--googleon: all-->
+<script>
+dt(document).ready(function() {
+//Changes for error messages hiding after some seconds...
+if (dt("#flashMessage")){
+	setTimeout(function() {
+		dt('#flashMessage').fadeOut('fast');
+	}, 5000);
+}
+ if(dt.validator){
+  dt.validator.messages= {
+		required: "This field is required.",
+		remote: "Please fix this field.",
+		email: "Please enter a valid email address.",
+		url: "Please enter a valid URL.",
+		date: "Please enter a valid date.",
+		dateISO: "Please enter a valid date (ISO).",
+		dateDE: "Bitte geben Sie ein gültiges Datum ein.",
+		number: "Please enter a valid number.",
+		numberDE: "Bitte geben Sie eine Nummer ein.",
+		digits: "Please enter only digits",
+		creditcard: "Please enter a valid credit card number.",
+		equalTo: "Please enter the same value again.",
+		accept: "Please enter a value with a valid extension.",
+		maxlength: dt.format("Please enter no more than {0} characters."),
+		minlength: dt.format("Please enter at least {0} characters."),
+		rangelength: dt.format("Please enter a value between {0} and {1} characters long."),
+		range: dt.format("Please enter a value between {0} and {1}."),
+		max: dt.format("Please enter a value less than or equal to {0}."),
+		min: dt.format("Please enter a value greater than or equal to {0}."),
+		phone: "Please enter a valid phone number"
+		
+	} 
+ }
+
+ if(dt.timeago){
+	dt.timeago.settings.strings = {
+        prefixAgo: null,
+        prefixFromNow: null,
+        suffixAgo: "ago",
+        suffixFromNow: "from now",
+        ago: null, // DEPRECATED, use suffixAgo
+        fromNow: null, // DEPRECATED, use suffixFromNow
+        seconds: "few seconds",
+        minute: " a minute",
+        minutes: "%d minutes",
+        hour: " an hour",
+        hours: " %d hours",
+        day: "a day",
+        days: "%d days",
+        month: " a month",
+        months: "%d months",
+        year: " a year",
+        years: "%d years"
+	};
+ }
+	dt.boxy_label = {};
+	dt.boxy_label.okText = "Boxy.Ok";
+	dt.boxy_label.cancelText = "Boxy.Cancel";
+	dt.boxy_label.confirmText = "Boxy.Confirm";
+
+});
+</script>
+  
+    <script>
+	dt(document).ready(function() {
+					dt.extend(dt, dt.evalJSON('{"User":{"id":0,"user_name":""}}'));
+			});
+</script>
+
+ <!-- login popup --> 
+<div id="loginboxtextarea" style="display:none;">
+<div class="clsContentArea" id="login_boxy_box" style="display:none;">
+<div class="clsSignInHead">
+<h1>Sign In</h1>
+<a href="javascript:void(0);" onclick="chkfblogin();return false;"><img src="http://images.desitara.com/css_v3/img/default/v4facebook_login.jpg"></a>
+</div>
+<form id="UserLoginForm" method="post" action="/users/login"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset><table class="clsSignInTable">
+<tr>
+<td>e_email&nbsp;or&nbsp;username</td>
+<td class="clsSignInInput"><input type="text" id="Useruser_name_dt" value="" name="data[User][user_name]"/></td>
+</tr>
+<tr>
+<td>password</td>
+<td class="clsSignInInput"><input type="password" id="UserPassword_dt" value="" name="data[User][password]"/></td>
+</tr>
+<tr><td>&nbsp;</td><td class="clsSignInForget forgotpass"><a href="/users/forgotpassword">forgot password</a></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td class="clsSignInForget">
+<input type="submit" name="submit" value="Sign In" class="clsSignInBtn" />
+</td>
+</tr>
+</table>
+<input type="hidden" id="next_url" name="next_url" value="" />
+<input type="hidden" id="from_contest" name="from_contest" value="" />
+</form><p class="clsRememberSignIn">
+	menu_Not a member?    <span class="clsSignInJoin"><a href="/users/signup">Join Now</a> </span>
+</p>
+</div>
+</div>
+<!-- end of login popup --> 
+  <!-- clsCommonBody -->
+  <div id="page">
+    <!-- Header -->
+<div id="header">
+<div class="headcontent clear">   
+      <!-- logo -->
+      
+     <a title="Desitara" href="/"><img style="float:left;" alt="Desitara"  src="http://images.desitara.com/css_v3/img/default/logo.jpg"/></a>
+
+      <!-- end of logo -->
+    <div class="righthead">
+          <div class="login clear">
+            <ul>
+              
+				<li><div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function() {
+	    FB.init({
+		    appId  : '307498699284906',
+		    status : true, // check login status
+		    cookie : true, // enable cookies to allow the server to access the session
+		    xfbml  : true, // parse XFBML
+		    channelUrl : 'http://www.desitara.com/channel.html', // channel.html file
+		    oauth  : true // enable OAuth 2.0
+	    });
+      };
+
+      (function() {
+          var e = document.createElement('script'); e.async = true;
+          e.src = document.location.protocol +
+            '//connect.facebook.net/en_US/all.js';
+          document.getElementById('fb-root').appendChild(e);
+        }());
+
+</script>
+<script>
+function fblogin() {
+	FB.login(function(response) {
+	  if (response.session) {
+	    if (response.perms) {
+	    	window.location = "http://www.desitara.com/users/fblogin";
+	    } else {
+	      // user is logged in, but did not grant any permissions --- dont do anything
+	    }
+	  } else {
+		  FB.getLoginStatus(function(response) {
+			  if (response.status === 'connected') {
+			    // the user is logged in and connected to your app, and response.authResponse supplies the user's ID, a valid access token, a signed request, and the time the access token and signed request each expire
+			    var uid = response.authResponse.userID;
+			    var accessToken = response.authResponse.accessToken;
+			    window.location = "http://www.facebook.com/dialog/oauth?client_id=307498699284906&redirect_uri=http%3A%2F%2Fwww.desitara.com%2Fusers%2Ffblogin";
+			  } else if (response.status === 'not_authorized') {
+			    // the user is logged in to Facebook, but not connected to the app
+			  } else {
+			    // the user isn't even logged in to Facebook.
+			  }
+		  });
+	    // user is not logged in
+	  }
+	}, {scope:'email,user_birthday,user_about_me,user_events,user_groups,user_hometown,user_location,publish_stream'});
+}
+</script>
+<a href="javascript:void(0);" onclick="fblogin();return false;"><img src="http://images.desitara.com/css_v3/img/default/facebook_login.jpg"></a>
+				    </li><li>|</li><li><a href="/users/signup">Join</a>
+					</li>
+					<li>|</li><li><a href="javascript:void 0;" class="cls_Login">Login</a></li>            
+            </ul>
+          </div>
+          <div class="search clear">
+            <!-- menu -->
+              <ul class="menu">
+      <li>      <a class="clear" href="/talent" ><span>menu_TALENT</span>
+            </a>
+      </li>      <li class="seperator">&nbsp;</li>                         <li>      <a class="clear" href="/talent/contest" ><span>menu_CONTESTS</span>
+            </a>
+      </li>            <li id="lft_separator" class="lft seperator">&nbsp;</li>                   <li><p id="droplist" class="moredropdown">       <a class="clear" href="javascript: void(0);" ><span>menu_COMMUNITY</span>
+      <span class="arrow">&nbsp;</span>       </a>
+      </p></li>                  <li id="rgt_separator" class="rgt seperator">&nbsp;</li>             <li>      <a class="clear" href="/users/upload"  id="mainmenu_upload"><span>menu_UPLOAD</span>
+            </a>
+      </li>                         </ul>
+
+<script type="text/javascript">
+dt(document).ready(function() {
+  dt('#droplist').click(function (event){
+	dt('.loginname').removeClass("loginnameactive");
+	dt("#mystuff").hide();
+  });
+})
+</script>
+
+             <!-- end of menu -->
+             <div class="seachbar">
+                <div id="search_widget"><!-- SearchArea -->
+ 
+<form id="cref" name="cref" action="/search/results/" onSubmit="javascript:if(document.cref.searchTerm.value == &#39;Desitara Search&#39;) { document.cref.searchTerm.value = &#39;&#39;; return false; } if(document.cref.searchTerm.value == &#39;&#39;){ return false; } ">
+
+ <div class="input text"><input name="searchTerm" type="text" class="searchinput" id="autosuggestfortopsearch" value="Desitara Search" onclick="if(this.value==&quot;Desitara Search&quot;) this.value=&quot;&quot;;" onblur="if(this.value==&quot;&quot;) this.value=&quot;Desitara Search&quot;;" /></div>  <input class="searchsubmit" type="submit" name="sa" value="">
+</form>
+<!-- end of SearchArea --></div>
+              </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="dropcontent" class="clear" style="display:none;">
+      <ul class="clear community">
+        <li>
+          <h1>COMMUNITY</h1>
+          <img alt="communityicon" src="http://images.desitara.com/css_v3/img/default/communityicon.gif"/>
+        </li>
+        <li>
+          <p><a href="/photos">Photos</a></p>
+          <p><a href="/users">Members</a></p>
+          <p><a href="/events">Events</a></p>
+        </li>
+        <li>
+          <p><a href="/groups">Groups</a></p>
+          <p><a target="_blank" href="http://blogs.desitara.com/">Blogs</a></p>
+          <!--<p><a href="#">College Groups</a></p>
+          <p><a href="#">Clubbing Groups</a></p>-->
+        </li>
+      </ul>
+      <ul class="clear">
+        <li>
+          <h1>MORE</h1>
+          <img alt="zoomicon" src="http://images.desitara.com/css_v3/img/default/zoomicon.gif"/>
+        </li>
+        <li>
+          <!-- <p><a href="#">Poll</a></p>
+          <p><a href="#">Talent Jobs</a></p> -->
+          <p><a href="/aboutus">About Us</a></p>
+          <p><a href="/contactus">Contact Us</a></p>
+        </li>
+        <li>
+          <!--<p><a href="#">Movie Reviews</a></p>
+          <p><a href="#">Lyrics</a></p>
+          <p><a href="#">Help</a></p>-->
+          <p><a href="/advertise">Advertise</a></p>
+         <p><a href="/jobs">Jobs</a></p>
+          <p><a href="/press">Press</a></p>
+        </li>
+      </ul>
+    </div>
+    <script type="text/javascript">
+		dt(document).ready(function(){
+		dt("#dropcontent").click(function(event){
+		dt(this).css('display','block');
+		event.stopPropagation();
+		})
+		dt('.moredropdown').click(function (event){
+		dt("body").unbind("click");
+	if(dt("#dropcontent").css('display') == 'none') {
+		dt('#droplist').addClass("moredropactive");
+		dt("#dropcontent").css('display','block');
+		dt(".lft").css('display','none');
+		dt(".rgt").css('display','none');
+		
+		event.stopPropagation();
+		dt("body").bind("click", function (){
+		dt('#droplist').removeClass("moredropactive");
+		dt("#dropcontent").css('display','none');
+		dt(".lft").css('display','block');
+		dt(".rgt").css('display','block');
+		})
+	} else {
+		dt('#droplist').removeClass("moredropactive");
+		dt("#dropcontent").css('display','none');
+		dt(".lft").css('display','block');
+		dt(".rgt").css('display','block');
+		}
+		});
+		})
+</script>        
+<style>
+#verticaladv{clear:both;overflow:auto;position:relative;display:none;z-index:40;margin:0;}
+.verticaladv{display:none!important;}
+#weeklyChart_widget #tooltip{margin:77px 0 0 0!important;}
+.lftscrolladv{display:block;float:left;top:122px; margin:0 0 0 -55px;}
+.lftscrolladv embed,  .lftscrolladv iframe{ position:fixed;}
+.rgtscrolladv{display:block;top:122px; float:right;  margin:0 66px 0 0;}
+.rgtscrolladv #sidebar{ width:auto!important;}
+.rgtscrolladv embed,  .rgtscrolladv iframe{position:fixed;}
+#sidescrollbar , #advertise_side2, #advertise_side1{ float:none!important; overflow:hidden!important;}
+.lftscrolladv .widget, .rgtscrolladv .widget{ float:none!important; overflow:hidden!important;}
+</style>
+    <div id="verticaladv" class="">
+      <div style="width:1135px; margin:0 auto;">
+        <div class="lftscrolladv">
+                  </div>
+        <div class="rgtscrolladv">
+                  </div>
+      </div>
+    </div>
+    <!-- end of scroll adv -->
+
+<div class="promobg">
+<div class="facebook_merge clear">
+<p class="showcasetxt">Showcase your talent to the world </p>
+<p class="facebooktxt"><a href="javascript:void(0);" onClick="fblogin();return false;"><img src="http://images.desitara.com/css_v3/img/default/fbheaderbook.jpg" /></a></p><p class="mergetxt">Merge your desitara account with</p></div></div>
+<script>
+    window.fbAsyncInit = function() {
+	    FB.init({
+		    appId  : '307498699284906',
+		    status : true, // check login status
+		    cookie : true, // enable cookies to allow the server to access the session
+		    xfbml  : true, // parse XFBML
+		    channelUrl : 'http://www.desitara.com/channel.html', // channel.html file
+		    oauth  : true // enable OAuth 2.0
+	    });
+      };
+
+      (function() {
+          var e = document.createElement('script'); e.async = true;
+          e.src = document.location.protocol +
+            '//connect.facebook.net/en_US/all.js';
+          document.getElementById('fb-root').appendChild(e);
+        }());
+
+</script>
+<script>
+function fblogin() {
+	FB.login(function(response) {
+	  if (response.session) {
+	    if (response.perms) {
+	    	window.location = "http://www.desitara.com/users/fblogin";
+	    } else {
+	      // user is logged in, but did not grant any permissions --- dont do anything
+	    }
+	  } else {
+		  FB.getLoginStatus(function(response) {
+			  if (response.status === 'connected') {
+			    // the user is logged in and connected to your app, and response.authResponse supplies the user's ID, a valid access token, a signed request, and the time the access token and signed request each expire
+			    var uid = response.authResponse.userID;
+			    var accessToken = response.authResponse.accessToken;
+			    window.location = "http://www.facebook.com/dialog/oauth?client_id=307498699284906&redirect_uri=http%3A%2F%2Fwww.desitara.com%2Fusers%2Ffblogin";
+			  } else if (response.status === 'not_authorized') {
+			    // the user is logged in to Facebook, but not connected to the app
+			  } else {
+			    // the user isn't even logged in to Facebook.
+			  }
+		  });
+	    // user is not logged in
+	  }
+	}, {scope:'email,user_birthday,user_about_me,user_events,user_groups,user_hometown,user_location,publish_stream'});
+}
+</script>
+
+<!-- banner --> 
+  <div id='header_banner_widget' class='widget '><link rel="stylesheet" type="text/css" href="http://images.desitara.com/css_v3/css/slides/global.css" /><div id="load_banner">
+  <div id="bannerscroll">
+    <div class="wrapper"> <img src='http://photos.desitara.com/filesv3/headerbanners/acting.jpg' usemap='#bannermap' /><div class="create_account">
+        <p class="v4_sigin_link">Have an Account? <a href ="/users/login" >Sign in</a> or</p>
+        <p class="sigup_link"><a href ="/users/signup/" >Create Account</a></p>
+      </div>
+      <div class="banner_txt">
+        <ul>
+          <li class="banner_list">
+            <p class="banner_title"> <a title="Upload Videos" href="/users/upload/">
+              UPLOAD VIDEOS              </a> </p>
+            <p class="banner_desc">Singing, Dancing, Acting, or any Talent Videos</p>
+          </li>
+          <li class="banner_list">
+            <p class="banner_title"> <a title="Upload Videos" href="/users/upload/">
+              UPLOAD PHOTOS              </a> </p>
+            <p class="banner_desc">Modeling Photos</p>
+          </li>
+          <li class="banner_list">
+            <p class="banner_title"> <a title="Join Contest" href="/talent/contest/">
+              JOIN CONTEST              </a> </p>
+            <p class="banner_desc">Share Contest</p>
+          </li>
+          <li class="banner_list">
+            <p class="banner_title"> <a title="Create Groups" href="/groups/create/">
+              CREATE GROUPS              </a> </p>
+            <p class="banner_desc">A Talent Group</p>
+          </li>
+          <li class="banner_list border_none">
+            <p class="banner_title"> <a title="Create Events" href="/events/create/">
+              CREATE EVENTS              </a> </p>
+            <p class="banner_desc">Events</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="infiniteCarousel" id="bigscroll" style="display:none;">
+  <div class="wrapper">
+    <ul>
+            <li> <a  href="/talent/contest/Go_Green_Contest?feature=post"  title="Uploading Begins !!!"><img src='http://photos.desitara.com/filesv3/headerposters/GoGreen.jpg' />        <div class="bannerdesc" id="bannerdesc345">
+          <p class="bannertitle">
+            Go green contest          </p>
+          <p class="bannercate">
+            Uploading begin...          </p>
+        </div>
+        </a> </li>
+            <li> <a  href="/talent/contest/The_Extreme_Action_Games?feature=post"  title="The Dare Devil Rises"><img src='http://photos.desitara.com/filesv3/headerposters/extremeaction.jpg' />        <div class="bannerdesc" id="bannerdesc343">
+          <p class="bannertitle">
+            The extreme action g...          </p>
+          <p class="bannercate">
+            The dare devil ...          </p>
+        </div>
+        </a> </li>
+            <li> <a  href="/talent/contest/The_Battle_Of_The_Wizards?feature=post"  title="Uploading Begins !!!!"><img src='http://photos.desitara.com/filesv3/headerposters/BattleofWizard_Poster.jpg' />        <div class="bannerdesc" id="bannerdesc348">
+          <p class="bannertitle">
+            The battle of the wi...          </p>
+          <p class="bannercate">
+            Uploading begin...          </p>
+        </div>
+        </a> </li>
+            <li> <a  href="/groups/prank/Desitara_Prank?feature=post"  title="Desitara Prank"><img src='http://photos.desitara.com/filesv3/headerposters/prankd.jpg' />        <div class="bannerdesc" id="bannerdesc347">
+          <p class="bannertitle">
+            Desitara prank          </p>
+          <p class="bannercate">
+            Desitara prank          </p>
+        </div>
+        </a> </li>
+            <li> <a  href="/talent/contest/Street_Dance_Series_contest?feature=post"  title="Time For Something Different"><img src='http://photos.desitara.com/filesv3/headerposters/streetdance.jpg' />        <div class="bannerdesc" id="bannerdesc341">
+          <p class="bannertitle">
+            Street dance contest          </p>
+          <p class="bannercate">
+            Time for someth...          </p>
+        </div>
+        </a> </li>
+            <li> <a  href="/talent/contest/The_voice_of_2012_contest?feature=post"  title="Witness The Rise of A Star"><img src='http://photos.desitara.com/filesv3/headerposters/voiceof2012.jpg' />        <div class="bannerdesc" id="bannerdesc349">
+          <p class="bannertitle">
+            India's top model 20...          </p>
+          <p class="bannercate">
+            Witness the ris...          </p>
+        </div>
+        </a> </li>
+            <li> <a  href="/talent/contest/The_Acting_Idol_contest?feature=post"  title="A Birth Of An Actor"><img src='http://photos.desitara.com/filesv3/headerposters/actingidol.jpg' />        <div class="bannerdesc" id="bannerdesc346">
+          <p class="bannertitle">
+            The acting idol cont...          </p>
+          <p class="bannercate">
+            A birth of an a...          </p>
+        </div>
+        </a> </li>
+            <li> <a  href="/talent/contest/The_Piano_Master_Series?feature=post"  title="Uploading Begins !!!"><img src='http://photos.desitara.com/filesv3/headerposters/piano.jpg' />        <div class="bannerdesc" id="bannerdesc340">
+          <p class="bannertitle">
+            The piano master ser...          </p>
+          <p class="bannercate">
+            Uploading begin...          </p>
+        </div>
+        </a> </li>
+          </ul>
+  </div>
+</div>
+<script>
+var timeout = setTimeout(function(){dt("#load_banner").fadeOut("slow",complete);},6000);//by default wait for 6 sec;
+var posters_loaded = 0;
+dt("#load_banner").mouseover(function() {
+	if(timeout) clearTimeout(timeout); 
+    dt(this).unbind('mouseover');
+    timeout = setTimeout(function(){dt("#load_banner").fadeOut("slow",complete);},10000);//on hover wait for 10 sec
+});
+	function complete() {
+	  if(timeout) clearTimeout(timeout);
+	  dt("#load_banner").unbind('mouseover');	
+	  dt("#bigscroll").fadeIn();
+	  if(posters_loaded) return false;
+	  posters_loaded =1;		
+	  dt('.infiniteCarousel').infiniteCarousel();
+   }   
+(function () {
+    dt.fn.infiniteCarousel = function () {
+        function repeat(n) {
+            return new Array( n + 1 );
+        }
+        return this.each(function () {
+            // magic!
+            var $wrapper = dt('> div', this).css('overflow', 'hidden'),
+                $slider = $wrapper.find('> ul').width(9999),
+                $items = $slider.find('> li'),
+                $single = $items.filter(':first')
+                singleWidth = 245, //$single.outerWidth(), opera browser unable to calculate the width, hence its hardcoded
+                visible = 4,
+                currentPage = 1,
+                pages = Math.ceil($items.length / visible),
+                pagination = true,
+                paginationClass = 'pagination',
+                currentClass = 'current',
+                clicked = 0;   
+            /* TASKS */
+            // 1. pad the pages with empty element if required
+            if ($items.length % visible != 0) {
+                // pad
+                $slider.append(repeat(visible - ($items.length % visible)));
+                $items = $slider.find('> li');
+            }
+            // 2. create the carousel padding on left and right (cloned)
+            $items.filter(':first').before($items.slice(-visible).clone().addClass('cloned'));
+            $items.filter(':last').after($items.slice(0, visible).clone().addClass('cloned'));
+            $items = $slider.find('> li');
+            // 3. reset scroll
+            $wrapper.scrollLeft(singleWidth * visible);
+            
+            // 4. paging function
+            function gotoPage(page) {
+                var dir = page < currentPage ? -1 : 1,
+                    n = Math.abs(currentPage - page),
+                    left = singleWidth * dir * visible * n;
+                $wrapper.filter(':not(:animated)').animate({
+                    scrollLeft : '+=' + left
+                }, 1200, function () {
+                    // if page == last page - then reset position
+                   if (page > pages) {
+                        $wrapper.scrollLeft(singleWidth * visible);
+                        page = 1;
+                    } else if (page == 0) {
+                        page = pages;
+                        $wrapper.scrollLeft(singleWidth * visible * pages);
+                    }
+                    currentPage = page;
+                });
+                //-- change class of pagination
+                if(pagination) { var active = ((clicked == 0)?((pages === currentPage)?0:currentPage):(clicked-1));
+					// remove current class from all
+					dt('.'+ paginationClass +' li.' + currentClass).removeClass(currentClass);
+					// add current class to next
+					dt('.' + paginationClass + ' li:eq('+ active +')').addClass(currentClass);                    
+            }           
+            }           
+            // 5. insert the back and forward link
+           	if (pages > 1) {
+            	$wrapper.after('<div id="slides" class="clear"><a href="#" class="prev">&lt;</a><a href="#" class="next">&gt;</a></div>');
+				if(pagination){
+					$wrapper.next().append('<ul class='+ paginationClass +'></ul>');
+					number = start =0;
+					while(number < pages) { 
+						dt('.' + paginationClass, this).append('<li><a class="slides_navpage_link" href="#'+ (number+1) +'">'+ (number+1) +'</a></li>');
+						number++;	
+					}//end of while
+			}
+				// add current class to start slide pagination
+				dt('.' + paginationClass + ' li:eq('+ start +')', this).addClass(currentClass);     	
+			}
+            // 6. bind the back and forward links
+            dt('a.prev', this).click(function () { 
+                gotoPage(currentPage - 1);
+                return false;
+            });
+            dt('a.next', this).click(function () { 
+                gotoPage(currentPage + 1);
+                return false;
+            });
+            dt('a.slides_navpage_link', this).click(function () { 
+				// get clicked, pass to animate function					
+				clicked = parseInt(dt(this).attr('href').match('[^#/]+$'));
+				if(clicked != currentPage)
+				gotoPage(clicked);
+            
+				clicked =0;//reset
+                return false;
+            });
+           /* dt(this).bind('goto', function (event, page) {
+                gotoPage(page);
+            });            
+            dt(this).bind('next', function () {
+                gotoPage(currentPage + 1);
+            });*/
+            });
+    };
+})(dt);
+</script>
+</div><!-- end of banner --> 
+<div class="commoncontainer" style="margin:0;">
+
+<div id="desitaras_index" class="contentbar">
+ <!--googleon: all--><!--<div style="display:none;" id="desistat">4f97f6543a4f17b0bb0b72279ddbdad8</div>--><!--googleon: all--> 
+<!-- start of sidebar -->
+        <!-- end of sidebar -->
+        
+                  
+        <div id="commoncontainer" class="clear"> 
+  <div id="main"> 
+  	
+  	<div id='talent_videos_widget' class='widget '><div class="bottomborder">
+<ul class="widgetitle videocateicons clear">
+<li class="title">TALENTS OF THE DAY</li>
+
+<li class="talenticon">
+<a alt = "All" class="active" href="javascript:void(0);" title="All">talent</a>
+</li>
+
+
+<li class="musicicon">
+<a alt = "Singing" class="" href="javascript:void(0);" onclick="getCategoryVideos('Singing');" title="Singing">music</a>
+</li>
+
+<li class="actingicon">
+<a alt = "Acting" class="" href="javascript:void(0);" onclick="getCategoryVideos('Acting');" title="Acting">acting</a>
+</li>
+
+<li class="dancingicon">
+<a alt = "Dancing" class="" href="javascript:void(0);" onclick="getCategoryVideos('Dancing');" title="Dancing">dancing</a>
+</li>
+
+<li class="channelicon">
+<a alt = "Short Films" class="" href="javascript:void(0);" onclick="getCategoryVideos('Short-Films');" title="Short Films">channel</a>
+</li>
+
+
+<li class="instrumenticon">
+<a alt = "Instrumental" class="" href="javascript:void(0);" onclick="getCategoryVideos('Instrumental');" title="Instrumental">instrument</a>
+</li>
+
+<li class="magicicon">
+<a alt = "Magic" class="" href="javascript:void(0);" onclick="getCategoryVideos('Magic');" title="Magic">magic</a>
+</li>
+
+<li class="modelingicon">
+<a alt = "Modeling" class="" href="javascript:void(0);" onclick="getCategoryVideos('Fashion');" title="Fashion & Modeling">modeling</a>
+</li>
+
+
+<li class="adventureicon">
+<a alt = "Adventure" class="" href="javascript:void(0);" onclick="getCategoryVideos('Adventure');" title="Adventure & Sports">adventure</a>
+</li>
+</ul>
+<div id="contentarea" class="contentarea">
+<p class="description clear double_row"><span class="ellipsis_text">
+Browse today's talents, Do you believe in your talent then showcase talent videos on Desitara.com Upload your talent videos and talent shows on World's leading talent portal.
+</span></p>
+<ul class="widgetitle videoicons clear">
+<li class="title active">
+Talent&nbsp;Videos</li>
+<li class="viewall"><a href="/videos/talent/recent/?feature=tod1&cat=all">View All</a></li>
+</ul>
+<div id="smallscroll1" class="smallscroll">
+<div class="jcarousel-skin-tango" id="mycarousel-3798">
+<ul><li>
+<p>
+<a href="/videos/view/69446/KS1234___Pradeep_dancing_for__Kai_Mugidhu_Eru__Song?feature=tod1&cat=all" title="KS1234 - Pradeep dancing for "Kai Mugidhu Eru" Song">
+<img alt="KS1234 - Pradeep dancing for "Kai Mugidhu Eru" Song " src="http://vid1.desitara.com//e54326ce515507eab39510cc68a196e5L-182x102-5050.jpg"/>
+<span class="v4_182_102_playicon">&nbsp;</span>
+</a>
+</p>
+<p class="thumbtitle">
+<a href="/videos/view/69446/KS1234___Pradeep_dancing_for__Kai_Mugidhu_Eru__Song?feature=tod1&cat=all" title="KS1234 - Pradeep dancing for "Kai Mugidhu Eru" Song">
+Ks1234 - pradeep dancing f...</a>
+</p>
+<p class="thumbuser"> <span>
+by</span> <a href="http://www.desitara.com/Pradeep.CK?feature=tod1&cat=all" title="Pradeep.CK">
+Pradeep.CK</a>
+</p>
+</li>
+<li>
+<p>
+<a href="/videos/view/66518/Thursday_the_12th?feature=tod1&cat=all" title="Thursday the 12th">
+<img alt="Thursday the 12th" src="http://vid1.desitara.com//0f7f4216f37595c364e7254723f9d831L-182x102-5050.jpg"/>
+<span class="v4_182_102_playicon">&nbsp;</span>
+</a>
+</p>
+<p class="thumbtitle">
+<a href="/videos/view/66518/Thursday_the_12th?feature=tod1&cat=all" title="Thursday the 12th">
+Thursday the 12th</a>
+</p>
+<p class="thumbuser"> <span>
+by</span> <a href="http://www.desitara.com/Grownkid?feature=tod1&cat=all" title="Grownkid">
+Grownkid</a>
+</p>
+</li>
+<li>
+<p>
+<a href="/videos/view/11938/Dil_Na_Diya?feature=tod1&cat=all" title="Dil Na Diya">
+<img alt="Dil Na Diya" src="http://vid1.desitara.com//6b061fc28f74734L-182x102-5050.jpg"/>
+<span class="v4_182_102_playicon">&nbsp;</span>
+</a>
+</p>
+<p class="thumbtitle">
+<a href="/videos/view/11938/Dil_Na_Diya?feature=tod1&cat=all" title="Dil Na Diya">
+Dil na diya</a>
+</p>
+<p class="thumbuser"> <span>
+by</span> <a href="http://www.desitara.com/Azeemiqbal?feature=tod1&cat=all" title="Azeemiqbal">
+Azeemiqbal</a>
+</p>
+</li>
+<li>
+<p>
+<a href="/videos/view/72637/Arts_Vid_For_Source_Magazine___Dance_Freestyle___Lajit_Mob?feature=tod1&cat=all" title="Arts Vid For Source Magazine | Dance Freestyle | Lajit Mob">
+<img alt="Arts Vid For Source Magazine | Dance Freestyle | Lajit Mob " src="http://vid1.desitara.com//2bf1a0e9d1c3ff8b2b77f4ebcfba95a0L-182x102-5050.jpg"/>
+<span class="v4_182_102_playicon">&nbsp;</span>
+</a>
+</p>
+<p class="thumbtitle">
+<a href="/videos/view/72637/Arts_Vid_For_Source_Magazine___Dance_Freestyle___Lajit_Mob?feature=tod1&cat=all" title="Arts Vid For Source Magazine | Dance Freestyle | Lajit Mob">
+Arts vid for source magazi...</a>
+</p>
+<p class="thumbuser"> <span>
+by</span> <a href="http://www.desitara.com/garyB?feature=tod1&cat=all" title="garyB">
+GaryB</a>
+</p>
+</li>
+<li>
+<p>
+<a href="/videos/view/62512/Common_common_director_Video_song_by_bharatraj_d?feature=tod1&cat=all" title="Common common director Video song by bharatraj.d">
+<img alt="Common common director Video song by bharatraj.d" src="http://vid1.desitara.com//7e8e5ce6b4556a5e07ac351e76f27230L-182x102-5050.jpg"/>
+<span class="v4_182_102_playicon">&nbsp;</span>
+</a>
+</p>
+<p class="thumbtitle">
+<a href="/videos/view/62512/Common_common_director_Video_song_by_bharatraj_d?feature=tod1&cat=all" title="Common common director Video song by bharatraj.d">
+Common common director vid...</a>
+</p>
+<p class="thumbuser"> <span>
+by</span> <a href="http://www.desitara.com/bharatraj.d?feature=tod1&cat=all" title="bharatraj.d">
+Bharatraj.d</a>
+</p>
+</li>
+<li>
+<p>
+<a href="/videos/view/68366/Brokenstickz?feature=tod1&cat=all" title="Brokenstickz">
+<img alt="Brokenstickz" src="http://vid1.desitara.com//7bc1823fc5106bb3318f021b825cfb6fL-182x102-5050.jpg"/>
+<span class="v4_182_102_playicon">&nbsp;</span>
+</a>
+</p>
+<p class="thumbtitle">
+<a href="/videos/view/68366/Brokenstickz?feature=tod1&cat=all" title="Brokenstickz">
+Brokenstickz</a>
+</p>
+<p class="thumbuser"> <span>
+by</span> <a href="http://www.desitara.com/Residentskumfuk?feature=tod1&cat=all" title="Residentskumfuk">
+Residentskumfuk</a>
+</p>
+</li>
+<li>
+<p>
+<a href="/videos/view/14538/Dola_Re_Dola?feature=tod1&cat=all" title="Dola Re Dola">
+<img alt="Dola Re Dola" src="http://vid1.desitara.com//395af6444dfab37L-182x102-5050.jpg"/>
+<span class="v4_182_102_playicon">&nbsp;</span>
+</a>
+</p>
+<p class="thumbtitle">
+<a href="/videos/view/14538/Dola_Re_Dola?feature=tod1&cat=all" title="Dola Re Dola">
+Dola re dola</a>
+</p>
+<p class="thumbuser"> <span>
+by</span> <a href="http://www.desitara.com/Dhwani?feature=tod1&cat=all" title="Dhwani">
+Dhwani</a>
+</p>
+</li>
+<li>
+<p>
+<a href="/videos/view/11933/KAJARA_RE_by_Karishma?feature=tod1&cat=all" title="KAJARA RE by Karishma">
+<img alt="KAJARA RE by Karishma" src="http://vid1.desitara.com//56e48d306028f2aL-182x102-5050.jpg"/>
+<span class="v4_182_102_playicon">&nbsp;</span>
+</a>
+</p>
+<p class="thumbtitle">
+<a href="/videos/view/11933/KAJARA_RE_by_Karishma?feature=tod1&cat=all" title="KAJARA RE by Karishma">
+Kajara re by karishma</a>
+</p>
+<p class="thumbuser"> <span>
+by</span> <a href="http://www.desitara.com/Karishma?feature=tod1&cat=all" title="Karishma">
+Karishma</a>
+</p>
+</li>
+<li>
+<p>
+<a href="/videos/view/25252/gayathri_acharya_vivek_vidyalay?feature=tod1&cat=all" title="Gayathri acharya vivek vidyalay">
+<img alt="gayathri acharya vivek vidyalay" src="http://vid1.desitara.com//33e25ce2b801662L-182x102-5050.jpg"/>
+<span class="v4_182_102_playicon">&nbsp;</span>
+</a>
+</p>
+<p class="thumbtitle">
+<a href="/videos/view/25252/gayathri_acharya_vivek_vidyalay?feature=tod1&cat=all" title="Gayathri acharya vivek vidyalay">
+Gayathri acharya vivek vid...</a>
+</p>
+<p class="thumbuser"> <span>
+by</span> <a href="http://www.desitara.com/Gayatri_acharya?feature=tod1&cat=all" title="Gayatri_acharya">
+Gayatri_acharya</a>
+</p>
+</li>
+</ul>
+<div class="jcarousel-scroll">
+<div disabled="disabled" class="jcarousel-prev jcarousel-prev-disabled"></div>
+<div id="mycarousel-3798-next" class="jcarousel-next"></div>
+</div>
+</div>
+</div>
+<!--<p class="advertise clear"><img src="img/db/addthumb.jpg"/><span>Advertise</span></p>
+-->
+</div>
+</div>
+
+<script type="text/javascript">
+function getCategoryVideos(category){
+	loadLoadingImage('#contentarea');
+	dt("#talent_videos_widget").load('/videos/talent_videos_widget/selected_widget_id:3798/category:'+category);
+}
+</script>
+<script type="text/javascript">
+function mycarousel_3798_initCallback(carousel) {
+	dt('#mycarousel-3798-next').bind('click', function() { 
+		var link = dt('#mycarousel-3798-next').attr('href');
+		if(link != "#"){
+		    dt(location).attr('href',link);
+		} else carousel.next();
+		return false;
+	});
+
+	dt('#mycarousel-3798-prev').bind('click', function() {
+		carousel.prev();
+		return false;
+	});
+};
+
+function mycarousel_3798_buttonNextCallback(carousel, button, enabled) {
+	if(!enabled){ 
+		dt("#mycarousel-3798-next").attr("href", "/videos/talent/recent/?feature=tod1&cat=all");
+		dt("#mycarousel-3798-next").attr("disabled", false);
+		
+	}else{
+		dt("#mycarousel-3798-next").attr("href", "#");
+	}
+};
+
+dt(document).ready(function() {
+	dt("#mycarousel-3798").jcarousel({
+		scroll: 3,
+		itemFallbackDimension:300,
+		initCallback: mycarousel_3798_initCallback,
+		
+		// This tells jCarousel NOT to autobuild prev/next buttons
+		buttonNextCallback: mycarousel_3798_buttonNextCallback,
+		buttonNextHTML: null,
+		buttonPrevHTML: null
+	});
+});
+
+ 
+ 
+dt(document).ready(function(){
+	dt('.double_row').ThreeDots();
+});
+</script>
+
+
+
+
+</div>  
+  <div class="small_adv"><div id='sidebar' class='widget '><style type="text/css">
+#postroll{border:none;padding:0;}
+</style>
+<script>
+zedoadvtids.push("advertise_2");
+</script>
+<div class="widget" id="advertise_2" style="border:none!important;">
+<iframe src="http://d8.zedo.com/jsc/d8/ff2.html?n=1094;c=7;s=7;w=468;h=60" frameborder=0 marginheight=0 marginwidth=0 scrolling="no" allowTransparency="true" width=468 height=60></iframe></div>
+</div></div>
+  <div id='fun_widget' class='widget adv_noborder'> 
+<div class="bottomborder">
+<div id="funWidget_3794">
+ <ul class="widgetitle clear"> 
+    <li class="title">DESITARA FUN</li> 
+        	<li>
+            <!--  class="active" -->
+                                     <span href="javascript:void(0);" class="active" title="Desi CowBoy" style="color:#da2128; font:11px arial;">
+             
+            
+				Cow Boy            </span> 
+        </li> 
+         <li class="seperator">|</li>         	<li>
+            <!--  class="active" -->
+                                     <a href="javascript:void(0);"  onclick="getGroupVideos_3794(436);" title="Desitara Prank" >
+             
+				Prank            </a>
+         
+        </li> 
+                
+	    
+    <li class="viewall"><a href="/groupvideos/DesiCowBoy?feature=dtf"> View all</a></li> 
+  </ul> 
+  <div id="desc3794" class="contentarea">
+  <p class="description clear"> 
+        <a href="/groups/DesiCowBoy">
+    	<img src="http://groups1.desitara.com/6f3b1382f621601e4ee0739ec01d049dT-100X50-5050.jpg" alt="Desi CowBoy" title="Desi CowBoy" />
+    </a>
+    <span>Desi Cow boy hits the UK. No one is safe. Watch him interview and confuse celebrities, models and the general public.</span>
+	  </p> 
+   
+  <div id="smallscroll1" class="smallscroll"> 
+    <div class="jcarousel-skin-tango" id="mycarousel-3794"> 
+      <ul> 
+                <li> 
+          <p>
+          <a href="/videos/view/54475/Flirty_Woman__?feature=dtf" title="Flirty Woman!!"><img src="http://vid1.desitara.com//7b2cbf57db523828b6291f846827da5cL-182X102-5050.jpg" alt="Flirty Woman!!" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/54475/Flirty_Woman__?feature=dtf" title="Flirty Woman!!">
+		  Flirty woman!!</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desicowboy?feature=dtf" title="desicowboy">
+			Desicowboy          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/52720/RNV_Wrestling___Vain_Vs_Anton_Green?feature=dtf" title="RNV Wrestling - Vain Vs Anton Green"><img src="http://vid1.desitara.com//90b657d4f63f64430008ca0b142107cbL-182X102-5050.jpg" alt="RNV Wrestling - Vain Vs Anton Green" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/52720/RNV_Wrestling___Vain_Vs_Anton_Green?feature=dtf" title="RNV Wrestling - Vain Vs Anton Green">
+		  Rnv wrestling - vain vs anto...</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desicowboy?feature=dtf" title="desicowboy">
+			Desicowboy          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/53533/Exclusive_Events?feature=dtf" title="Exclusive Events"><img src="http://vid1.desitara.com//c8db90505613a8e117f397d00b019183L-182X102-5050.jpg" alt="Exclusive Events" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/53533/Exclusive_Events?feature=dtf" title="Exclusive Events">
+		  Exclusive events</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desicowboy?feature=dtf" title="desicowboy">
+			Desicowboy          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/52527/Desi_Tara_s_Talent_Hour_Contestant_4_?feature=dtf" title="Desi Tara's Talent Hour Contestant 4!"><img src="http://vid1.desitara.com//e4fce38f3b3e5fa6863c9e6c96ca9ccdL-182X102-5050.jpg" alt="Desi Tara's Talent Hour Contestant 4!" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/52527/Desi_Tara_s_Talent_Hour_Contestant_4_?feature=dtf" title="Desi Tara's Talent Hour Contestant 4!">
+		  Desi tara's talent hour cont...</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desicowboy?feature=dtf" title="desicowboy">
+			Desicowboy          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/53276/Juggy_D_at_the_AMA_s_Press_Launch__?feature=dtf" title="Juggy D at the AMA's Press Launch!!"><img src="http://vid1.desitara.com//99ed8de9f4113a13a2c707756f925d1eL-182X102-5050.jpg" alt="Juggy D at the AMA's Press Launch!!" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/53276/Juggy_D_at_the_AMA_s_Press_Launch__?feature=dtf" title="Juggy D at the AMA's Press Launch!!">
+		  Juggy d at the ama's press l...</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desicowboy?feature=dtf" title="desicowboy">
+			Desicowboy          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/53334/Desi_Cowboy_gets_Bachelor_Award__?feature=dtf" title="Desi Cowboy gets Bachelor Award!!"><img src="http://vid1.desitara.com//0fa687fa45cece0d0ac0a91037e90414L-182X102-5050.jpg" alt="Desi Cowboy gets Bachelor Award!!" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/53334/Desi_Cowboy_gets_Bachelor_Award__?feature=dtf" title="Desi Cowboy gets Bachelor Award!!">
+		  Desi cowboy gets bachelor aw...</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desicowboy?feature=dtf" title="desicowboy">
+			Desicowboy          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/56587/Dancing_at_the_AMA_s_after_party__?feature=dtf" title="Dancing at the AMA's after party!!"><img src="http://vid1.desitara.com//c0fc103b1824dd7f9f0acebb0b8532f6L-182X102-5050.jpg" alt="Dancing at the AMA's after party!!" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/56587/Dancing_at_the_AMA_s_after_party__?feature=dtf" title="Dancing at the AMA's after party!!">
+		  Dancing at the ama's after p...</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desicowboy?feature=dtf" title="desicowboy">
+			Desicowboy          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/52835/West_is_West_BFI_Premier?feature=dtf" title="West is West BFI Premier"><img src="http://vid1.desitara.com//98dc4ac988c782f610a03d55f707db82L-182X102-5050.jpg" alt="West is West BFI Premier" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/52835/West_is_West_BFI_Premier?feature=dtf" title="West is West BFI Premier">
+		  West is west bfi premier</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desicowboy?feature=dtf" title="desicowboy">
+			Desicowboy          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/53532/Easy_Asian_Brides___?feature=dtf" title="Easy Asian Brides!!!"><img src="http://vid1.desitara.com//75ba48caaf5b8afae5f9da0df6d432fdL-182X102-5050.jpg" alt="Easy Asian Brides!!!" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/53532/Easy_Asian_Brides___?feature=dtf" title="Easy Asian Brides!!!">
+		  Easy asian brides!!!</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desicowboy?feature=dtf" title="desicowboy">
+			Desicowboy          </a>
+          </p> 
+        </li> 
+              </ul> 
+    <div class="jcarousel-scroll">
+    <div disabled="disabled" class="jcarousel-prev jcarousel-prev-disabled"></div>
+    <div id="mycarousel-3794-next" class="jcarousel-next"></div>
+    </div>
+    </div> 
+   </div> 
+   </div>
+     <!--<p class="advertise clear"><img src="img/db/addthumb.jpg"/><span>Advertise</span></p> -->
+ </div>
+ </div>
+  
+<script type="text/javascript">
+function getGroupVideos_3794(id){
+	loadLoadingImage("#desc3794");
+	dt('#funWidget_3794').load('/desitaras/fun_widget/selected_widget_id:3794/groupId:'+id);
+}
+</script>
+
+<script type="text/javascript">
+function mycarousel_3794_initCallback(carousel) {
+	dt('#mycarousel-3794-next').bind('click', function() { 
+		var link = dt('#mycarousel-3794-next').attr('href');
+		if(link != "#"){
+		    dt(location).attr('href',link);
+		} else carousel.next();
+		return false;
+	});
+
+	dt('#mycarousel-3794-prev').bind('click', function() {
+		carousel.prev();
+		return false;
+	});
+};
+
+function mycarousel_3794_buttonNextCallback(carousel, button, enabled) {
+	if(!enabled){ 
+		dt("#mycarousel-3794-next").attr("href", "/groupvideos/DesiCowBoy?feature=dtf");
+		dt("#mycarousel-3794-next").attr("disabled", false);
+	}else{
+		dt("#mycarousel-3794-next").attr("href", "#");
+	}
+};
+dt(document).ready(function() {
+	dt("#mycarousel-3794").jcarousel({
+		scroll: 3,
+		itemFallbackDimension:300,
+		initCallback: mycarousel_3794_initCallback,
+		// This tells jCarousel NOT to autobuild prev/next buttons
+		buttonNextCallback: mycarousel_3794_buttonNextCallback,
+		buttonNextHTML: null,
+		buttonPrevHTML: null
+	});
+});
+</script>
+ </div>  
+  
+   <div class="small_adv"><div id='sidebar' class='widget '><style type="text/css">
+#postroll{border:none;padding:0;}
+</style>
+<script>
+zedoadvtids.push("advertise_2");
+</script>
+<div class="widget" id="advertise_2" style="border:none!important;">
+<iframe src="http://d8.zedo.com/jsc/d8/ff2.html?n=1094;c=7;s=7;w=468;h=60" frameborder=0 marginheight=0 marginwidth=0 scrolling="no" allowTransparency="true" width=468 height=60></iframe></div>
+</div></div>
+  <div id='fun_widget' class='widget '> 
+<div class="bottomborder">
+<div id="funWidget_3795">
+ <ul class="widgetitle clear"> 
+    <li class="title">ENDORSEMENTS</li> 
+        	<li>
+            <!--  class="active" -->
+                                     <a href="javascript:void(0);"  onclick="getGroupVideos_3795(463);" title="Success Saga" >
+             
+				Users            </a>
+         
+        </li> 
+         <li class="seperator">|</li>         	<li>
+            <!--  class="active" -->
+                                     <span href="javascript:void(0);" class="active" title="Celebrity endorsements" style="color:#da2128; font:11px arial;">
+             
+            
+				Celebrity            </span> 
+        </li> 
+                
+	    
+    <li class="viewall"><a href="/groupvideos/celebrities?feature=end"> View all</a></li> 
+  </ul> 
+  <div id="desc3795" class="contentarea">
+  <p class="description clear"> 
+        <span>Desitara.com is the one stop search for all the top entertainment professionals like filmmakers, producers, casting directors, photographers, music directors, choreographers and production companies in the search of a new talent. Industry honchos fol...</span>
+      </p> 
+   
+  <div id="smallscroll1" class="smallscroll"> 
+    <div class="jcarousel-skin-tango" id="mycarousel-3795"> 
+      <ul> 
+                <li> 
+          <p>
+          <a href="/videos/view/53437/Dipa_Shah___Actress?feature=end" title="Dipa Shah | Actress"><img src="http://vid1.desitara.com//62f1b1aa2feb37e49d45a9ffc2cfa17cL-182X102-5050.jpg" alt="Dipa Shah | Actress" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/53437/Dipa_Shah___Actress?feature=end" title="Dipa Shah | Actress">
+		  Dipa shah | actress</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desitaradotcom?feature=end" title="desitaradotcom">
+			Desitaradotcom          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/52120/Smack_My_Bitch_Up__?feature=end" title="Smack My Bitch Up!!"><img src="http://vid1.desitara.com//2b314368f6363b7dfd29fbd8c88f396eL-182X102-5050.jpg" alt="Smack My Bitch Up!!" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/52120/Smack_My_Bitch_Up__?feature=end" title="Smack My Bitch Up!!">
+		  Smack my bitch up!!</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desitaradotcom?feature=end" title="desitaradotcom">
+			Desitaradotcom          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/41079/Kailash_Kher_talks_about_desitara_com?feature=end" title="Kailash Kher talks about desitara.com"><img src="http://vid1.desitara.com//de01abbf44505d0cf75ba3d784469e5dL-182X102-5050.jpg" alt="Kailash Kher talks about desitara.com" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/41079/Kailash_Kher_talks_about_desitara_com?feature=end" title="Kailash Kher talks about desitara.com">
+		  Kailash kher talks about des...</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desitaradotcom?feature=end" title="desitaradotcom">
+			Desitaradotcom          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/48357/Actor_Dilip_Raj_?feature=end" title="Actor Dilip Raj "><img src="http://vid1.desitara.com//b4fade0ce2fd99de38a767e3864fd9ccL-182X102-5050.jpg" alt="Actor Dilip Raj " />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/48357/Actor_Dilip_Raj_?feature=end" title="Actor Dilip Raj ">
+		  Actor dilip raj </a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desitaradotcom?feature=end" title="desitaradotcom">
+			Desitaradotcom          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/46662/Ronny_Jhutti?feature=end" title="Ronny Jhutti"><img src="http://vid1.desitara.com//92d39dc211ca282a77e192a8d2cd574cL-182X102-5050.jpg" alt="Ronny Jhutti" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/46662/Ronny_Jhutti?feature=end" title="Ronny Jhutti">
+		  Ronny jhutti</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desitaradotcom?feature=end" title="desitaradotcom">
+			Desitaradotcom          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/45473/H_B4U_Presenter?feature=end" title="H,B4U Presenter"><img src="http://vid1.desitara.com//bd5bdd60ad4ea5c079c271800abbadb2L-182X102-5050.jpg" alt="H,B4U Presenter" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/45473/H_B4U_Presenter?feature=end" title="H,B4U Presenter">
+		  H,b4u presenter</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/suresh225?feature=end" title="suresh225">
+			Suresh225          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/45325/Subhash_Ghai_at_desitara_office?feature=end" title="Subhash Ghai at desitara office"><img src="http://vid1.desitara.com//c594d117eeb3103fb18ddee0a837a7beL-182X102-5050.jpg" alt="Subhash Ghai at desitara office" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/45325/Subhash_Ghai_at_desitara_office?feature=end" title="Subhash Ghai at desitara office">
+		  Subhash ghai at desitara off...</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desitaradotcom?feature=end" title="desitaradotcom">
+			Desitaradotcom          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/45470/Maysoon___Model_and_Presenter?feature=end" title="Maysoon - Model and Presenter"><img src="http://vid1.desitara.com//13f2d5e1989e439a7a84a0715a51cd4bL-182X102-5050.jpg" alt="Maysoon - Model and Presenter" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/45470/Maysoon___Model_and_Presenter?feature=end" title="Maysoon - Model and Presenter">
+		  Maysoon - model and presente...</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/nikhitha?feature=end" title="nikhitha">
+			Nikhitha          </a>
+          </p> 
+        </li> 
+                <li> 
+          <p>
+          <a href="/videos/view/53424/West_is_West_Interview?feature=end" title="West is West Interview"><img src="http://vid1.desitara.com//b8e0bd2ad6f987f1db21b2f363fefbaeL-182X102-5050.jpg" alt="West is West Interview" />
+          <span class="v4_182_102_playicon">&nbsp;</span>
+          </a>
+          </p> 
+          <p class="thumbtitle">
+          <a href="/videos/view/53424/West_is_West_Interview?feature=end" title="West is West Interview">
+		  West is west interview</a></p> 
+          <p class="thumbuser"><span>by</span>
+          <a href="http://www.desitara.com/desicowboy?feature=end" title="desicowboy">
+			Desicowboy          </a>
+          </p> 
+        </li> 
+              </ul> 
+    <div class="jcarousel-scroll">
+    <div disabled="disabled" class="jcarousel-prev jcarousel-prev-disabled"></div>
+    <div id="mycarousel-3795-next" class="jcarousel-next"></div>
+    </div>
+    </div> 
+   </div> 
+   </div>
+     <!--<p class="advertise clear"><img src="img/db/addthumb.jpg"/><span>Advertise</span></p> -->
+ </div>
+ </div>
+  
+<script type="text/javascript">
+function getGroupVideos_3795(id){
+	loadLoadingImage("#desc3795");
+	dt('#funWidget_3795').load('/desitaras/fun_widget/selected_widget_id:3795/groupId:'+id);
+}
+</script>
+
+<script type="text/javascript">
+function mycarousel_3795_initCallback(carousel) {
+	dt('#mycarousel-3795-next').bind('click', function() { 
+		var link = dt('#mycarousel-3795-next').attr('href');
+		if(link != "#"){
+		    dt(location).attr('href',link);
+		} else carousel.next();
+		return false;
+	});
+
+	dt('#mycarousel-3795-prev').bind('click', function() {
+		carousel.prev();
+		return false;
+	});
+};
+
+function mycarousel_3795_buttonNextCallback(carousel, button, enabled) {
+	if(!enabled){ 
+		dt("#mycarousel-3795-next").attr("href", "/groupvideos/celebrities?feature=end");
+		dt("#mycarousel-3795-next").attr("disabled", false);
+	}else{
+		dt("#mycarousel-3795-next").attr("href", "#");
+	}
+};
+dt(document).ready(function() {
+	dt("#mycarousel-3795").jcarousel({
+		scroll: 3,
+		itemFallbackDimension:300,
+		initCallback: mycarousel_3795_initCallback,
+		// This tells jCarousel NOT to autobuild prev/next buttons
+		buttonNextCallback: mycarousel_3795_buttonNextCallback,
+		buttonNextHTML: null,
+		buttonPrevHTML: null
+	});
+});
+</script>
+ </div>  <div id='contest_videos_widget' class='widget '>  
+<div class="bottomborder">
+    <ul class="widgetitle videoicons clear">
+        <li class="title">upld_CONTEST_VIDEOS</li>
+        <li class="viewall"><a href="/talent/contest/?feature=cv">View All</a></li>
+    </ul>
+
+  <div id="smallscroll1" class="smallscroll"> 
+    <div class="jcarousel-skin-tango" id="mycarousel-3822"> 
+      <ul>   
+	                    
+                <li>
+                    <p>
+                        <a href="/videos/view/74991/Arre_Deewano_Mujhe_Pehchano___DON?feature=cv" title="Arre Deewano Mujhe Pehchano---DON">
+                            <img alt="Arre Deewano Mujhe Pehchano---DON" src="http://vid1.desitara.com//63fb2df6f72f47cd11074107164cd6a6L-182X102-5050.jpg"/>
+                             <span class="v4_182_102_playicon">&nbsp;</span>
+                        </a>
+                    </p>
+                    
+                    <p class="thumbtitle">
+                        <a class="double_row" href="/videos/view/74991/Arre_Deewano_Mujhe_Pehchano___DON?feature=cv" title="Arre Deewano Mujhe Pehchano---DON">
+                                                          Arre deewano mujhe pehchano&#4...                        </a>
+                    </p>
+                    
+                    <p class="thumbuser">
+                        <span>by</span>
+                        <a href="http://www.desitara.com/sathyakumar" title="sathyakumar">
+							Sathyakumar                        </a>
+                    </p>
+                </li>
+			            
+                <li>
+                    <p>
+                        <a href="/videos/view/75025/Paul_Guerra___Extreme_Action_Games_Entry?feature=cv" title="Paul Guerra - Extreme Action Games Entry">
+                            <img alt="Paul Guerra - Extreme Action Games Entry" src="http://vid1.desitara.com//342938b96fb67961442dd09255e11f6eL-182X102-5050.jpg"/>
+                             <span class="v4_182_102_playicon">&nbsp;</span>
+                        </a>
+                    </p>
+                    
+                    <p class="thumbtitle">
+                        <a class="double_row" href="/videos/view/75025/Paul_Guerra___Extreme_Action_Games_Entry?feature=cv" title="Paul Guerra - Extreme Action Games Entry">
+                                                          Paul guerra &#45; extreme acti...                        </a>
+                    </p>
+                    
+                    <p class="thumbuser">
+                        <span>by</span>
+                        <a href="http://www.desitara.com/OHSK" title="OHSK">
+							OHSK                        </a>
+                    </p>
+                </li>
+			            
+                <li>
+                    <p>
+                        <a href="/videos/view/75020/Uppers_It_Ain_t_Easy?feature=cv" title="Uppers It Ain't Easy">
+                            <img alt="Uppers It Ain't Easy" src="http://vid1.desitara.com//d2bbc6bec48fa6d0495a6720247820a6L-182X102-5050.jpg"/>
+                             <span class="v4_182_102_playicon">&nbsp;</span>
+                        </a>
+                    </p>
+                    
+                    <p class="thumbtitle">
+                        <a class="double_row" href="/videos/view/75020/Uppers_It_Ain_t_Easy?feature=cv" title="Uppers It Ain't Easy">
+                                                          Uppers it ain&#39;t easy                        </a>
+                    </p>
+                    
+                    <p class="thumbuser">
+                        <span>by</span>
+                        <a href="http://www.desitara.com/Freestyle58" title="Freestyle58">
+							Freestyle58                        </a>
+                    </p>
+                </li>
+			            
+                <li>
+                    <p>
+                        <a href="/videos/view/74987/Line_Reviews_?feature=cv" title="Line Reviews ">
+                            <img alt="Line Reviews " src="http://vid1.desitara.com//5c67f97891f53a6f0525603f0ebf6b9aL-182X102-5050.jpg"/>
+                             <span class="v4_182_102_playicon">&nbsp;</span>
+                        </a>
+                    </p>
+                    
+                    <p class="thumbtitle">
+                        <a class="double_row" href="/videos/view/74987/Line_Reviews_?feature=cv" title="Line Reviews ">
+                                                          Line reviews                         </a>
+                    </p>
+                    
+                    <p class="thumbuser">
+                        <span>by</span>
+                        <a href="http://www.desitara.com/NeverMindSkate" title="NeverMindSkate">
+							NeverMindSkate                        </a>
+                    </p>
+                </li>
+			            
+                <li>
+                    <p>
+                        <a href="/videos/view/74983/Random_Funday_Sundays__Memorial_Crew_Montage_?feature=cv" title="Random Funday Sundays: Memorial Crew Montage ">
+                            <img alt="Random Funday Sundays: Memorial Crew Montage " src="http://vid1.desitara.com//177bd432deedcdf3acbb1150905ec598L-182X102-5050.jpg"/>
+                             <span class="v4_182_102_playicon">&nbsp;</span>
+                        </a>
+                    </p>
+                    
+                    <p class="thumbtitle">
+                        <a class="double_row" href="/videos/view/74983/Random_Funday_Sundays__Memorial_Crew_Montage_?feature=cv" title="Random Funday Sundays: Memorial Crew Montage ">
+                                                          Random funday sundays: memoria...                        </a>
+                    </p>
+                    
+                    <p class="thumbuser">
+                        <span>by</span>
+                        <a href="http://www.desitara.com/NeverMindSkate" title="NeverMindSkate">
+							NeverMindSkate                        </a>
+                    </p>
+                </li>
+			            
+                <li>
+                    <p>
+                        <a href="/videos/view/75004/last_warning_crew?feature=cv" title="Last warning crew">
+                            <img alt="last warning crew" src="http://vid1.desitara.com//1bcd2a47a2c497dedd4df6120e1c93d1L-182X102-5050.jpg"/>
+                             <span class="v4_182_102_playicon">&nbsp;</span>
+                        </a>
+                    </p>
+                    
+                    <p class="thumbtitle">
+                        <a class="double_row" href="/videos/view/75004/last_warning_crew?feature=cv" title="Last warning crew">
+                                                          Last warning crew                        </a>
+                    </p>
+                    
+                    <p class="thumbuser">
+                        <span>by</span>
+                        <a href="http://www.desitara.com/konstantin" title="konstantin">
+							Konstantin                        </a>
+                    </p>
+                </li>
+			            
+                <li>
+                    <p>
+                        <a href="/videos/view/75008/45_Minutes_with_Stephen_Humphries_?feature=cv" title="45 Minutes with Stephen Humphries ">
+                            <img alt="45 Minutes with Stephen Humphries " src="http://vid1.desitara.com//efd24e09c8b0621b13d63ae79e32ded6L-182X102-5050.jpg"/>
+                             <span class="v4_182_102_playicon">&nbsp;</span>
+                        </a>
+                    </p>
+                    
+                    <p class="thumbtitle">
+                        <a class="double_row" href="/videos/view/75008/45_Minutes_with_Stephen_Humphries_?feature=cv" title="45 Minutes with Stephen Humphries ">
+                                                          45 minutes with stephen humphr...                        </a>
+                    </p>
+                    
+                    <p class="thumbuser">
+                        <span>by</span>
+                        <a href="http://www.desitara.com/MrBeauskee" title="MrBeauskee">
+							MrBeauskee                        </a>
+                    </p>
+                </li>
+			            
+                <li>
+                    <p>
+                        <a href="/videos/view/74976/patient_in_ouarzazate?feature=cv" title="Patient in ouarzazate">
+                            <img alt="patient in ouarzazate" src="http://vid1.desitara.com//755b5c0dec011dd98cd986e56e7b97d3L-182X102-5050.jpg"/>
+                             <span class="v4_182_102_playicon">&nbsp;</span>
+                        </a>
+                    </p>
+                    
+                    <p class="thumbtitle">
+                        <a class="double_row" href="/videos/view/74976/patient_in_ouarzazate?feature=cv" title="Patient in ouarzazate">
+                                                          Patient in ouarzazate                        </a>
+                    </p>
+                    
+                    <p class="thumbuser">
+                        <span>by</span>
+                        <a href="http://www.desitara.com/jabbe123" title="jabbe123">
+							Jabbe123                        </a>
+                    </p>
+                </li>
+			            
+                <li>
+                    <p>
+                        <a href="/videos/view/74956/ErolutioN_cover_dance_SS501_Love_ya?feature=cv" title="ErolutioN cover dance SS501-Love ya">
+                            <img alt="ErolutioN cover dance SS501-Love ya" src="http://vid1.desitara.com//a6b5a4657493fda85140dd1c04eac4c6L-182X102-5050.jpg"/>
+                             <span class="v4_182_102_playicon">&nbsp;</span>
+                        </a>
+                    </p>
+                    
+                    <p class="thumbtitle">
+                        <a class="double_row" href="/videos/view/74956/ErolutioN_cover_dance_SS501_Love_ya?feature=cv" title="ErolutioN cover dance SS501-Love ya">
+                                                          Erolution cover dance ss501&#4...                        </a>
+                    </p>
+                    
+                    <p class="thumbuser">
+                        <span>by</span>
+                        <a href="http://www.desitara.com/yourkira" title="yourkira">
+							Yourkira                        </a>
+                    </p>
+                </li>
+			 
+      </ul> 
+      <div class="jcarousel-scroll">
+<div disabled="disabled" class="jcarousel-prev jcarousel-prev-disabled"></div>
+<div id="mycarousel-3822-next" class="jcarousel-next"></div>
+    </div> 
+    </div> 
+
+  <!--<p class="advertise clear"><img src="img/db/addthumb.jpg"/><span>Advertise</span></p> ONCE WE GET ADS WE CAN ENABLE THIS, suggested by Sasi-->
+     </div> 
+    </div> 
+
+<script type="text/javascript">
+/* #commented due to fn name conflict
+function getCategoryVideos(category){
+	loadLoadingImage('#contentarea');
+	dt("#talent_videos_widget").load(''+category);
+}*/
+</script>
+<script type="text/javascript">
+function mycarousel_3822_initCallback(carousel) {
+	dt('#mycarousel-3822-next').bind('click', function() { 
+		var link = dt('#mycarousel-3822-next').attr('href');
+		if(link != "#"){
+		    dt(location).attr('href',link);
+		} else carousel.next();
+		return false;
+	});
+
+	dt('#mycarousel-3822-prev').bind('click', function() {
+		carousel.prev();
+		return false;
+	});
+};
+
+function mycarousel_3822_buttonNextCallback(carousel, button, enabled) {
+	if(!enabled){ 
+		dt("#mycarousel-3822-next").attr("href", "/talent/contest/?feature=cv");
+		dt("#mycarousel-3822-next").attr("disabled", false);
+	}else{
+		dt("#mycarousel-3822-next").attr("href", "#");
+	}
+};
+dt(document).ready(function() {
+	dt("#mycarousel-3822").jcarousel({
+		scroll: 3,
+		itemFallbackDimension:300,
+		initCallback: mycarousel_3822_initCallback,
+		// This tells jCarousel NOT to autobuild prev/next buttons
+		buttonNextCallback: mycarousel_3822_buttonNextCallback,
+		buttonNextHTML: null,
+		buttonPrevHTML: null
+	});
+});
+
+dt(document).ready(function(){
+	dt('.double_row').ThreeDots();
+});
+</script>
+
+
+
+
+
+
+
+</div>        </div> 
+  <div id="sidebar"> 
+     	<div id='view_widget' class='widget '><script type="text/javascript" src="http://static.desitara.com/jsv3/jquery/plugins/datetime_v2.js"></script><div class="bottomborder">
+  <ul class="widgetitle clear"> 
+    <li class="title">WHAT NEW</li> 
+  </ul> 
+  <ul id="mycarousel-" class="jcarousel jcarousel-skin-tango" style="height:157px; margin:-8px 0 0 0;padding:8px 0 0 0; overflow:hidden;"> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/harkamen85?feature=wtn' title='harkamen85'><img style='margin-right:10px;' src='http://photos1.desitara.com/c276e827ba87fbfac3bfb5688ea7b79aL-33X33-5050.jpg' alt='harkamen85'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/harkamen85?feature=wtn' title='harkamen85'>harkamen85</a></p> 
+                <p class='description'> 
+                user.profile                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 15:38:22" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/harkamen85?feature=wtn' title='harkamen85'><img style='margin-right:10px;' src='http://photos1.desitara.com/c276e827ba87fbfac3bfb5688ea7b79aL-33X33-5050.jpg' alt='harkamen85'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/harkamen85?feature=wtn' title='harkamen85'>harkamen85</a></p> 
+                <p class='description'> 
+                profile_image.created                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 15:37:28" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/harkamen85?feature=wtn' title='harkamen85'><img style='margin-right:10px;' src='http://photos1.desitara.com/c276e827ba87fbfac3bfb5688ea7b79aL-33X33-5050.jpg' alt='harkamen85'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/harkamen85?feature=wtn' title='harkamen85'>harkamen85</a></p> 
+                <p class='description'> 
+                user.profile                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 15:36:47" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/harkamen85?feature=wtn' title='harkamen85'><img style='margin-right:10px;' src='http://photos1.desitara.com/c276e827ba87fbfac3bfb5688ea7b79aL-33X33-5050.jpg' alt='harkamen85'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/harkamen85?feature=wtn' title='harkamen85'>harkamen85</a></p> 
+                <p class='description'> 
+                video.upload                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 15:32:53" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/harkamen85?feature=wtn' title='harkamen85'><img style='margin-right:10px;' src='http://photos1.desitara.com/c276e827ba87fbfac3bfb5688ea7b79aL-33X33-5050.jpg' alt='harkamen85'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/harkamen85?feature=wtn' title='harkamen85'>harkamen85</a></p> 
+                <p class='description'> 
+                contest.buzz.competitor                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 15:30:11" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/OHSK?feature=wtn' title='OHSK'><img style='margin-right:10px;' src='http://photos1.desitara.com/maleL-33X33-5050.jpg' alt='OHSK'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/OHSK?feature=wtn' title='OHSK'>OHSK</a></p> 
+                <p class='description'> 
+                video.upload                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 15:23:50" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/TamaraTammy?feature=wtn' title='TamaraTammy'><img style='margin-right:10px;' src='http://photos1.desitara.com/73f645d85fa8374d6e3e55257c9e177bL-33X33-5050.jpg' alt='TamaraTammy'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/TamaraTammy?feature=wtn' title='TamaraTammy'>TamaraTammy</a></p> 
+                <p class='description'> 
+                user.profile                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 15:02:24" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/rahulcool12?feature=wtn' title='rahulcool12'><img style='margin-right:10px;' src='http://photos1.desitara.com/00a176d6f4736171857395336a8c1c38L-33X33-5050.jpg' alt='rahulcool12'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/rahulcool12?feature=wtn' title='rahulcool12'>rahulcool12</a></p> 
+                <p class='description'> 
+                photo.upload                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 14:49:44" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/OHSK?feature=wtn' title='OHSK'><img style='margin-right:10px;' src='http://photos1.desitara.com/maleL-33X33-5050.jpg' alt='OHSK'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/OHSK?feature=wtn' title='OHSK'>OHSK</a></p> 
+                <p class='description'> 
+                contest.buzz.competitor                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 14:44:45" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/Freestyle58?feature=wtn' title='Freestyle58'><img style='margin-right:10px;' src='http://photos1.desitara.com/maleL-33X33-5050.jpg' alt='Freestyle58'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/Freestyle58?feature=wtn' title='Freestyle58'>Freestyle58</a></p> 
+                <p class='description'> 
+                video.upload                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 14:23:59" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'><img style='margin-right:10px;' src='http://photos1.desitara.com/abfbd8d1b1d7bd09bcf0f33e81536e56L-33X33-5050.jpg' alt='HipHopper'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'>HipHopper</a></p> 
+                <p class='description'> 
+                user.profile                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 14:05:17" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'><img style='margin-right:10px;' src='http://photos1.desitara.com/abfbd8d1b1d7bd09bcf0f33e81536e56L-33X33-5050.jpg' alt='HipHopper'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'>HipHopper</a></p> 
+                <p class='description'> 
+                profile_image.created                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 14:03:38" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'><img style='margin-right:10px;' src='http://photos1.desitara.com/abfbd8d1b1d7bd09bcf0f33e81536e56L-33X33-5050.jpg' alt='HipHopper'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'>HipHopper</a></p> 
+                <p class='description'> 
+                user.profile                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 14:01:54" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'><img style='margin-right:10px;' src='http://photos1.desitara.com/abfbd8d1b1d7bd09bcf0f33e81536e56L-33X33-5050.jpg' alt='HipHopper'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'>HipHopper</a></p> 
+                <p class='description'> 
+                user.profile                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 14:01:52" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'><img style='margin-right:10px;' src='http://photos1.desitara.com/abfbd8d1b1d7bd09bcf0f33e81536e56L-33X33-5050.jpg' alt='HipHopper'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'>HipHopper</a></p> 
+                <p class='description'> 
+                user.profile                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 14:01:47" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'><img style='margin-right:10px;' src='http://photos1.desitara.com/abfbd8d1b1d7bd09bcf0f33e81536e56L-33X33-5050.jpg' alt='HipHopper'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'>HipHopper</a></p> 
+                <p class='description'> 
+                user.profile                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 14:01:41" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'><img style='margin-right:10px;' src='http://photos1.desitara.com/abfbd8d1b1d7bd09bcf0f33e81536e56L-33X33-5050.jpg' alt='HipHopper'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'>HipHopper</a></p> 
+                <p class='description'> 
+                video.upload                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 13:55:22" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'><img style='margin-right:10px;' src='http://photos1.desitara.com/abfbd8d1b1d7bd09bcf0f33e81536e56L-33X33-5050.jpg' alt='HipHopper'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'>HipHopper</a></p> 
+                <p class='description'> 
+                contest.buzz.competitor                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 13:49:45" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'><img style='margin-right:10px;' src='http://photos1.desitara.com/abfbd8d1b1d7bd09bcf0f33e81536e56L-33X33-5050.jpg' alt='HipHopper'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'>HipHopper</a></p> 
+                <p class='description'> 
+                photo.upload                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 13:46:44" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'><img style='margin-right:10px;' src='http://photos1.desitara.com/abfbd8d1b1d7bd09bcf0f33e81536e56L-33X33-5050.jpg' alt='HipHopper'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'>HipHopper</a></p> 
+                <p class='description'> 
+                photo.upload                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 13:46:38" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'><img style='margin-right:10px;' src='http://photos1.desitara.com/abfbd8d1b1d7bd09bcf0f33e81536e56L-33X33-5050.jpg' alt='HipHopper'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'>HipHopper</a></p> 
+                <p class='description'> 
+                photo.upload                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 13:46:32" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'><img style='margin-right:10px;' src='http://photos1.desitara.com/abfbd8d1b1d7bd09bcf0f33e81536e56L-33X33-5050.jpg' alt='HipHopper'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/HipHopper?feature=wtn' title='HipHopper'>HipHopper</a></p> 
+                <p class='description'> 
+                contest.buzz.competitor                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 13:41:42" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/Severine?feature=wtn' title='Severine'><img style='margin-right:10px;' src='http://photos1.desitara.com/maleL-33X33-5050.jpg' alt='Severine'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/Severine?feature=wtn' title='Severine'>Severine</a></p> 
+                <p class='description'> 
+                video.upload                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 13:32:19" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/Severine?feature=wtn' title='Severine'><img style='margin-right:10px;' src='http://photos1.desitara.com/maleL-33X33-5050.jpg' alt='Severine'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/Severine?feature=wtn' title='Severine'>Severine</a></p> 
+                <p class='description'> 
+                video.upload                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 13:29:35" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+        
+            <li class="list clear"> 
+              <div class="thumb"><a href='http://www.desitara.com/Severine?feature=wtn' title='Severine'><img style='margin-right:10px;' src='http://photos1.desitara.com/maleL-33X33-5050.jpg' alt='Severine'/></a>
+              </div> 
+              <div class="thumbtxt"> 
+                <p class="thumbtitle"><a href='http://www.desitara.com/Severine?feature=wtn' title='Severine'>Severine</a></p> 
+                <p class='description'> 
+                contest.buzz.competitor                 </p>
+                <p style="height:14px; display:block;"><abbr title="2012-06-19 13:27:24" class="timeago"></abbr></p>
+              </div> 
+            </li> 
+      </ul> 
+<!--  <p class="advertise clear"><img src="img/db/addthumb.jpg"/><span>Advertise</span></p> 
+-->  
+</div>
+<script type="text/javascript">
+function mycarousel_initCallback(carousel)
+{
+
+    carousel.clip.hover(function() {
+        carousel.stopAuto();
+    }, function() {
+
+        carousel.startAuto();
+    });
+};
+
+  dt(document).ready(function() {
+    jQuery('abbr.timeago').timeago();
+   
+	dt("#mycarousel-").jcarousel({
+		vertical: true,
+		scroll: 1,
+		auto: 5,
+		wrap: 'circular',
+		initCallback: mycarousel_initCallback
+	});
+});
+</script>
+</div> 
+		
+     <div id='sidebar_fulladv' class='widget '><style type="text/css">
+#postroll{border:none;padding:0;}
+</style>
+<script>
+zedoadvtids.push("advertise_1");
+</script>
+<div class="widget" id="advertise_1" style="border:none!important;">
+<iframe src="http://d8.zedo.com/jsc/d8/ff2.html?n=1094;c=67;d=9;w=300;h=250" frameborder=0 marginheight=0 marginwidth=0 scrolling="no" allowTransparency="true" width=300 height=250></iframe></div>
+</div>      <div id='contest_block_widget' class='widget '>   <div class="bottomborder">
+      <ul class="widgetitle clear"> 
+        <li class="title">LIVE CONTESTS</li> 
+                <li class="viewall"><a href="/talent/contest/?feature=LC1&cat=all" >View all</a></li> 
+          
+      </ul> 
+    <div class="clear">
+      <ul id="mycarousel-3741" class="jcarousel jcarousel-skin-tango" style="padding:0; margin:0;"> 
+                       <li class="list clear"> 
+                  <div class="thumb">  
+                    <a href="/talent/contest/The_Battle_Of_The_Wizards?feature=LC1&cat=all"  title="The Battle Of The Wizards" >
+                     <img src="http://photos.desitara.com/filesv2/competitions/fe9fc289c3ff0af142b6d3bead98a923/thumb_image.jpg" alt="The Battle Of The Wizards"/>
+                   </a>
+                  </div> 
+                  <div class="thumbtitle"> 
+                    <p class="thumbtitle">
+                        <a href="/talent/contest/The_Battle_Of_The_Wizards?feature=LC1&cat=all"  title="The Battle Of The Wizards" >
+						The Battle Of The Wizards                        </a>
+                    </p> 
+                    <p class="date">Start : 05-04-2012</p> 
+                    <p class="date">End : 07-23-2012</p> 
+                    <p class="Participate"><a href="/talent/contest/The_Battle_Of_The_Wizards?feature=LC1&cat=all" ><span>Participate</span></a></p>  
+                  </div>
+              </li>  
+                        <li class="list clear"> 
+                  <div class="thumb">  
+                    <a href="/talent/contest/Street_Dance_Series_contest?feature=LC1&cat=all"  title="Street Dance Series contest" >
+                     <img src="http://photos.desitara.com/filesv2/competitions/ad61ab143223efbc24c7d2583be69251/thumb_image.jpg" alt="Street Dance Series contest"/>
+                   </a>
+                  </div> 
+                  <div class="thumbtitle"> 
+                    <p class="thumbtitle">
+                        <a href="/talent/contest/Street_Dance_Series_contest?feature=LC1&cat=all"  title="Street Dance Series contest" >
+						Street Dance Series contest                        </a>
+                    </p> 
+                    <p class="date">Start : 05-02-2012</p> 
+                    <p class="date">End : 07-17-2012</p> 
+                    <p class="Participate"><a href="/talent/contest/Street_Dance_Series_contest?feature=LC1&cat=all" ><span>Participate</span></a></p>  
+                  </div>
+              </li>  
+                  </ul> 
+</div>
+<!-- <p class="advertise clear"><img src="img/db/addthumb.jpg"/><span>Advertise</span></p> -->
+</div>
+</div><div id='featured_events_widget' class='widget '></div><div id='latest_groups_widget' class='widget '></div> 
+  </div> 
+</div>        <!-- ledger board banner -->
+        <div align="center" class="clsBottomAdvertisement">
+          <!--< ?php	//if(($this->params['controller'] != 'competitions') && ($this->params['action'] != 'competitionvideos') && ($this->params['action'] != 'contest') ) 	echo $ads->showads('footer') ?> -->
+        </div>
+        <!-- ledger board banner -->
+        <!-- end of BottomContent -->
+      </div>
+      <!-- end of ContentArea -->
+    </div>
+    <!-- end of clsCommonBody -->
+  </div>
+  <!-- SLIDER AD -->
+<div  class='widget '><style type="text/css">
+#postroll{border:none;padding:0;}
+</style>
+<script>
+zedoadvtids.push("advertise_side1");
+</script>
+<div class="widget" id="advertise_side1" style="border:none!important;">
+<script language="JavaScript">
+var zflag_nid="1094"; var zflag_cid="64"; var zflag_sid="0"; var zflag_width="120"; var zflag_height="600"; var zflag_sz="8"; 
+</script>
+<script language="JavaScript" src="http://d8.zedo.com/jsc/d8/fo.js"></script></div>
+</div> 
+<!-- SLIDER AD OVER -->  
+  <!-- Footer -->
+<div id="footer">
+<div class="footertop"><div class="footercontent clear">
+<ul class="language">
+<!--<li><a href="#">IND</a></li>
+    <li class="footerpipe">|</li>-->
+    <li>
+<div id="google_translate_element"></div><script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</li>
+</ul>
+
+<ul class="followus clear">
+  <li>
+    <p>
+      Follow us on    </p>
+  </li>
+    <li class="facebookicon"><a href="  http://www.facebook.com/pages/Desitaracom-Be-a-Star/198248123142" target="_blank"><img src="  http://images.desitara.com/css_v3/css/theme/site/default/facebook.jpg"/></a></li>    <li class="youtube"><a target="_blank" href="  http://www.youtube.com/user/Desitara1"><img src="  http://images.desitara.com/css_v3/css/theme/site/default/youtube.jpg"/></a></li>    <li class="twitter"><a href="  http://twitter.com/desitara" target="_blank"><img src="  http://images.desitara.com/css_v3/css/theme/site/default/twitter.jpg"/></a></li>  </ul>
+</div></div>
+<div class="footermiddle"><div class="footercontent clear">
+<div class="footermenu">
+ <!-- footermenu -->
+      <div id="footermenu_widget">
+        <ul>
+<li class="item"><a href="/">Desitara</a><ul><li class="item sub123"><a href="/aboutus">About Us</a></li><li class="item sub123"><a href="/contactus">Contact Us</a></li><li class="item sub123"><a href="/advertise">Advertise</a></li><li class="item sub123"><a href="/careers">Careers</a></li><li class="item sub123"><a href="/press">Press</a></li></ul></li><li class="footerseparator">&nbsp;</li><li class="item"><a href="/talent">Videos</a><ul><li class="item sub123"><a href="/videos/talent/recent/">Talent</a></li><li class="item sub123"><a href="/videos/contest/recent/">Contests</a></li></ul></li><li class="footerseparator">&nbsp;</li><li class="item"><a href="/photos">Photos</a><ul><li class="item sub123"><a href="/photos">All Photos</a></li></ul></li><li class="footerseparator">&nbsp;</li><li class="item"><a href="javascript: void(0);">Community</a><ul><li class="item sub123"><a href="/users">Members</a></li><li class="item sub123"><a href="/groups">Groups</a></li><li class="item sub123"><a href="/events">Events</a></li></ul></li><li class="footerseparator">&nbsp;</li><li class="item"><a href="javascript: void(0);">Help Center</a><ul><li class="item sub123"><a href="/privacypolicy">Privacy Policy</a></li><li class="item sub123"><a href="/termsofuse">Terms Of Use</a></li><li class="item sub123"><a href="/faq">FAQ</a></li><li class="item sub123"><a href="/links">Links</a></li></ul></li></ul>
+      </div>
+      <!-- end of footermenu -->
+      </div>
+
+     <div class="copyright clear">
+	    <span>&copy; 2012 </span><a target="_blank" href="http://www.connectfilms.com" target="_blank">ConnectFilmsMedia</a><a class="ourgroup" target="_blank" href="http://www.sladgroup.com" target="_blank">S.Lad Group</a>
+</div>
+</div></div>
+<div class="footerbottom">
+<p>Our Companies</p>
+<ul class="clear">
+<li class="sladgroup"><a target="_blank" href="http://www.sladgroup.com/"></a></li>
+<li class="slad"><a target="_blank" href="http://www.sladentertainment.com/"></a></li>
+<li class="cfml"><a target="_blank" href="http://www.connectfilms.com/"></a></li>
+<li class="connectdigital"><a target="_blank" href="http://www.connectdigitalmedia.co.uk/"></a></li>
+<!-- <li class="mediaone"><a target="_blank" href="http://www.mediaoneglobal.in/"></a></li> -->
+</ul>
+</div>
+</div>
+  <!-- end of Footer -->
+  </div>
+
+<!-- start of google analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4217179-1']);
+  _gaq.push(['_setDomainName', '.desitara.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- end of google analytics -->
+
+  <script>
+	
+
+var htmlMenuObject;
+var htmlMenuHideObject;
+dt(document).ready(function() {
+ dt.loginboxContent = '<p>'+dt('#loginboxtextarea').text()+'</p>';
+ dt.ajaxSetup({
+   cache: false
+ });
+
+	var options = dt.extend({title: "Desitara",show:false,draggable:true,closeable:true,center:true,modal:true}, options || {});
+	dt.loginDialog = new Boxy(dt.loadingMessage, options);
+
+	var friendoptions = dt.extend({title: "Desitara",show:false,draggable:false,closeable:true,center:true,modal:true}, friendoptions || {});
+	dt.friendDialog = new Boxy(dt.loadingMessage, friendoptions); 	
+	
+	dt('.cls_Login').click(function(){
+		dt.loginDialog.setContent(dt.loadingMessage)
+		dt.loginDialog.show();
+		//dt.loginDialog.setContent(dt.loginboxContent);		
+		//dt.loginDialog.center();
+		dt.callLogin();
+		return false;
+	});
+
+
+ dt('#dtlogo_span').mouseover(function(){
+ 	dt('#dtlogo_spanhover').fadeTo("slow", 0.8);
+
+ });
+
+ dt('#dtlogo_span').mouseout(function(){
+ 	dt('#dtlogo_spanhover').fadeTo("slow", 0);
+
+ });
+
+
+ if(isIE6())
+ dt('.smallfont').hide();
+
+
+
+ dt('.clsRightDrop').mouseover(function(e){
+		dt(this).show().parent().children('a').addClass('clsActive');
+ });
+
+ dt('.clsRightDrop').mouseout(function(e){
+	var tg = (window.event) ? e.srcElement : e.target;
+	if(tg.className == 'clsRightDrop' || tg.className == 'clsLeftDrop' || tg.className == 'clsMiddleDrop'){
+		dt('#'+dt(this).attr('id').replace("dtmenu_","")).removeClass('clsActive');
+		dt(this).hide();
+	}
+ });
+
+dt('#Header').mouseover(function(){
+	dt('.clsRightDrop').hide();
+})
+
+ dt('.mainMenu').mouseover(function(e){
+ 	dt('.mainMenu').removeClass('clsActive');
+	dt('.clsRightDrop').hide();
+ 	dt(this).addClass('clsActive');
+	dt('#dtmenu_'+dt(this).attr('id')).show();
+	//temp = dt(this).attr('id').offset()
+	pos = dt('#'+dt(this).attr('id')).offset();
+	dt('#dtmenu_'+dt(this).attr('id')).css( { "left": (pos.left) + "px"} );
+ });
+
+ dt('.mainMenu').mouseout(function(e){
+
+ 	dt(this).removeClass('clsActive');
+	dt('#dtmenu_'+dt(this).attr('id')).hide();
+ })
+
+ dt('.smallfont').mouseover(function(e){
+ 	var tg = (window.event) ? e.srcElement : e.target;
+	if(tg.className!='smallfont') return false;
+ 	dt(this).show();
+ 	var id = dt(this).attr('id');
+	id = '#a_'+id;
+	dt('.clsSubarrow a').parent().removeClass('clsSubarrowActive');
+	dt(id).parent().addClass('clsSubarrowActive');
+ });
+
+	dt('.normal_links').hover(
+		function(e){
+			var tg = (window.event) ? e.srcElement : e.target;
+
+			if(tg.className!='normal_links') return false;
+			dt('.smallfont').hide();
+			dt('.clsSubarrow').removeClass('clsSubarrowActive')
+		},
+		function(e){
+			var tg = (window.event) ? e.srcElement : e.target;
+			if(tg.className!='normal_links') return false;
+			dt('.smallfont').hide();
+			dt('.clsSubarrow').removeClass('clsSubarrowActive')
+		}
+	)
+	dt('.clsSubarrow a').mouseover(function(e){
+		var tg = (window.event) ? e.srcElement : e.target;
+		if(tg.parentNode.className!='clsSubarrow') return false;
+
+		dt('.clsSubarrow').removeClass('clsSubarrowActive');
+		dt(this).parent().addClass('clsSubarrowActive');
+	});
+});
+
+
+ try {
+   document.execCommand('BackgroundImageCache', false, true);
+ } catch(e) {}
+</script>
+  <div style="display:none;">
+    <!-- begin ZEDO for channel: hidden Popunder , publisher: default , Ad
+ Dimension: Super Banner - 728 x 90 -->
+    <iframe
+ src="http://d8.zedo.com/jsc/d8/ff2.html?n=1094;c=63;d=14;w=728;h=90"
+ frameborder=0 marginheight=0 marginwidth=0 scrolling="no"
+ allowTransparency="true" width=728 height=90></iframe>
+    <!-- end ZEDO for channel: hidden Popunder , publisher: default , Ad
+ Dimension: Super Banner - 728 x 90 -->
+   </div>
+<script language="javascript">
+if(document.body.offsetWidth < 1300 ){ dt("#verticaladv").addClass("verticaladv"); }
+</script>
+
+</body>
+</html>

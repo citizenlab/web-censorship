@@ -1,0 +1,4 @@
+400 URL must be absolute
+Content-Type: text/plain
+Client-Date: Mon, 09 Jul 2012 20:39:41 GMT
+Client-Warning: Internal response

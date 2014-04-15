@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: close
+Date: Tue, 19 Jun 2012 15:52:25 GMT
+Pragma: no-cache
+Accept-Ranges: bytes
+Server: nginx
+Vary: Accept-Encoding
+Content-Type: text/html; charset=utf-8
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Client-Date: Mon, 18 Jun 2012 23:35:32 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://static.bergfiles.com/skins/jquery.jcarousel.css>; rel="stylesheet"; type="text/css"
+Link: <http://static.bergfiles.com/skins/tango/skin.css>; rel="stylesheet"; type="text/css"
+Link: <http://static.bergfiles.com/css/thickbox.css>; rel="stylesheet"; type="text/css"
+Set-Cookie: PHPSESSID=u7td32og043auf7eouf2hi12t3; path=/
+Title: Download free files direct from rapidshare, megaupload, hotfile, 4shared etc. No torrent - only free downloads software, music, movies, games, books, graphics - BergFiles.com
+X-Meta-Description: Bergfiles enables users to direct download  the rapidshare different files, like movies, music, games, software and e-books and download free files from megaupload, hotfile, mediafire, 4shared.
+X-Meta-Google-Site-Verification: Zomo9iE0b5are2kbwspD6sHZTxB4EaM2Vcnaqry-aHA

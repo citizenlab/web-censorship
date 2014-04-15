@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Mon, 18 Jun 2012 20:05:44 GMT
+Server: nginx/1.0.6
+Content-Type: text/html
+Client-Date: Mon, 18 Jun 2012 20:05:44 GMT
+Client-Peer: 99.192.234.122:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <css/index.css>; rel="stylesheet"; type="text/css"
+Link: <css/carousel.css>; rel="stylesheet"; type="text/css"
+Link: <nav_members/style.css>; rel="stylesheet"; type="text/css"
+Link: <css/rating.css>; rel="stylesheet"; type="text/css"
+Link: <highslide/highslide.css>; rel="stylesheet"; type="text/css"
+X-Meta-Description: Kirtu (noun): Comics or animation of Indian origin primarily featuring Indian sexuality. Kirtu.com has free Savita Bhabhi episodes and other comics.
+X-Meta-RATING: RTA-5042-1996-1400-1577-RTA
+X-Powered-By: PHP/5.2.17

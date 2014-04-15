@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Date: Mon, 18 Jun 2012 19:56:53 GMT
+ETag: "4b054ab9-d1d6-49ac-9673-b978b9d4590e"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Mon, 18 Jun 2012 19:56:53 GMT
+Last-Modified: Thu, 12 Apr 2012 21:33:58 GMT
+Client-Date: Mon, 18 Jun 2012 19:57:00 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://www.blogger.com/favicon.ico>; rel="icon"; type="image/vnd.microsoft.icon"
+Link: <http://commonfolkcommonsense.blogspot.com/feeds/posts/default>; rel="alternate"; title="クレジットカード・キャッシング・ローンの総合情報ニュースなど - Atom"; type="application/atom+xml"
+Link: <http://commonfolkcommonsense.blogspot.com/feeds/posts/default?alt=rss>; rel="alternate"; title="クレジットカード・キャッシング・ローンの総合情報ニュースなど - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/32378764/posts/default>; rel="service.post"; title="クレジットカード・キャッシング・ローンの総合情報ニュースなど - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=32378764>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/static/v1/v-css/50269083-blog_controls.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=32378764&zx=4b054ab9-d1d6-49ac-9673-b978b9d4590e>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/profile/12890040559189130806>; rel="me"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Title: クレジットカード・キャッシング・ローンの総合情報ニュースなど
+X-Content-Type-Options: nosniff
+X-Meta-Generator: Blogger
+X-Meta-MSSmartTagsPreventParsing: true
+X-XSS-Protection: 1; mode=block

@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 10 Jul 2012 14:19:53 GMT
+Accept-Ranges: bytes
+ETag: "2676681602"
+Server: httpd/1.4.x LaHonda
+Content-Length: 20749
+Content-Type: text/html
+Last-Modified: Tue, 03 Jul 2012 07:26:59 GMT
+Client-Date: Mon, 09 Jul 2012 21:43:20 GMT
+Client-Peer: 69.147.83.34:80
+Client-Response-Num: 1
+Link: <./favicon.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: <./favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <./layout/css/fixed.css?20060509>; media="screen"; rel="stylesheet"; title="Normal Text"; type="text/css"
+Link: <./layout/css/fixed_large.css>; media="screen"; rel="alternate stylesheet"; title="Large Text"; type="text/css"
+Link: <./news/rss.xml>; rel="alternate"; title="FreeBSD Project News"; type="application/rss+xml"
+Link: <./security/rss.xml>; rel="alternate"; title="FreeBSD Security Advisories"; type="application/rss+xml"
+Link: <./gnome/rss.xml>; rel="alternate"; title="FreeBSD GNOME Project News"; type="application/rss+xml"
+Title: The FreeBSD Project
+X-Meta-Description: The FreeBSD Project
+X-Meta-Generator: HTML Tidy, see www.w3.org
+X-Meta-Keywords: FreeBSD, BSD, UNIX, Support, Ports, Release, Application, Software, Handbook, FAQ, Tutorials, Bugs, CVS, CVSup, News, Commercial Vendors, homepage, CTM, Unix

@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Date: Tue, 19 Jun 2012 13:40:05 GMT
+Accept-Ranges: bytes
+Server: Apache
+Vary: Accept-Encoding,User-Agent
+Content-Language: en-US
+Content-Type: text/html
+Client-Date: Mon, 18 Jun 2012 21:23:08 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <style.css>; rel="stylesheet"; type="text/css"
+Title: Best for Shoes - Shop for the latest styles of womens shoes, mens shoes, kids shoes, sandals, boots, clogs and slippers
+X-Meta-Description: Best for Shoes - Shop for the latest styles of womens shoes, mens shoes, kids shoes, sandals, boots, clogs and slippers.
+X-Meta-Google-Site-Verification: Q8L6JLDT8YMV-2UEhdr3LiSX3ej32GLaoW3wht9vk_w
+X-Meta-Keywords: Best for Shoes
+X-Meta-Msvalidate.01: 581A00F295350E243F1FEA43D59B31F8
+X-Meta-Y-Key: 68223c73f808bba7

@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 13:38:50 GMT
+Via: 1.1 varnish
+Age: 2
+Server: Apache
+Vary: cookie
+Content-Length: 22351
+Content-Type: text/html; charset=utf-8
+Client-Date: Mon, 18 Jun 2012 21:21:53 GMT
+Client-Peer: 204.9.177.195:80
+Client-Response-Num: 1
+Keep-Alive: timeout=300, max=100
+Link: <http://merrimusings.typepad.com/merri_musings/styles.css?v=6>; media="screen"; rel="stylesheet"; type="text/css"
+Link: <http://static.typepad.com/.shared:v20120614.01-0-g5bb9ec1:typepad:en_us/themes/common/print.css>; media="print"; rel="stylesheet"; type="text/css"
+Link: <http://www.typepad.com/services/openid/server>; rel="openid.server"
+Link: <http://www.typepad.com/services/rsd/6a00d8351672a053ef00d8354bd87a69e2>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://merrimusings.typepad.com/foaf.rdf>; rel="meta"; title="FOAF"; type="application/rdf+xml"
+Title: Merri Musings
+X-Meta-Generator: http://www.typepad.com/
+X-PhApp: oak-tp-web010
+X-Varnish: 2281383859 2281380609
+X-Webserver: oak-tp-web010

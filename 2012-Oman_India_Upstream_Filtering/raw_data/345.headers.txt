@@ -1,0 +1,4 @@
+500 Can't connect to www.unipay2u-international.com:80 (Bad hostname 'www.unipay2u-international.com')
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 21:42:33 GMT
+Client-Warning: Internal response

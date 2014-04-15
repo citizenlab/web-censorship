@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache,no-store,must-revalidate
+Date: Tue, 19 Jun 2012 13:51:22 GMT
+Pragma: no-cache
+Server: Apache
+Vary: Accept-Encoding
+Content-Type: text/html;charset=UTF-8
+Client-Date: Mon, 18 Jun 2012 21:34:30 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </satishsethadag.rss>; rel="alternate"; title="Digg"; type="application/rss+xml"
+Link: <http://cdn1.diggstatic.com/img/favicon.a015f25c.ico>; rel="shortcut icon"
+Link: <http://cdn1.diggstatic.com/img/iphone/icon.63e34426.png>; rel="apple-touch-icon"
+Link: <http://cdn1.diggstatic.com/css/two_column/library/global.187982cc.css>; media="all"; rel="stylesheet"; type="text/css"
+Link: <http://cdn1.diggstatic.com/css/two_column/library/jqueryautocomplete.cbdf13d5.css>; media="all"; rel="stylesheet"; type="text/css"
+Link: <http://cdn3.diggstatic.com/css/two_column/App_UserProfile/userProfile.f386a89c.css>; media="all"; rel="stylesheet"; type="text/css"
+Set-Cookie: openGraphCustom=shown; expires=Tue, 26-Jun-2012 13:51:22 GMT; path=/
+Set-Cookie: traffic_control=000000000000000000000080000000000000000002200000000400000000224012008060081180802%3A433%3A112; expires=Wed, 20-Jun-2012 13:51:22 GMT; path=/; domain=digg.com
+Set-Cookie: session_id=2dd371d90f1cf4b64e90cd9a2658f601fbd0c0682ff4dc8af9324b0f6b469cc6; expires=Tue, 19-Jun-2012 14:06:22 GMT; path=/; domain=digg.com
+Set-Cookie: d=8f27e3393028847f1cd0ce86714b4a472b4f73e485fbb631a7cd890664bee0c0; expires=Sun, 19-Jun-2022 23:59:02 GMT; path=/; domain=.digg.com
+Title: Satish Seth ADAG (satishsethadag) - Digg
+X-Digg-Time: D=305124 10.2.128.186
+X-Meta-Charset: utf-8
+X-Meta-Description: This is my official statement about myself. Satish Seth worships `Amma Daddy as Gods’ (Adag). My group of best friends are CBI (confused beyond imagination) Gautaman (good dost) who courts Swana (who we call Swan) who manages directly a very confusing kind of business, cousin 2G (2 Gorilla sized) most unreliable scamster Surendra Hari who works in a telecom equipment company, and Anil Ambrose, an excellent manager in a capital investment company. Myself an investment advisor. Here I intend to record only whatever I witness in life. Will not offer any investment advice though I am investment consultant. Rest assured you can disinvest all your doubts without fears of any forgery and cheating. Go ahead, listen to our tales of which are 1000 in numbers. On weekends, our group sets up unofficial meeting at any of the neighbourhood pubs and we discuss anything from courting females to cheating scams and sams.
+X-Meta-Keywords: Digg, pictures, breaking news, entertainment, politics, technology, headline news, celebrity news, offbeat, world business, sports, funny videos
+X-Powered-By: PHP/5.2.9-digg8

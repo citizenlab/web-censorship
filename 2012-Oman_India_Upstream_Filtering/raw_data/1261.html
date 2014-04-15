@@ -1,0 +1,578 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>The FreeBSD Project</title>
+<meta name="description" content="The FreeBSD Project" />
+<meta name="keywords"
+content="FreeBSD, BSD, UNIX, Support, Ports, Release, Application, Software, Handbook, FAQ, Tutorials, Bugs, CVS, CVSup, News, Commercial Vendors, homepage, CTM, Unix" />
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" media="screen" href="./layout/css/fixed.css?20060509"
+type="text/css" title="Normal Text" />
+<link rel="alternate stylesheet" media="screen" href="./layout/css/fixed_large.css"
+type="text/css" title="Large Text" />
+<script type="text/javascript" src="./layout/js/styleswitcher.js">
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="FreeBSD Project News"
+href="./news/rss.xml" />
+<link rel="alternate" type="application/rss+xml" title="FreeBSD Security Advisories"
+href="./security/rss.xml" />
+<link rel="alternate" type="application/rss+xml" title="FreeBSD GNOME Project News"
+href="./gnome/rss.xml" /><!--
+        Spamtrap, do not email:
+        <a href="mailto:bruscar@freebsd.org">bruscar@freebsd.org</a>
+&#09;-->
+</head>
+<body>
+<div id="CONTAINERWRAP">
+<div id="CONTAINER"><span class="txtoffscreen"><a href="#CONTENT"
+title="Skip site navigation" accesskey="1">Skip site navigation</a> (1) <a
+href="#CONTENTWRAP" title="Skip section navigation" accesskey="2">Skip section
+navigation</a> (2)</span>
+<div id="HEADERCONTAINER">
+<div id="HEADER">
+<h2 class="blockhide">Header And Logo</h2>
+
+<div id="HEADERLOGOLEFT"><a href="." title="FreeBSD"><img
+src="./layout/images/logo-red.png" width="457" height="75" alt="FreeBSD" /></a></div>
+
+<div id="HEADERLOGORIGHT">
+<h2 class="blockhide">Peripheral Links</h2>
+
+<div id="SEARCHNAV">
+<ul id="SEARCHNAVLIST">
+<li>Text Size: <a href="#" onkeypress="return false;"
+onclick="setActiveStyleSheet('Normal Text'); return false;"
+title="Normal Text Size">Normal</a> / <a href="#" onkeypress="return false;"
+onclick="setActiveStyleSheet('Large Text'); return false;"
+title="Large Text Size">Large</a></li>
+
+<li><a href="./donations/" title="Donate">Donate</a></li>
+
+<li class="last-child"><a href="./mailto.html" title="Contact">Contact</a></li>
+</ul>
+</div>
+
+<div id="SEARCH">
+<form action="http://www.FreeBSD.org/cgi/search.cgi" method="get">
+<div>
+<h2 class="blockhide"><label for="WORDS">Search</label></h2>
+
+<div xml:space="preserve"><input type="hidden" name="max" value="25" /> <input
+type="hidden" name="source" value="www" /> <input id="WORDS" name="words" type="text"
+size="20" maxlength="255" onfocus="if( this.value==this.defaultValue ) this.value='';"
+value="Search" /> <input id="SUBMIT" name="submit" type="submit" value="Search" />
+&#09;</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+<h2 class="blockhide">Site Navigation</h2>
+
+<div id="MENU">
+<ul class="first">
+<li><a href="./">Home</a></li>
+</ul>
+
+<ul>
+<li><a href="./about.html">About</a>
+<ul>
+<li><a href="./projects/newbies.html">Introduction</a></li>
+
+<li><a href="./features.html">Features</a></li>
+
+<li><a href="./advocacy/">Advocacy</a></li>
+
+<li><a href="./marketing/">Marketing</a></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li><a href="./where.html">Get FreeBSD</a>
+<ul>
+<li><a href="./releases/">Release Information</a></li>
+
+<li><a href="./releng/">Release Engineering</a></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li><a href="./docs.html">Documentation</a>
+<ul>
+<li><a href="./doc/en_US.ISO8859-1/books/faq/">FAQ</a></li>
+
+<li><a href="./doc/en_US.ISO8859-1/books/handbook/">Handbook</a></li>
+
+<li><a href="./doc/en_US.ISO8859-1/books/porters-handbook">Porter's Handbook</a></li>
+
+<li><a href="./doc/en_US.ISO8859-1/books/developers-handbook">Developer's
+Handbook</a></li>
+
+<li><a href="http://www.FreeBSD.org/cgi/man.cgi">Manual Pages</a></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li><a href="./community.html">Community</a>
+<ul>
+<li><a href="./community/mailinglists.html">Mailing Lists</a></li>
+
+<li><a href="http://forums.freebsd.org">Forums</a></li>
+
+<li><a href="./usergroups.html">User Groups</a></li>
+
+<li><a href="./events/events.html">Events</a></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li><a href="./projects/index.html">Developers</a>
+<ul>
+<li><a href="http://wiki.FreeBSD.org/IdeasPage">Project Ideas</a></li>
+
+<li><a href="http://svnweb.FreeBSD.org/base/">Source SVN Repository</a></li>
+
+<li><a href="http://svnweb.FreeBSD.org/doc/">Documentation SVN Repository</a></li>
+
+<li><a href="http://cvsweb.FreeBSD.org">CVS Repository</a></li>
+
+<li><a href="http://p4web.FreeBSD.org">Perforce Repository</a></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li><a href="./support.html">Support</a>
+<ul>
+<li><a href="./commercial/commercial.html">Vendors</a></li>
+
+<li><a href="http://security.FreeBSD.org/">Security Information</a></li>
+
+<li><a href="http://www.FreeBSD.org/cgi/query-pr-summary.cgi">Bug Reports</a></li>
+
+<li><a href="./send-pr.html">Submit Bug-report</a></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li><a href="http://www.freebsdfoundation.org/">Foundation</a>
+<ul>
+<li><a href="http://www.freebsdfoundation.org/donate/">Donate</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="CONTENT">
+<div id="FRONTCONTAINER">
+<div id="FRONTMAIN">
+<div id="FRONTFEATURECONTAINER">
+<div id="FRONTFEATURELEFT">
+<div id="FRONTFEATURECONTENT">
+<h1>&#09;&#09;&#09;&#09; Based on BSD UNIX® &#09;&#09;&#09;&#09;</h1>
+
+<p>FreeBSD® is an advanced &#09;&#09;&#09;&#09; operating system for modern server,
+&#09;&#09;&#09;&#09; desktop, and embedded computer <a href="./platforms/">platforms</a>.
+&#09;&#09;&#09;&#09; FreeBSD's code base has undergone &#09;&#09;&#09;&#09; over thirty
+years of continuous &#09;&#09;&#09;&#09; development, improvement, and
+&#09;&#09;&#09;&#09; optimization. It is developed and &#09;&#09;&#09;&#09; maintained by
+a <a href="./doc/en_US.ISO8859-1/articles/contributors/staff-committers.html">large
+&#09;&#09;&#09;&#09; team of individuals</a>. FreeBSD &#09;&#09;&#09;&#09; provides
+advanced networking, &#09;&#09;&#09;&#09; impressive security features, and
+&#09;&#09;&#09;&#09; world class performance and is used &#09;&#09;&#09;&#09; by some of
+the world's <a
+href="./doc/en_US.ISO8859-1/books/handbook/nutshell.html#INTRODUCTION-NUTSHELL-USERS">busiest
+&#09;&#09;&#09;&#09; web sites</a> and most pervasive &#09;&#09;&#09;&#09; embedded
+networking and storage &#09;&#09;&#09;&#09; devices.</p>
+
+<div id="TXTFRONTFEATURELINK">»<a href="./about.html" title="Learn More">Learn
+More</a></div>
+</div>
+</div>
+
+<div id="FRONTFEATUREMIDDLE">
+<div class="frontgetroundbox">
+<div class="frontgettop">
+<div><b style="display: none">.</b></div>
+</div>
+
+<div class="frontgetcontent"><a href="./where.html">Get FreeBSD Now</a></div>
+
+<div class="frontgetbot">
+<div><b style="display: none">.</b></div>
+</div>
+</div>
+
+<div id="FRONTRELEASES">
+<div id="FRONTRELEASESCONTENT" class="txtshortcuts">
+<h2><a href="./releases/">LATEST RELEASES</a></h2>
+
+<ul id="FRONTRELEASESLIST">
+<li>Production: <a href="./releases/9.0R/announce.html">9.0</a>, <a
+href="./releases/8.3R/announce.html">8.3</a></li>
+
+<li>Legacy: <a href="./releases/7.4R/announce.html">7.4</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="FRONTFEATURERIGHT">
+<h2 class="blockhide">Language Links</h2>
+
+<div id="LANGUAGENAV">
+<ul id="LANGUAGENAVLIST">
+<li><a href="./de/" title="German">de</a></li>
+
+<li><a href="./" title="English">en</a></li>
+
+<li><a href="./es/" title="Spanish">es</a></li>
+
+<li><a href="./fr/" title="French">fr</a></li>
+
+<li><a href="./hu/" title="Hungarian">hu</a></li>
+
+<li><a href="./it/" title="Italian">it</a></li>
+
+<li><a href="./ja/" title="Japanese">ja</a></li>
+
+<li><a href="./nl/" title="Dutch">nl</a></li>
+
+<li><a href="./ru/" title="Russian">ru</a></li>
+
+<li class="last-child"><a href="./zh_CN/" title="Chinese (Simplified)">zh_CN</a></li>
+</ul>
+</div>
+
+<div id="MIRROR">
+<form action="http://www.FreeBSD.org/cgi/mirror.cgi" method="get">
+<div>
+<h2 class="blockhide"><label for="MIRRORSEL">Mirror</label></h2>
+
+<select id="MIRRORSEL" name="goto">
+<option value="http://www1.am.FreeBSD.org/">IPv6 Armenia</option>
+<option value="http://www.at.FreeBSD.org/">IPv6 Austria</option>
+<option value="http://www.br.FreeBSD.org/">IPv6 Brazil</option>
+<option value="http://www.cz.FreeBSD.org/">IPv6 Czech Republic</option>
+<option value="http://www.dk.FreeBSD.org/">IPv6 Denmark</option>
+<option value="http://www.jp.FreeBSD.org/www.FreeBSD.org/">IPv6 Japan</option>
+<option value="http://www.ch.FreeBSD.org/">IPv6 Switzerland/1</option>
+<option value="http://www2.ch.FreeBSD.org/">IPv6 Switzerland/2</option>
+<option value="http://www.tw.FreeBSD.org/">IPv6 Taiwan/1</option>
+<option value="http://www5.tw.FreeBSD.org/">IPv6 Taiwan/2</option>
+<option value="http://www3.tr.FreeBSD.org/">IPv6 Turkey</option>
+<option value="http://www5.us.FreeBSD.org/">IPv6 USA</option>
+<option value="http://www1.am.FreeBSD.org/">Armenia</option>
+<option value="http://www.au.FreeBSD.org/">Australia/1</option>
+<option value="http://www2.au.FreeBSD.org/">Australia/2</option>
+<option value="http://www.at.FreeBSD.org/">Austria</option>
+<option value="http://freebsd.unixtech.be/">Belgium</option>
+<option value="http://www.br.FreeBSD.org/">Brazil/1</option>
+<option value="http://www2.br.FreeBSD.org/www.freebsd.org/">Brazil/2</option>
+<option value="http://www3.br.FreeBSD.org/">Brazil/3</option>
+<option value="http://www.ca.FreeBSD.org/">Canada/1</option>
+<option value="http://www2.ca.FreeBSD.org/">Canada/2</option>
+<option value="http://www.cn.FreeBSD.org/">China</option>
+<option value="http://www1.cr.FreeBSD.org/">Costa Rica</option>
+<option value="http://www.cz.FreeBSD.org/">Czech Republic</option>
+<option value="http://www.dk.FreeBSD.org/">Denmark</option>
+<option value="http://www.ee.FreeBSD.org/">Estonia</option>
+<option value="http://www.fi.FreeBSD.org/">Finland/1</option>
+<option value="http://www2.fi.FreeBSD.org/">Finland/2</option>
+<option value="http://www.fr.FreeBSD.org/">France/1</option>
+<option value="http://www1.fr.FreeBSD.org/">France/2</option>
+<option value="http://www.de.FreeBSD.org/">Germany</option>
+<option value="http://www.gr.FreeBSD.org/">Greece</option>
+<option value="http://www.hk.FreeBSD.org/">Hong Kong</option>
+<option value="http://www.hu.FreeBSD.org/">Hungary/1</option>
+<option value="http://www2.hu.FreeBSD.org/">Hungary/2</option>
+<option value="http://www.is.FreeBSD.org/">Iceland</option>
+<option value="http://www.it.FreeBSD.org/">Italy/1</option>
+<option value="http://www.gufi.org/mirrors/www.freebsd.org/data/">Italy/2</option>
+<option value="http://www.jp.FreeBSD.org/www.FreeBSD.org/">Japan</option>
+<option value="http://www.kr.FreeBSD.org/">Korea/1</option>
+<option value="http://www2.kr.FreeBSD.org/">Korea/2</option>
+<option value="http://www.kw.FreeBSD.org/">Kuwait</option>
+<option value="http://www.kg.FreeBSD.org/">Kyrgyzstan</option>
+<option value="http://www.lv.FreeBSD.org/">Latvia/1</option>
+<option value="http://www2.lv.FreeBSD.org/">Latvia/2</option>
+<option value="http://www.lt.FreeBSD.org/">Lithuania</option>
+<option value="http://www.nl.FreeBSD.org/">Netherlands/1</option>
+<option value="http://www2.nl.FreeBSD.org/">Netherlands/2</option>
+<option value="http://www.no.FreeBSD.org/">Norway</option>
+<option value="http://www.FreeBSD.org.ph/">Philippines</option>
+<option value="http://www.pt.FreeBSD.org/">Portugal/1</option>
+<option value="http://www1.pt.FreeBSD.org/">Portugal/2</option>
+<option value="http://www4.pt.FreeBSD.org/">Portugal/3</option>
+<option value="http://www5.pt.FreeBSD.org/">Portugal/4</option>
+<option value="http://www.ro.FreeBSD.org/">Romania/1</option>
+<option value="http://www1.ro.FreeBSD.org/">Romania/2</option>
+<option value="http://www2.ro.FreeBSD.org/">Romania/3</option>
+<option value="http://www3.ro.FreeBSD.org/">Romania/4</option>
+<option value="http://www.ru.FreeBSD.org/">Russia/1</option>
+<option value="http://www2.ru.FreeBSD.org/">Russia/2</option>
+<option value="http://www3.ru.FreeBSD.org/">Russia/3</option>
+<option value="http://www4.ru.FreeBSD.org/">Russia/4</option>
+<option value="http://www5.ru.FreeBSD.org/">Russia/5</option>
+<option value="http://www.sm.FreeBSD.org/">San Marino</option>
+<option value="http://www.sk.FreeBSD.org/">Slovak Republic</option>
+<option value="http://www.si.FreeBSD.org/">Slovenia/1</option>
+<option value="http://www2.si.FreeBSD.org/">Slovenia/2</option>
+<option value="http://www.za.FreeBSD.org/">South Africa/1</option>
+<option value="http://www2.za.FreeBSD.org/">South Africa/2</option>
+<option value="http://www.es.FreeBSD.org/">Spain/1</option>
+<option value="http://www2.es.FreeBSD.org/">Spain/2</option>
+<option value="http://www3.es.FreeBSD.org/">Spain/3</option>
+<option value="http://www.se.FreeBSD.org/">Sweden/1</option>
+<option value="http://www2.se.FreeBSD.org/">Sweden/2</option>
+<option value="http://www.ch.FreeBSD.org/">Switzerland/1</option>
+<option value="http://www2.ch.FreeBSD.org/">Switzerland/2</option>
+<option value="http://www.tw.FreeBSD.org/">Taiwan/1</option>
+<option value="http://www2.tw.FreeBSD.org/">Taiwan/2</option>
+<option value="http://www3.tw.FreeBSD.org/">Taiwan/3</option>
+<option value="http://www4.tw.FreeBSD.org/">Taiwan/4</option>
+<option value="http://www5.tw.FreeBSD.org/">Taiwan/5</option>
+<option value="http://www6.tw.FreeBSD.org/">Taiwan/6</option>
+<option value="http://www7.tw.FreeBSD.org/">Taiwan/7</option>
+<option value="http://www.th.FreeBSD.org/">Thailand</option>
+<option value="http://www.tr.FreeBSD.org/">Turkey/1</option>
+<option value="http://www2.tr.FreeBSD.org/">Turkey/2</option>
+<option value="http://www3.tr.FreeBSD.org/">Turkey/3</option>
+<option value="http://www.ua.FreeBSD.org/">Ukraine/1</option>
+<option value="http://www2.ua.FreeBSD.org/">Ukraine/2</option>
+<option value="http://www5.ua.FreeBSD.org/">Ukraine/3</option>
+<option value="http://www4.ua.FreeBSD.org/">Ukraine/4</option>
+<option value="http://www1.uk.FreeBSD.org/">United Kingdom/1</option>
+<option value="http://www3.uk.FreeBSD.org/">United Kingdom/2</option>
+<option value="http://www2.us.FreeBSD.org/">USA/1</option>
+<option value="http://www5.us.FreeBSD.org/">USA/2</option>
+</select></div>
+
+<input type="submit" value="Go" /></form>
+</div>
+
+<div id="FRONTSHORTCUTS">
+<div id="FRONTSHORTCUTSCONTENT" class="txtshortcuts">
+<h2>SHORTCUTS</h2>
+
+<ul id="FRONTSHORTCUTSLIST">
+<li><a href="./community/mailinglists.html" title="Mailing Lists">Mailing Lists</a></li>
+
+<li><a href="./support/bugreports.html" title="Report a Bug">Report a Bug</a></li>
+
+<li><a href="./doc/en_US.ISO8859-1/books/faq/index.html" title="FAQ">FAQ</a></li>
+
+<li><a href="./doc/en_US.ISO8859-1/books/handbook/index.html"
+title="Handbook">Handbook</a></li>
+
+<li><a href="./ports/index.html" title="Ports">Ports</a></li>
+</ul>
+</div>
+</div>
+
+<div class="frontnewroundbox">
+<div class="frontnewtop">
+<div><b style="display: none">.</b></div>
+</div>
+
+<div class="frontnewcontent"><a href="./projects/newbies.html">New to FreeBSD?</a></div>
+
+<div class="frontnewbot">
+<div><b style="display: none">.</b></div>
+</div>
+</div>
+</div>
+</div>
+
+<br class="clearboth" />
+<div id="FRONTNEMSCONTAINER">
+<div id="FRONTNEWS">
+<div id="FRONTNEWSCONTENT" class="txtnewsevent">
+<h2>LATEST NEWS</h2>
+
+<div class="newseventswrap">
+<p><span class="txtdate">2012-07-03</span><br />
+<a href="news/newsflash.html#event20120703:01">New committer: &#09; Niclas Zeising &#09;
+(doc/www, ports)<br />
+</a></p>
+
+<p><span class="txtdate">2012-06-19</span><br />
+<a href="news/newsflash.html#event20120619:01">Enhanced commit privileges: Glen Barber
+&#09; (doc, ports)<br />
+</a></p>
+
+<p><span class="txtdate">2012-06-04</span><br />
+<a href="news/newsflash.html#event20120604:01">New committer: &#09; Mateusz Guzik
+(src)<br />
+</a></p>
+
+<p><span class="txtdate">2012-05-30</span><br />
+<a href="news/newsflash.html#event20120530:01">New committer: &#09; Jase Thew
+(ports)<br />
+</a></p>
+
+<div>
+<ul class="newseventslist">
+<li class="first-child"><a href="./news/newsflash.html" title="More News">More
+News</a></li>
+
+<li class="last-child"><a href="./news/rss.xml" title="News RSS Feed"><img
+class="rssimage" src="./layout/images/ico_rss.png" width="27" height="12"
+alt="News RSS Feed" /></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="frontseparator"><b style="display: none">.</b></div>
+
+<div id="FRONTEVENTS">
+<div id="FRONTEVENTSCONTENT" class="txtnewsevent">
+<h2>UPCOMING EVENTS</h2>
+
+<div class="newseventswrap">
+<p><span class="txtdate">2012-10-18 - 2012-10-21</span><br />
+<a href="./events/#event:6">EuroBSDCon 2012<br />
+&#09; (Warsaw, Poland) &#09;</a></p>
+
+<p><span class="txtdate">2012-11-03 - 2012-11-04</span><br />
+<a href="./events/#event:7">meetBSD California 2012<br />
+&#09; (Sunnyvale, California, United States) &#09;</a></p>
+
+<p><span class="txtdate">2013-05-13 - 2013-05-17</span><br />
+<a href="./events/#event:0">BSDCan 2013<br />
+&#09; (Ottawa, Canada) &#09;</a></p>
+
+<div>
+<ul class="newseventslist">
+<li class="only-child"><a href="./events/" title="More Events">More Events</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="frontseparator"><b style="display: none">.</b></div>
+
+<div id="FRONTMEDIA">
+<div id="FRONTMEDIACONTENT" class="txtnewsevent">
+<h2>IN THE MEDIA</h2>
+
+<div class="newseventswrap">
+<p><span class="txtdate">2012-06</span><br />
+<a href="news/press.html#story201206:01">X.Org 7.7 Goes Into FreeBSD, KMS Is
+Ready</a></p>
+
+<p><span class="txtdate">2012-06</span><br />
+<a href="news/press.html#story201206:02">Netflix Open Connect Network: FreeBSD, Not
+Linux</a></p>
+
+<p><span class="txtdate">2012-05</span><br />
+<a href="news/press.html#story201205:01">Why Should You Use FreeBSD? Here's Some
+Reasons</a></p>
+
+<p><span class="txtdate">2012-05</span><br />
+<a href="news/press.html#story201205:02">Colocation Provider NYI Launches East Coast
+Mirror for &#09; FreeBSD Foundation</a></p>
+
+<p><span class="txtdate">2012-05</span><br />
+<a href="news/press.html#story201205:03">FreeBSD and Microsoft Hyper-V Interoperability
+Expected &#09; This Summer</a></p>
+
+<div>
+<ul class="newseventslist">
+<li class="only-child"><a href="./news/press.html" title="More Media">More Media</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="frontseparator"><b style="display: none">.</b></div>
+
+<div id="FRONTSECURITY">
+<div id="FRONTSECURITYCONTENT" class="txtnewsevent">
+<h2>SECURITY ADVISORIES</h2>
+
+<div class="newseventswrap">
+<p><span class="txtdate">2012-06-12</span><br />
+<a
+href="http://security.FreeBSD.org/advisories/FreeBSD-SA-12:04.sysret.asc">FreeBSD-SA-12:04.sysret</a></p>
+
+<p><span class="txtdate">2012-06-12</span><br />
+<a
+href="http://security.FreeBSD.org/advisories/FreeBSD-SA-12:03.bind.asc">FreeBSD-SA-12:03.bind</a></p>
+
+<p><span class="txtdate">2012-05-30</span><br />
+<a
+href="http://security.FreeBSD.org/advisories/FreeBSD-SA-12:02.crypt.asc">FreeBSD-SA-12:02.crypt</a></p>
+
+<div>
+<ul class="newseventslist">
+<li class="first-child"><a href="./security/advisories.html"
+title="More Security Advisories">More</a></li>
+
+<li class="last-child"><a href="./security/rss.xml"
+title="Security Advisories RSS Feed"><img class="rssimage"
+src="./layout/images/ico_rss.png" width="27" height="12"
+alt="Security Advisories RSS Feed" /></a></li>
+</ul>
+</div>
+</div>
+
+<br />
+<h2>ERRATA NOTICES</h2>
+
+<div class="newseventswrap">
+<p><span class="txtdate">2012-06-12</span><br />
+<a
+href="http://security.FreeBSD.org/advisories/FreeBSD-EN-12:02.ipv6refcount.asc">FreeBSD-EN-12:02.ipv6refcount</a></p>
+
+<p><span class="txtdate">2012-01-04</span><br />
+<a
+href="http://security.FreeBSD.org/advisories/FreeBSD-EN-12:01.freebsd-update.asc">FreeBSD-EN-12:01.freebsd-update</a></p>
+
+<div>
+<ul class="newseventslist">
+<li class="first-child"><a href="./security/notices.html"
+title="More Errata Notices">More</a></li>
+
+<li class="last-child"><a href="./security/errata.xml"
+title="Errata Notices RSS Feed"><img class="rssimage" src="./layout/images/ico_rss.png"
+width="27" height="12" alt="Errata Notices RSS Feed" /></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<br class="clearboth" />
+</div>
+</div>
+</div>
+</div>
+
+<div id="FOOTER"><a href="./search/index-site.html">Site Map</a> | <a
+href="./copyright/">Legal Notices</a> | © 1995-2012 The FreeBSD Project. All rights
+reserved. &#09;The mark FreeBSD is a registered trademark of The FreeBSD &#09;Foundation
+and is used by The FreeBSD Project with the &#09;permission of <a
+href="http://www.freebsdfoundation.org/documents/Guidelines.shtml">The &#09;FreeBSD
+Foundation</a>.</div>
+</div>
+</div>
+</body>
+</html>
+

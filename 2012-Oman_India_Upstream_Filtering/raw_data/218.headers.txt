@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache,no-store,must-revalidate
+Date: Tue, 19 Jun 2012 13:51:34 GMT
+Pragma: no-cache
+Server: Apache
+Vary: Accept-Encoding
+Content-Type: text/html;charset=UTF-8
+Client-Date: Mon, 18 Jun 2012 21:34:39 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </satishsethswan/submissions.rss>; rel="alternate"; title="Digg"; type="application/rss+xml"
+Link: <http://cdn1.diggstatic.com/img/favicon.a015f25c.ico>; rel="shortcut icon"
+Link: <http://cdn1.diggstatic.com/img/iphone/icon.63e34426.png>; rel="apple-touch-icon"
+Link: <http://cdn1.diggstatic.com/css/two_column/library/global.187982cc.css>; media="all"; rel="stylesheet"; type="text/css"
+Link: <http://cdn1.diggstatic.com/css/two_column/library/jqueryautocomplete.cbdf13d5.css>; media="all"; rel="stylesheet"; type="text/css"
+Link: <http://cdn3.diggstatic.com/css/two_column/App_UserProfile/userProfile.f386a89c.css>; media="all"; rel="stylesheet"; type="text/css"
+Set-Cookie: openGraphCustom=shown; expires=Tue, 26-Jun-2012 13:51:34 GMT; path=/
+Set-Cookie: traffic_control=000000000000000000000080000000000000000002200000000400000000224012008060081180802%3A433%3A112; expires=Wed, 20-Jun-2012 13:51:34 GMT; path=/; domain=digg.com
+Set-Cookie: session_id=b6d28aac5ff31f20683ce97aec7c36eb94fdba739b6b7c57e38c3fb52fbdbdee; expires=Tue, 19-Jun-2012 14:06:34 GMT; path=/; domain=digg.com
+Set-Cookie: d=38b94215e81213e1a4c5b34381ff929c46d9a100ca7749152d585ea3832ae300; expires=Sun, 19-Jun-2022 23:59:14 GMT; path=/; domain=.digg.com
+Title: Satish Seth Swan (satishsethswan) - Digg
+X-Digg-Time: D=252644 10.2.128.41
+X-Meta-Charset: utf-8
+X-Meta-Description: Satish Seth Swan courts events in his life and reports them for all to see as a statement. He has witnessed 1,000 crore good and bad things in life and will share them with you. His lifetime of investment in good things in life can become your capital for a knowing future. Todate he has kept all these as good court records. Like a prosecution witness he tells them all. Professionally, he is a consultant with a telecom company. Satish's only abetment to these records are his passion for life. I will scan all-India so you can see what I saw. So get on board! Let's keep investing and disinvesting our good and bad thoughts along the way. Together, we may even witness10,000 crore records in life.    
+X-Meta-Keywords: Digg, pictures, breaking news, entertainment, politics, technology, headline news, celebrity news, offbeat, world business, sports, funny videos
+X-Powered-By: PHP/5.2.9-digg8

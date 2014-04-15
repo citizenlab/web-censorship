@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=3600, private
+Connection: close
+Date: Tue, 19 Jun 2012 13:37:50 GMT
+Via: HTTP/1.1 rc1.ops.sp1.yahoo.com (YahooTrafficServer/1.20.10 [cMsSf ])
+Age: 0
+Server: YTS/1.20.10
+Vary: Accept-Encoding
+Content-Type: text/html; charset=utf-8
+Client-Date: Mon, 18 Jun 2012 21:20:54 GMT
+Client-Peer: 68.180.206.184:80
+Client-Response-Num: 1
+P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+Set-Cookie: BX=co6vjfh7u105e&b=3&s=kg; expires=Tue, 20-Jun-2014 20:00:00 GMT; path=/; domain=.imagessearchyahoo.com
+Title: Yahoo!
+X-Meta-ROBOTS: NOINDEX

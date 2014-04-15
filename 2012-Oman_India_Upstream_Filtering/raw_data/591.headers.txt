@@ -1,0 +1,45 @@
+HTTP/1.1 200 OK
+Cache-Control: post-check=0, pre-check=0
+Connection: close
+Date: Tue, 19 Jun 2012 15:01:57 GMT
+Pragma: no-cache
+ETag: 6666cd76f96956469e7be39d750cc7d9
+Server: Apache
+Vary: Accept-Encoding
+Content-Type: text/html
+Expires: Mon, 1 Jan 2001 00:00:00 GMT
+Last-Modified: Tue, 19 Jun 2012 15:01:57 GMT
+Client-Date: Mon, 18 Jun 2012 22:45:01 GMT
+Client-Peer: 50.63.41.1:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </plugins/content/jw_allvideos/tmpl/Classic/css/template.css>; rel="stylesheet"; type="text/css"
+Link: </media/system/css/modal.css>; rel="stylesheet"; type="text/css"
+Link: </components/com_imageshow/assets/css/style.css>; rel="stylesheet"; type="text/css"
+Link: <http://desijammers.com/components/com_community/templates/blackout/css/style.css>; rel="stylesheet"; type="text/css"
+Link: <http://desijammers.com/components/com_community/assets/window.css>; rel="stylesheet"; type="text/css"
+Link: <http://desijammers.com/modules/mod_shoutbox/css/mod_shoutbox.css>; rel="stylesheet"; type="text/css"
+Link: </modules/mod_vvisit_counter/css/mod_vvisit_counter.css>; rel="stylesheet"; type="text/css"
+Link: </templates/black_lernvid.com/css/reset.css>; media="all"; rel="stylesheet"; type="text/css"
+Link: </templates/black_lernvid.com/css/template.css>; media="all"; rel="stylesheet"; type="text/css"
+Link: </templates/black_lernvid.com/css/colors7.css>; media="all"; rel="stylesheet"; type="text/css"
+Link: </templates/black_lernvid.com/css/colors1.css>; media="screen"; rel="stylesheet"; title="styles1"; type="text/css"
+Link: </templates/black_lernvid.com/css/colors2.css>; media="screen"; rel="stylesheet"; title="styles2"; type="text/css"
+Link: </templates/black_lernvid.com/css/colors3.css>; media="screen"; rel="stylesheet"; title="styles3"; type="text/css"
+Link: </templates/black_lernvid.com/css/colors4.css>; media="screen"; rel="stylesheet"; title="styles4"; type="text/css"
+Link: </templates/black_lernvid.com/css/colors5.css>; media="screen"; rel="stylesheet"; title="styles5"; type="text/css"
+Link: </templates/black_lernvid.com/css/colors6.css>; media="screen"; rel="stylesheet"; title="styles6"; type="text/css"
+Link: </templates/black_lernvid.com/css/colors7.css>; media="screen"; rel="stylesheet"; title="styles7"; type="text/css"
+Link: </templates/black_lernvid.com/css/colors8.css>; media="screen"; rel="stylesheet"; title="styles8"; type="text/css"
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Set-Cookie: 16fdf6d32e0484ee36d1cda69d8f1194=8580017f50dfaaf46380696fc411ddc1; path=/
+Title: Indian Dj in bay area, Bay area indian DJ, Punjabi DJ , Fremont, Sanjose, Exclusive Entertainment, W
+X-Meta-Author: **Jag Khehra** Admin
+X-Meta-Description: Indian Dj in bay area, Bay area indian DJ, Punjabi DJ , Fremont, Sanjose, Exclusive Entertainment, World Class indian djs providing the best Indian music for exclusive clients celebrating Indian weddings. Indian music (hindi, bhangra, bollywood remixes, garba) is blended with american top 40 to maximize guests on the dance floor. bhangra, bollywood, desi party, # 1 party entertainer in the world, pictures, music, free consultation
+X-Meta-Designer: Juergen Koller - http://www.lernvid.com
+X-Meta-Generator: Joomla! 1.5 - Open Source Content Management
+X-Meta-Keywords: Desi Jammers Ent. is here for your special event such as a wedding reception, anniversary or birthday parties, we can provide you with the different DJ systems depending upon your needs and size of the Venue.DJ System: We provide you with the top of the line Pioneer Turn Tables (CDJ 900) and Mixer (DJM 2000) to give you the best sound quality and beat matching. For the speakers we use JBL speakers and subwoofers to you nice highs and lows on the dance floor.Lightning: Fun, Party-like dance floor lighting is a great option if you'd like to create a club-like feel after the elegance of your dinner. The package includes DMX controlled intelligent lights that can be programmed to scan the dance floor at any speed with a variety of colors & patterns. These lights are the same type of fixtures that award shows, concerts, and dance clubs use. They can also remain stationary during dinner time to create a classy mood.• Led Lighting with 800 Watt Strobe (To get you on your feet with right music and environment).• Laser Lighting (To give you club like experience)• Up lightningWashing a room with mood lights/uplighting is great for creating an elegant atmosphere during dinner or dancing. These lights are placed around a room on the floor and positioned to shine up onto walls or columns. The colors of the lights are totally up to you! We can dial in any color to match your decor. During dancing they can be programmed to change color with the beat of the music or fade softly between colors on slower music. We usually like to meet you at your reception site weeks before your event to help you decide on the location of each light around the room. Instead of older style conventional can lights that get extremely hot and use a lot of power, we use new cutting-edge DMX controlled L.E.D. color changing light fixtures.Custom Gobo:Imagine you and your fiancé's monogram, names, or initials on the wall or dance floor using lighting! I create a high quality custom piece of glass called a gobo that fits inside of a special light fixture. This allows me to shine it anywhere to add a personalized touch to your reception. You can add this to one of the lighting packages or do it all by itself with no other lighting.Pin Spot:Pin spot lights are great for shining down onto tables to highlight the floral center pieces or other decor. These lights shine a very narrow beam to the floral centerpiece or cake to make it pop off the table in a dark room. You can pin spot every guest table in a room or just special items such as the wedding cakes.Fog Machine:Fog Machine helps to enhance all of the lighting experience as you will be able to see the light as it travels through the air with the help of the fog. (We only use top of the line Water based fog use so it will not have any negative effect on your Health)Projector Screens and Projector:We offer a large movie screen and video projector if you'd like to show a video or slide show at your wedding reception or rehearsal dinner. We can play a DVD, VHS tape, video iPod or even hook up a computer for PowerPoint® Presentations.Services:Barrat Arrival : We offer mobile DJ service to make groom and Barrat's entrance special and fun. Mobile DJ along with a Dholi makes a perfect combination to start the wedding day with a blast. We will make a customized dance mix of wedding and dance songs of your choice. This way Barrat will be able to enter the venue dancing. Along with this, another DJ System would be located at the place of the wedding ceremony to provide you with the continuous music. We will also provide you with the microphones for the wedding ceremony. Special Songs of Bride and Groom's choice will be played on their entrance.Dholi : Dhol has been an important part of the Indian Music, and hardly anybody can resist not to dance while a Dhol is playing. We can provide you with any number of Dholis as per your need and Venue. You can make your entrances with a Dholi following you in a classical Indian Style.Cocktails:  We will cater your guests with the music during the Cocktail Hour, while they are having good time socializing.
+X-Meta-Licence: Copyright LernVid.com - Creative Commons Sharalike 3.0
+X-Meta-ROBOTS: index, follow
+X-Meta-Title: Indian Dj in bay area, Bay area indian DJ, Punjabi DJ , Fremont, Sanjose, Exclusive Entertainment, W
+X-Powered-By: PHP/5.2.17

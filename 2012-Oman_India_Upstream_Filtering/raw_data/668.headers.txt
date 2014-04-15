@@ -1,0 +1,4 @@
+500 Can't connect to waptamil.net:80 (Bad hostname 'waptamil.net')
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 22:52:31 GMT
+Client-Warning: Internal response

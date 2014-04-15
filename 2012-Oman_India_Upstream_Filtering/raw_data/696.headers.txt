@@ -1,0 +1,26 @@
+HTTP/1.1 404 Not Found
+Date: Tue, 19 Jun 2012 15:11:06 GMT
+Content-Length: 16423
+Content-Type: text/html; charset=utf-8
+Client-Date: Mon, 18 Jun 2012 22:54:09 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Link: <http://www.facebook.com/pages/The-Real-Hindusm-FighterkuverDeepnayaningh/314528855253976#!/photo.php?fbid=360284344011760&set=a.315702081803320.78979.314528855253976&type=1&theater>; media="handheld"; rel="alternate"
+Link: <http://static.ak.fbcdn.net/rsrc.php/yi/r/q9U99v3_saj.ico>; rel="shortcut icon"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yw/r/g1Hw-PcFOcK.css>; rel="stylesheet"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yW/r/mklnYiSbYM2.css>; rel="stylesheet"
+P3P: CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"
+Refresh: 0; URL=/pages/The-Real-Hindusm-FighterkuverDeepnayaningh/314528855253976?_fb_noscript=1#!/photo.php?fbid=360284344011760&set=a.315702081803320.78979.314528855253976&type=1&theater
+Set-Cookie: datr=ipbgTzLvBc-SIzIOBPuHB0gy; expires=Thu, 19-Jun-2014 15:11:06 GMT; path=/; domain=.facebook.com; httponly
+Set-Cookie: lsd=AVqHJ8Iq; path=/; domain=.facebook.com
+Set-Cookie: reg_ext_ref=http%3A%2F%2Fwww.yahoo.com; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_gate=http%3A%2F%2Fwww.facebook.com%2Fpages%2FThe-Real-Hindusm-FighterkuverDeepnayaningh%2F314528855253976%23%21%2Fphoto.php%3Ffbid%3D360284344011760%26set%3Da.315702081803320.78979.314528855253976%26type%3D1%26theater; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_ref=http%3A%2F%2Fwww.facebook.com%2Fpages%2FThe-Real-Hindusm-FighterkuverDeepnayaningh%2F314528855253976%23%21%2Fphoto.php%3Ffbid%3D360284344011760%26set%3Da.315702081803320.78979.314528855253976%26type%3D1%26theater; path=/; domain=.facebook.com
+Title: Stránka nenalezena | Facebook
+X-Content-Type-Options: nosniff
+X-FB-Debug: GAhA9r+KJgtmpkL9VHVrpYR7LJe5/vvVZf1lp39vGi0=
+X-FRAME-OPTIONS: deny
+X-Meta-Charset: utf-8
+X-Meta-Description:  Facebook je socíální síť, která umožňuje komunikaci s přáteli, spolupracovníky, spolužáky a lidmi z okolí. Na Facebooku můžete kontaktovat přátele, nahrávat neomezené množství fotek, přidávat odkazy a videa a budete mít informace o svých známých.
+X-Meta-ROBOTS: noodp, noydir
+X-UA-Compatible: IE=edge,chrome=1

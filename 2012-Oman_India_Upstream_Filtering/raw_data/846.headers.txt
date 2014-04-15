@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Connection: close
+Date: Tue, 19 Jun 2012 15:28:51 GMT
+ETag: "e6272093-d612-4b56-8e4e-038cf92d53f6"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 15:28:51 GMT
+Last-Modified: Sat, 09 Jun 2012 13:48:48 GMT
+Client-Date: Mon, 18 Jun 2012 23:11:57 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Link: <http://fonts.googleapis.com/css?family=Oswald>; rel="stylesheet"; type="text/css"
+Link: <http://entertainment-blast.blogspot.in/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://entertainment-blast.blogspot.com/>; rel="canonical"
+Link: <http://entertainment-blast.blogspot.com/feeds/posts/default>; rel="alternate"; title="Tamil & Hindi Entertainment - Atom"; type="application/atom+xml"
+Link: <http://entertainment-blast.blogspot.com/feeds/posts/default?alt=rss>; rel="alternate"; title="Tamil & Hindi Entertainment - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/8749378235927168948/posts/default>; rel="service.post"; title="Tamil & Hindi Entertainment - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=8749378235927168948>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://entertainment-blast.blogspot.com/>; rel="openid.delegate"
+Link: <YOUR-FAVICON-URL>; rel="shortcut icon"; type="image/vnd.microsoft.icon"
+Link: <http://www.blogger.com/static/v1/widgets/1355816394-widget_css_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=8749378235927168948&zx=e6272093-d612-4b56-8e4e-038cf92d53f6>; rel="stylesheet"; type="text/css"
+Set-Cookie: blogger_TID=2e14cd0f2b44f3bd; HttpOnly
+Title: Tamil & Hindi Entertainment
+X-Content-Type-Options: nosniff
+X-Meta-Description: DESCRIPTION HERE
+X-Meta-Generator: blogger
+X-Meta-Keywords: KEYWORDS HERE
+X-Meta-MSSmartTagsPreventParsing: true
+X-XSS-Protection: 1; mode=block

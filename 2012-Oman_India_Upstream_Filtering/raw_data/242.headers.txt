@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Date: Tue, 19 Jun 2012 13:52:54 GMT
+Pragma: no-cache
+Server: Apache
+Content-Type: text/html
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Client-Date: Mon, 18 Jun 2012 21:36:03 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </mccss/mc2008/inside.css>; rel="stylesheet"; type="text/css"
+Set-Cookie: cae_browser=desktop; expires=Tue, 19-Jun-2012 15:52:54 GMT; path=/; domain=.moneycontrol.com
+Title: MoneyControl >> Search >> Satish Seth

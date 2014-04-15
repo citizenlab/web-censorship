@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Date: Tue, 19 Jun 2012 15:44:57 GMT
+Pragma: no-cache
+Accept-Ranges: bytes
+Server: web
+Content-Length: 88388
+Content-Type: text/html; charset=utf-8
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Client-Date: Mon, 18 Jun 2012 23:28:09 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Link: </images/favicon.ico>; rel="shortcut icon"
+Link: </css/main.css?v=9>; rel="stylesheet"; type="text/css"
+Link: </css/video_page.css?v=9>; rel="stylesheet"; type="text/css"
+Link: </css/upload.css?v=9>; rel="stylesheet"; type="text/css"
+Link: </css/header.css?v=9>; rel="stylesheet"; type="text/css"
+Link: </css/popup.css?v=9>; rel="stylesheet"; type="text/css"
+Link: </css/general.css?v=9>; rel="stylesheet"; type="text/css"
+Set-Cookie: PHPSESSID=ogqv22e5h5v5vu9quike43l530; path=/
+Set-Cookie: P_sk=deleted; expires=Mon, 20-Jun-2011 15:44:56 GMT; path=/; domain=videobb.com
+Set-Cookie: P_un=deleted; expires=Mon, 20-Jun-2011 15:44:56 GMT; path=/; domain=videobb.com
+Set-Cookie: P_dc=p4lntcaxl7x6; expires=Wed, 19-Jun-2013 15:44:57 GMT; path=/; domain=videobb.com
+Set-Cookie: P_sk=deleted; expires=Mon, 20-Jun-2011 15:44:56 GMT; path=/; domain=videobb.com
+Set-Cookie: P_un=deleted; expires=Mon, 20-Jun-2011 15:44:56 GMT; path=/; domain=videobb.com
+Set-Cookie: P_dc=lt46cxxplan7; expires=Wed, 19-Jun-2013 15:44:57 GMT; path=/; domain=videobb.com
+Set-Cookie: P_sk=deleted; expires=Mon, 20-Jun-2011 15:44:56 GMT; path=/; domain=videobb.com
+Set-Cookie: P_un=deleted; expires=Mon, 20-Jun-2011 15:44:56 GMT; path=/; domain=videobb.com
+Set-Cookie: P_dc=xplal64ncxt7; expires=Wed, 19-Jun-2013 15:44:57 GMT; path=/; domain=videobb.com
+Title: videobb - Free Video Hosting - Your #1 Video Site
+X-Cache: MISS
+X-Meta-Googlebot: noindex
+X-Meta-ROBOTS: noindex
+X-Meta-Slurp: noindex

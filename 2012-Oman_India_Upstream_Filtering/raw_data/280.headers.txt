@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 13:55:35 GMT
+Age: 0
+Server: ATS/3.0.4
+Vary: Accept-Encoding
+Content-Language: en-US
+Content-Type: text/html;charset=UTF-8
+Client-Date: Mon, 18 Jun 2012 21:38:40 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://www.linkedin.com/img/favicon_v3.ico>; rel="shortcut icon"; type="image/ico"
+Link: <http://in.linkedin.com/pub/dir/Satish/Seth>; rel="canonical"
+Link: <http://static01.linkedin.com/scds/concat/common/css?h=3bifs78lai5i0ndyj1ew7316e-f50e935yfxr9e6txwchf6f5rh-c5839km74lqu75dnankln5rgt-4uu2pkz5u0jch61r2nhpyyrn8-9t5e1knzidyvkpf0z8e0jmadj-25a3hrghv63tplct2jcz35xds-4om4nn3a2z730xs82d78xj3be-bigga6m9j58j1ibtzsfwdqwcq-ct4kfyj4tquup0bvqhttvymms-9zbbsrdszts09by60it4vuo3q-4uxu0ysdiw1f1nqnc7pu0c7gi-35865syxlga19l88y4duqyqms-1137x3npoqxfrtdyrzxxfg6r-egmvwwdl5i2v4snqvxbokuq07>; rel="stylesheet"; type="text/css"
+Set-Cookie: bcookie="v=2&7e2eb288-3f6c-47a9-a00c-44ea2d680270"; Version=1; Domain=linkedin.com; Max-Age=63072000; Expires=Thu, 19-Jun-2014 13:55:35 GMT; Path=/
+Set-Cookie: lang="v=2&lang=en-us"; Version=1; Domain=linkedin.com; Path=/
+Set-Cookie: X-LI-IDC=C1
+Title: Satish Seth profiles | LinkedIn
+X-Meta-Description: View the profiles of professionals named Satish Seth on LinkedIn. There are 19 professionals named Satish Seth, who use LinkedIn to exchange information, ideas, and opportunities.

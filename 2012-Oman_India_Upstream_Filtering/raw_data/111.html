@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>smeisp.cn</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" language="JavaScript">
+var google_afd_request = {
+    client: 'ca-dp-dopa01_js',
+    domain_name: 'smeisp.cn',
+    session_token: 'create'
+};
+var google_token;
+var isblock,isfaillisted,isadult,isneedsreview;
+function InitiateFrameRequest()
+{
+	document.write("<frameset id=\"frset\" rows=\"100%,*\" frameborder=\"no\" border=\"0\" framespacing=\"0\">")
+	document.write("<frame id=\"transf\" src='http://sp3.yousee.com/?dm=smeisp.cn&acc=936A22A3-A90C-487E-B7D0-E589A70BB515&ref=http%3A%2F%2Fwww.yahoo.com&session="+google_token+"&isblock="+isblock+"&isadult="+isadult+"&isneedsreview="+isneedsreview+"&isfaillisted="+isfaillisted+"'>")
+	document.write("<frame id=\"xxx\" src='null.html'>");
+	document.write("<noframes><body bgcolor=\"#ffffff\" text=\"#000000\"><a href=\"http://sp3.yousee.com/?dm=smeisp.cn&acc=936A22A3-A90C-487E-B7D0-E589A70BB515&ref=http%3A%2F%2Fwww.yahoo.com&session="+google_token+"&isblock="+isblock+"&isadult="+isadult+"&isneedsreview="+isneedsreview+"&isfaillisted="+isfaillisted+"\" id=''>Click here</a>.</body></noframes>");	
+	document.write("</frameset>");
+}
+
+function google_afd_ad_request_done(google_afd_response) {
+    google_token = google_afd_response.session_token; 
+    isblock = google_afd_response.blocked;
+    isfaillisted = google_afd_response.faillisted;
+    isadult = google_afd_response.adult;
+    isneedsreview = google_afd_response.needsreview;
+	InitiateFrameRequest();
+}
+
+
+</script>
+<script type="text/javascript" language="JavaScript" src="http://pagead2.googlesyndication.com/apps/domainpark/show_afd_ads.js"></script>
+<noscript><meta http-equiv="refresh" content="0;url=http://sp3.yousee.com/?dm=smeisp.cn&acc=936A22A3-A90C-487E-B7D0-E589A70BB515&noscript=1"></noscript>
+</head>
+</html>

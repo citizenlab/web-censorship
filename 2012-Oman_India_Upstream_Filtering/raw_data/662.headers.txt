@@ -1,0 +1,4 @@
+500 Can't connect to waprocks.in:80 (Bad hostname 'waprocks.in')
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 22:52:01 GMT
+Client-Warning: Internal response

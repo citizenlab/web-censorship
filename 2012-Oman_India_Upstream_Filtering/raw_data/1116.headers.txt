@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 16:05:54 GMT
+Server: Apache
+Content-Length: 470
+Content-Type: text/html
+Client-Date: Mon, 18 Jun 2012 23:48:56 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Refresh: 1; url=/forum
+Title: MovieJocky
+X-Powered-By: PHP/5.2.17

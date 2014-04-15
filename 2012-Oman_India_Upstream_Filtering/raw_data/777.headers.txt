@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 15:24:28 GMT
+Server: Apache
+Content-Type: text/html; charset=UTF-8
+Expires: Mon, 18 Jun 2012 15:24:29 GMT
+Client-Date: Mon, 18 Jun 2012 23:07:32 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://180upload.com/main.css>; rel="stylesheet"; type="text/css"
+MS-Author-Via: DAV
+Title: www.180upload.com - Video Streaming and File Sharing Completely Free
+X-Meta-Description: www.180upload.com - Video streaming and file sharing completely free
+X-Meta-Keywords: file upload,share files,free upload
+X-Powered-By: PleskLin

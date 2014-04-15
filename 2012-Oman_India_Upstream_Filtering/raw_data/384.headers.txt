@@ -1,0 +1,4 @@
+500 Can't connect to hinduexistence.wordpress.comhttp::80 (Bad hostname 'hinduexistence.wordpress.comhttp:')
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 21:51:10 GMT
+Client-Warning: Internal response

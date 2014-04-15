@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Connection: close
+Date: Tue, 19 Jun 2012 15:49:16 GMT
+Pragma: no-cache
+Server: LiteSpeed
+Content-Type: text/html; charset=ISO-8859-1
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Last-Modified: Tue, 19 Jun 2012 15:49:16 GMT
+Client-Date: Mon, 18 Jun 2012 23:32:21 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://da-pirates.com/Themes/default/style.css?fin11>; rel="stylesheet"; type="text/css"
+Link: <http://da-pirates.com/Themes/default/print.css?fin11>; media="print"; rel="stylesheet"; type="text/css"
+Link: <http://da-pirates.com/index.php?action=help;PHPSESSID=bbaa4d32a93b1361c2a2ae684f47d7ea>; rel="help"; target="_blank"
+Link: <http://da-pirates.com/index.php?action=search;PHPSESSID=bbaa4d32a93b1361c2a2ae684f47d7ea>; rel="search"
+Link: <http://da-pirates.com/index.php?PHPSESSID=bbaa4d32a93b1361c2a2ae684f47d7ea>; rel="contents"
+Link: <http://da-pirates.com/index.php?type=rss;action=.xml;PHPSESSID=bbaa4d32a93b1361c2a2ae684f47d7ea>; rel="alternate"; title="Free Downloads Entertainment Portal - RSS"; type="application/rss+xml"
+Link: <http://da-pirates.com/Themes/default/tp-style.css?fin11>; rel="stylesheet"; type="text/css"
+Set-Cookie: PHPSESSID=bbaa4d32a93b1361c2a2ae684f47d7ea; path=/
+Title: Free Downloads Entertainment Portal
+X-Meta-Description: Free Downloads Entertainment Portal
+X-Meta-Keywords: PHP, MySQL, bulletin, board, free, open, source, smf, simple, machines, forum
+X-UA-Compatible: IE=EmulateIE7

@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=60, must-revalidate
+Connection: close
+Date: Tue, 19 Jun 2012 15:26:04 GMT
+Server: Hampsterbox/2.0
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 19 Jun 2012 15:27:00 GMT
+Client-Date: Mon, 18 Jun 2012 23:09:07 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </i/main.css>; rel="stylesheet"; type="text/css"
+Link: </favicon.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: <http://bitsnoop.com/searchplugin.xml>; rel="search"; title="Bitsnoop Search"; type="application/opensearchdescription+xml"
+Title: Bitsnoop P2P Search - 17.8 Million Valid Torrents
+X-Meta-Description: The best torrent search in the world. Aggregated torrents from numerous sites and groups, automated verification, super-fast search. Download millions of torrents with TV series, movies, music, PC/Playstation/Wii/Xbox games and more at Bitsnoop.
+X-Meta-Keywords:  bitsnoop, torrent, search, download, movies, music, mp3, software, games, p2p

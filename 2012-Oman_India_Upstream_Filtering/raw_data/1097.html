@@ -1,0 +1,315 @@
+<html lang="en"><head>
+<title>isoHunt › the BitTorrent & P2P search engine</title>
+<meta http-equiv="Content-Type" content="text/html">
+<meta name="description" content="Bit Torrent search engine, with an awesome P2P community sharing comments and ratings in discovering new media.">
+<meta name="keywords" content="torrent, torrents, bittorrent, irc, creative commons, public domain, files, search, engine, video, audio, music, software, games">
+<meta property="og:title" content="isoHunt › the BitTorrent & P2P search engine" />
+<meta property="og:image" content="http://static.isohunt.com/img/logo_square.jpg" />
+<meta name="title" content="isoHunt › the BitTorrent & P2P search engine" />
+<link rel="image_src" href="http://static.isohunt.com/img/logo_square.jpg" / >
+<meta name="verify-v1" content="a1of4c6X7BZ7aum3gGOXKFfpAshC2hVTjWCu53MB8u8=" /><meta property="fb:page_id" content="76797684811" /><link rel='alternate' type='application/rss+xml' title='isoHunt BitTorrent RSS feeds' href='http://feeds.feedburner.com/isoHuntNews?format=xml'>
+<link rel="stylesheet" href="http://static.isohunt.com/js/isohunt.css" type="text/css">
+<link rel="shortcut icon" href="http://static.isohunt.com/favicon.ico">
+<link rel="shortcut icon" href="http://static.isohunt.com/favicon.png" type="image/png">
+<link rel="search" type="application/opensearchdescription+xml" href="http://static.isohunt.com/isohunt_open_search.xml" title="isoHunt › BT search" />
+<script src="http://static.isohunt.com/js/jquery-1.4.2_ui-1.8-custom.min.js" type="text/javascript"></script>
+<script>
+    jQuery.noConflict(true)(function($){
+        $('#ihq').focus()
+            .keydown(function(event){
+                // down key
+                if (!this.value && event.keyCode == 40)
+                    $(this).blur();
+            });
+
+        $.getJSON('/statsjson.php', function(data){
+            data = data || [];
+            $('#ihq').autocomplete({
+                minLength: 1,
+                source: function(request, response){
+                    var query = request.term.toLowerCase();
+                    var suggestions = [];
+                    var pos, hl, matched=0;
+                    for (var i=0, s; s=data[i]; i++){
+                        if ((pos = s.indexOf(query)) === 0 || 
+                            (pos = s.indexOf(' ' + query)) > 0 || 
+                            (pos = s.indexOf('"' + query)) === 0) {
+                            if (pos > 0) pos++;
+                            if (matched == 15) break;
+                            matched++;
+                            var pre = s.substr(0, pos);
+                            var hl = '<span class="hl">' + s.substr(pos, query.length) + '</span>';
+                            var post = s.substr(pos + query.length);
+                            suggestions.push({id: matched, label: pre + hl + post, value: s});
+                        }
+                    }
+                    response(suggestions);
+                },
+                select: function(event, ui){
+                    $('#ihq').val(ui.item.value);
+                    $('#searchBox').click();
+                },
+                focus: function(event, ui){
+                    // Prevent search box text from changing on hover
+                    return false;
+                }
+            });
+        });
+    });
+</script>
+<script src="http://static.isohunt.com/js/jquery-latest.pack_functions.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery (function($) {
+  $("form").submit(function(){ $(this).find("#searchBox").attr("value", "Loading..."); $(this).find("#searchBox").attr("disabled", "true"); });
+  startList();
+});
+</script>
+<link href="https://plus.google.com/116002685991938476502" rel="publisher" /><script type="text/javascript">
+window.___gcfg = {lang: 'en'};
+(function() 
+{var po = document.createElement("script");
+po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(po, s);
+})();</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(
+  ['_setAccount', 'UA-260194-4'],
+  ['_setDomainName', '.isohunt.com'],
+  ['_trackPageview'],
+  ['_trackPageLoadTime']
+);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</head>
+<body>
+<div class='topBar' id='textAd'><div id='login'><a href='/forum/profile.php?mode=register'>Sign up</a> | <a href='/forum/login.php?redirect=../'>Log in</a></div><div id='ad'><a href='/forum/viewtopic.php?t=148705'><b>Join the Copyfight. Support isoHunt's legal defense from MPAA and CRIA.</b></a></div></div><table class="bodyline" width="100%" cellspacing="0" cellpadding="0" border="0"><tr><td>
+<table id="IH_tblHead" width="100%" cellspacing="0" cellpadding="0"><tr height=42><td width="60%" style="background:#003366" align=center>
+<div class="dirs ydsf" id=ihOps><div class=inner><ul style="margin:0 0 0 2.3em">
+<li>You can use boolean operators (<b>-</b>, <b>|</b>, <b>OR</b>), wildcards (<b>*</b>, <b>?</b>), and phrase search (<b>"</b>) in your query</li>
+<li>For BitTorrent: Paste in a 40 characters info_hash, to search for that particular torrent and get all trackers for it</li>
+</ul></div></div><table onmouseover="ShowTip('Ops');" onmouseout="HideTip('Ops');"><tr><td class="ihSearch"><div class="tabsInput"><div class="tabs"><a href="/torrents/" onClick="document.ihSearch.action='/torrents/'; document.ihSearch.submit(); return false" title="Search with empty keywords to browse all torrents by category">BitTorrent</a><span class="sep">|</span><a href="/release/?ihq=" onClick="document.ihSearch.action='/release/'; document.ihSearch.submit(); return false" title="Search with empty keywords to browse all releases">Releases</a><span class="sep">|</span><a href="http://tickets.isohunt.com/" onClick="window.location='http://tickets.isohunt.com/ResultsGeneral.aspx?stype=0&kwds=' + escape(document.getElementById('ihq').value); return false" title="isoHunt's Outlet for the cheapest Live Event tickets online">Tickets</a></div><form name=ihSearch action='/torrents/' method=GET><input name="ihq" id="ihq" class=post type="text" size="42" accesskey="s" tabindex="1" value="" x-webkit-speech speech>
+<input type="submit" tabindex="2" id="searchBox" value="Search" class=mainoption></form></div>
+<span class="tabs" style="font-size: 1em">
+<a href="/torrents/" title="Browse all torrents by category">Browse</a><span class="sep">|</span></span><a href="/link2us.php" class="finePrint">Add this search and API to your site</a>
+</td></tr></table>
+</td><td width="40%" class="ihLogo"><table height="100%" width="100%" cellspacing="0" cellpadding="10" border="0"><tr><td align="right" valign="top">
+<table border=0 cellpadding=0 cellspacing=0><tr><td>
+<ul id="nav">
+  <li>Site
+    <ul>
+      <li><a href="/" title="Home page">News</a></li>
+      <li><a href="/link2us.php" title="Put various features of this site on your site or browser, with buttons, widgets and toolbars">Toolbar, Widgets, API</a></li>
+      <li><a href="http://isohunt.com/a/adclick.php?bannerid=33&zoneid=1&source=header&dest=http%3A%2F%2Fwww.jinx.com%2Fisohunt" title="Support isoHunt and P2P! Buy our t-shirts and merchandize." target=_blank>T-Shirts</a>
+      <li><a href="/readme.php" title="Site disclaimer, vision, tips, etc.">Read Me</a></li>
+      <li><a href="/dmca-copyright.php" title="isoHunt's copyright policy">Copyrights</a></li>
+      <li><a href="irc://irc.isohunt.com/isoHunt" title="IRC chat on irc.isohunt.com, #isoHunt">IRC chat</a></li>
+      <li><a href="/advertise.php" title="Keyword targetted, customized">Advertise</a></li>
+    </ul>
+  </li>
+  <li>Forum
+    <ul>
+      <li><a href="/forum/" title="isoHunt Forums">Index</a></li>
+      <li><a href="/forum/search.php">Search</a></li>
+      <li><a href="/forum/search.php?search_id=newposts" title="Since last visit, registration required">New posts</a></li>
+      <li><a href="/latest.php?mode=forum" title="Last 50 forum posts">Active posts</a></li>
+    </ul>
+  </li>
+  <li>Latest
+    <ul>
+      <li><a href="/latest.php?mode=bt" title="Last 60 files indexed">Torrent files</a></li>      <li><a href="/stats.php?mode=btSites" title="Bit Torrent">Torrent sites</a></li>
+      <li><a href="/torrents/" title="Browse all latest torrents">Directory</a></li>
+      <li><a href="/stats.php?mode=zg" title="Top search phrases">Zeitgeist</a></li>    </ul>
+  </li>
+    <li>Releases
+    <ul>
+      <li><a href="/release" title="Reviews and ratings on all the latest">All</a></li>
+      <li><a href="/release/?cat=1">Video</a></li>
+      <li><a href="/release/?cat=4">TV</a></li>
+      <li><a href="/release/?cat=2">Audio</a></li>
+      <li><a href="/release/?cat=3">Music Video</a></li>
+      <li><a href="/release/?cat=5">Games</a></li>
+      <li><a href="/release/?cat=6">Apps</a></li>
+      <li><a href="/release/?cat=7">Pictures</a></li>
+      <li><a href="/release/?cat=8">Anime</a></li>
+      <li><a href="/release/?cat=9">Comics</a></li>
+      <li><a href="/release/?cat=10">Books</a></li>
+      <li><a href="/release/?post"><b>Post new release</b></a></li>
+    </ul>
+  </li>
+  </ul>
+</td></tr></table>
+</td></tr><tr><td class=ihLogo style="text-align:right;vertical-align:baseline;padding:2px 25px 2px 0"><a href="/" title="Home page"><img src="http://static.isohunt.com/img/logo.gif" alt="isoHunt Logo" width=195 height=50></a></td></tr></table></td></tr></table>
+<div class="dirs ydsf" id=ihaTorrents><div class=inner>Active torrents indexed from websites and trackers across the internet, unique by info_hash</div></div>
+<table width="100%" cellspacing="0" cellpadding="0"><tr><td class=navbkg>
+ &nbsp; Sites: 548 &nbsp;&#8226;&nbsp; Trackers: 200,673 &nbsp;&#8226;&nbsp; <b onmouseover="ShowTip('aTorrents');" onmouseout="HideTip('aTorrents');">Active Torrents: 9,036,651</b> &nbsp;&#8226;&nbsp; Files: 210.16M &nbsp;&#8226;&nbsp; Size: 14,477.95 TB &nbsp;&#8226;&nbsp; Peers: 56.32M &nbsp; </td></tr></table><table id="IH_tblBody" width="100%" cellspacing="0" cellpadding="10"><tr valign="top" align="center">
+<td width="84%">
+<table><tr style="margin:0" valign="top"><td><span align=center><iframe allowTransparency="true" src="/js/iframeAd.php?mode=square&source=" width=300 height=250 frameborder=0 marginheight=0 marginwidth=0 scrolling="no"></iframe></span><br><br><div align=left style="font-size:1.3em"> <a href="https://twitter.com/isohunt" class="twitter-follow-button" data-show-count="false">Follow @isohunt</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> | <a href="http://feeds.feedburner.com/isoHuntNews"><img src="http://feeds.feedburner.com/~fc/isoHuntNews?bg=cad9ea&amp;fg=000000&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a></div><br><iframe src="http://www.facebook.com/plugins/fan.php?id=76797684811&amp;width=300&amp;connections=10&amp;stream=true&amp;header=false" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:300px; height:550px"></iframe><br><br>
+<g:plus href="https://plus.google.com/116002685991938476502" width="300" height="69" theme="light"></g:plus>
+<br><p class='postreply'>Browse Torrents</p>
+<ul style='color:#000; margin-left:2.5em'>
+<li><a href='/torrents/?iht=1&age=0' class='postreply'>Video / Movies</a> (by Latest) or by <a href='/torrents/?iht=1&ihs1=1&age=0'>Popularity</a></li>
+<li><a href='/torrents/?iht=3&age=0' class='postreply'>TV</a> (by Latest) or by <a href='/torrents/?iht=3&ihs1=1&age=0'>Popularity</a></li>
+<li><a href='/torrents/?iht=2&age=0' class='postreply'>Audio</a> (by Latest) or by <a href='/torrents/?iht=2&ihs1=1&age=0'>Popularity</a></li>
+<li><a href='/torrents/?iht=10&age=0' class='postreply'>Music Video</a> (by Latest) or by <a href='/torrents/?iht=10&ihs1=1&age=0'>Popularity</a></li>
+<li><a href='/torrents/?iht=4&age=0' class='postreply'>Games</a> (by Latest) or by <a href='/torrents/?iht=4&ihs1=1&age=0'>Popularity</a></li>
+<li><a href='/torrents/?iht=5&age=0' class='postreply'>Applications</a> (by Latest) or by <a href='/torrents/?iht=5&ihs1=1&age=0'>Popularity</a></li>
+<li><a href='/torrents/?iht=6&age=0' class='postreply'>Pictures</a> (by Latest) or by <a href='/torrents/?iht=6&ihs1=1&age=0'>Popularity</a></li>
+<li><a href='/torrents/?iht=7&age=0' class='postreply'>Anime</a> (by Latest) or by <a href='/torrents/?iht=7&ihs1=1&age=0'>Popularity</a></li>
+<li><a href='/torrents/?iht=8&age=0' class='postreply'>Comics</a> (by Latest) or by <a href='/torrents/?iht=8&ihs1=1&age=0'>Popularity</a></li>
+<li><a href='/torrents/?iht=9&age=0' class='postreply'>Books</a> (by Latest) or by <a href='/torrents/?iht=9&ihs1=1&age=0'>Popularity</a></li>
+<li><a href='/torrents/?iht=0&age=0' class='postreply'>Misc.</a> (by Latest) or by <a href='/torrents/?iht=0&ihs1=1&age=0'>Popularity</a></li>
+<li><a href='/torrents/?iht=11&age=0' class='postreply'>Unclassified</a> (by Latest) or by <a href='/torrents/?iht=11&ihs1=1&age=0'>Popularity</a></li><br>
+<li><a href='/torrents/CreativeCommons'>Creative Commons</a></li>
+<li><a href='/torrents/PublicDomain'>Public Domain</a></li>
+</ul>
+</td><td style="padding-left:10px"><table cellpadding=6 cellspacing=1 class=forumline><tr><td>This is isoHunt, the <a href="/stats.php?mode=btSites" title="Indexed torrent sites statistics">most advanced BitTorrent search engine</a>. With cross-referenced trackers statistics for all torrents indexed updated to the hour, this is the best P2P files search engine and community. Try searching in the box above, or browse around our <a href="/torrents/">Torrents directory</a> and <a href="/stats.php?mode=zg">Zeitgeist</a> for what's new and popular.<p>
+Also check out our <a href="/release">Releases</a>, which group postings of torrents and other P2P links. There are <a href="/forum/">guides in the forums</a> for new visitors, or come chat with other isoHunters live at <a href="irc://irc.isohunt.com/isoHunt" title="You need a chat client like mIRC. SSL enabled on port +7000">irc.isohunt.com, #isoHunt</a> on P2P-NET.</td></tr></table><br><table border="0" cellpadding="6" cellspacing="1" width="100%" class="forumline"><tr><td class="ihHead">With constitutional freedoms at stake, isoHunt files plead</td></tr><tr><td align="left" width="100%" class="row1">Posted by <a href="/forum/profile.php?mode=viewprofile&u=2">IH</a> on Mar. 3<hr size="1"/>Freedom of expression on the Internet is under attack. From SOPA in the US, ACTA internationally, and C-11 in Canada, the same theme is apparent on the agenda of copyright industry groups: instead of dealing with actual copyright violators, they want to shut down technologies and internet services that they say will be used by violators.  It’s the same alarmist approach that goes back to the VCR and the radio.  As the Internet emerges as the de-facto medium of communication, sharing and expression, the control over distribution by copyright industries is threatened. In turn, the constitutional freedom of expression of Canadians and all participants on the Internet is threatened.
+<br />
+
+<br />
+Since SOPA, a new term has been coined on this age: the War on Piracy. What it really is is a War on the Internet. In our latest response to CRIA filed in Court, we ask the Supreme Court of BC to adjudicate this crucial issue of balance between the constitutional rights of people on the Internet to communicate, share and search, versus the rights of copyright industries to limit such rights in the corporate interest of protecting and extending copyright. isoHunt urges the court to examine this issue carefully, for the sake of innovations on the Internet, free exchange of culture, and fundamental constitutional freedoms.
+<br />
+
+<br />
+<a href="http://www.scribd.com/doc/83175073/Response-to-Civil-Claim-Final" target="_blank" class="postlink">Here is an electronic copy of our pleading,</a> filed at the Supreme Court of BC, Canada. The Attorney General has been put on notice of constitutional issues raised.
+<br />
+
+<br />
+News:
+<br />
+- <a href="http://torrentfreak.com/record-labels-threaten-the-open-internet-isohunt-tells-court-120229/" target="_blank">http://torrentfreak.com/record-labels-threaten-the-open-internet-isohunt-tells-court-120229/</a>
+<br />
+- <a href="http://www.reddit.com/r/worldnews/comments/t8aef/in_its_case_against_26_major_record_labels_at_bc/" target="_blank">http://www.reddit.com/r/worldnews/comments/t8aef/in_its_case_against_26_major_record_labels_at_bc/</a> (May 5, 2012) with <a href="http://www.reddit.com/r/worldnews/comments/t8aef/in_its_case_against_26_major_record_labels_at_bc/c4kjl11" target="_blank" class="postlink">our comment</a><hr size="1"/><div align="right">(19) <a href="/forum/viewtopic.php?t=779693">Comments</a></div></td></tr></table><br><table border="0" cellpadding="6" cellspacing="1" width="100%" class="forumline"><tr><td class="ihHead">Celebrate! 8 Years of isoHunt Torrent Search</td></tr><tr><td align="left" width="100%" class="row1">Posted by <a href="/forum/profile.php?mode=viewprofile&u=2">IH</a> on Aug. 2<hr size="1"/>It's been <a href="http://www.slyck.com/story679_isoHunt_Interview">8 years</a> since isoHunt began searching the internet for torrents, almost as long as BitTorrent itself. 8 years since isoHunt began its life, hosted off a cable modem and on my home PC. Since then, isoHunt has grown from a hobby to one of the 200 largest websites on the internet, with users worldwide conducting over 12 million searches per day (or 142 queries every second). We now operate 2 server racks, collocated in 2 separate datacenters, in Canada and in Sweden. I believe we are the oldest, major BitTorrent search engine still in operation since 2003, and perhaps the only one with servers in simultaneous operation in 2 different corners of the world. While we cannot claim zero downtime, we pride ourselves in bringing you the best, fastest and most reliable search results available for BitTorrent files.
+<br />
+
+<br />
+All of these give reasons to celebrate. Perhaps especially that during these years, 6.5 years ago we received our <a href="http://elliottback.com/wp/isohunt-mpaa-letter/">letters with the MPAA</a>, and 5.5 years ago <a href="http://isohunt.com/forum/viewtopic.php?t=38933"> they sued</a>. Counting the years, it amazes me really that we've lasted this long. Many other P2P networks and services have failed, legally or financially. We are still fighting our lawsuit in the US with a <a href="http://torrentfreak.com/googles-the-largest-torrent-search-engine-isohunt-tells-court-110315/">pending Appeal</a>. A trial by jury is what we asked for, and we can only hope that for the sake of search engine neutrality and your freedom to search that we be granted a fair trial. We'll need your continued support in this. Same goes for our <a href="http://isohunt.com/forum/viewtopic.php?t=141381">other lawsuit</a> with *cough* <a href="http://excesscopyright.blogspot.com/2011/07/cria-renames-and-rebrands-itself-as.html">Music Canada</a>.
+<br />
+
+<br />
+To commemorate 8 years of awesome torrent search, we've designed a <a href="http://www.jinx.com/p/isohuntcom_8_year_anniversary_t_shirt.html?catid=&amp;amp;cs=1&amp;amp;csd=&amp;amp;preview=1&amp;amp;s=friends,isohunt">new T-shirt</a>. It sports a sleek design that is scientifically proven to make you look thin (as our model at Jinx demonstrates), and with text running vertically that is guaranteed to &quot;turn heads&quot;. During <a href="http://isohunt.com/forum/viewtopic.php?t=685529">beta testing</a>, some of our users have commented that the front design looks like a tie and the &quot;8&quot; looks like an infinity bow tie. This is indeed true! You'll look smarter in it without sweating like a pig wearing actual shirt and tie in the summer. The back design features a working QR code and a barcode used as a design element, generated with the slogan &quot;Freedom to search, Freedom to share&quot;. So what are you waiting for, <a href="http://www.jinx.com/p/isohuntcom_8_year_anniversary_t_shirt.html?catid=&amp;amp;cs=1&amp;amp;csd=&amp;amp;preview=1&amp;amp;s=friends,isohunt">go buy one</a> and spread the isoHunt love! Not convinced? For limited time only (infomercial voice), with the code &quot;IH8YEARS&quot;, you'll receive 25% off at checkout. And not only for our T-shirt of awesomeness, the discount applies to every item you buy at Jinx. And I wasn't kidding about the limited time offer, the discount code will expire by August 31. In buying our merchandize, you'll directly contribute to us financially for continued operation of isoHunt, (including our legal costs) and for that we thank you in advance!
+<br />
+
+<br />
+<a href="http://www.jinx.com/p/isohuntcom_8_year_anniversary_t_shirt.html?catid=&amp;cs=1&amp;csd=&amp;preview=1&amp;s=friends,isohunt"><img onload="setImageDimensions(this)" onmouseover="changeImageDimensions(this, 'over')" onmouseout="changeImageDimensions(this, 'out')" src="http://isohunt.com/img/tshirt-8-years/2681p_0c_1m.jpg" alt="Image" title="Image" border="0" /></a><a href="http://www.jinx.com/p/isohuntcom_8_year_anniversary_t_shirt.html?catid=&amp;cs=1&amp;csd=&amp;preview=1&amp;s=friends,isohunt"><img onload="setImageDimensions(this)" onmouseover="changeImageDimensions(this, 'over')" onmouseout="changeImageDimensions(this, 'out')" src="http://isohunt.com/img/tshirt-8-years/2681p_1c_2m.jpg" alt="Image" title="Image" border="0" /></a><hr size="1"/><div align="right">(31) <a href="/forum/viewtopic.php?t=693393">Comments</a></div></td></tr></table><br><table border="0" cellpadding="6" cellspacing="1" width="100%" class="forumline"><tr><td class="ihHead">Job Posting: Anti-Piracy Programmer</td></tr><tr><td align="left" width="100%" class="row1">Posted by <a href="/forum/profile.php?mode=viewprofile&u=2">IH</a> on Apr. 1<hr size="1"/>isoHunt is the most comprehensive BitTorrent search engine on the interwebs. It comes as no surprise that losers online share links of copyleft and copyright materials which isoHunt indexes, both in indiscriminate amounts. Each possible infringement from such links are worth tens of thousands of dollars in statutory damage. With 166.2 million files indexed within torrent links on isoHunt, the amount of potential claim is worth TRILLIONS of dollars.
+<br />
+
+<br />
+However, the conundrum isoHunt faces is determining who owns copyright over what files are described within torrent files that isoHunt indexes, and what are the wishes of these copyright holders. Is a file's copyright owned by hippies such as Richard Stallman and similar Free Software gang with these ridiculous beards? Or socialist commies such as these filmmakers posting free films and shows at <a href="http://vo.do/">Vodo</a>, (absurd, I know) and similarly free music at <a href="http://www.jamendo.com/">Jamendo</a>, and any other sites hosting such so-called copyleft non-sense? Or such copyright holders, whoever they are, hang on to their copyright as they rightfully should and intend on suing any who infringes on their copyright? Afterall, victories in court or settlements are worth more than customers. These copyright holders are our friends and isoHunt seek your expertise in bringing copyright thieves to justice. And profit.
+<br />
+
+<br />
+Candidates for a position as Senior Architect and Programmer for Anti-Piracy has the following requirements:
+<br />
+
+<br />
+* Semantically determine from names of file listings within close to 7 million .torrents isoHunt indexes, the following: copyright holder of such files, and metadata on the copyright status of such files
+<br />
+* isoHunt do not host or have access to such files (isoHunt can't be a hypocrite and download these files like all the pirates do), so your job it is to determine the above by solely file names
+<br />
+* No master database referencing copyright ownership and status with files shared on P2P networks currently exist, so your job it is to build such a database
+<br />
+* Desired, but not required: to determine names and addresses of pirates participating in the piracy of copyrighted works, for law enforcement purposes (not those owned by copyleft hippies, after having determined copyright status of files). Note that IP addresses does not suffice, even a child can copy out IP addresses of fellow pirates in his BitTorrent client.
+<br />
+* 30+ years experience in C++, Java, Python, Perl, TCP/IP, BitTorrent protocols, and strong magic are required for this job.
+<br />
+
+<br />
+Should you qualify, please reply ASAP. Trillions of dollars of profit await, and your compensation will be almost as impressive.
+<br />
+
+<br />
+<span style="font-weight:bold">Note:</span> This was mostly a April's Fool joke. Or a parody for any other day.<hr size="1"/><div align="right">(56) <a href="/forum/viewtopic.php?t=635509">Comments</a></div></td></tr></table><br></td></tr></table><table class='pager'><tr align=center><td>&laquo;&laquo; &nbsp;&nbsp;&nbsp; &laquo; &nbsp; &nbsp; &nbsp; </td><td width="500">&nbsp;<u>Page 1 of 75</u> (<b style='font-size:13px'>223</b> items)&nbsp;<a href="/index.php?ihp=2">&nbsp;2&nbsp;</a><a href="/index.php?ihp=3">&nbsp;3&nbsp;</a><a href="/index.php?ihp=4">&nbsp;4&nbsp;</a><a href="/index.php?ihp=5">&nbsp;5&nbsp;</a></td><td><a href="/index.php?ihp=2" title="Next page"> &nbsp; &nbsp; &nbsp; &raquo;</a><a href="/index.php?ihp=75" title="Last page"> &nbsp;&nbsp;&nbsp; &raquo;&raquo;</a></td></tr></table><p><br><br><span style="font-size:9px;color:#B4B4B4">-ADVERTISEMENT-</span><br><a href='http://isohunt.com/a/adclick.php?bannerid=460&amp;zoneid=4&amp;source=&amp;dest=http%3A%2F%2Fbtguard.com%2F%3Fa%3Disohunt' target='_blank' onMouseOver="self.status='Proxy or VPN for your BitTorrent client and internet, to bypass bandwidth throttling &amp; protect your privacy'; return true;" onMouseOut="self.status='';return true;"><img src='http://isohunt.com/a/b/btguard---bittorrent-anonymously_2.png' width='728' height='90' alt='BTGuard - Download Anonymously' title='BTGuard - Download Anonymously' border='0'></a><div id="beacon_460" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='http://isohunt.com/a/adlog.php?bannerid=460&amp;clientid=150&amp;zoneid=4&amp;source=&amp;block=0&amp;capping=0&amp;cb=d5092fded2ee1cb051cb50897b7e389b' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div></td><td><div id="google_translate_element"></div><script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en'
+  }, 'google_translate_element');
+}
+</script><script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script><br>
+<script type="text/javascript">
+    var adblock = true;
+</script>
+<script type="text/javascript" src="http://static.isohunt.com/js/adframe.js"></script>
+<script>
+    $(document).ready(function(){
+        if (adblock)
+            $('#adblock').show();
+    });
+</script>
+<div id="adblock" style="display:none;margin:auto;padding:10px;">
+    <a href='/gambit.php' target='_parent' onMouseOver="self.status='All proceeds goes to maintainence and development of isoHunt. Thanks for your support!'; return true;" onMouseOut="self.status='';return true;"><img src='/a/b/gambit-donate.png' width='113' height='56' alt='All proceeds goes to maintainence and development of isoHunt. Thanks for your support!' title='All proceeds goes to maintainence and development of isoHunt. Thanks for your support!' border='0'></a><p>
+    We aren't opposed to you blocking our ads, but we'd appreciate your support of this free search engine by donating in any way via the above button.
+</div>
+<a href="http://www.v2cigs.com/2070-0-1-110.html" target="_blank"><img border="0" src="http://money.v2cigs.com/banners/150X60.jpg" width="150" height="60" alt="V2 Cigs : best ecig electronic vapor cigarette on the market!"></a><br><br><div id="beacon_468" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='http://isohunt.com/a/adlog.php?bannerid=468&amp;clientid=154&amp;zoneid=13&amp;source=&amp;block=120&amp;capping=0&amp;cb=c81328f4e1edb9c29bfd9304f0175b32' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div><a href='http://isohunt.com/a/adclick.php?bannerid=88&amp;zoneid=1&amp;source=&amp;dest=http%3A%2F%2Fwww.jinx.com%2Fisohunt' target='_blank' onMouseOver="self.status='Our 2nd contest winning t-shirt design! You know you want it!'; return true;" onMouseOut="self.status='';return true;"><img src='http://isohunt.com/a/b/t-shirt-2-button.png' width='120' height='120' alt='Our 2nd contest winning t-shirt design! You know you want it!' title='Our 2nd contest winning t-shirt design! You know you want it!' border='0'></a><br><a href="http://isohunt.com/forum/viewtopic.php?t=693393"><b>NEW</b> 8 Years Anniversary Tee!</a><br><br><div id="beacon_88" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='http://isohunt.com/a/adlog.php?bannerid=88&amp;clientid=14&amp;zoneid=1&amp;source=&amp;block=30&amp;capping=0&amp;cb=4f7c0af729b4e3850cf6369c35ca9098' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div><iframe allowTransparency="true" src="/js/iframeAd.php?mode=side&source=" width=160 height=600 frameborder=0 marginheight=0 marginwidth=0 scrolling="no"></iframe><br><br>
+<table width="100%" border="0" cellpadding="6" cellspacing="1" class="forumline"><tr><td class="ihHead">Stats</td></tr><tr><td class="row1">
+isoHunt has <b>30594</b> users online, 1863818 members registered. <a href='/forum/profile.php?mode=register'>Sign up</a> now to comment!<br>Welcome to our newest member: <b><i>peter1togo</i></b></td></tr><tr><td class="row3">Top Searches (last day)</td></tr><tr><td class="row1"><ol style="margin:0 0 1.8ex 2.5em"><li><a href="/torrents/jaybob">jaybob</a></li><li><a href="/torrents/true+blood">true blood</a></li><li><a href="/torrents/the+hunger+games">the hunger games</a></li><li><a href="/torrents/%22prometheus%22">"prometheus"</a></li><li><a href="/torrents/game+of+thrones">game of thrones</a></li><li><a href="/torrents/the+avengers">the avengers</a></li><li><a href="/torrents/%222012%22">"2012"</a></li><li><a href="/torrents/falling+skies">falling skies</a></li><li><a href="/torrents/%22porno%22">"porno"</a></li><li><a href="/torrents/axxo">axxo</a></li><li><a href="/torrents/snow+white+and+the+huntsman">snow white and the huntsman</a></li><li><a href="/torrents/%22battleship%22">"battleship"</a></li><li><a href="/torrents/%22xxx%22">"xxx"</a></li><li><a href="/torrents/%22gta%22">"gta"</a></li><li><a href="/torrents/the+dictator">the dictator</a></li><li><a href="/torrents/men+in+black+3">men in black 3</a></li><li><a href="/torrents/dark+shadows">dark shadows</a></li><li><a href="/torrents/movies">movies</a></li><li><a href="/torrents/the+killing">the killing</a></li><li><a href="/torrents/%22madagascar+3%22">"madagascar 3"</a></li></ol><b><a href="/stats.php?mode=zg" title="All top search phrases">>> More...</a></b><br><br><a href="/link2us.php" style="font-size:9px;color:#8D8D8D" title="Javascript for this list of top searches on isoHunt.com, updated daily">Add this to your site</a></td></tr></table><br><table width="100%" cellpadding="6" cellspacing="1" class="forumline">
+<tr><td class=ihHead>Shout Box</td></tr><tr><td align=center>
+<script language="JavaScript" type="text/javascript">
+<!--
+function setsmiley(sm) {
+document.sb.Message.value = document.sb.Message.value + sm;
+}
+//-->
+</script>
+<div class="dirs ydsf" id=ihSB_note><div class=inner>You have to login to post. Use your common sense.<br>
+For debates, go to the forum.<br>
+<b>Post or ask for site invites and you get banned.</b><br>
+For real-time chat, come to irc.isohunt.com, #isoHunt</div></div>
+<span onmouseover="ShowTip('SB_note');" onmouseout="HideTip('SB_note');">READ!</span>
+
+ | <a href="/index.php/?smiley">Smileys</a><br>
+<iframe width="100%" height="200" frameborder="1" bordercolor="grey" src="/sb_records.php"></iframe></td></tr>
+<tr><td align=center>
+<form name="sb" method="post" action="http://ca.isohunt.com/">
+<textarea name="Message" class=post cols="14" rows="3" onFocus="if (this.value == 'Your Message') this.value=''">Your Message</textarea>
+<br>
+<input type="hidden" name="fc" value="true">
+<input type="submit" id="searchBox" class=liteoption value="Shout!">
+</form><br>
+<a href="irc://irc.isohunt.com/isoHunt" style="font-size:9px" title="#isoHunt on P2P-NET, SSL on port 7000. You need a client like mIRC">or chat with others <b>live</b> on IRC</a>
+</td></tr></table><br><table cellpadding=6 cellspacing=1 class=forumline width=120><tr><td class=ihHead>Friends</td></tr><tr><td class=row1>
+&#8226; <a href="http://www.torrentbox.com/" title="Your friendly BitTorrent tracker community" style="font-size:12px;font-weight:bold">TorrentBox</a><br>
+&#8226; <a href="http://www.podtropolis.com/" title="Stuff for your iPod and PSP" style="font-size:12px;font-weight:bold">Podtropolis</a>
+<p align=center>
+<a href="http://www.torrentfreak.com/" target=_blank>TorrentFreak</a><br>
+<a href="http://torrents.to/" target=_blank>Torrents.to</a><br><br>
+<a href="http://www.featuredartistscoalition.com/" title="Featured Artists Coalition" target=_blank>FAC</a>, 
+<a href="http://www.musiccreators.ca/" title="Canadian Music Creators Coalition" target=_blank>CMCC</a><br>
+<a href="http://www.defendfairuse.org/" title="Defend Fair Use - CCIA" target=_blank>Defend Fair Use</a><br>
+<a href="http://www.neutrality.ca/" title="Petition for Net Neutrality Canada" target=_blank>Neutrality.ca</a>
+</p></td></tr></table>
+</td></tr></table></td></tr></table>
+<div class="dirs ydsf" id=ihrunTimeBreakdown><div class=inner>0% in 0 SQLs</div></div>
+<div class="dirs ydsf" id=ihDisclaimer><div class=inner>This site features search engines on metadata only. It is a service independent of the IRC and BitTorrent networks. Use at your own risk.</div></div>
+<div class=gensmall align=center>
+<a href="http://www.ccer.ca/" target=_blank><img alt="Canadian Coalition for Electronic Rights - CCER.CA" src="http://static.isohunt.com/img/buttons/ccer_icon_mini.gif" width=102 height=15 border=0 /></a> &nbsp;
+<a href="http://www.lighttpd.net/" target=_blank><img src="http://static.isohunt.com/img/buttons/light_button.png" width="80" height="27" alt="Lighttpd" title="Site powered by the Lighttpd web server" /></a> &nbsp;
+<a href="http://www.spreadfirefox.com/?q=affiliates&id=46279&t=64" target=_blank title="Get Firefox - The Open Source web browser"><img src="http://static.isohunt.com/img/buttons/firefox_80x15.png" width="80" height="15" alt="Get Firefox"></a> &nbsp;
+<a href="http://mycroft.mozdev.org/download.html?name=isohunt&submitform=Find+search+plugins" target=_blank title="Firefox search plugins">FF Plugins</a>, <a href="/link2us.php">Toolbar & Widgets</a>
+</div>
+<p align=center class=gensmall style="margin-top:8px">
+<span onmouseover="ShowTip('runTimeBreakdown');" onmouseout="HideTip('runTimeBreakdown');">
+Page generation: <b>0.01</b>s</span> on b04, loadavg: <b>3.81</b> | rev: production-20120603-2145
+ &nbsp; &nbsp; &nbsp; <a name="disclaimer" onmouseover="ShowTip('Disclaimer');" onmouseout="HideTip('Disclaimer');">&copy isoHunt Inc.</a> | <a href="/privacy.php">Privacy</a> & <a href="/dmca-copyright.php">Copyright</a> Policies</p>
+<script type="text/javascript" async="async" src="http://www.adserver-fx.com/gate.php"></script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">_qacct="p-67B1YOqoRaOkA";quantserve();</script>
+<noscript>
+<a href="http://www.quantcast.com/p-67B1YOqoRaOkA" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-67B1YOqoRaOkA.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a>
+</noscript>
+<script type='text/javascript'>
+</script><script type="text/javascript" src="http://www.wigetmedia.com/tags/isoww.js"></script><div id="beacon_601" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='http://isohunt.com/a/adlog.php?bannerid=601&amp;clientid=157&amp;zoneid=5&amp;source=&amp;block=86400&amp;capping=0&amp;cb=c24bf8295e4d26fdc4d713fc6bb700cc' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div><script type='text/javascript'><!--//<![CDATA[
+   var ox_u = 'http://ads.ad4game.com/www/delivery/al.php?zoneid=3756&amp;layerstyle=footer&amp;position=bottom&amp;speed=3&amp;slide=0&amp;delay=2&amp;transparent=t';
+   if (document.context) ox_u += '&context=' + escape(document.context);
+   document.write("<scr"+"ipt type='text/javascript' src='" + ox_u + "'></scr"+"ipt>");
+//]]>--></script>
+<!-- if you're a human, don't follow this link or you'll be marked as a spammer -->
+<a href="http://isohunt.com/oomph.php"><!-- profound --></a>
+</body></html>

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 13:17:21 GMT
+Server: nginx/0.8.54
+Vary: Accept-Encoding
+Content-Type: text/html
+Client-Date: Mon, 18 Jun 2012 21:22:13 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Refresh: 0;url=http://sp3.yousee.com/?dm=smeisp.cn&acc=936A22A3-A90C-487E-B7D0-E589A70BB515&noscript=1
+Title: smeisp.cn
+X-FRAME-OPTIONS: DENY
+X-Meta-Description: 
+X-Meta-Keywords: 
+X-Powered-By: PHP/5.2.14

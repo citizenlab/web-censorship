@@ -1,0 +1,35 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache="set-cookie"
+Connection: close
+Date: Tue, 19 Jun 2012 16:24:47 GMT
+Server: Apache/2.2.14 (Ubuntu)
+Vary: Accept-Encoding
+Content-Type: text/html
+Client-Date: Tue, 19 Jun 2012 00:07:55 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://images.desitara.com/css_v3/img/default/favicon.ico>; rel="icon"; type="icon"
+Link: <http://images.desitara.com/css_v3/img/default/favicon.ico>; rel="shortcut icon"; type="icon"
+Link: <http://images.desitara.com/css_v3/css/newtheme/site/default.css>; rel="stylesheet"; type="text/css"
+MyHeader: Webserver 02 {XXX.XXX.66.253}...It took D=1245455 microseconds for webserver to serve this request.
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Set-Cookie: CAKEPHP=fb306bd9ad026e1902a056e641f29430; expires=Fri, 19-Jun-2037 22:24:47 GMT; path=/; domain=.desitara.com
+Set-Cookie: CAKEPHP=fb306bd9ad026e1902a056e641f29430; expires=Fri, 19-Jun-2037 22:24:48 GMT; path=/; domain=.desitara.com
+Set-Cookie: CAKEPHP=fb306bd9ad026e1902a056e641f29430; expires=Fri, 19-Jun-2037 22:24:48 GMT; path=/; domain=.desitara.com
+Set-Cookie: CAKEPHP=fb306bd9ad026e1902a056e641f29430; expires=Fri, 19-Jun-2037 22:24:48 GMT; path=/; domain=.desitara.com
+Set-Cookie: CAKEPHP=fb306bd9ad026e1902a056e641f29430; expires=Fri, 19-Jun-2037 22:24:48 GMT; path=/; domain=.desitara.com
+Set-Cookie: CAKEPHP=fb306bd9ad026e1902a056e641f29430; expires=Fri, 19-Jun-2037 22:24:48 GMT; path=/; domain=.desitara.com
+Set-Cookie: CAKEPHP=fb306bd9ad026e1902a056e641f29430; expires=Fri, 19-Jun-2037 22:24:48 GMT; path=/; domain=.desitara.com
+Set-Cookie: CAKEPHP=fb306bd9ad026e1902a056e641f29430; expires=Fri, 19-Jun-2037 22:24:48 GMT; path=/; domain=.desitara.com
+Set-Cookie: CAKEPHP=fb306bd9ad026e1902a056e641f29430; expires=Fri, 19-Jun-2037 22:24:48 GMT; path=/; domain=.desitara.com
+Set-Cookie: CAKEPHP=fb306bd9ad026e1902a056e641f29430; expires=Fri, 19-Jun-2037 22:24:48 GMT; path=/; domain=.desitara.com
+Set-Cookie: CAKEPHP=fb306bd9ad026e1902a056e641f29430; expires=Fri, 19-Jun-2037 22:24:49 GMT; path=/; domain=.desitara.com
+Set-Cookie: CAKEPHP=fb306bd9ad026e1902a056e641f29430; expires=Fri, 19-Jun-2037 22:24:49 GMT; path=/; domain=.desitara.com
+Set-Cookie: AWSELB=9F7B3787167D9F2170393C7170B81CF7332CB1CB96275269025ECD86D18EE21A454122FD676AA0B9624C60FD75A6443B64358861B54AB25764EBCF0BB1EBDACBC9846F1909;PATH=/;MAX-AGE=300
+Title: Showcase Talent | Portal | Community | Hunt | Contest | Events | Videos
+X-Meta-AlexaVerifyID: uXEN6S4pJ8wjVGmtjDuHGzB5oYk
+X-Meta-Description: Desitara is a unique online Talent Search Portal to showcase your talent, talent videos, talent hunt, talent contest, explore talent, blogs, events and many more.
+X-Meta-Google-Site-Verification: jhJnJOZbCBtyFZgoL00yBuMJKqanH3I9Fzuzy9L3pcU
+X-Meta-Keywords:  showcase talent, talent portal, talent community, talent hunt, talent contest, events, talent videos, online talent community, online talent portal, online talent contest, explore talent, got talent, talent search
+X-Powered-By: PHP/5.2.10-2ubuntu6

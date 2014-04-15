@@ -1,0 +1,10 @@
+HTTP/1.1 500 Internal Server Error
+Connection: close
+Date: Tue, 19 Jun 2012 14:30:09 GMT
+Server: Apache/2.2.22 (Unix) mod_ssl/2.2.22 OpenSSL/1.0.0-fips DAV/2 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+Content-Length: 847
+Content-Type: text/html; charset=iso-8859-1
+Client-Date: Mon, 18 Jun 2012 22:13:12 GMT
+Client-Peer: 88.208.192.66:80
+Client-Response-Num: 1
+Title: 500 Internal Server Error

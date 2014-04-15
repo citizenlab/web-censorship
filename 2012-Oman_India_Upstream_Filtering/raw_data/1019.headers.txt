@@ -1,0 +1,16 @@
+HTTP/1.1 404 Not Found
+Cache-Control: private, max-age=0
+Date: Tue, 19 Jun 2012 15:50:48 GMT
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 15:50:48 GMT
+Client-Date: Mon, 18 Jun 2012 23:33:51 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Content-Base: http://www.blogger.com
+Link: <http://www.blogger.com/static/v1/v-css/3939536041-new_ui_static_pages_rtl.css>; rel="stylesheet"; type="text/css"
+Title: لم يتم العثور على المدونة الإلكترونية
+X-Content-Type-Options: nosniff
+X-FRAME-OPTIONS: SAMEORIGIN
+X-XSS-Protection: 1; mode=block

@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Connection: close
+Date: Tue, 19 Jun 2012 16:02:04 GMT
+Pragma: private
+Server: LiteSpeed
+Content-Type: text/html; charset=ISO-8859-1
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Client-Date: Mon, 18 Jun 2012 23:45:34 GMT
+Client-Peer: 67.159.34.173:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Content-Base: http://hinditvlinks4u.ch/
+Link: <http://hinditvlinks4u.ch/>; rel="canonical"
+Link: <http://hinditvlinks4u.ch/favicon.ico>; rel="Shortcut Icon"; type="image/x-icon"
+Link: <http://hinditvlinks4u.ch/external.php?type=RSS2>; rel="alternate"; title="HindiTVLinks4U.CH - TV at your Fingertips RSS Feed"; type="application/rss+xml"
+Link: <http://hinditvlinks4u.ch/css.php?styleid=4&langid=1&d=1339969796&td=ltr&sheet=bbcode.css,editor.css,popupmenu.css,reset-fonts.css,vbulletin.css,vbulletin-chrome.css,vbulletin-formcontrols.css,>; rel="stylesheet"; type="text/css"
+Link: <http://hinditvlinks4u.ch/css.php?styleid=4&langid=1&d=1339969796&td=ltr&sheet=forumbits.css,forumhome.css,widgets.css,sidebar.css,options.css,tagcloud.css>; rel="stylesheet"; type="text/css"
+Link: <http://hinditvlinks4u.ch/css.php?styleid=4&langid=1&d=1339969796&td=ltr&sheet=additional.css>; rel="stylesheet"; type="text/css"
+Link: <http://hinditvlinks4u.ch/css.php?styleid=4&langid=1&d=1339969796&sheet=additional.css>; rel="stylesheet"; type="text/css"
+Link: <http://hinditvlinks4u.ch/css.php?styleid=4&langid=1&d=1339969796&sheet=additional.css>; rel="stylesheet"; type="text/css"
+Set-Cookie: bb_sessionhash=246e936d17e16fd23f1a5ddd0d96a47c; path=/; domain=.hinditvlinks4u.ch; HttpOnly
+Set-Cookie: bb_lastvisit=1340121747; expires=Wed, 19-Jun-2013 16:02:27 GMT; path=/; domain=.hinditvlinks4u.ch
+Set-Cookie: bb_lastactivity=0; expires=Wed, 19-Jun-2013 16:02:27 GMT; path=/; domain=.hinditvlinks4u.ch
+Set-Cookie: PHPSESSID=5d39045287e44890ffb883170276a85e; path=/
+Set-Cookie: vbseo_loggedin=deleted; expires=Mon, 20-Jun-2011 16:02:27 GMT; path=/
+Title: HindiTVLinks4U.CH - TV at your Fingertips
+X-Meta-Description: Hinditvlinks is a indian desi tv india forum apni community with all latest news, videos, episodes, movies, songs, music and more. Watch all pakistan and indian tv episodes, soaps, dramas, serials online in high definition HD 720p 1080p blueray BD. Watch all hindi indian movies online download in dvdrip dvd scr dvdscr print cam TS HD BD 720p. It is the best Desi tashan India Forum  tv telly around the world.
+X-Meta-Generator: vBulletin 4.1.11
+X-Meta-Keywords: hindilinks4u, hinditvlinks4u, hindi tvlinks4u, hindi links4u, desi tashan, desi, tashan, raw, smackdown, superstars, pay per views, wrestlemania, colors channel, life ok, sahara one, sab tv, mtv india, channel v, bindass, desi pictures,south asian forum, desi entertainment portal, hindi movies, desi comedy, indian soaps, daily updates, video updates, hd, 720p hd videos, wwe, online movies, hindi music, pakistani videos, pakistani shows, watch online, star plus, zee tv, sony tv, imagine tv, bollywood, movies, predvd, pdvd, cam rip, super cam, dvdrip, subtitles, Pakistani Forum, indian tv serials, pakistani dramas, music, movies, written update, desi community, desi discussion forum, movie reviews previews, hindi movies online, apni community, desi forum, telly tv forum, india forum, india, forum, tv, serials, bollywood movies, hindi movies, watch online, tv, desi videos, indian television, pakistan television, drama serials, colors channel, life ok, sahara one, sab tv, mtv india, channel v, bindass, desi pictures,south asian forum, desi, pogo, nick, disney channel, star pravah, Hungama TV, Zee Marathi, Star Utsav, Mahuaa Tv, Sony Aath, Cartoon Network, Zee Music, Saas Bahu Aur Saazish, IBN7 News, Aaj Tak, NDTV India, Zee News, Zoom Tv, Bigg Boss
+X-Meta-Vb-Meta-Bburl: http://hinditvlinks4u.ch
+X-Powered-By: PHP/5.2.17

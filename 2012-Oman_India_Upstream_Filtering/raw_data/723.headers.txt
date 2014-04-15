@@ -1,0 +1,4 @@
+500 Server closed connection without sending any data back
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 23:01:49 GMT
+Client-Warning: Internal response

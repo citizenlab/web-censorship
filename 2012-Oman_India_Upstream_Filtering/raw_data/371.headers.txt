@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Date: Tue, 19 Jun 2012 14:06:38 GMT
+Accept-Ranges: bytes
+ETag: "0e33f979847cd1:0"
+Server: Microsoft-IIS/7.0
+Content-Length: 6498
+Content-Type: text/html
+Last-Modified: Mon, 11 Jun 2012 06:08:16 GMT
+Client-Date: Mon, 18 Jun 2012 21:49:53 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Link: <favicon.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: <favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <css/style.css>; rel="stylesheet"; type="text/css"
+Title: Domain Default page
+X-Powered-By: ASP.NET

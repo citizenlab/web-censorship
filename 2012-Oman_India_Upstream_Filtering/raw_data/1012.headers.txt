@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 15:50:06 GMT
+Server: Apache/2.2.17 (Ubuntu)
+Vary: Accept-Encoding
+Content-Length: 1170
+Content-Type: text/html
+Client-Date: Mon, 18 Jun 2012 23:33:09 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Set-Cookie: uid=extreemsongs4fe09faec5b783.72345450; expires=Thu, 19-Jul-2012 15:50:06 GMT
+Set-Cookie: WEB=W2; path=/
+Title: extreemsongs.com: The Leading Extreme Song Site on the Net
+X-Powered-By: PHP/5.3.5-1ubuntu7.8

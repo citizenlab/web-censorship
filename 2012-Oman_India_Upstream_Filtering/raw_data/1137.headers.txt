@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Connection: close
+Date: Tue, 19 Jun 2012 16:07:59 GMT
+ETag: "98f752ef-f134-486f-8ff2-5dd2ad157551"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 16:07:59 GMT
+Last-Modified: Sun, 17 Jun 2012 17:34:52 GMT
+Client-Date: Mon, 18 Jun 2012 23:51:03 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Link: <http://newtelugutorrents.blogspot.in/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://newtelugutorrents.blogspot.com/>; rel="canonical"
+Link: <http://newtelugutorrents.blogspot.com/feeds/posts/default>; rel="alternate"; title="Telugu Torrents AndhraMirchi - Atom"; type="application/atom+xml"
+Link: <http://newtelugutorrents.blogspot.com/feeds/posts/default?alt=rss>; rel="alternate"; title="Telugu Torrents AndhraMirchi - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/3503454669641842322/posts/default>; rel="service.post"; title="Telugu Torrents AndhraMirchi - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=3503454669641842322>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://newtelugutorrents.blogspot.com/>; rel="openid.delegate"
+Link: <http://www.blogger.com/static/v1/widgets/1355816394-widget_css_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=3503454669641842322&zx=98f752ef-f134-486f-8ff2-5dd2ad157551>; rel="stylesheet"; type="text/css"
+Title: Telugu Torrents AndhraMirchi
+X-Content-Type-Options: nosniff
+X-Meta-Generator: blogger
+X-Meta-MSSmartTagsPreventParsing: true
+X-XSS-Protection: 1; mode=block

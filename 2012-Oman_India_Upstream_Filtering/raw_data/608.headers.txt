@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Tue, 19 Jun 2012 10:48:59 GMT
+Pragma: no-cache
+Content-Length: 5283
+Content-Type: text/html
+Expires: 0
+Client-Date: Mon, 18 Jun 2012 22:45:52 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Title: mikrotik routeros > administration

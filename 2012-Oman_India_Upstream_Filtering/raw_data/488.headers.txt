@@ -1,0 +1,15 @@
+HTTP/1.1 302 Object moved
+Cache-Control: private
+Connection: close
+Date: Tue, 19 Jun 2012 14:23:13 GMT
+Location: http://www.desifiedmusic.com
+Server: Microsoft-IIS/6.0
+Content-Length: 149
+Content-Type: text/html
+Client-Date: Mon, 18 Jun 2012 22:06:15 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Client-Warning: Redirect loop detected (max_redirect = 7)
+Set-Cookie: ASPSESSIONIDSCQBQQQT=HBHNNCEAGJPEBDPIICIFEEJK; path=/
+Title: Object moved
+X-Powered-By: ASP.NET

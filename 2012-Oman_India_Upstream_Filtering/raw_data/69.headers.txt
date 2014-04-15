@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Connection: close
+Date: Mon, 18 Jun 2012 20:10:24 GMT
+Pragma: no-cache
+Server: Apache
+Vary: Accept-Encoding
+Content-Length: 7951
+Content-Type: text/html; charset=UTF-8
+Expires: Thu, 29 Oct 1998 17:04:19 GMT
+Last-Modified: Mon, 18 Jun 2012 20:10:24 GMT
+Client-Date: Mon, 18 Jun 2012 20:10:24 GMT
+Client-Peer: 216.8.179.26:80
+Client-Response-Num: 1
+Content-Base: http://www2.indian-pornstars.com/
+Link: </favicon.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: </css/style_park_general.css>; rel="stylesheet"; type="text/css"
+Link: </css/style_park_box.css>; rel="stylesheet"; type="text/css"
+Set-Cookie: indian-pornstars_com=a291d69fa705e4e2d06f7a44fbf95add; expires=Sat, 17-Jun-2017 20:10:24 GMT; path=/
+Title: indian-pornstars.com
+X-Meta-Robots: index,nofollow

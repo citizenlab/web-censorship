@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Tue, 19 Jun 2012 15:24:21 GMT
+Accept-Ranges: bytes
+ETag: "32f141d-5a-48ae354289e40"
+Server: Apache/2.2.22 (Unix) mod_ssl/2.2.22 OpenSSL/0.9.8e-fips-rhel5 DAV/2 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+Content-Length: 90
+Content-Type: text/html
+Last-Modified: Thu, 08 Jul 2010 17:08:01 GMT
+Client-Date: Mon, 18 Jun 2012 23:08:12 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1

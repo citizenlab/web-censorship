@@ -1,0 +1,182 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>mikrotik routeros > administration</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="expires" content="-1"/>
+<style type="text/css">
+
+body {
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+font-family: verdana, arial, helvetica, sans-serif;
+font-size: 11px;
+color: #581A30;
+background-color: #fff;
+text-align: center;
+/* part 1 of 2 centering hack */
+}
+
+#content {
+width: 700px;
+padding: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: auto;
+margin-left: auto;
+/* opera does not like 'margin:20px auto' */
+background: #fff;
+border: 0px solid #ccc;
+text-align:left;
+/* part 2 of 2 centering hack */
+width: 700px; /* ie5win fudge begins */
+voice-family: "\"}\"";
+voice-family:inherit;
+width: 670px;
+}
+
+html>body #content {
+width: 670px; /* ie5win fudge ends */
+}
+
+.top {
+display: block;
+background: #581A30;
+border-right: 4px solid #693140;
+width: 610px;
+margin-bottom: 20px;
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 4px;
+clear: both;
+font-size: 11px;
+color: #ffffcc;
+font-weight: bold;
+font-family: arial;
+}
+
+.box {
+display: block;
+border: 1px solid #f1f1f1;
+width: 300px;
+height: 140px;
+margin: none;
+margin-right: 10px;
+margin-bottom: 10px;
+float: left;
+background: #fefef3;
+padding-bottom: 10px;
+}
+
+.box h1 {
+margin: 0px;
+width: auto;
+display: block;
+background: #581A30;
+font-size: 11px;
+color: #ffffcc;
+padding: 0px;
+}
+
+.box p{
+padding: 10px;
+margin: 0px;
+}
+
+p img {
+float: left;padding-right: 10px;padding-bottom:10px;
+}
+
+.spacer {clear: both; background: none; height: 0px; display: block;}
+div.spacerr { clear: both; }
+input {border: 1px solid white; font-size: 10px; color: #693140; margin-bottom: 1px; background: white; background: #FFFFF9;}
+a, a:link, a:visited, a:active {color: #606060; text-decoration: underline;}
+a:hover {color: #693140}
+img {border: none}
+
+div.row span.left {
+float: left;
+text-align: left;
+color: #ffffcc;
+width: 49;
+}
+
+div.row span.right {
+float: right;
+text-align: right;
+font-size: 11px;
+color: #ffffcc;
+font-weight: bold;
+width: 49;
+}
+</style>
+
+</head>
+<body>
+
+<form name="loginForm" action="/cfg" method="post" onsubmit="doLogin(); return false">
+<input type="hidden" name="process" value="login"/>
+<input type="hidden" name="page" value="start"/>
+<input type="hidden" name="backpage" value="/"/>
+
+<div id="content">
+
+<div class="top">
+	<div style= "width: 100; padding: 0px; margin: 0px auto;">
+	<div class="spacerr"></div>
+
+	<div class="row"><span class="left"><a href="http://www.mikrotik.com/" target="_blank"><img src="toplogo.jpg" alt="mikrotik"/></a></span>
+	<span class="right">webbox 3.30 login:<br/><input type="text" name="user" value="" style="margin-bottom: 4px; margin-top: 4px;"/><br/><input type="password" name="password" style="margin-bottom: 4px;"/><br/><input type="submit" onclick="doLogin();" name="" value="Login"/></span></div>
+
+	<div class="spacerr"></div>
+</div>
+
+</div>
+
+<div class="box">
+<h1>Winbox</h1>
+<p><a href="/winbox/winbox.exe"><img alt="winbox" src="winboxs.jpg" /></a>Winbox is the graphical configuration application for RouterOS. <a href="/winbox/winbox.exe">Download it</a>, run it and connect to your router - all RouterOS functionality can be controlled with this application.</p>
+</div>
+
+<div class="box">
+<h1>Webbox</h1>
+<p><img alt="webbox" src="webboxs.jpg" />This is a web based configuration interface for RouterOS. Log in above to connect to this router - some of the most important RouterOS features can be controlled within this interface.</p>
+</div>
+
+<br/>
+
+<div class="box">
+<h1>Telnet</h1>
+<p><a href="telnet://192.168.1.30:23"><img alt="telnet" src="telnets.jpg" /></a><a href="telnet://192.168.1.30:23">Connect with telnet</a> and you will have access to the command line interface of RouterOS, every function of RouterOS can be controlled with it.</p>
+</div>
+
+<div class="box">
+<h1>Graphs</h1>
+<p><a href="/graphs/" target="_blank"><img alt="graphs" src="grap.jpg" /></a><a href="/graphs/" target="_blank">These graphs</a> show you statistical information about your router's interfaces and the traffic that goes through them. Before you use Graphs, <a href="http://www.mikrotik.com/docs/ros/2.9/tools/graphing" target="_blank">you have to configure them.</a></p>
+</div>
+
+<br/>
+
+<div class="box">
+<h1>Documentation</h1>
+<p><img alt="docs" src="docss.jpg" />We have written many tutorials, examples and manuals for RouterOS, all of which are available here <a href="http://www.mikrotik.com/docs/ros/2.9/" target="_blank">on our homepage</a>. If you get into trouble, you can always ask for <a href="http://www.mikrotik.com/support.html" target="_blank">technical support</a>.</p>
+</div>
+
+<div class="box">
+<h1>License</h1>
+<p><img alt="license" src="mtlogos.jpg" />Mikrotik, RouterOS and the Mikrotik logo are registered trademarks of Mikrotikls SIA. Please read <a href="/help/license.html">the license</a></p>
+</div>
+
+<div class="top">mikrotik routeros 3.30 configuration page</div>
+
+
+<div class="spacer">&nbsp;</div>
+
+</div>
+<script type="text/javascript">document.loginForm.user.focus();</script>
+</form>
+</body>
+</html>

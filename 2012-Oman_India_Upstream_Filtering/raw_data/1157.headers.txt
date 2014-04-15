@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Connection: close
+Date: Tue, 19 Jun 2012 16:10:43 GMT
+ETag: "bdf30da9-d3c8-4c6f-9603-9eae15439683"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 16:10:43 GMT
+Last-Modified: Thu, 14 Jun 2012 04:57:19 GMT
+Client-Date: Mon, 18 Jun 2012 23:53:46 GMT
+Client-Peer: 74.125.226.75:80
+Client-Response-Num: 1
+Link: <http://oruwebsite-tamil.blogspot.in/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://oruwebsite-tamil.blogspot.com/>; rel="canonical"
+Link: <http://oruwebsite-tamil.blogspot.com/feeds/posts/default>; rel="alternate"; title="OruWebsite -Download - Atom"; type="application/atom+xml"
+Link: <http://oruwebsite-tamil.blogspot.com/feeds/posts/default?alt=rss>; rel="alternate"; title="OruWebsite -Download - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/6805588030184645733/posts/default>; rel="service.post"; title="OruWebsite -Download - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=6805588030184645733>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://oruwebsite-tamil.blogspot.com/>; rel="openid.delegate"
+Link: <http://fonts.googleapis.com/css?family=PT+Sans+Narrow>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/static/v1/widgets/1355816394-widget_css_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=6805588030184645733&zx=bdf30da9-d3c8-4c6f-9603-9eae15439683>; rel="stylesheet"; type="text/css"
+Title: OruWebsite -Download
+X-Content-Type-Options: nosniff
+X-Meta-Generator: blogger
+X-Meta-MSSmartTagsPreventParsing: true
+X-Meta-Viewport: width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no
+X-Meta-Viewport: width=1100
+X-UA-Compatible: IE=EmulateIE7
+X-XSS-Protection: 1; mode=block

@@ -1,0 +1,4 @@
+500 Can't connect to uniquwarez.com:80 (Bad hostname 'uniquwarez.com')
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 23:35:12 GMT
+Client-Warning: Internal response

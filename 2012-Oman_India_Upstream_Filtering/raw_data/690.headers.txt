@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Cache-Control: private, no-cache, no-store, must-revalidate
+Date: Tue, 19 Jun 2012 15:10:51 GMT
+Pragma: no-cache
+Content-Length: 15539
+Content-Type: text/html; charset=utf-8
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+Client-Date: Mon, 18 Jun 2012 22:53:56 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Link: <http://www.facebook.com/photo.php?fbid=2460932541174%25set%3D0.314528855253976&type=1#!photo.php?fbnid=2460904580475&set=0.314528855253976&type=1&permPage=1>; media="handheld"; rel="alternate"
+Link: <http://static.ak.fbcdn.net/rsrc.php/yi/r/q9U99v3_saj.ico>; rel="shortcut icon"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yw/r/g1Hw-PcFOcK.css>; rel="stylesheet"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yW/r/mklnYiSbYM2.css>; rel="stylesheet"
+P3P: CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"
+Refresh: 0; URL=/photo.php?fbid=2460932541174%25set%3D0.314528855253976&type=1&_fb_noscript=1#!photo.php?fbnid=2460904580475&set=0.314528855253976&type=1&permPage=1
+Set-Cookie: datr=epbgT0fXwBZrxz4JMiVW--XP; expires=Thu, 19-Jun-2014 15:10:50 GMT; path=/; domain=.facebook.com; httponly
+Set-Cookie: lsd=AVo5QWHZ; path=/; domain=.facebook.com
+Set-Cookie: reg_ext_ref=http%3A%2F%2Fwww.yahoo.com; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_gate=http%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D2460932541174%2525set%253D0.314528855253976%26type%3D1%23%21photo.php%3Ffbnid%3D2460904580475%26set%3D0.314528855253976%26type%3D1%26permPage%3D1; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_ref=http%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D2460932541174%2525set%253D0.314528855253976%26type%3D1%23%21photo.php%3Ffbnid%3D2460904580475%26set%3D0.314528855253976%26type%3D1%26permPage%3D1; path=/; domain=.facebook.com
+Title: Facebook
+X-Content-Type-Options: nosniff
+X-FB-Debug: tJuc7LrBtFA32c7df2mxM5ZhDoWR3Ym6QUpHByB/ZYQ=
+X-FRAME-OPTIONS: DENY
+X-Meta-Charset: utf-8
+X-Meta-Description:  Facebook je socíální síť, která umožňuje komunikaci s přáteli, spolupracovníky, spolužáky a lidmi z okolí. Na Facebooku můžete kontaktovat přátele, nahrávat neomezené množství fotek, přidávat odkazy a videa a budete mít informace o svých známých.
+X-Meta-ROBOTS: noodp, noydir
+X-UA-Compatible: IE=edge,chrome=1
+X-XSS-Protection: 1; mode=block

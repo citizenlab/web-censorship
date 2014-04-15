@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Tue, 19 Jun 2012 13:59:24 GMT
+Server: Apache/2.2.3 (CentOS)
+Content-Type: text/html; charset=UTF-8
+Client-Date: Mon, 18 Jun 2012 21:42:29 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </dnp.css>; rel="stylesheet"; type="text/css"
+Title: unipay2u.com at directNIC
+X-Meta-Description: 
+X-Meta-Keywords: 
+X-Powered-By: PHP/5.2.11

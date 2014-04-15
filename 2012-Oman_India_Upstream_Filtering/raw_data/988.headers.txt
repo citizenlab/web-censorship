@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Connection: close
+Date: Tue, 19 Jun 2012 15:47:10 GMT
+ETag: "f951ec24-ca64-4fdb-9874-d56a87836145"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 15:47:10 GMT
+Last-Modified: Tue, 24 Apr 2012 17:20:39 GMT
+Client-Date: Mon, 18 Jun 2012 23:30:13 GMT
+Client-Peer: 74.125.226.75:80
+Client-Response-Num: 1
+Link: <http://yampblog.blogspot.in/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://yampblog.blogspot.com/>; rel="canonical"
+Link: <http://yampblog.blogspot.com/feeds/posts/default>; rel="alternate"; title="YAMP BLOG - Atom"; type="application/atom+xml"
+Link: <http://yampblog.blogspot.com/feeds/posts/default?alt=rss>; rel="alternate"; title="YAMP BLOG - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/7026765341278020453/posts/default>; rel="service.post"; title="YAMP BLOG - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=7026765341278020453>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://yampblog.blogspot.com/>; rel="openid.delegate"
+Link: <http://www.blogger.com/static/v1/widgets/1355816394-widget_css_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <//www.google.com/uds/css/gsearch.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=7026765341278020453&zx=f951ec24-ca64-4fdb-9874-d56a87836145>; rel="stylesheet"; type="text/css"
+Title: YAMP BLOG
+X-Content-Type-Options: nosniff
+X-Meta-Generator: blogger
+X-Meta-MSSmartTagsPreventParsing: true
+X-Meta-Verify-V1: qf71vgG32VQzkwAD/6Q10jRFaYwQeorJAffQKtIDuhQ=
+X-XSS-Protection: 1; mode=block

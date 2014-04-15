@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=120
+Date: Tue, 19 Jun 2012 16:16:51 GMT
+Accept-Ranges: bytes
+ETag: "338704274"
+Server: b28www4
+Content-Language: zh-CN
+Content-Length: 423001
+Content-Type: text/html
+Expires: Tue, 19 Jun 2012 16:18:51 GMT
+Last-Modified: Tue, 19 Jun 2012 16:15:56 GMT
+Client-Date: Tue, 19 Jun 2012 00:00:27 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Link: </index/rss_cool_v>; rel="alternate"; title="优酷视频-推荐视频"; type="application/rss+xml"
+Link: <http://desktop.youku.com/opensearch/youku.xml>; rel="search"; title="优酷视频搜索"; type="application/opensearchdescription+xml"
+Link: <http://static.youku.com/v1.0.0776/index/css/youku.css>; rel="stylesheet"; type="text/css"
+Link: <http://static.youku.com/v1.0.0776/index/img/favicon.ico>; rel="Shortcut Icon"
+Title: 优酷-中国第一视频网站,提供视频播放,视频发布,视频搜索 - 优酷视频
+X-Meta-Application-Name: 优酷网
+X-Meta-Description: 优酷-中国第一视频网站,提供视频播放,视频发布,视频搜索 - 视频服务平台,提供视频播放,视频发布,视频搜索,视频分享 - 优酷视频
+X-Meta-Keywords: 视频,视频分享,视频搜索,视频播放,优酷视频
+X-Meta-Msapplication-Starturl: http://www.youku.com/
+X-Meta-Msapplication-Task: name=上传视频;action-uri=http://www.youku.com/v/upload/;icon-uri=http://www.youku.com/favicon.ico
+X-Meta-Msapplication-Task: name=我的点播单;action-uri=http://www.youku.com/v_showlist/type_99.html#playlist;icon-uri=http://www.youku.com/favicon.ico
+X-Meta-Msapplication-Task: name=我的优盘;action-uri=http://u.youku.com/my/;icon-uri=http://www.youku.com/favicon.ico
+X-Meta-Title: 优酷-中国第一视频网站,提供视频播放,视频发布,视频搜索

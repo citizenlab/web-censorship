@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=172800
+Connection: close
+Date: Tue, 19 Jun 2012 15:40:57 GMT
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Age: 30092
+ETag: "1070355883"
+Server: lighttpd
+Content-Length: 5
+Content-Type: text/html
+Expires: Thu, 21 Jun 2012 07:19:26 GMT
+Last-Modified: Tue, 10 Nov 2009 11:25:43 GMT
+Client-Date: Mon, 18 Jun 2012 23:24:00 GMT
+Client-Peer: 194.71.107.19:80
+Client-Response-Num: 1
+X-Varnish: 1935037998 1934356764

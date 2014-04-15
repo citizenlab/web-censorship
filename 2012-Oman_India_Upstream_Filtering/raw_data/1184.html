@@ -1,0 +1,587 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="BTscene enables you to download and share torrents with your friends keeping filesharing community clean and fresh.You can download movies,music,games,software,ebooks,tv series torrents for free." />
+<meta name="keywords" content="BTscene, btscene, torrent, download, bittorrent, tracker, peer-to-peer, p2p, movies, video, films, music, games, series, applications, software, anime" /><meta property="fb:app_id" content="135283409842916"/>
+<link rel="stylesheet" href="/stylesheet.css" type="text/css" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" href="/rss.php" />
+<script type="text/javascript" src="/js/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="/js/plugins.jquery.js"></script>
+<script type="text/javascript" src="/js/script.js"></script>
+<!-- Place this tag in your head or just before your close body tag -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+<!--
+extraCss();
+$(document).ready(function(){
+$('#text').focus();
+$('#text').css({'border':'2px solid #d5aa00',
+'border-right':'none'});
+$('#text').focusout(function(){
+$('#text').css({'border':'1px solid transparent'});
+});
+$('#text').click(function(){
+$('#text').css({'border':'2px solid #d5aa00',
+'border-right':'none'});
+});
+});
+-->
+</script>
+<title>
+Btscene - Beyond Bittorrent - Download Torrents, Movies, Music, Games, Tv Shows, Software, Anime</title>
+</head>
+<body>
+	<div class="login" id="login">
+	<ul>
+	<li style="width:150px;border:none;"><a href="/login/login.php" id="login_main">LOGIN / REGISTER</a></li>
+	</ul>
+	</div>
+<div id="menu">
+<div id="logo">
+<a href="/" title="Home"><img src="/images/bt4.png" /></a>
+</div>
+<div id="search_engine">
+
+<form class="search" name="gosearch" action="/search_new.php">
+<table>
+<tr>
+<td id="fuser"><img src="/images/user.png" id="uplsearch" onclick="searchByUploader()" alt="Search User Torrents" title="Search User Torrents" /></td>
+<td><input x-webkit-speech speech type="text" name="term"  size="50" id="text" onkeyup="autoComplete(this)" autocomplete="off" /></td>
+<td><input id="imgsubmit" type="image" src="/images/search_button.png" onclick="checkVerifiedForm(this.form);return false;" /></td>
+</tr>
+</table>
+</form>
+
+</div>
+
+<div class="navigation">
+<ul>
+<li><a href="/" title="Home">HOME</a></li>
+<li id="first">
+<a href="/browse.php" title="Browse">BROWSE</a>
+
+<ul>
+<li><a href="/today/">Today torrents</a></li>
+<li><a href="/yesterday/">Yesterday torrents</a></li>
+<li><a href="/top-quality-torrents/">Top quality torrents</a></li>
+<li><a href="/top-downloaded-torrents.php">Top downloaded torrents</a></li>
+<li><a href="/top-active-torrents.php">Top active torrents</a></li>
+<li><a href="/top-uploaders.php">Top uploaders</a></li>
+</ul>
+
+</li>
+<li><a href="/verified-torrents/" title="Verified Torrents">VERIFIED</a></li>
+<li><a href="/upload.php" title="Upload">UPLOAD</a></li>
+<!--<li><a href="/search_cloud.php" title="Popular searches">CLOUD</a></li>-->
+
+<li id="nav_second">
+<a href="/blog/" title="Blog">BLOG</a>
+
+<ul>
+<li><a href="/blog/category/movies/">Movies</a></li>
+<li><a href="/blog/category/music/">Music</a></li>
+<li><a href="/blog/category/ebooks/">Ebooks</a></li>
+<li><a href="/blog/category/audio+books/">Audio Books</a></li>
+<li><a href="/blog/category/news/">News</a></li>
+<li><a href="/blog/category/general/">General</a></li>
+<li><a href="/blog/category/torrents/">Torrents</a></li>
+<li><a href="/user/45760/blog/">Site posts</a></li>
+</ul>
+
+</li>
+
+<li><a href="/about.php" title="About BTscene">ABOUT</a></li>
+
+</ul>
+</div>
+
+</div>
+<div class="main">
+
+<script type="text/javascript">
+$(document).ready(function(){ $("img.lazy,img.img_align_left,img.img_align_right").lazyload(); });
+</script>
+	
+<div class="main_left">
+  <p class="mes-simple">
+  WELCOME TO BTSCENE.EU, DOWNLOAD 
+  <a href="/cat/id/1/">MOVIES</a> 
+  <a href="/cat/id/2/">SERIES</a> 
+  <a href="/cat/id/3/">MUSIC</a> 
+  <a href="/cat/id/4/">GAMES</a> 
+  <a href="/cat/id/5/">SOFTWARE</a> 
+  <a href="/cat/id/6/">ANIME</a> 
+  <a href="/subcat/id/24/">E BOOKS</a> 
+  TORRENTS 
+  </p>
+  
+  <p style="width:460px;margin:15px 0 0 20px;float:left;">
+  <g:plusone size="tall" annotation="inline"></g:plusone>
+
+  <script type="text/javascript">
+  (function() {
+  var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+  po.src = 'https://apis.google.com/js/plusone.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+  </script>
+  </p>
+    <div class="srch" style="margin:5px 0 5px 0;">
+    <h1 style="border:none;">
+    <a href="/cat/id/1/" title="Movies">Movies torrents</a>
+    <span>
+    <a style="font-size:11px;font-weight:normal;color:#003399;font-family:Verdana, Arial, Helvetica, sans-serif" href="lastdaycat/type/Movies/" title="Today Movies">
+	Today Movies	</a>
+    </span>
+    </h1>
+    </div>
+  
+    <div style="width:98%;float:left;margin:0 0 20px 0;">
+      <div class="index-subc">
+      <a href="/subcat/id/1/" title="Movies-Action">Action</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/25/" title="Movies-Adventure">Adventure</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/26/" title="Movies-Animation">Animation</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/27/" title="Movies-Asian">Asian</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/28/" title="Movies-Comedy">Comedy</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/29/" title="Movies-Concerts">Concerts</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/30/" title="Movies-Documentary">Documentary</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/2/" title="Movies-Drama">Drama</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/3/" title="Movies-DVD / Film extra's">DVD / Film extra's</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/31/" title="Movies-Family">Family</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/32/" title="Movies-Fantasy">Fantasy</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/33/" title="Movies-Horror">Horror</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/130/" title="Movies-Ipod">Ipod</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/76/" title="Movies-Kids">Kids</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/34/" title="Movies-Misc">Misc</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/77/" title="Movies-Mystery">Mystery</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/35/" title="Movies-Romance">Romance</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/78/" title="Movies-Samples/Trailers">Samples/Trailers</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/37/" title="Movies-Sci-Fi">Sci-Fi</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/79/" title="Movies-Sports Related">Sports Related</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/36/" title="Movies-Thriller">Thriller</a>
+      </div>
+    </div>
+    <div class="srch" style="margin:5px 0 5px 0;">
+    <h1 style="border:none;">
+    <a href="/cat/id/2/" title="Series">Series torrents</a>
+    <span>
+    <a style="font-size:11px;font-weight:normal;color:#003399;font-family:Verdana, Arial, Helvetica, sans-serif" href="lastdaycat/type/Series/" title="Today Series">
+	Today Series	</a>
+    </span>
+    </h1>
+    </div>
+  
+    <div style="width:98%;float:left;margin:0 0 20px 0;">
+      <div class="index-subc">
+      <a href="/subcat/id/7/" title="Series-Misc">Misc</a>
+      </div>
+    </div>
+    <div class="srch" style="margin:5px 0 5px 0;">
+    <h1 style="border:none;">
+    <a href="/cat/id/3/" title="Music">Music torrents</a>
+    <span>
+    <a style="font-size:11px;font-weight:normal;color:#003399;font-family:Verdana, Arial, Helvetica, sans-serif" href="lastdaycat/type/Music/" title="Today Music">
+	Today Music	</a>
+    </span>
+    </h1>
+    </div>
+  
+    <div style="width:98%;float:left;margin:0 0 20px 0;">
+      <div class="index-subc">
+      <a href="/subcat/id/8/" title="Music-Alternative">Alternative</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/45/" title="Music-Blues">Blues</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/46/" title="Music-Classic">Classic</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/47/" title="Music-Country / Western">Country / Western</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/48/" title="Music-Drum N Bass">Drum N Bass</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/49/" title="Music-Electronic">Electronic</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/86/" title="Music-Etnic - Non English">Etnic - Non English</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/51/" title="Music-Hardcore">Hardcore</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/88/" title="Music-Industrial">Industrial</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/89/" title="Music-Jazz">Jazz</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/52/" title="Music-Metal">Metal</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/11/" title="Music-Misc">Misc</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/10/" title="Music-Pop">Pop</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/55/" title="Music-Punk">Punk</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/56/" title="Music-R&amp;B">R&amp;B</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/9/" title="Music-Rap/Hiphop">Rap/Hiphop</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/90/" title="Music-Reggae">Reggae</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/87/" title="Music-Religious">Religious</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/54/" title="Music-Rock">Rock</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/50/" title="Music-Soundtrack">Soundtrack</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/53/" title="Music-Trance">Trance</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/91/" title="Music-Videoclips">Videoclips</a>
+      </div>
+    </div>
+    <div class="srch" style="margin:5px 0 5px 0;">
+    <h1 style="border:none;">
+    <a href="/cat/id/4/" title="Games">Games torrents</a>
+    <span>
+    <a style="font-size:11px;font-weight:normal;color:#003399;font-family:Verdana, Arial, Helvetica, sans-serif" href="lastdaycat/type/Games/" title="Today Games">
+	Today Games	</a>
+    </span>
+    </h1>
+    </div>
+  
+    <div style="width:98%;float:left;margin:0 0 20px 0;">
+      <div class="index-subc">
+      <a href="/subcat/id/38/" title="Games-Dreamcast">Dreamcast</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/39/" title="Games-Game fixes/patches">Game fixes/patches</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/16/" title="Games-Gamecube">Gamecube</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/308/" title="Games-Linux">Linux</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/40/" title="Games-Mac">Mac</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/92/" title="Games-Misc">Misc</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/306/" title="Games-Mobile phones">Mobile phones</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/304/" title="Games-Nintendo DS">Nintendo DS</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/305/" title="Games-Palm, PocketPC & IPAQ">Palm, PocketPC & IPAQ</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/12/" title="Games-Pc Games">Pc Games</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/303/" title="Games-Playstation">Playstation</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/125/" title="Games-PS 3">PS 3</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/41/" title="Games-PS X">PS X</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/13/" title="Games-Ps2">Ps2</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/42/" title="Games-PSP">PSP</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/43/" title="Games-Roms">Roms</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/307/" title="Games-Video Demonstrations">Video Demonstrations</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/14/" title="Games-Xbox">Xbox</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/124/" title="Games-Xbox 360">Xbox 360</a>
+      </div>
+    </div>
+    <div class="srch" style="margin:5px 0 5px 0;">
+    <h1 style="border:none;">
+    <a href="/cat/id/5/" title="Software">Software torrents</a>
+    <span>
+    <a style="font-size:11px;font-weight:normal;color:#003399;font-family:Verdana, Arial, Helvetica, sans-serif" href="lastdaycat/type/Software/" title="Today Software">
+	Today Software	</a>
+    </span>
+    </h1>
+    </div>
+  
+    <div style="width:98%;float:left;margin:0 0 20px 0;">
+      <div class="index-subc">
+      <a href="/subcat/id/18/" title="Software-Linux">Linux</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/44/" title="Software-Mac">Mac</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/309/" title="Software-Misc">Misc</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/93/" title="Software-Other operating systems">Other operating systems</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/94/" title="Software-Palm, PocketPC &amp; IPAQ">Palm, PocketPC &amp; IPAQ</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/17/" title="Software-Windows">Windows</a>
+      </div>
+    </div>
+    <div class="srch" style="margin:5px 0 5px 0;">
+    <h1 style="border:none;">
+    <a href="/cat/id/6/" title="Anime">Anime torrents</a>
+    <span>
+    <a style="font-size:11px;font-weight:normal;color:#003399;font-family:Verdana, Arial, Helvetica, sans-serif" href="lastdaycat/type/Anime/" title="Today Anime">
+	Today Anime	</a>
+    </span>
+    </h1>
+    </div>
+  
+    <div style="width:98%;float:left;margin:0 0 20px 0;">
+      <div class="index-subc">
+      <a href="/subcat/id/74/" title="Anime-Cartoons">Cartoons</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/73/" title="Anime-Hentai">Hentai</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/19/" title="Anime-Misc">Misc</a>
+      </div>
+    </div>
+    <div class="srch" style="margin:5px 0 5px 0;">
+    <h1 style="border:none;">
+    <a href="/cat/id/7/" title="Misc">Misc torrents</a>
+    <span>
+    <a style="font-size:11px;font-weight:normal;color:#003399;font-family:Verdana, Arial, Helvetica, sans-serif" href="lastdaycat/type/Misc/" title="Today Misc">
+	Today Misc	</a>
+    </span>
+    </h1>
+    </div>
+  
+    <div style="width:98%;float:left;margin:0 0 20px 0;">
+      <div class="index-subc">
+      <a href="/subcat/id/22/" title="Misc-Audio books">Audio books</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/123/" title="Misc-Crawled">Crawled</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/24/" title="Misc-Ebooks">Ebooks</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/21/" title="Misc-Others">Others</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/20/" title="Misc-Pictures">Pictures</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/122/" title="Misc-Unsorted">Unsorted</a>
+      </div>
+    </div>
+    <div class="srch" style="margin:5px 0 5px 0;">
+    <h1 style="border:none;">
+    <a href="/cat/id/8/" title="Porn">Porn torrents</a>
+    <span>
+    <a style="font-size:11px;font-weight:normal;color:#003399;font-family:Verdana, Arial, Helvetica, sans-serif" href="lastdaycat/type/Porn/" title="Today Porn">
+	Today Porn	</a>
+    </span>
+    </h1>
+    </div>
+  
+    <div style="width:98%;float:left;margin:0 0 20px 0;">
+      <div class="index-subc">
+      <a href="/subcat/id/310/" title="Porn-Misc">Misc</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/126/" title="Porn-Movies">Movies</a>
+      </div>
+      <div class="index-subc">
+      <a href="/subcat/id/128/" title="Porn-Pictures">Pictures</a>
+      </div>
+    </div>
+</div><!-- END MAIN LEFT -->
+    
+  <div class="main_right" id="m_right">
+  
+<div style="width:185px;height:auto;margin:10px auto 10px auto;">
+<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FBTscene%2F135283409842916&amp;width=185&amp;height=215&amp;colorscheme=light&amp;show_faces=true&amp;border_color&a          mp;stream=false&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:185px; height:215px; margin:auto;" allowTransparency="true"></iframe>
+</div>
+    <h3 class="right_header">Blogroll</h3>
+	<ul class="right_list">
+	  
+	  <li>
+	  <a href="/blog/669/2012+science+or+superstition/">2012: Science or Superstition</a><br />
+	  June 19, 2012, 12:04 am <br />by <img src="/images/offline.png" hspace="2" title="offline" />  <span style="color:purple;font-size:14px;font-weight:bold;font-family:arial;">*</span>  <a href="/user/49520/blog/" title="trusted member">bolivar</a>	  posted in <a href="/blog/category/movies/" title="Movies posts">Movies</a>
+	  </li>
+	  
+	  <li>
+	  <a href="/blog/668/surviving+progress/">Surviving Progress</a><br />
+	  June 18, 2012, 11:18 pm <br />by <img src="/images/offline.png" hspace="2" title="offline" />  <span style="color:purple;font-size:14px;font-weight:bold;font-family:arial;">*</span>  <a href="/user/49521/blog/" title="trusted member">elliot</a>	  posted in <a href="/blog/category/movies/" title="Movies posts">Movies</a>
+	  </li>
+	  
+	  <li>
+	  <a href="/blog/667/carbon+based+lifeforms/">Carbon Based Lifeforms ( ChillOut Music)</a><br />
+	  June 18, 2012, 8:19 pm <br />by <img src="/images/offline.png" hspace="2" title="offline" />  <span style="color:purple;font-size:14px;font-weight:bold;font-family:arial;">*</span>  <a href="/user/18704/blog/" title="trusted member">cicca</a>	  posted in <a href="/blog/category/music/" title="Music posts">Music</a>
+	  </li>
+	  
+	  <li>
+	  <a href="/blog/666/the+canterville+ghost+by+oscar+wilde/">The Canterville Ghost by Oscar Wilde</a><br />
+	  June 17, 2012, 12:10 am <br />by <img src="/images/offline.png" hspace="2" title="offline" />  <span style="color:purple;font-size:14px;font-weight:bold;font-family:arial;">*</span>  <a href="/user/49522/blog/" title="trusted member">donatien</a>	  posted in <a href="/blog/category/ebooks/" title="Ebooks posts">Ebooks</a>
+	  </li>
+	  
+	  <li>
+	  <a href="/blog/665/the+prisoner+of+zenda+by+anthony+hope/">The Prisoner of Zenda by Anthony Hope</a><br />
+	  June 16, 2012, 10:53 pm <br />by <img src="/images/offline.png" hspace="2" title="offline" />  <span style="color:purple;font-size:14px;font-weight:bold;font-family:arial;">*</span>  <a href="/user/49524/blog/" title="trusted member">vico</a>	  posted in <a href="/blog/category/ebooks/" title="Ebooks posts">Ebooks</a>
+	  </li>
+    </ul>
+  <h3 class="right_header">Plugins</h3>
+  <ul class="right_list">
+  <li>
+  <img src="/search_templates/chrome.png" align="left" hspace="4" width="17" height="17" />
+  <a href="https://chrome.google.com/webstore/detail/aaepedojjholmomafmbnaliheabgciph" target="_blank" rel="nofollow">Chrome extension</a>
+  </li>
+  <li>
+  <img src="/search_templates/firefox.png" align="left" hspace="5" width="16" height="16" />
+  <span onclick="javascript:addOpenSearch('btscene', '44266', 'g');return false;" class="templates">Firefox plugin</span>
+  </li>
+  <li>
+  <img src="/search_templates/vuze.jpg" align="left" hspace="5" width="16" height="16" /> 
+  <span onclick="javascript:addTemplate('vuze');return false;" class="templates">Vuze template</span>
+  </li>
+  <li>
+  <img src="/search_templates/utorrent.png" align="left" hspace="5" width="16" height="16" /> 
+  <span onclick="javascript:addTemplate('utorrent');return false;" class="templates">utorrent template</span>
+  </li>
+  <li>
+  <img src="/search_templates/twitter.png" align="left" hspace="5" width="16" height="16" /> 
+  <a rel="nofollow" href="http://twitter.com/btscenetorrents" target="_blank">Follow us on Twitter</a>
+  </li>
+  <li>
+  <img src="/images/facebook.jpg" align="left" hspace="5" width="16" height="16" />
+  <a href="http://www.facebook.com/pages/BTscene/135283409842916" target="_blank" rel="nofollow">Join us on facebook</a>
+  </li>
+  </ul>
+  </div>
+</div><!-- END MAIN -->
+  <div id="footer">
+<!-- Do not cheat -->
+<a href="http://www.torrentreactor.net" title="Torrent reactor" target="_blank">Torrent reactor</a> <a href="http://vertor.com" title="search torrents" target="_blank">search torrents</a> <a href="http://www.torrentbit.net" title="Torrent download" target="_blank">Torrent download</a> <a href="http://www.torrent.ws" title="torrent engine" target="_blank">torrent engine</a>   	
+    <hr/>
+    &copy; BTscene 2012 | Parsetime: 0.01 seconds | <a href="/sitemap.html">Sitemap</a> | <a href="/dmca_policy.php">Copyright Policy</a>
+
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+    _uacct = "UA-1526903-1";
+    urchinTracker();
+   </script>
+    <div style="float:right;margin:20px 0 0 0;">
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t26.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: number of visitors for today is"+
+" shown' "+
+"border='0' width='88' height='15'><\/a>")
+//--></script><!--/LiveInternet-->
+
+<script type="text/javascript"><!-- 
+try {Noowho_ref = top.document.referrer;}catch(e) {Noowho_ref = document.referrer;} Noowho_ref.replace(/[<>"]/g, '').replace(/&/g, '%26'); document.write('<a href="http://www.noowho.com/Show-23685599.html"><img src="http://www.noowho.com/image.php?site=23685599&ref='+Noowho_ref+'" border=0></a>');
+//-->
+</script>
+
+<!-- Pocitadlo.cz  pocitadlo:85471  uzivatel:57011 -->
+<script language="JavaScript" type="text/javascript">
+<!--
+Tmp=Math.floor(1000000 * Math.random());
+document.write("<scr" + "ipt src=\"http://cnt2.pocitadlo.cz/counter.php?poc=85471&amp;ref="+escape(top.document.referrer)+"&amp;depth="+screen.colorDepth+"&amp;width="+screen.width+"&amp;height="+screen.height+"&amp;tmp="+Tmp+"\" language=\"JavaScript\" type=\"text/javascript\"></scr" + "ipt>");
+// -->
+</script>
+<a href="http://www.pocitadlo.cz/" target="_blank" title="Počítadlo.cz - statistiky návštěvnosti stránek zdarma">Počítadlo.cz</a>
+<!-- Pocitadlo.cz konec -->
+
+<a href="http://www.toplist.cz/stat/1163921" target="_top"><img
+src="http://toplist.cz/dot.asp?id=1163921" border="0" width="1" height="1"/></a>
+
+<a href="http://www.toplist.sk/stat/1225142" target="_top"><img
+src="http://toplist.sk/dot.asp?id=1225142" border="0" width="1" height="1"/></a>
+
+
+<a href="http://www.toplist.eu/stat/157383" target="_top"><img
+src="http://toplist.eu/dot.asp?id=157383" border="0" width="1" height="1"/></a>
+  </div>
+ </div>
+  </body>
+ </html>

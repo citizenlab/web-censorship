@@ -1,0 +1,4 @@
+500 Can't connect to gr8click.com:80 (Bad hostname 'gr8click.com')
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 22:45:52 GMT
+Client-Warning: Internal response

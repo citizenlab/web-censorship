@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Date: Tue, 19 Jun 2012 16:07:38 GMT
+ETag: "6ad60af2-60dc-4267-b8f8-52d76d0ed402"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 16:07:38 GMT
+Last-Modified: Thu, 31 May 2012 03:23:34 GMT
+Client-Date: Mon, 18 Jun 2012 23:50:47 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://moviessharefb.blogspot.in/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://moviessharefb.blogspot.com/>; rel="canonical"
+Link: <http://moviessharefb.blogspot.com/feeds/posts/default>; rel="alternate"; title="Movies Share - Atom"; type="application/atom+xml"
+Link: <http://moviessharefb.blogspot.com/feeds/posts/default?alt=rss>; rel="alternate"; title="Movies Share - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/8281297885375577297/posts/default>; rel="service.post"; title="Movies Share - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=8281297885375577297>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/profile/05394809986239241947>; rel="me"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://moviessharefb.blogspot.com/>; rel="openid.delegate"
+Link: <http://www.blogger.com/static/v1/widgets/2098323231-widget_css_2_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=8281297885375577297&zx=6ad60af2-60dc-4267-b8f8-52d76d0ed402>; rel="stylesheet"; type="text/css"
+Title: Movies Share
+X-Content-Type-Options: nosniff
+X-Meta-Description: 
+X-Meta-Generator: blogger
+X-Meta-MSSmartTagsPreventParsing: true
+X-Meta-Viewport: width=1100
+X-UA-Compatible: IE=EmulateIE7
+X-XSS-Protection: 1; mode=block

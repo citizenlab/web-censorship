@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Date: Tue, 19 Jun 2012 15:21:24 GMT
+Pragma: private
+Server: Apache/2.2.21 (CentOS)
+Content-Type: text/html; charset=ISO-8859-1
+Expires: -1
+Client-Date: Mon, 18 Jun 2012 23:04:35 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://www.tollyzone.com/>; rel="canonical"
+Link: <clientscript/vbulletin_important.css?v=382>; rel="stylesheet"; type="text/css"
+Set-Cookie: bbsessionhash=5f7da02cf1826fc9fc7aff7d34027783; path=/; HttpOnly
+Set-Cookie: bblastvisit=1340119284; expires=Wed, 19-Jun-2013 15:21:24 GMT; path=/
+Set-Cookie: bblastactivity=0; expires=Wed, 19-Jun-2013 15:21:24 GMT; path=/
+Set-Cookie: vbseo_loggedin=deleted; expires=Mon, 20-Jun-2011 15:21:24 GMT; path=/
+Title: TollyZone - It's All About Telugu - Powered by vBulletin
+X-Meta-Description: tollyzone.com - It's all about telugu, tolly zone, tollyzone,Telugu s, Telugu mp3smTelugu torrents, telugu downloads, telugu torrents, telugu torrents, telugu s, watch online telugu s, telugu new s, 2009 telugu s, telugu cam prints, downloadable s, free downloadable s, music downloads, listen to music, listen music, downloads music, free music downloads, tollytorrents, tolly torrents, telugu cinemalu, telugu patalu, telugu tv serials, telugu tv shows
+X-Meta-Generator: vBulletin 3.8.2
+X-Meta-Keywords: tollyzone.com - It's all about telugu, tollyzone, tolly zone,tollywood, tollywood zone, movies, telugu, hindi movie, download, mp3s, telugump3s, desi, bollywood, cinema, cricket live, indian, videos, masala, radio, tv, dvd, tamil, kids, cartoons, tollywood, kollywood, lollywood, bolly, premiere, chiranjeevi, nbk, venkatesh, sharukkhan, maheshbabu, prince fans, mega, venky, old classic, action, adventure, comedy, hot, clips, upload, storage, great, dvds, jokes, serials, free, free movies, free music, free online movies, scenes, channel, downloads, articles, andhra, entertainment, mp3, news, sites, black and white, photos, wallpapers, community, documentaries, games, arcade, devotional, lyrics, amitab bachhan, balakrishna, megastar, power star, nagarjuna, mahesh babu, krishna, superstar, actor, naresh, sharuk khan, function, spicy, dvdrip, vcd, bluray, br, bd, rip, x264, aac, xvid, team legends, torrents, movie torrents, music torrents, chit chat, divx, cams, dvdscr, pdvd, videos, new movies, latest,
+X-Powered-By: PHP/5.2.17
+X-UA-Compatible: IE=7

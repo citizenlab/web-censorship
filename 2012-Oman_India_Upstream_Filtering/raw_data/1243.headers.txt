@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Mon, 09 Jul 2012 20:04:03 GMT
+Accept-Ranges: bytes
+ETag: "1191626-10b7-45448f7a4e500"
+Server: Apache
+Content-Language: en-us
+Content-Length: 4279
+Content-Type: text/html
+Last-Modified: Tue, 12 Aug 2008 20:17:56 GMT
+Client-Date: Mon, 09 Jul 2012 20:04:03 GMT
+Client-Peer: 74.208.58.97:80
+Client-Response-Num: 1
+Link: <images/style.css>; rel="stylesheet"; type="text/css"
+Title: Welcome to RahulYadav.Com
+X-Meta-Author: Rahul Yadav
+X-Meta-Description: Welcome to the website of Rahul Yadav
+X-Meta-Keywords: rahul yadav, rahul, yadav, india, indian, hindi, hindu, hindustan, hindutva, mp3, bihar, hinduism, djdesi, djdesixtc, desi, desidjs, bhangra, uk bhangra, information technology, IT, SLIS, Indiana University, information science
+X-Meta-ROBOTS: all

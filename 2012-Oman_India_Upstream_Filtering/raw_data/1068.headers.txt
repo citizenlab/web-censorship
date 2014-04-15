@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Connection: close
+Date: Tue, 19 Jun 2012 15:54:56 GMT
+ETag: "e0ec5654-0373-4fee-8645-c0860db0a5d0"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 15:54:56 GMT
+Last-Modified: Tue, 19 Jun 2012 14:14:26 GMT
+Client-Date: Mon, 18 Jun 2012 23:38:05 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Link: <http://full2moviez.blogspot.in/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://full2moviez.blogspot.com/>; rel="canonical"
+Link: <http://full2moviez.blogspot.com/feeds/posts/default>; rel="alternate"; title="Full2moviez - Atom"; type="application/atom+xml"
+Link: <http://full2moviez.blogspot.com/feeds/posts/default?alt=rss>; rel="alternate"; title="Full2moviez - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/5123978727518060828/posts/default>; rel="service.post"; title="Full2moviez - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=5123978727518060828>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://full2moviez.blogspot.com/>; rel="openid.delegate"
+Link: <YOUR-FAVICON-URL>; rel="shortcut icon"; type="image/vnd.microsoft.icon"
+Link: <http://www.blogger.com/static/v1/widgets/1355816394-widget_css_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=5123978727518060828&zx=e0ec5654-0373-4fee-8645-c0860db0a5d0>; rel="stylesheet"; type="text/css"
+Set-Cookie: blogger_TID=12ee427d9aec373e; HttpOnly
+Title: Julayi Mp3 Songs,Latest Telugu Tamil Hindi English Movies Free Download | Songs Free Download | Video Songs Download | Trailers | Film News | Galleries | Cricket | Reviews
+X-Content-Type-Options: nosniff
+X-Meta-AlexaVerifyID: _raw-ErE94ORnMF829Tp9e62pS8
+X-Meta-Description: JULAYI MP3 SONGS |TELUGU TAMIL HINDI ENGLISH BLURAY  MOVIES | MP3 SONGS | HD VIDEO SONGS | MOBILES MOVIES | TRAILERS DOWNLOAD | LIVE CRICKET
+X-Meta-Generator: blogger
+X-Meta-Google-Site-Verification: -eeEEBgmhJP5inDdX9jVaEWlqRQ1g-fN378ndCOxLt4
+X-Meta-Google-Site-Verification: 1kVfPUuseFSYb13a1I_7kx6xXBcrsnKUoVt2LwN-LtY
+X-Meta-Keywords: Julayi Mp3 Songs , Endukante Premanta Movie Torrent, Satyamev Jayate Mp3 Songs, Bluray Movies, Telugu HD Video Songs, Trailers, telugu tamil hindi mp3 Songs, Mobile movies
+X-Meta-MSSmartTagsPreventParsing: true
+X-XSS-Protection: 1; mode=block

@@ -1,0 +1,4 @@
+500 Can't connect to videozer.om:80 (Bad hostname 'videozer.om')
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 23:28:28 GMT
+Client-Warning: Internal response

@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 15:01:36 GMT
+Server: Apache
+Vary: Accept-Encoding
+Content-Type: text/html
+Client-Date: Mon, 18 Jun 2012 22:44:38 GMT
+Client-Peer: 118.139.185.1:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Title: New Page 1
+X-Meta-Generator: Microsoft FrontPage 5.0
+X-Meta-ProgId: FrontPage.Editor.Document

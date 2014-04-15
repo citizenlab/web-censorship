@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Mon, 18 Jun 2012 20:08:37 GMT
+Server: Apache
+Content-Type: text/html; charset=UTF-8
+Client-Date: Mon, 18 Jun 2012 20:08:37 GMT
+Client-Peer: 74.208.58.97:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://blog.rahulyadav.com/wp-content/themes/musique/style.css>; id="main"; media="screen, projection"; rel="stylesheet"; type="text/css"
+Link: <http://blog.rahulyadav.com/wp-content/themes/musique/weblog.css>; id="weblog"; media="screen, projection"; rel="stylesheet"; type="text/css"
+Link: <http://blog.rahulyadav.com/wp-content/themes/musique/colorschemes/colorscheme1/colorscheme.css>; media="screen, projection"; rel="stylesheet"; type="text/css"
+Link: <http://blog.rahulyadav.com/feed/>; rel="alternate"; title="Rahul Yadav RSS Feed"; type="application/rss+xml"
+Link: <http://blog.rahulyadav.com/xmlrpc.php>; rel="pingback"
+Link: <http://blog.rahulyadav.com/xmlrpc.php?rsd>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Title: Rahul Yadav
+X-Meta-Layout-Type: 1
+X-Pingback: http://blog.rahulyadav.com/xmlrpc.php
+X-Powered-By: PHP/4.4.9

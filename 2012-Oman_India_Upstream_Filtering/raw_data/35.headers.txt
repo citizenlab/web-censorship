@@ -1,0 +1,25 @@
+HTTP/1.1 404 Not Found
+Cache-Control: public, max-age=2700
+Connection: close
+Date: Mon, 18 Jun 2012 20:07:38 GMT
+Via: 1.1 varnish
+Age: 0
+ETag: "1340050057"
+Server: Apache/2.2.14 (Ubuntu)
+Vary: Cookie,Accept-Encoding
+Content-Length: 30342
+Content-Type: text/html; charset=utf-8
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+Last-Modified: Mon, 18 Jun 2012 20:07:37 +0000
+Client-Date: Mon, 18 Jun 2012 20:07:39 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Link: </sites/www.amnesty.org/themes/aitheme/favicon.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: </sites/impact.amnesty.org/themes/aitheme/underflow-styles.css>; rel="stylesheet"; type="text/css"
+Link: </sites/amnesty.org/modules/custom/amnesty_news/css/amnesty_news.css?L>; media="all"; rel="stylesheet"; type="text/css"
+Link: <http://www.amnesty.org/sites/impact.amnesty.org/files/css/css_992cf15ab142e16fb62e6390825a82a4.css>; media="all"; rel="stylesheet"; type="text/css"
+Link: <http://www.amnesty.org/sites/impact.amnesty.org/files/css/css_4adc4c9acd58dbfabd1268cce89d78e0.css>; media="print"; rel="stylesheet"; type="text/css"
+Link: </sites/impact.amnesty.org/themes/aitheme/overflow-styles.css>; rel="stylesheet"; type="text/css"
+Title: Page not found | Amnesty International
+X-Powered-By: PHP/5.2.10-2ubuntu6.5
+X-Varnish: 928986383

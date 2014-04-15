@@ -1,0 +1,19 @@
+HTTP/1.1 410 Gone
+Cache-Control: private
+Date: Tue, 19 Jun 2012 13:41:48 GMT
+Accept-Ranges: bytes
+Content-Length: 12393
+Content-Type: text/html
+Last-Modified: Mon, 17 Jan 2011 14:22:01 GMT
+Client-Date: Mon, 18 Jun 2012 21:24:52 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Link: <http://l.yimg.com/a/combo?yui/2.5.2/build/reset-fonts-grids/reset-fonts-grids.css&smbiz/css/headfoot_6.css&smbiz/css/ysbs_glossary_1.css>; media="all"; rel="stylesheet"; type="text/css"
+Link: <http://l.yimg.com/a/lib/smbiz/css/geocities_84954.css>; media="all"; rel="stylesheet"; type="text/css"
+P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+Set-Cookie: BX=7srnm697u10cs&b=3&s=t6; expires=Tue, 02-Jun-2037 20:00:00 GMT; path=/; domain=.geocities.com
+Title: Yahoo! GeoCities: Get a web site with easy-to-use site building tools.
+X-Host: w5.geo.sp2.yahoo.com
+X-INKT-SITE: http://us.geocities.com/server-errors
+X-INKT-URI: http://us.geocities.com/server-errors/geocities_gone.html
+X-Meta-Description: Yahoo! GeoCities offers you a free web site and all the tools you need to build a dynamic site. Features include easy-to-use site building tools, online help, web site statistics, secure and reliable hosting, and an intuitive control panel.

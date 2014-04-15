@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Connection: close
+Date: Tue, 19 Jun 2012 13:51:51 GMT
+Pragma: no-cache
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Client-Date: Mon, 18 Jun 2012 21:34:59 GMT
+Client-Peer: 209.85.225.191:80
+Client-Response-Num: 1
+Link: <http://www.blogger.com/static/v1/v-css/1884251655-new_ui_static_pages.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/feeds/03550922789477190410/blogs>; rel="alternate"; title="Satish Seth Investment's Blogs"; type="application/atom+xml"
+Link: <http://www.blogger.com/feeds/03550922789477190410/blogs?alt=atom-service>; rel="service"; title="Satish Seth Investment's Blogs"; type="application/atomsvc+xml"
+Link: <http://satishsethinvestment.blogspot.com/>; rel="me"
+P3P: CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+Set-Cookie: blogger_TID=b7c0d06e1855756a; HttpOnly
+Title: Blogger: Uživatelský profil: Satish Seth Investment
+X-Content-Type-Options: nosniff
+X-FRAME-OPTIONS: SAMEORIGIN
+X-Meta-Description: Blogger je bezplatný nástroj pro publikování blogů od společnosti Google, díky němuž můžete své myšlenky snadno sdílet s celým světem. Služba Blogger usnadňuje publikování textů, fotografií a videoklipů v osobním nebo týmovém blogu.
+X-Meta-Keywords: blogger, blogspot, blog, blogger.com, blogspot.com, bezplatný blog, osobní blog, blog zdarma, vytvořit blog, nový blog
+X-XSS-Protection: 1; mode=block

@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache, must-revalidate
+Connection: close
+Date: Tue, 19 Jun 2012 14:06:23 GMT
+Pragma: no-cache
+Server: nginx
+Vary: Accept-Encoding
+Content-Type: text/html
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Last-Modified: Tue, 19 Jun 2012 14:06:23 GMT
+Client-Date: Mon, 18 Jun 2012 21:49:27 GMT
+Client-Peer: 64.15.205.101:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Set-Cookie: pID=m5vb6n19k0fk07guyjyp0kw0; expires=Sat, 30-Nov-2013 08:00:00 GMT; path=/
+Set-Cookie: sID=m5vb6n19k0fk07guyjyp0kw0; path=/
+Set-Cookie: rttype=yahoo.com; expires=Tue, 19-Jun-2012 14:26:23 GMT; path=/
+Set-Cookie: trID=7001; expires=Tue, 19-Jun-2012 14:16:23 GMT; path=/
+Title: Uni Exchange 2u | Uni Exchange 2u
+X-Meta-ROBOTS: index, follow

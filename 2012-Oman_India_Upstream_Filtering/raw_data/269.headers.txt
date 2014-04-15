@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Date: Tue, 19 Jun 2012 13:54:49 GMT
+Pragma: no-cache
+Server: Apache/2.2.14 (Ubuntu)
+Vary: Accept-Encoding
+Content-Language: en-us
+Content-Type: text/html
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Client-Date: Mon, 18 Jun 2012 21:37:54 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </images/icons/feedables.ico>; rel="SHORTCUT ICON"; type="image/x-icon"
+Link: </themes/feedables/css/feedables.css>; rel="stylesheet"; type="text/css"
+Link: </themes/default/css/default.css>; rel="stylesheet"; type="text/css"
+Link: </themes/default/css/css.css>; rel="stylesheet"; type="text/css"
+Link: <http://parenting.feedables.com/publish/mostpopular.php>; rel="alternate"; title="Most Popular (RSS 2.0)"; type="application/rss+xml"
+Link: <http://parenting.feedables.com/publish/mostrecent.php>; rel="alternate"; title="Most Recent (RSS 2.0)"; type="application/rss+xml"
+Set-Cookie: PHPSESSID=velsi56qn0tdo4srqleevps4i3; path=/
+Title: Parenting Feeds : Satish Seth Reliance on His Dogs for Fun and Wisdom
+X-Meta-Description: The best parenting news aggregated from your favorite sites
+X-Meta-Keywords: Parenting News
+X-Powered-By: PHP/5.3.2-1ubuntu4.14

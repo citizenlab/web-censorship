@@ -1,0 +1,18 @@
+HTTP/1.1 404 Not Found
+Cache-Control: private, max-age=0
+Connection: close
+Date: Tue, 19 Jun 2012 15:25:19 GMT
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 15:25:19 GMT
+Client-Date: Mon, 18 Jun 2012 23:08:23 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Content-Base: http://www.blogger.com
+Link: <http://www.blogger.com/static/v1/v-css/3939536041-new_ui_static_pages_rtl.css>; rel="stylesheet"; type="text/css"
+Title: لم يتم العثور على المدونة الإلكترونية
+X-Content-Type-Options: nosniff
+X-FRAME-OPTIONS: SAMEORIGIN
+X-Meta-Description: Blogger هي أداة مجانية لنشر المدوّنات من Google تساعدك على مشاركة أفكارك بسهولة تامة مع العالم من حولك. فأداة Blogger تجعل من تدوين النصوص والصور ومقاطع الفيديو على مدوّنتك الشخصية أو الجماعية أمرًا في غاية البساطة.
+X-Meta-Keywords: مدوّنة، مدوّنة مجانية، مدوّنة شخصية، إنشاء مدوّنة، مدوّنة جديدة، blogger، blogspot، blog، blogger.com، blogspot.com، free blog، personal blog، weblog، create blog، new blog
+X-XSS-Protection: 1; mode=block

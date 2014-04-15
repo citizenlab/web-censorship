@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: close
+Date: Tue, 19 Jun 2012 14:22:58 GMT
+Pragma: no-cache
+Server: Apache
+Vary: Accept-Encoding
+Content-Type: text/html
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Client-Date: Mon, 18 Jun 2012 22:06:02 GMT
+Client-Peer: 74.220.219.70:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://www.playlist.pk/css/ie7.0-medical.css>; media="all"; rel="stylesheet"; type="text/css"
+Set-Cookie: PHPSESSID=l2ocb2odshn5ucse31h17lqd33; path=/
+Title: Pakistani music and bollywood music portal. Get free ringtones, pakistani songs,bollywood songs,underground music ,qawali and folk songs
+X-Meta-Description: Playlist dot pk a music portal for music listeners ,artists get the music in the best possible way.
+X-Meta-Keywords: playlist.pk,pakistani music,pakistani mp3,bollywood music,pakistani mp3 songs,pakistani drama songs, ringtons,bollywood music mp3,new bollywood music,atif aslam songs,gazals,qawali,qawalian,free ringtones,pak drama songs,forex music

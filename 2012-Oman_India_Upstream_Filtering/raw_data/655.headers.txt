@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=2678400
+Cache-Control: public
+Connection: close
+Date: Tue, 19 Jun 2012 15:08:26 GMT
+Pragma: no-cache
+Server: nginx
+Vary: Accept-Encoding
+Content-Length: 6944
+Content-Type: text/html; charset=utf-8
+Expires: Fri, 20 Jul 2012 15:08:26 GMT
+Client-Date: Mon, 18 Jun 2012 22:51:29 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Link: </css/wapindia.css>; rel="stylesheet"; type="text/css"
+Link: <rss.php>; rel="alternate"; title="RSS"; type="application/rss+xml"
+Title: WapIndia.co Free Mobile Ringtones, Wallpapers, Games, Themes, Mp3, 3gp, Softwares, Video to download.. Free SMS, Mobile Tricks, Mobile Cracks.
+X-Meta-AlexaVerifyID: XdEVnYUQBxYbEU4nmNdFOyDALIk
+X-Meta-Description: Free Downloads WapIndia.co Free Mobile Ringtones, Wallpapers, Games, Themes, Mp3, 3gp, Softwares, Video to download.. Free SMS, Mobile Tricks, Mobile Cracks
+X-Meta-Geo.Placename: India
+X-Meta-Google-Site-Verification: PTDBtlH_GR0K6-0d1CtsL7GmlObaD-Py53gwjbxVD7s
+X-Meta-Google-Site-Verification: TYBa_EAY_2wStLhZmsg1qozlF7R6h45B6WcnNLP-IZg
+X-Meta-Keywords: Ringtones, Wallpapers, Games, Themes, Softwares, Video to download, Free SMS, Mobile Tricks, Mobile Cracks, 3Gp, Mp3, Mp4, wap
+X-Meta-Robot: index,follow
+X-Powered-By: PHP/5.3.10

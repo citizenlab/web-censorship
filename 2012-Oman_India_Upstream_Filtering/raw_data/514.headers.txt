@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 14:37:36 GMT
+Server: Apache/2.2.21 (Unix) mod_ssl/2.2.21 OpenSSL/0.9.8m DAV/2 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+Content-Type: text/html; charset=UTF-8
+Client-Date: Mon, 18 Jun 2012 22:20:41 GMT
+Client-Peer: 50.116.119.168:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://songspk.co/wp-content/themes/songsco/favicon.ico>; rel="shortcut icon"; type="image/x-icon"
+Link: <http://songspk.co/wp-content/themes/songsco/style.css>; media="screen"; rel="stylesheet"; type="text/css"
+Link: <http://songspk.co/xmlrpc.php>; rel="pingback"
+Title: Songspk.Co - Download Mp3 Songs
+X-Meta-Distribution: global
+X-Meta-Keywords:  mp3, mp3 songs, video songs, download songs,HD Videos , HD Songs, Mp3 Songs download
+X-Meta-Language: en
+X-Meta-Rating: general
+X-Meta-SPIDERS: ALL
+X-Meta-WEBCRAWLERS: ALL
+X-Pingback: http://songspk.co/xmlrpc.php
+X-Powered-By: PHP/5.2.17

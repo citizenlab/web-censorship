@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: close
+Date: Tue, 19 Jun 2012 15:09:50 GMT
+Pragma: no-cache
+Server: Apache/2.2.17 (Unix) mod_ssl/2.2.17 OpenSSL/0.9.8m DAV/2 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+Content-Type: text/html; charset=utf-8
+Expires: Mon, 1 Jan 2001 00:00:00 GMT
+Last-Modified: Tue, 19 Jun 2012 15:09:50 GMT
+Client-Date: Mon, 18 Jun 2012 22:52:56 GMT
+Client-Peer: 184.173.227.238:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Content-Base: http://desibajao.net/
+Link: </templates/rt_afterburner_j15/css/light4.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.desihit.net/new/two.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.desihit.net/new/Style2.0.css>; rel="stylesheet"; type="text/css"
+Link: </tabcontent.css>; media="screen"; rel="stylesheet"; type="text/css"
+Link: </contentslider.css>; rel="stylesheet"; type="text/css"
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Set-Cookie: 0533b42468399b7245537d2c9438cb37=7b16daf55efde01ab38e6bbc384af6e7; path=/
+Title: Music
+X-Meta-Author: Latest Bollywood Music, Download Hindi Songs, Listen Bhagra Track, Download Punjabi Song, New Hit Albums, Indian Latest Songs, Download Free Pakistani Songs, Ghazals, Ghazal, Pop and Remix, Indian, Singer, Live, Movies, Music Listen Online at DesiHit.net
+X-Meta-Description: Latest Bollywood Music, Download Hindi Songs, Listen Bhagra Track, Download Punjabi Song, New Hit Albums, Indian Latest Songs, Download Free Pakistani Songs, Ghazals, Ghazal, Pop and Remix, Indian, Singer, Live, Movies, Music Listen Online at DesiHit.net
+X-Meta-Generator: Joomla! 1.5 - Open Source Content Management
+X-Meta-Keywords: Latest Bollywood Music, Download Hindi Songs, Listen Bhagra Track, Download Punjabi Song, New Hit Albums, Indian Latest Songs, Download Free Pakistani Songs, Ghazals, Ghazal, Pop and Remix, Indian, Singer, Live, Movies, Music Listen Online at DesiHit.net
+X-Meta-ROBOTS: Latest Bollywood Music, Download Hindi Songs, Listen Bhagra Track, Download Punjabi Song, New Hit Albums, Indian Latest Songs, Download Free Pakistani Songs, Ghazals, Ghazal, Pop and Remix, Indian, Singer, Live, Movies, Music Listen Online at DesiHit.net
+X-Meta-Title: Music
+X-Powered-By: PHP/5.2.16

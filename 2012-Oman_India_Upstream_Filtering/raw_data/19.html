@@ -1,0 +1,776 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="RATING" content="RTA-5042-1996-1400-1577-RTA" />
+<meta name="description" content="Kirtu (noun): Comics or animation of Indian origin primarily featuring Indian sexuality. Kirtu.com has free Savita Bhabhi episodes and other comics." />
+
+<link rel="stylesheet" href="css/index.css" type="text/css" />
+
+<!--JS and CSS for Header Carousel Below-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript" src="jcarousellite_1.0.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/carousel.css">
+<style type="text/css">.highslide img {cursor: url(highslide/graphics/zoomin.cur), pointer !important;}</style>
+<script type="text/javascript">
+
+$(document).ready(function() {
+	
+    $(".jCarouselLite").jCarouselLite({
+        btnNext: ".next",
+        btnPrev: ".prev",
+		visible: 7,
+		auto: 800,
+		speed: 1000
+		
+    });	
+
+	$('.carouselimg').live('mouseover', function() {
+		$(this).hide();
+		$(this).next().show();
+		
+	});
+	
+	$('.carousels').live('mouseleave', function() {
+		$(this).show();
+		$(this).prev().show();				
+	}); 
+	
+	
+	//Set Default State of each portfolio piece
+	$(".paging").show();
+	$(".paging a:first").addClass("active");
+		
+	//Get size of images, how many there are, then determin the size of the image reel.
+	var imageWidth = $(".window").width();
+	var imageSum = $(".image_reel img").size();
+	var imageReelWidth = imageWidth * imageSum;
+	
+	//Adjust the image reel to its new size
+	$(".image_reel").css({'width' : imageReelWidth});
+	
+	//Paging + Slider Function
+	rotate = function(){	
+		var triggerID = $active.attr("rel") - 1; //Get number of times to slide
+		var image_reelPosition = triggerID * imageWidth; //Determines the distance the image reel needs to slide
+
+		$(".paging a").removeClass('active'); //Remove all active class
+		$active.addClass('active'); //Add active class (the $active is declared in the rotateSwitch function)
+		
+		//Slider Animation
+		$(".image_reel").animate({ 
+			left: -image_reelPosition
+		}, 500 );
+		
+	}; 
+	
+	//Rotation + Timing Event
+	rotateSwitch = function(){		
+		play = setInterval(function(){ //Set timer - this will repeat itself every 3 seconds
+			$active = $('.paging a.active').next();
+			if ( $active.length === 0) { //If paging reaches the end...
+				$active = $('.paging a:first'); //go back to first
+			}
+			rotate(); //Trigger the paging and slider function
+		}, 999999); //Timer speed in milliseconds (3 seconds)
+	};
+	
+	rotateSwitch(); //Run function on launch
+	
+	//On Hover
+	$(".image_reel a").hover(function() {
+		clearInterval(play); //Stop the rotation
+	}, function() {
+		rotateSwitch(); //Resume rotation
+	});	
+	
+	//On Click
+	$(".paging a").click(function() {	
+		$active = $(this); //Activate the clicked paging
+		//Reset Timer
+		clearInterval(play); //Stop the rotation
+		rotate(); //Trigger rotation immediately
+		rotateSwitch(); // Resume rotation
+		return false; //Prevent browser jump to link anchor
+	});	
+	
+});
+</script>
+
+<!--Navigation Script Below-->
+<link href="nav_members/style.css" rel="stylesheet" type="text/css" />
+
+<!--script type="text/javascript" src="nav_members/js/jquery.js"></script-->
+<script type="text/javascript" src="nav_members/js/slider.js"></script>
+
+<!--JS and CSS for Rating Script Below-->
+<script type="text/javascript" language="javascript" src="js/behavior.js"></script>
+<script type="text/javascript" language="javascript" src="js/rating.js"></script>
+<link rel="stylesheet" type="text/css" href="css/rating.css" />
+
+<!--JS and CSS for LightBox Below-->
+<script type="text/javascript" src="highslide/highslide-with-html.js"></script>
+    <script type="text/javascript" src="highslide/highslide.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        hs.graphicsDir = 'highslide/graphics/';
+        hs.outlineWhileAnimating = 0;
+        hs.allowMultipleInstances = false;
+        hs.blockRightClick = true;
+        hs.enableKeyListener = false;
+        hs.cacheAjax = false;
+        hs.showCredits = false;
+        /* ]]> */
+    </script>
+    <link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+	
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('home_images/reel/reel_1.jpg','nav_members/images/fanclub_hover.png','nav_members/images/fanclub.png','nav_members/images/char.png','nav_members/images/home.png','nav_members/images/series.png','nav_members/images/members.png','nav_members/images/members_hover.png','nav_members/images/home_hover.png','nav_members/images/join.png','nav_members/images/join_hover.png','images/download_hover.png','nav_members/images/password_hover.png','nav_members/images/next_hover.png','nav_members/images/homepage_hover.png','nav_members/images/prev_hover.png','images/view_hover.png')">
+
+<div id="body">
+<title>Kirtu.com - Indian Porn Toons - Only for Adults</title>
+
+<style type="text/css">
+#fb-likes {
+	position:absolute;
+	width:585px;
+	z-index:9999;
+	left: 20px;
+	top: 6px;
+}
+</style>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="fb-likes"><img src="images/baf.png" title="Click Like to like us" /><div style="float:right" class="fb-like" data-href="https://www.facebook.com/ipe.kirtu" data-send="true" data-width="450" data-show-faces="true"></div></div>
+
+<div style="padding:5px 20px 5px 0px;"><form action="" name="languageform" id="languageform">
+    <div align="right"><span class="note-answer">Choose Language</span>
+        <select name="menu" class="nav-lang" onchange="location=document.languageform.menu.options[document.languageform.menu.selectedIndex].value;">
+          <option value="index.php" selected="selected" >English</option>
+		  <option value="/hindi">Hindi</option>
+        </select>
+    </div>
+  </form></div><!-- HEADER SCROLL LIST START -->
+<div class="carousel">
+	<a href="#" class="next"><img src="/images/carousel/arrow_left.png" alt="next" width="40" height="113" /></a>
+	<div class="jCarouselLite">
+		<ul>
+		<li><a href="/miss_rita.php"><img src="/images/carousel/mr/rita.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Rita (MR)</div></a></li>
+		<li><a href="/miss_rita.php"><img src="/images/carousel/mr/raj.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Raj (MR)</div></a></li>
+			<li><a href="/tes.php"><img src="/images/carousel/tes/dc.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">DC Sir (TES)</div></a></li>
+			<li><a href="/savita_bhabhi.php"><img src="/images/carousel/sb/ashok.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Ashok (SB)</div></a></li>
+			<li><a href="/miss_rita.php"><img src="/images/carousel/mr/rino.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Rino (MR)</div></a></li>
+			<li><a href="/saath_kahaniya.php"><img src="/images/carousel/sk/aditya.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Aditya (SK)</div></a></li>
+			<li><a href="/the_trap.php"><img src="/images/carousel/trap/aaliyah.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Aaliyah (Trap)</div></a></li>
+			<li><a href="/xxx.php"><img src="/images/carousel/xxx/missmonica.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Monica (XXX)</div></a></li>
+			<li><a href="/maya.php"><img src="/images/carousel/maya/devika.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Devika (Maya)</div></a></li>
+			<li><a href="/savita_bhabhi.php"><img src="/images/carousel/sb/bade.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Bade Sahab (SB)</div></a></li>
+			<li><a href="/miss_rita.php"><img src="/images/carousel/mr/sanjay.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Sanjay (MR)</div></a></li>
+			<li><a href="/the_trap.php"><img src="/images/carousel/trap/padma.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Padma (Trap)</div></a></li>
+			<li><a href="/savita_bhabhi.php"><img src="/images/carousel/sb/savita.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Savita (SB)</div></a></li>
+			<li><a href="/xxx.php"><img src="/images/carousel/xxx/aman.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Aman (XXX)</div></a></li>
+			<li><a href="/savita_bhabhi.php"><img src="/images/carousel/sb/shobha.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Shobha (SB)</div></a></li>
+			<li><a href="/saath_kahaniya.php"><img src="/images/carousel/sk/delisha.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Delisha (SK)</div></a></li>
+			<li><a href="/savita_bhabhi.php"><img src="/images/carousel/sb/twins.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Varun & Tarun (SB)</div></a></li>
+			<li><a href="/xxx.php"><img src="/images/carousel/xxx/komal.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Komal (XXX)</div></a></li>
+			<li><a href="/savita_bhabhi.php"><img src="/images/carousel/sb/vedant.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Vedant (SB)</div></a></li>
+			<li><a href="/saath_kahaniya.php"><img src="/images/carousel/sk/asma.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Asma (SK)</div></a></li>
+			<li><a href="/savita_bhabhi.php"><img src="/images/carousel/sb/mishraji.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Mishraji (SB)</div></a></li>
+			<li><a href="/saath_kahaniya.php"><img src="/images/carousel/sk/bunty.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Bunty (SK)</div></a></li>
+			<li><a href="/the_trap.php"><img src="/images/carousel/trap/dipen.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Dipen (Trap)</div></a></li>
+			<li><a href="/saath_kahaniya.php"><img src="/images/carousel/sk/prateek.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Prateek (SK)</div></a></li>
+			<li><a href="/the_trap.php"><img src="/images/carousel/trap/shadow.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">The Shadow (Trap)</div></a></li>
+			<li><a href="/saath_kahaniya.php"><img src="/images/carousel/sk/roheet.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Rohit (SK)</div></a></li>
+			<li><a href="/xxx.php"><img src="/images/carousel/xxx/akshay.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Akshay (XXX)</div></a></li>
+			<li><a href="/saath_kahaniya.php"><img src="/images/carousel/sk/sheena.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Sheena (SK)</div></a></li>
+			<li><a href="/the_trap.php"><img src="/images/carousel/trap/jai.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Jai (Trap)</div></a></li>
+			<li><a href="/maya.php"><img src="/images/carousel/maya/maya_father.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Maya's Father (Maya)</div></a></li>
+			<li><a href="/the_trap.php"><img src="/images/carousel/trap/raj.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Raj (Trap)</div></a></li>
+			<li><a href="/xxx.php"><img src="/images/carousel/xxx/priyanka.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Priyanka (XXX)</div></a></li>
+			<li><a href="/maya.php"><img src="/images/carousel/maya/joolnami.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Sanjee Joolnami (Maya)</div></a></li>
+			<li><a href="/tes.php"><img src="/images/carousel/tes/joseph.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Joseph DeSilva (TES)</div></a></li>
+			<li><a href="/maya.php"><img src="/images/carousel/maya/maya.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Maya</div></a></li>
+			<li><a href="/tes.php"><img src="/images/carousel/tes/priya.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Priya Rao (TES)</div></a></li>
+			<li><a href="/maya.php"><img src="/images/carousel/maya/mentor.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Mentor (Maya)</div></a></li>
+			<li><a href="/tes.php"><img src="/images/carousel/tes/ravinder.jpg" alt="" width="82" height="115" class="carouselimg" /><div class="carousels">Ravinder Goswami (TES)</div></a></li>			
+		</ul>
+	</div>
+	<a href="#" class="prev"><img src="/images/carousel/arrow_right.png" alt="next" width="40" height="113" /></a>
+	<div class="clear"></div>   
+</div>  
+<!-- HEADER SCROLL LIST END -->
+
+<div id="header"><a href="index.php"><img src="images/main-header.jpg" alt="Kirtu" width="800" height="150" border="0" /></a></div><div id="container">
+
+  <div id="button"> <a href="premium.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('join','','nav_members/images/join_hover.png',1)"><img src="nav_members/images/join.png" title="Join Now" name="join" border="0" id="join" class="news_class" /></a></div>
+  <div id="button1"> <a href="members/indexmem.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('members','','nav_members/images/members_hover.png',1)"><img src="nav_members/images/members.png" title="Members Area" name="members" border="0" class="char_class" /></a></div>
+  <div id="button2"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('characters','','nav_members/images/characters_hover.png',1)"><img src="nav_members/images/characters.png" name="characters" border="0" class="char_class" title="Characters" /></a>
+      <ul class="char">
+        <li><a href="savita_bhabhi.php">Savita Bhabhi</a></li>
+        <li><a href="the_trap.php">The Trap</a></li>
+        <li><a href="saath_kahaniya.php">Saath Kahaniya</a></li>
+		<li><a href="xxx.php">XXX Apartments</a></li>
+		<li><a href="miss_rita.php">Miss Rita</a></li>
+		<li><a href="tes.php">The Encounter Specialist</a></li>
+		<li><a href="maya.php">Maya</a></li>
+      </ul>
+  </div>
+  <div id="button3"> <a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('series','','nav_members/images/series_hover.png',1)"><img src="nav_members/images/series.png" name="series" border="0" class="series_class" title="Series" /></a>
+      <ul class="series">
+        <li><a href="index_sb.php">Savita Bhabhi</a></li>
+		<li><a href="index_sb18.php">Savita @ 18</a></li>
+        <li><a href="index_xxx.php">XXX Apartments</a></li>				
+		<li><a href="index_tes.php">The Encounter Specialist</a></li>				
+		<li><a href="index_maya.php">Maya</a></li>
+		<li><a href="index_mr.php">Miss Rita</a></li>
+		<li><a href="index_fs.php">Fan Series</a></li>
+		<li><a href="series_archives.php">Series Archives</a></li>
+      </ul>
+  </div>
+<div id="button0"> <a href="fanclub/index.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('fanclub','','nav_members/images/fanclub_hover.gif',1)"><img src="nav_members/images/fanclub.gif" name="fanclub" border="0" class="char_class" title="Kirtu Fan Club" /></a></div>
+  <div id="button4"> <a href="index.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('home','','nav_members/images/home_hover.png',1)"><img src="nav_members/images/home.png" title="Home" name="home" border="0" class="news_class" /></a></div>
+  
+</div>
+
+<p><div align="center">
+<div id="hot">
+<div style="padding:7px 0px 0px 10px">
+  <div align="left" class="hot">Hot News Headlines | <a href="http://jobs.indianpornempire.com" target="_blank">Jobs @ Kirtu</a> | <a href="http://kirtu.com/fanclub/showthread.php?t=6">Are you a Kirtu SuperFAN! - Click here!</a></div>
+</div></div></div></p> 
+
+<div style="padding:5px 5px 0px 5px;">
+<!-- begin subscription_form_widget.tmpl -->
+<form action="http://ipemailer.com/cgi-bin/dada/mail.cgi" method="post">
+  <fieldset>
+  <legend>Get Free Kirtu toons in your email</legend>
+  Email&nbsp;Address:
+  <input type="text" name="email" id="email" value="" />
+  <input type="hidden" name="f" id="f_s" value="subscribe" />
+  <input name="list" type="radio" value="sbdaily" checked /> Send me daily free toons
+  <input name="list" type="radio" value="kirtu"/> Only inform me of updates
+  &nbsp;<input type="submit" value="Submit" class="processing" />
+  </fieldset>
+</form>
+<!-- end subscription_form_widget.tmpl -->
+</div>
+<div style="padding:5px;"><a href="fanclub/showthread.php?t=6"><img src="ads/superfan_h.png" title="Click here for more info"/></a></div>
+
+<div id="promo">
+<div id="content">
+<div class="container">
+    <div class="folio_block">
+        <div class="main_view">
+
+            <div class="window">	
+             <div class="image_reel">
+			    <a href="premium.php"><img src="home_images/reel/reel_1.jpg" alt="" /></a>
+			    <a href="premium.php"><img src="home_images/reel/reel_2.jpg" alt="" /></a>
+				<a href="premium.php"><img src="home_images/reel/reel_3.jpg" alt="" /></a>
+                <a href="premium.php"><img src="home_images/reel/reel_4.jpg" alt="" /></a>
+				<a href="premium.php"><img src="home_images/reel/reel_5.jpg" alt="" /></a></div>
+         </div>
+            <div class="paging">
+				<a href="#" rel="1">1</a>
+                <a href="#" rel="2">2</a>
+                <a href="#" rel="3">3</a>
+                <a href="#" rel="4">4</a>
+				<a href="#" rel="5">5</a></div>
+        </div> 
+    </div>	
+
+</div>
+</div>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+	//Set Default State of each portfolio piece
+	$(".paging").show();
+	$(".paging a:first").addClass("active");
+		
+	//Get size of images, how many there are, then determin the size of the image reel.
+	var imageWidth = $(".window").width();
+	var imageSum = $(".image_reel img").size();
+	var imageReelWidth = imageWidth * imageSum;
+	
+	//Adjust the image reel to its new size
+	$(".image_reel").css({'width' : imageReelWidth});
+	
+	//Paging + Slider Function
+	rotate = function(){	
+		var triggerID = $active.attr("rel") - 1; //Get number of times to slide
+		var image_reelPosition = triggerID * imageWidth; //Determines the distance the image reel needs to slide
+
+		$(".paging a").removeClass('active'); //Remove all active class
+		$active.addClass('active'); //Add active class (the $active is declared in the rotateSwitch function)
+		
+		//Slider Animation
+		$(".image_reel").animate({ 
+			left: -image_reelPosition
+		}, 500 );
+		
+	}; 
+	
+	//Rotation + Timing Event
+	rotateSwitch = function(){		
+		play = setInterval(function(){ //Set timer - this will repeat itself every 3 seconds
+			$active = $('.paging a.active').next();
+			if ( $active.length === 0) { //If paging reaches the end...
+				$active = $('.paging a:first'); //go back to first
+			}
+			rotate(); //Trigger the paging and slider function
+		}, 999999); //Timer speed in milliseconds (3 seconds)
+	};
+	
+	rotateSwitch(); //Run function on launch
+	
+	//On Hover
+	$(".image_reel a").hover(function() {
+		clearInterval(play); //Stop the rotation
+	}, function() {
+		rotateSwitch(); //Resume rotation
+	});	
+	
+	//On Click
+	$(".paging a").click(function() {	
+		$active = $(this); //Activate the clicked paging
+		//Reset Timer
+		clearInterval(play); //Stop the rotation
+		rotate(); //Trigger rotation immediately
+		rotateSwitch(); // Resume rotation
+		return false; //Prevent browser jump to link anchor
+	});	
+	
+});
+</script><div id="cal">
+<div id="calendar">
+<div style="padding:10px 5px 10px 15px;">
+  <div id="scroll-box"> 
+            <strong class="header">Comics Opening This Week</strong><br/>
+            June 19 - SB 33: Part 7<br/>
+            June 21 - Maya 3: Part 3<br/><br/>
+            <strong class="header">Comics Opening Next Week</strong><br/>
+            June 28 - Maya 3: Part 4<br/>
+</div>
+</div>
+</div>
+</div><div id="news">
+<div id="calendar">
+<div style="padding:10px 5px 10px 15px;">
+<div id="scroll-box">
+ <strong class="header">Kirtu's Latest Updates</strong><br/>
+      June 14: Maya 3 - Part 2<img src="images/new.gif"/><br />
+      June 12: SB 33 - Part 6<img src="images/updated.gif"/><br />
+      June 8: XXX 6 - Daily<img src="images/updated.gif"/><br /><br/>
+ <strong class="header">Kirtu's Latest News</strong><br/>
+      <a href="http://www.youtube.com/user/teamIPE">Subscribe on YouTube</a><br />
+      <a href="http://www.facebook.com/ipe.kirtu">Like Us on Facebook</a><br />
+      <a href="press.php">Kirtu's Press Page</a>
+</div>
+</div>
+</div>
+</div></div>
+
+<p align="center"><img src="images/footer_space.jpg" /></p>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<body onload="MM_preloadImages('../../images/download_hover.png')"><table width="96%" border="0" align="center">
+  <tr>
+    <td valign="top" width="24%" rowspan="5" align="center"><a href="../../home_images/xxx/xxx6/xxx6_cover.jpg" class="highslide" onclick="return hs.expand(this)"><img src="../../home_images/xxx/xxx6/thumbs/xxx6_cover.jpg" alt="XXX Apartments 6" border="0" width="230" /></a>
+<span class="ratingblock">
+<span id="unit_longXXX6">
+<ul id="unit_ulXXX6" class="unit-rating" style="width:150px;">
+<li class="current-rating" style="width:150px;">Currently 5.00/5</li>
+</ul>
+</span>
+</span>
+
+</td>
+    <td width="76%" align="center" class="title_update">XXX Apartments: Episode 6<br /><span class="update_pages">Episode Starting 8th of June</span><hr /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:10px">She’s a shy girl who has big breasts and is pretty if she wears good clothes and makeup but she’s got a nerdy look at school and so no one there notices her beauty. She’s completely different looking at home with her hair let down and sexy pajamas.</td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:10px"><hr />
+      <table width="100%" border="0">
+        <tr>
+          <td><a href="fanclub/showthread.php?t=196">Please Give Your Feedback by Clicking Here</a></td>
+        </tr>
+      </table>
+    <hr /></td>
+  </tr>
+  <tr>
+    <td align="center"><table border="0" align="center">
+      <tr>
+        <td><a href="../../home_images/xxx/xxx6/xxx6_bio.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/xxx/xxx6/thumbs/xxx6_bio.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/xxx/xxx6/xxx6_001.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/xxx/xxx6/thumbs/xxx6_001.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/xxx/xxx6/xxx6_002.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/xxx/xxx6/thumbs/xxx6_002.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/xxx/xxx6/xxx6_003.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/xxx/xxx6/thumbs/xxx6_003.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/xxx/xxx6/xxx6_004.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/xxx/xxx6/thumbs/xxx6_004.jpg" width="95" height="134" border="0" /></a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center"><span style="font-size:9px">Note: These are low resolution pics. Get high definition pics inside the members area.<br />
+    <a href="premium.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('xxx6dep','','../../images/download_hover.png',1)"><img src="../../images/download.png" alt="Download Page" name="xxx6dep" border="0" id="xxx6dep"/></a></span></td>
+  </tr>
+</table>
+<p align="center"><img src="../../images/footer_space.jpg" /></p><table width="96%" border="0" align="center">
+  <tr valign="top">
+    <td align="center" class="title_update" style="padding-left:10px;">Maya Episode 3: Who's your daddy?<br />
+    <span class="update_pages">Episode Started 6th of June</span>
+    <hr /></td>
+  </tr>
+  <tr valign="top">
+    <td class="title_update" style="padding-left:10px;"><div align="center"><a href="../../home_images/maya/maya3/maya3_cover.jpg" class="highslide" onClick="return hs.expand(this)"><img src="../../home_images/maya/maya3/thumbs/maya3_cover.jpg" alt="Maya 3" border="0" width="400" /></a>
+<span class="ratingblock">
+<span id="unit_longMAYA3">
+<ul id="unit_ulMAYA3" class="unit-rating" style="width:150px;">
+<li class="current-rating" style="width:57.3px;">Currently 1.91/5</li>
+</ul>
+</span>
+</span>
+
+</div></td>
+  </tr>
+  <tr>
+    <td style="padding-left:10px;">When Maya wakes up in the hospital with no recollection of how she got there, the first person she turns to for solace and help is her Mentor. But how will Maya react when it sinks in that it was her beloved Mentor itself who was responsible for her beating? Meanwhile, Sanjee Joolnami is in exile in Europe, but he still has Maya's cell phone!! And he urgently wants to talk to her!!! Find out why in Maya Episode 3: Who’s your daddy?</td>
+  </tr>
+  <tr>
+    <td align="center" ><hr /><table width="100%" border="0">
+      <tr>
+        <td width="50%" align="center"><a href="fanclub/showthread.php?t=195">Please Give Your Feedback by Clicking Here</a></td>
+      </tr>
+    </table><hr /></td>
+  </tr>
+  <tr>
+    <td align="center" ><table border="0" align="center">
+      <tr>
+        <td><a href="../../home_images/maya/maya3/maya3_eng_001.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/maya/maya3/thumbs/maya3_eng_001.jpg" width="100" border="0" /></a></td>
+        <td><a href="../../home_images/maya/maya3/maya3_eng_002.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/maya/maya3/thumbs/maya3_eng_002.jpg" width="100" border="0" /></a></td>
+        <td><a href="../../home_images/maya/maya3/maya3_eng_003.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/maya/maya3/thumbs/maya3_eng_003.jpg" width="100" border="0" /></a></td>
+        <td><a href="../../home_images/maya/maya3/maya3_eng_004.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/maya/maya3/thumbs/maya3_eng_004.jpg" width="100" border="0" /></a></td>
+        <td><a href="../../home_images/maya/maya3/maya3_eng_005.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/maya/maya3/thumbs/maya3_eng_005.jpg" width="100" border="0" /></a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center" style="font-size:9px">Note: These are low resolution pics. Get high definition pics inside the members area.<br /><a href="premium.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('maya2dep','','../../images/download_hover.png',1)"><img src="../../images/download.png" alt="Download Page" name="maya2dep" border="0"/></a></td>
+  </tr>
+</table>
+<p align="center"><img src="../../images/footer_space.jpg" /></p><table width="96%" align="center" border="0">
+  <tr>
+    <td width="21%" rowspan="2" align="center"><a href="home_images/sb/sb33/sb33_cover.jpg" class="highslide" onclick="return hs.expand(this)"><img src="../../home_images/sb/sb33/thumbs/sb33_cover.jpg" alt="SB 33" border="0" /></a>
+<span class="ratingblock">
+<span id="unit_longSB33">
+<ul id="unit_ulSB33" class="unit-rating" style="width:150px;">
+<li class="current-rating" style="width:121.8px;">Currently 4.06/5</li>
+</ul>
+</span>
+</span>
+
+</td>
+    <td width="79%" align="center" class="title_update">Savita Bhabhi - Episode 33: Sexy Summer Beach<br /><span class="update_pages">Release Date: May 8th</span><hr /></td>
+  </tr>
+  <tr>
+    <td class="title_update" align="center"><iframe width="360" height="219" src="http://www.youtube.com/embed/RmsavG07bco" frameborder="0" allowfullscreen></iframe><br /><br />
+      Wanna see the uncensored video preview? <a href="http://www.indianpornvideos.com/video/savita-bhabhi-episode-33-sexy-summer-beach-fmebSSkJwhv.html" target="_blank">Click here now.</a></td>
+  </tr>
+  <tr>
+    <td colspan="2" style="padding-left:10px;">Savita is willing to do any "favours" for Vedant after his recommendation got her a promotion to Bade Sahab's office. So when he asks her to pretend to be his girlfriend on a beach date with his friends, she just cannot say no. An excited Vedant has everything ready including a really sexy bikini for our lovely bhabhi.<br /><br />But will Vedant's friends believe that Savita is actually Vedant's older girlfriend or will any of them discover Savita's secret? And what more does Vedant have planned for the day? All we can be sure of is that it will involve a lot of steamy hot sex. You wouldn't want to miss this sexy issue with Savita prancing around in the bikini on the beach. Find out in Savita Bhabhi Episode 33 – Sexy Summer Beach only on www.kirtu.com!</td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr /><table width="100%" border="0">
+      <tr>
+        <td width="50%" align="center"><a href="/pdfpromos/SB33.pdf" target="_blank">Download the story here <img src="../../images/pdf.jpg" /></a></td>
+        <td width="50%" align="center"><a href="fanclub/showthread.php?t=168">Please Give Your Feedback by Clicking Here</a></td>
+      </tr>
+    </table><hr /></td>
+  </tr>
+  <tr>
+    <td colspan="2"><table border="0" align="center">
+      <tr>
+        <td><a href="../../home_images/sb/sb33/sb33_eng_001.jpg" class="highslide" onclick="return hs.expand(this)"><img src="../../home_images/sb/sb32/thumbs/sb32_eng_001.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/sb/sb33/sb33_eng_002.jpg" class="highslide" onclick="return hs.expand(this)"><img src="../../home_images/sb/sb32/thumbs/sb32_eng_002.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/sb/sb33/sb33_eng_003.jpg" class="highslide" onclick="return hs.expand(this)"><img src="../../home_images/sb/sb32/thumbs/sb32_eng_003.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/sb/sb33/sb33_eng_004.jpg" class="highslide" onclick="return hs.expand(this)"><img src="../../home_images/sb/sb32/thumbs/sb32_eng_004.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/sb/sb33/sb33_eng_005.jpg" class="highslide" onclick="return hs.expand(this)"><img src="../../home_images/sb/sb32/thumbs/sb32_eng_005.jpg" width="95" height="134" border="0" /></a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="font-size:9px">Note: These are low resolution pics. Get high definition pics inside the members area.<br><a href="premium.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sb33dep','','images/download_hover.png',1)"><img src="../../images/download.png" alt="Download Page" name="sb33dep" border="0"/></a></td>
+  </tr>
+</table>
+<p align="center"><img src="../../images/footer_space.jpg" /></p><table width="96%" border="0" align="center">
+  <tr valign="top">
+    <td rowspan="5" align="center"><a href="../../home_images/xxx/xxx5/xxx5_cover.jpg" class="highslide" onclick="return hs.expand(this)"><img src="../../home_images/xxx/xxx5/thumbs/xxx5_cover.jpg" alt="XXX Apartments 5" border="0" width="230" /></a>
+<span class="ratingblock">
+<span id="unit_longXXX5">
+<ul id="unit_ulXXX5" class="unit-rating" style="width:150px;">
+<li class="current-rating" style="width:141px;">Currently 4.70/5</li>
+</ul>
+</span>
+</span>
+
+</td>
+        <td align="center" class="title_update">XXX Apartments: Episode 5<br /><span class="update_pages">Episode Starting 4th of May</span><hr /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:10px;">When Aman’s bhabhi, Komal, finds out that he can’t cook anything at all. She asks him to enroll in her weekly cooking classes. Aman is reluctant at first but the promise a hot steamy reward from his bhabhi changes his mind. Aman is surprised to find out that the cooking instructor, is a sexy bhabhi who lives in the same building. How does Aman handle his infatuation with this new bhabhi? And how does he end up milking the breasts of Payal bhabhi just hours after he’s met her? Read the new issue of XXX Apartments 5 "M.I.L.F. and Cookies Never Tasted So Good!"
+    <hr /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:10px;">
+      <table width="100%" border="0">
+        <tr>
+          <td><a href="/pdfpromos/XXX5.pdf" target="_blank">Download the story here <img src="../../images/pdf.jpg" /></a></td>
+          <td><a href="fanclub/showthread.php?t=159">Please Give Your Feedback by Clicking Here</a></td>
+        </tr>
+    </table>      <hr /></td>
+  </tr>
+  <tr>
+    <td><table border="0" align="center">
+      <tr>
+        <td><a href="../../home_images/xxx/xxx5/xxx5_bio.jpg" class="highslide" onclick="return hs.expand(this)">
+<img src="../../home_images/xxx/xxx5/thumbs/xxx5_bio.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/xxx/xxx5/xxx5_001.jpg" class="highslide" onclick="return hs.expand(this)">
+<img src="../../home_images/xxx/xxx5/thumbs/xxx5_001.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/xxx/xxx5/xxx5_002.jpg" class="highslide" onclick="return hs.expand(this)">
+<img src="../../home_images/xxx/xxx5/thumbs/xxx5_002.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/xxx/xxx5/xxx5_003.jpg" class="highslide" onclick="return hs.expand(this)">
+<img src="../../home_images/xxx/xxx5/thumbs/xxx5_003.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/xxx/xxx5/xxx5_004.jpg" class="highslide" onclick="return hs.expand(this)">
+<img src="../../home_images/xxx/xxx5/thumbs/xxx5_004.jpg" width="95" height="134" border="0" /></a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center" style="font-size:9px">Note: These are low resolution pics. Get high definition pics inside the members area.<br /><a href="premium.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('xxx5dep','','../../images/download_hover.png',1)"><img src="../../images/download.png" alt="Download Page" name="xxx5dep" border="0"/></a></td>
+  </tr>
+</table>
+<p align="center"><img src="../../images/footer_space.jpg" /></p><table width="96%" border="0" align="center">
+  <tr valign="top">
+    <td colspan="2" align="center" class="title_update" style="padding-left:10px;">Maya Episode 2: The Great Escape<br /><span class="update_pages">Episode Started 26th of April</span><hr /></td>
+  </tr>
+  <tr valign="top">
+    <td width="50%" class="title_update" style="padding-left:10px;"><div align="center"><a href="../../home_images/maya/maya2/maya2_cover.jpg" class="highslide" onClick="return hs.expand(this)"><img src="../../home_images/maya/maya2/thumbs/maya2_cover.jpg" alt="Maya 2" border="0" width="400" /></a>
+<span class="ratingblock">
+<span id="unit_longMAYA2">
+<ul id="unit_ulMAYA2" class="unit-rating" style="width:150px;">
+<li class="current-rating" style="width:72.6px;">Currently 2.42/5</li>
+</ul>
+</span>
+</span>
+
+</div></td>
+    <td class="title_update"  width="50%" align="center"><iframe width="360" height="219" src="http://www.youtube.com/embed/bqldt0W26BE" frameborder="0" allowfullscreen></iframe><br /><br />
+      Wanna see the uncensored video preview? <a href="http://www.indianpornvideos.com/video/maya-episode-2-Vr9hMvgNqvl.html" target="_blank">Click here now.</a></td>
+  </tr>
+  <tr>
+    <td colspan="2" style="padding-left:10px;">Maya arrives to service a client who turns out to be suave international whistle-blower Sanjee Joolnami, one of her heroes. But after their evening of kinky role playing sex and just as Maya learns that the US and Britain are seeking to extradite Sanjee for leaking classified documents--Mentor demands that Maya testify that Joolnami raped her! How could this be? Joolnami is the enemy of oppressive regimes, and Mentor is... on whose side, exactly?<br><br>When Maya refuses, Mentor reminds her of their agreement. She works for him until he finds her family's murderer. But when she finally chooses between the truth and Mentor, Maya  discovers that her mysterious father figure is not afraid to punish her for being naughty!<hr /></td>
+  </tr>
+  <tr>
+    <td colspan="2" style="padding-left:10px;">
+      <table width="100%" border="0">
+        <tr>
+          <td width="40%" align="center"><a href="/pdfpromos/Maya2.pdf" target="_blank">Download the story here <img src="../..//images/pdf.jpg" /></a></td>
+          <td width="50%" align="center"><a href="fanclub/showthread.php?t=155">Please Give Your Feedback by Clicking Here</a></td>
+        </tr>
+    </table>      <hr /></td>
+  </tr>
+  <tr>
+    <td colspan="2"><table border="0" align="center">
+      <tr>
+        <td><a href="../../home_images/maya/maya2/maya2_eng_001.jpg" class="highslide" onClick="return hs.expand(this)">
+<img src="../../home_images/maya/maya2/thumbs/maya2_eng_001.jpg" width="100" border="0" /></a></td>
+        <td><a href="../../home_images/maya/maya2/maya2_eng_002.jpg" class="highslide" onClick="return hs.expand(this)">
+<img src="../../home_images/maya/maya2/thumbs/maya2_eng_002.jpg" width="100" border="0" /></a></td>
+        <td><a href="../../home_images/maya/maya2/maya2_eng_003.jpg" class="highslide" onClick="return hs.expand(this)">
+<img src="../../home_images/maya/maya2/thumbs/maya2_eng_003.jpg" width="100" border="0" /></a></td>
+        <td><a href="../../home_images/maya/maya2/maya2_eng_004.jpg" class="highslide" onClick="return hs.expand(this)">
+<img src="../../home_images/maya/maya2/thumbs/maya2_eng_004.jpg" width="100" border="0" /></a></td>
+        <td><a href="../../home_images/maya/maya2/maya2_eng_005.jpg" class="highslide" onClick="return hs.expand(this)">
+<img src="../../home_images/maya/maya2/thumbs/maya2_eng_005.jpg" width="100" border="0" /></a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="font-size:9px">Note: These are low resolution pics. Get high definition pics inside the members area.<br /><a href="premium.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('maya2dep','','../../images/download_hover.png',1)"><img src="../../images/download.png" alt="Download Page" name="maya2dep" border="0"/></a></td>
+  </tr>
+</table>
+<p align="center"><img src="../../images/footer_space.jpg" /></p><table width="96%" border="0" align="center">
+  <tr>
+    <td rowspan="2" width="35%" align="center"><a href="home_images/sb@18/sb18_3/sb18_3_cover.jpg" class="highslide" onclick="return hs.expand(this)"><img src="../../home_images/sb@18/sb18_3/thumbs/sb18_3_cover.jpg" alt="SB @ 18 Episode 3" border="0" width="230" /></a>
+      
+<span class="ratingblock">
+<span id="unit_longSB183">
+<ul id="unit_ulSB183" class="unit-rating" style="width:150px;">
+<li class="current-rating" style="width:105px;">Currently 3.50/5</li>
+</ul>
+</span>
+</span>
+
+</td>
+    <td width="65%" align="center" class="title_update">Savita @ 18: Episode 3<br /><span class="update_pages">Episode Started 27 of March</span><hr /></td>
+  </tr>
+  <tr>
+    <td align="center" class="title_update"><iframe width="360" height="219" src="http://www.youtube.com/embed/5dkzbZd9xqo" frameborder="0" allowfullscreen></iframe><br /><br />
+      Wanna see the uncensored video preview? <a href="http://www.indianpornvideos.com/video/savita-18-episode-3-fcuQ2uIUFHx.html" target="_blank">Click here now.</a></td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr />Savita will be joining her new college within a month and she wants to make a great impression on her first day. But when she asks her father for extra pocket-money to purchase a new dress he refuses. So Savita is forced to take on a part-time job as a waitress to make some extra cash. However her new boss is big pervert and keeps hitting on her.<br /><br />Watch how Savita entices her customers with her sexy charms to earn some extra tips in this new issue of &quot;Savita@18 - Savita's First Job.&quot;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr /><a href="fanclub/showthread.php?t=61">Please Give Your Feedback by Clicking Here</a><hr /></td>
+  </tr>
+  <tr>
+    <td colspan="2"><table border="0" align="center">
+      <tr>
+        <td><a href="../../home_images/sb@18/sb18_3/sb18_3_eng_001.png" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/sb@18/sb18_3/thumbs/sb18_3_eng_001.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/sb@18/sb18_3/sb18_3_eng_002.png" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/sb@18/sb18_3/thumbs/sb18_3_eng_002.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/sb@18/sb18_3/sb18_3_eng_003.png" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/sb@18/sb18_3/thumbs/sb18_3_eng_003.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/sb@18/sb18_3/sb18_3_eng_004.png" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/sb@18/sb18_3/thumbs/sb18_3_eng_004.jpg" width="95" height="134" border="0" /></a></td>
+        <td><a href="../../home_images/sb@18/sb18_3/sb18_3_eng_005.png" class="highslide" onclick="return hs.expand(this)"> <img src="../../home_images/sb@18/sb18_3/thumbs/sb18_3_eng_005.jpg" width="95" height="134" border="0" /></a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="font-size:9px">Note: These are low resolution pics. Get high definition pics inside the members area.<br /><a href="premium.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sb183dep','','../../images/download_hover.png',1)"><img src="../../images/download.png" alt="Download Page" name="sb183dep" border="0" /></a></td>
+  </tr>
+</table>
+<p align="center"><img src="../../images/footer_space.jpg" /></p>
+<div align="right" style="padding:10px 10px 15px 0px;"><a href="index_q.php" onmouseover="MM_swapImage('next','','nav_members/images/next_hover.png',1)" onmouseout="MM_swapImgRestore()"><img src="nav_members/images/next.png" alt="Next Page" name="next" width="204" height="29" border="0" id="next" title="Next Page" /></a></div>
+
+<div align="center" class="pass_btn"><a href="premium.php">Click here to get Your Password Now!</a></div>
+
+<div align="center" class="pass_btm">Get access to thousands of pages of super sexy Indian porn comics. Savita Bhabhi is waiting for you!</div>
+
+<div id="footer">
+
+<div align="center"><img src="images/footer.jpg" /></div>
+
+<div id="footer_container" class="footerFont1" style="margin-bottom:120px">
+  <div id="footerLinks"><h3>KIRTU SERIES</h3>
+        <a href="index_sb.php">Savita Bhabhi</a><br/>
+        <a href="index_trap.php">The Trap</a><br/>
+        <a href="index_sk.php">Saath Kahaniya</a><br/>
+		<a href="index_sbig.php">Savita Bhabhi in Goa</a><br/>
+		<a href="index_us.php">Uncle Shom</a><br/>
+		<a href="index_tes.php">The Encounter Specialist</a></div>
+  <div id="footerLinks"><h3>&nbsp;</h3>
+		<a href="index_k.php">Interview with Filmstar</a><br/>
+		<a href="index_l.php">The Maid</a><br/>
+		<a href="index_rt.php">Rooftops</a><br/>
+		<a href="index_sb18.php">Savita Bhabhi @ 18</a><br/>
+		<a href="index_xxx.php">XXX Apartments</a><br/>
+		<a href="index_maya.php">Maya</a><br/>
+		<a href="index_mr.php">Miss Rita</a></div>
+  <div id="footerLinks"><h3>FREE EPISODES</h3>
+    <a href="index_fs.php">Sexy Skies</a><br/>
+    <a href="index_fs.php">Dance Floor</a><br/>
+		<a href="index_fs.php">College Election</a><br/>
+		<a href="index_fs.php">VCD</a><br/>
+		<a href="index_fs.php">Shyla</a></div>
+  <div id="footerLinks"><h3>CHARACTERS</h3>
+    <a href="savita_bhabhi.php">Savita Bhabhi</a><br/>
+    <a href="the_trap.php">The Trap</a><br/>
+    <a href="saath_kahaniya.php">Saath Kahaniya</a><br/>
+		<a href="xxx.php">XXX Apartments</a><br/>
+		<a href="miss_rita.php">Miss Rita</a><br/>
+		<a href="tes.php">The Encounter Specialist</a><br/>
+		<a href="maya.php">Maya</a></div>
+  <div id="footerLinks"><h3>KIRTU ALL-ACCESS</h3>
+    <a href="premium.php">Sign Up!</a><br/>
+    <a href="members/indexmem.php">Members Area</a><br/>
+    <a href="http://iwantsavita.com/">Newsletter</a><br/>
+		<a href="fanclub/">Kirtu Fan Club</a><br/>
+		<a href="tourdownloads.php">Wallpaper</a></div>
+  <div id="iconLinks"><h3>INFORMATION</h3>
+    <a href="about.php">About Kirtu</a><br/>
+		<a href="press.php">Press Resources</a><br/>
+    <a href="fanclub/index.php?fid=5">Feedback</a><br/>
+    <a href="http://www.rtalabel.org/index.php?content=parents">Restricted To Adults</a><br/>
+		<a href="http://www.epoch.com/">Epoch Billing Support</a><br/>
+		<a href="mailto:support@kirtu.com">Contact Us</a></div>
+</div>
+<p align="center"><img src="images/footer_space.jpg" /></p>
+<div class="footerFont1">
+  <div style="padding:5px 30px 5px 30px" align="center">This web site contains age-restricted materials and access is limited to adults only.</div>
+  <div style="padding:5px 0px 5px 0px" align="center">
+  &copy; 2009 - 2012 Kirtu. All Rights Reserved.</div>
+</div>
+</div>
+
+<!-- START OF GOOGLE ANALYTICS CODE -->
+<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1161124-24");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- END OF GOOGLE ANALYTICS CODE -->
+
+</body>
+</html>

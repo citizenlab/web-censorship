@@ -1,0 +1,17 @@
+HTTP/1.1 200 (OK)
+Cache-Control: private, no-cache, must-revalidate
+Pragma: no-cache
+Server: Oversee Turing v1.0.0
+Content-Length: 1819
+Content-Type: text/html
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Client-Date: Mon, 18 Jun 2012 22:43:43 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+P3P: policyref="http://www.dsparking.com/w3c/p3p.xml", CP="NOI DSP COR ADMa OUR NOR STA"
+Set-Cookie: parkinglot=1; domain=.andhravillas.com; path=/; expires=Wed, 20-Jun-2012 15:00:40 GMT
+Title: andhravillas.com
+X-Meta-Description: andhravillas.com
+X-Meta-Keywords: andhravillas.com
+X-Meta-Revisit-After: 10
+X-Meta-ROBOTS: INDEX, FOLLOW

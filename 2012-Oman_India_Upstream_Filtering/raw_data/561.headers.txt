@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 14:56:22 GMT
+Accept-Ranges: bytes
+ETag: "3a2812b-4a89-4a9bf37736640"
+Server: Apache/2.2.22 (Unix) mod_ssl/2.2.22 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+Content-Language: en-us
+Content-Length: 19081
+Content-Type: text/html
+Last-Modified: Fri, 05 Aug 2011 10:04:01 GMT
+Client-Date: Mon, 18 Jun 2012 22:30:00 GMT
+Client-Peer: 8.22.201.37:80
+Client-Response-Num: 1
+Link: <_themes/watermar/wate1110.css>; rel="stylesheet"; type="text/css"
+Title: Hindi SMS(Messages) For Mobile..Latest Free Hindi SMS & Urdu Shayari..Hindi Jokes SMS..Hindi SMS(Love..Funny..Friendship..Adult..Holi..Valentine)..Listen Free Hindi Movie Songs Online..Hindi Movie Trailers & Movie Stills
+X-Meta-Author: mirchi
+X-Meta-Description: Send Latest Free Hindi Mobile SMS..Hindi Jokes Message & Shayari SMS Collection..Hindi SMS Messages.Hindi SMS Shayari..Hindi Jokes SMS..Hindi SMS(Love..Funny..Friendship..Adult..Holi Valentine)..Hindi MP3 FM Radio..Celebrity & Movie Wallpapers..Listen Free Hindi Movie Songs Online..Hindi Movie Songs & Download Latest Hindi Trailers..Hindi Movie Wallpapers.
+X-Meta-Generator: Microsoft FrontPage 5.0
+X-Meta-Keywords: hindi sms messages,hindi sms shayari,jokes hindi sms,love hindi sms,funny hindi sms,140 word hindi sms,hindi friend sms,hindi adult sms,santabanta hindi sms,dirty hindi sms,diwali hindi sms,mobile hindi sms,free send hindi sms, sayari hindi sms,160by2 hindi sms,valentine day hindi sms,holi hindi sms,hindi miss u sms,hindi new sms,
+ latest Free,Hindi Movie Songs,Hindi SMS,Mobile,Funny Hindi SMS,Love Hindi,Friendship Hindi SMS,Adult Hindi SMS,Romantic Hindi SMS,Flirting Hindi SMS,Hindi Shayari,Hindi SMS,Good Morning,Hindi SMS,Hindi Jokes,Hindi & Urdu Shayari,Hindi Movie DVD Stills,Download Latest Hindi Movie Trailers,Listen Free,Hindi Movie Songs,Hindi Movie Trailers,Hindi Audio,Hollywood Celebrity,Bollywood Celebrity,Hollywood Celebrity Wallpapers,Bollywood Celebrity Wallpapers,
+X-Meta-Microsoft Theme: watermar 1110
+X-Meta-Msvalidate.01: ACD328C6FF18565E5FDF95826E50D969
+X-Meta-ProgId: FrontPage.Editor.Document
+X-Meta-ROBOTS: index,follow
+X-Meta-Verify-V1: xBfmWsVPjW8I/yVLGBOLyw3X6BdcM1K37hI+M8qd/FA=
+X-Meta-Y-Key: fe9e5d88f3bb0662

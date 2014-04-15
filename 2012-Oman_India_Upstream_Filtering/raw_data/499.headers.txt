@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 14:30:14 GMT
+Server: Apache/2.2.21 (Unix) mod_ssl/2.2.21 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+Content-Type: text/html
+Client-Date: Mon, 18 Jun 2012 22:13:18 GMT
+Client-Peer: 199.16.154.2:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+X-Powered-By: PHP/5.2.17

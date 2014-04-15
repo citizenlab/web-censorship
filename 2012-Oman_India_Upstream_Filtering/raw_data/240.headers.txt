@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache, must-revalidate, proxy-revalidate
+Date: Tue, 19 Jun 2012 13:52:45 GMT
+Pragma: no-cache
+Server: Microsoft-IIS/7.5
+Content-Length: 68614
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Client-Date: Mon, 18 Jun 2012 21:35:49 GMT
+Client-Peer: 63.135.91.11:80
+Client-Response-Num: 1
+Link: <http://www.myspace.com/video/satish/why-our-alsatian-dog-felt-restless-describes-satish-seth-swan/108188726>; rel="canonical"
+Link: <http://x.myspacecdn.com/modules/common/static/css/futuraglobal_jttlcbyk.css>; rel="stylesheet"; type="text/css"
+Link: <http://x.myspacecdn.com/modules/common/static/css/futura/iconsie7_qp_u23bi.css>; rel="stylesheet"; type="text/css"
+Link: <http://x.myspacecdn.com/modules/videos/static/css/videodetail_ulm7twll.css>; rel="stylesheet"; type="text/css"
+Link: <http://x.myspacecdn.com/modules/videos/static/css/videosbundle_hqtffflw.css>; rel="stylesheet"; type="text/css"
+Refresh: 0;url=/help/nojs
+Set-Cookie: MSCulture=IP=178.248.250.22&IPCulture=en-US&PreferredCulture=en-US&PreferredCulturePending=&Country=Q1o=&ForcedExpiration=634756855650937578&timeZone=0&myStuffDma=&myStuffMarket=&USRLOC=QXJlYUNvZGU9MCZDaXR5PVByYWd1ZSZDb3VudHJ5Q29kZT1DWiZDb3VudHJ5TmFtZT1DemVjaCBSZXB1YmxpYyZEbWFDb2RlPTAmTGF0aXR1ZGU9NTAuMDgzMyZMb25naXR1ZGU9MTQuNDY2NyZQb3N0YWxDb2RlPSZSZWdpb25OYW1lPTUyJkxvY2F0aW9uSWQ9MA==&UserFirstVisit=1; domain=.myspace.com; expires=Tue, 26-Jun-2012 13:52:45 GMT; path=/
+Set-Cookie: SessionDDF2=kK5Efiv+H2y7vR0LvPLUapr4wU1UQXMZJGJYIqnySPjJnnehhFrRdLTBdVL69U3cPWm/X+YHKphA/+ZtGAhacQ==; domain=.myspace.com; expires=Sat, 19-Jun-2032 13:52:45 GMT; path=/
+Set-Cookie: MSCOUNTRY=CZ; domain=.myspace.com; expires=Tue, 26-Jun-2012 13:52:45 GMT; path=/
+Title: Why our Alsatian dog felt restless? Describes Satish Seth Swan Video by Satish - Myspace Video
+X-AspNet-Version: 4.0.30319
+X-FRAME-OPTIONS: allow-from: http://www.yahoo.com
+X-Meta-Can-Recommend: false
+X-Meta-Category: Animals
+X-Meta-Description: Satish Seth Swan's native home Alsatian dog Lucky is a lot more intelligent than many humans are. But it's also a nasty one when she wants to have her way. It was on one such occasion that he found that she just refused to sleep or rest because she was forced to be in chains. When outside gate was opened, she would just scritter away taking time to wander whole village for hours. So they kept her chained when they had to open gate. But she seemed to resist it.. Why our Alsatian dog felt restless? Describes Satish Seth Swan by Satish. Watch it on Myspace Videos.
+X-Meta-Fragment: !
+X-Meta-Keywords: dog,pets,seth,myspace,swan,Alsatian,satish
+X-Meta-Medium: video
+X-Meta-Viewport: width=device-width; initial-scale=1.0; maximum-scale=1.0;
+X-PoweredBy: Interns
+X-Server: a12c1274c583676fc21553bf852a6d2f7c44b330c0f2f941
+X-UA-Compatible: IE=edge

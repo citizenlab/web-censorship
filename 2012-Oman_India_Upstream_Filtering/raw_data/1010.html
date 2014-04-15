@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Torrent Search Engine</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="/style.6.css" type="text/css" />
+<link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="Torrentz Search" />
+<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/script.9.js"></script>
+<!--[if lt IE 9]>
+<script src="/IE9.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="top">
+<h1><a href="/" title="Torrents Search Engine">Torrentz</a></h1>
+<ul>
+<li><a href="/search" title="Torrent Search">Search</a></li>
+<li><a href="/i" title="Personal Torrent Search">iTorrentz</a></li>
+<li><a href="/profile" title="My Profile">Profile</a></li>
+<li><a href="/help" title="Get Help">Help</a></li>
+</ul>
+</div>
+
+<form action="/search" method="get" class="search">
+<fieldset>
+<div><input type="text" name="f" value="" id="thesearchbox" autocomplete="off" /></div> 
+<div><input type="submit" value="Search" id="thesearchbutton" /></div>
+</fieldset>
+</form>
+
+<p class="generic">Torrentz is a free, fast and powerful meta-search engine combining results from <a href="/help#indexed">dozens</a> of torrent search engines</p>
+<p class="generic" style="font-size: 13px;" id="stats">Indexing 19,455,661 active torrents from 76,743,188 pages on 30 domains</p>
+<p class="generic"><img src="/img/cutehamster.gif" title="Arrr" /></p>
+<div class="footer">
+<p class="generic" style="font-size: 12px;"><a href="https://torrentz.eu/">SSL</a> | <a href="/torrentz.btsearch">&#x03BC;Torrent Plugin</a><script type="text/javascript">if (window.external && ("AddSearchProvider" in window.external))  document.write(' | <a href="javascript:window.external.AddSearchProvider(\'http://torrentz.eu/opensearch.xml\');">Browser search plugin</a>');</script></p>
+&copy; 2003-2012 Torrentz
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#thesearchbox").focus();
+	$("#thesearchbox").autocomplete("/suggestions.php");
+	$("div.top > ul").fadeTo('slow', 0.01);
+	$("div.footer, #stats").slideUp();
+	$("div.top, #thesearchbox").hover(function(){$("div.top > ul").fadeTo('fast', 1.0);$("div.footer, #stats").slideDown();});
+});
+</script>
+</body>
+</html>

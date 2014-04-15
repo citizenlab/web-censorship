@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Connection: close
+Date: Tue, 19 Jun 2012 16:06:35 GMT
+ETag: "5c55fcff-ef7c-4328-a4e9-0c7fc397c8ae"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 16:06:35 GMT
+Last-Modified: Sat, 16 Jun 2012 07:39:23 GMT
+Client-Date: Mon, 18 Jun 2012 23:49:38 GMT
+Client-Peer: 209.85.225.121:80
+Client-Response-Num: 1
+Link: <http://movies.andhrawala.net/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://movies.andhrawala.net/>; rel="canonical"
+Link: <http://movies.andhrawala.net/feeds/posts/default>; rel="alternate"; title="ANDHRAWALA.NET - WATCH TELUGU MOVIES ONLINE,WATCH HINDI TAMIL TELUGU MOVIES OLINE - Atom"; type="application/atom+xml"
+Link: <http://movies.andhrawala.net/feeds/posts/default?alt=rss>; rel="alternate"; title="ANDHRAWALA.NET - WATCH TELUGU MOVIES ONLINE,WATCH HINDI TAMIL TELUGU MOVIES OLINE - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/7285524271162620130/posts/default>; rel="service.post"; title="ANDHRAWALA.NET - WATCH TELUGU MOVIES ONLINE,WATCH HINDI TAMIL TELUGU MOVIES OLINE - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=7285524271162620130>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://movies.andhrawala.net/>; rel="openid.delegate"
+Link: <http://www.blogger.com/static/v1/widgets/1355816394-widget_css_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=7285524271162620130&zx=5c55fcff-ef7c-4328-a4e9-0c7fc397c8ae>; rel="stylesheet"; type="text/css"
+Set-Cookie: blogger_TID=f1a1efa711775; HttpOnly
+Title: ANDHRAWALA.NET - WATCH TELUGU MOVIES ONLINE,WATCH HINDI TAMIL TELUGU MOVIES OLINE
+X-Content-Type-Options: nosniff
+X-Meta-Generator: blogger
+X-Meta-MSSmartTagsPreventParsing: true
+X-XSS-Protection: 1; mode=block

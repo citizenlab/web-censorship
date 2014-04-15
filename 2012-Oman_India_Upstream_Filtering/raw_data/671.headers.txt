@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 15:09:37 GMT
+Server: Apache
+Content-Type: text/html
+Client-Date: Mon, 18 Jun 2012 22:52:40 GMT
+Client-Peer: 174.120.104.93:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </img/favicon.ico>; rel="shortcut icon"; type="image/x-icon"
+Title: ZinkWaP.CoM | ZinkWaP.NeT | FREE Download Wap Site. Hate Story, Talaash, Jannat 2, Agneepath, Jism 2, Agent Vinod, Bittoo Boss Mp3 Songs, Video songs, Ringtones, 2011 Movie Trailers, Games, Mobile Wallpapers Free Download
+X-Meta-Description: ZinkWaP.CoM Free Mobile Download WaP. Hate Story, Ishaqzaade, Talaash, Jannat 2, Agneepath, Bittoo Boss, Jism 2, 2011, 2012, Free Full MP3 Songs, 3Gp Mp4 Videos Songs, Movie Trailers ,Ringtones, Wallpapers.
+X-Meta-Google-Site-Verification: xUAQ6UhO6CpiEll9Ve_3xA3BarQ571hWhJ8qHQUaOTI
+X-Meta-Googlebot: index, follow
+X-Meta-Keywords: Zinkwap.com mobile downloadwap.com, Downloadming, Hate Story, Ishaqzaade, Talaash, Jannat 2, Agneepath, Agent Vinod, Jism 2, Bittoo Boss Mp3 Songs, 3Gp Mp4 Video Song, New 2011 Movies Trailers.
+X-Meta-ROBOTS: index, follow

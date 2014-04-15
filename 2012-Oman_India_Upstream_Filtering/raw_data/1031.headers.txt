@@ -1,0 +1,19 @@
+HTTP/1.0 200 (OK)
+Cache-Control: private, no-cache, must-revalidate
+Connection: Keep-Alive
+Pragma: no-cache
+Server: Oversee Turing v1.0.0
+Content-Length: 1816
+Content-Type: text/html
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Client-Date: Mon, 18 Jun 2012 23:35:00 GMT
+Client-Peer: 204.13.162.123:80
+Client-Response-Num: 1
+Keep-Alive: timeout=3, max=86
+P3P: policyref="http://www.dsparking.com/w3c/p3p.xml", CP="NOI DSP COR ADMa OUR NOR STA"
+Set-Cookie: parkinglot=1; domain=.crazyrockerz.com; path=/; expires=Wed, 20-Jun-2012 15:51:58 GMT
+Title: crazyrockerz.com
+X-Meta-Description: crazyrockerz.com
+X-Meta-Keywords: crazyrockerz.com
+X-Meta-Revisit-After: 10
+X-Meta-ROBOTS: INDEX, FOLLOW

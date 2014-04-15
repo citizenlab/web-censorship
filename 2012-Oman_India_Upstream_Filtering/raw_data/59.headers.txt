@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Cache-Control: private, no-cache, no-store, must-revalidate
+Date: Mon, 18 Jun 2012 20:09:20 GMT
+Pragma: no-cache
+Content-Length: 3860
+Content-Type: text/html;charset=utf-8
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+Client-Date: Mon, 18 Jun 2012 20:09:20 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+P3P: CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"
+Refresh: 0;url=http://www.facebook.com/
+Set-Cookie: datr=8IrfT-Qu05WDqGcR0J-uhHg-; expires=Wed, 18-Jun-2014 20:09:20 GMT; path=/; domain=.facebook.com; httponly
+Set-Cookie: lsd=AVo6iOON; path=/; domain=.facebook.com
+Set-Cookie: next=http%3A%2F%2Fwww.facebook.com%2Fpages%2Fl-Hate-Ambedkar%2F172025102828076; path=/; domain=.facebook.com; httponly
+Set-Cookie: next_path=%2Fpages%2Fl-Hate-Ambedkar%2F172025102828076; path=/; domain=.facebook.com; httponly
+Title: Redirecting...
+X-Content-Type-Options: nosniff
+X-FB-Debug: tm9mnzzPV8qCZ71my5OF3nKSwQzEiGEGJOTBvuerYek=
+X-Frame-Options: DENY
+X-UA-Compatible: IE=edge,chrome=1
+X-XSS-Protection: 1; mode=block

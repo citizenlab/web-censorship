@@ -1,0 +1,26 @@
+HTTP/1.1 404 Not Found
+Date: Tue, 19 Jun 2012 14:07:15 GMT
+Content-Length: 16154
+Content-Type: text/html; charset=utf-8
+Client-Date: Mon, 18 Jun 2012 21:50:20 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Link: <http://www.facebook.com/#!/pages/this-dog-will-get-more-fans-than-syad-ali-shah-geelani/219014304783271>; media="handheld"; rel="alternate"
+Link: <http://static.ak.fbcdn.net/rsrc.php/yi/r/q9U99v3_saj.ico>; rel="shortcut icon"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yw/r/g1Hw-PcFOcK.css>; rel="stylesheet"
+Link: <http://b.static.ak.fbcdn.net/rsrc.php/v2/yW/r/mklnYiSbYM2.css>; rel="stylesheet"
+P3P: CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"
+Refresh: 0; URL=/?_fb_noscript=1#!/pages/this-dog-will-get-more-fans-than-syad-ali-shah-geelani/219014304783271
+Set-Cookie: datr=k4fgT5eM8UgEKfTWT74k81BI; expires=Thu, 19-Jun-2014 14:07:15 GMT; path=/; domain=.facebook.com; httponly
+Set-Cookie: lsd=AVpem82b; path=/; domain=.facebook.com
+Set-Cookie: reg_ext_ref=http%3A%2F%2Fwww.yahoo.com; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_gate=http%3A%2F%2Fwww.facebook.com%2F%23%21%2Fpages%2Fthis-dog-will-get-more-fans-than-syad-ali-shah-geelani%2F219014304783271; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_ref=http%3A%2F%2Fwww.facebook.com%2F%23%21%2Fpages%2Fthis-dog-will-get-more-fans-than-syad-ali-shah-geelani%2F219014304783271; path=/; domain=.facebook.com
+Title: Stránka nenalezena | Facebook
+X-Content-Type-Options: nosniff
+X-FB-Debug: 94L+7jIOGnUmpaF/Pf6mjU41w5dIbj6uv3/0+5bKirw=
+X-FRAME-OPTIONS: deny
+X-Meta-Charset: utf-8
+X-Meta-Description:  Facebook je socíální síť, která umožňuje komunikaci s přáteli, spolupracovníky, spolužáky a lidmi z okolí. Na Facebooku můžete kontaktovat přátele, nahrávat neomezené množství fotek, přidávat odkazy a videa a budete mít informace o svých známých.
+X-Meta-ROBOTS: noodp, noydir
+X-UA-Compatible: IE=edge,chrome=1

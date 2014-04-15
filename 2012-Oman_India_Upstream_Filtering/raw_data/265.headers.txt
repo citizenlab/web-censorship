@@ -1,0 +1,16 @@
+HTTP/1.1 403 Bad Behavior
+Connection: close
+Date: Tue, 19 Jun 2012 13:54:35 GMT
+Via: 1.1 varnish
+Age: 0
+Server: nginx/0.7.67
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Content-Length: 876
+Content-Type: text/html
+Client-Date: Mon, 18 Jun 2012 21:37:39 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Title: HTTP Error 403
+X-Powered-By: PHP/5.3.6
+X-Varnish: 1666032159

@@ -1,0 +1,35 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 13:50:23 GMT
+Age: 1
+Server: ATS/3.0.4
+Vary: Accept-Encoding
+Content-Language: en-US
+Content-Type: text/html;charset=UTF-8
+Last-Modified: Wed, 05 Oct 2011 20:57:32 GMT
+Client-Date: Mon, 18 Jun 2012 21:33:28 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://s3.licdn.com/scds/common/u/img/favicon_v3.ico>; rel="shortcut icon"; type="image/ico"
+Link: </img/icon/apple-touch-icon.png>; rel="apple-touch-icon-precomposed"
+Link: <http://s3.licdn.com/scds/concat/common/css?h=3bifs78lai5i0ndyj1ew7316e-f50e935yfxr9e6txwchf6f5rh-c5839km74lqu75dnankln5rgt-4uu2pkz5u0jch61r2nhpyyrn8-9t5e1knzidyvkpf0z8e0jmadj-25a3hrghv63tplct2jcz35xds-4om4nn3a2z730xs82d78xj3be-bigga6m9j58j1ibtzsfwdqwcq-ct4kfyj4tquup0bvqhttvymms-9zbbsrdszts09by60it4vuo3q-4uxu0ysdiw1f1nqnc7pu0c7gi-35865syxlga19l88y4duqyqms-34ek09xzsd1g2pd7vvncpuypc-1137x3npoqxfrtdyrzxxfg6r-2pkp5ymkf2bt6pt2kpsxpw717>; rel="stylesheet"; type="text/css"
+Link: <http://s3.licdn.com/scds/concat/common/css?h=85257xxu2dble0xkpkvkhxuxw-9itc5ag0bkpmcad4ty32zqvjj-b1io9ndljf1bvpack85gyxhv4-5xxmkfcm1ny97biv0pwj7ch69>; rel="stylesheet"; type="text/css"
+P3P: CP="CAO DSP COR CUR ADMi DEVi TAIi PSAi PSDi IVAi IVDi CONi OUR DELi SAMi UNRi PUBi OTRi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT POL PRE"
+Set-Cookie: _lipt=deleteMe; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: bcookie="v=2&4fcebeeb-9a83-482c-bece-f5b88bf70a11"; Version=1; Domain=linkedin.com; Max-Age=63072000; Expires=Thu, 19-Jun-2014 13:50:24 GMT; Path=/
+Set-Cookie: leo_auth_token="GST:9x_jeDvmMVttf3mtAG_7WVhH67Wt104G2xEzp_hBlvpD9k5GBZ7hqn:1340113824:7e948ab1111cc6191c788dc2011ee8b2ba93633e"; Version=1; Max-Age=1799; Expires=Tue, 19-Jun-2012 14:20:23 GMT; Path=/
+Set-Cookie: sl="delete me"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: s_leo_auth_token="delete me"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: visit="v=1&G"; Version=1; Max-Age=63072000; Expires=Thu, 19-Jun-2014 13:50:24 GMT; Path=/
+Set-Cookie: JSESSIONID="ajax:2665957256241670101"; Version=1; Path=/
+Set-Cookie: lw=1340113824; Domain=linkedin.com; Expires=Tue, 19-Jun-2012 14:30:24 GMT; Path=/
+Set-Cookie: lang="v=2&lang=en-us"; Version=1; Domain=linkedin.com; Path=/
+Set-Cookie: X-LI-IDC=C1
+Title: Satish Seth - India | LinkedIn
+X-FRAME-OPTIONS: SAMEORIGIN
+X-Meta-AnalyticsURL: /analytics/noauthtracker
+X-Meta-Description: View Satish Seth's (India) professional profile on LinkedIn.  LinkedIn is the world's largest business network, helping professionals like Satish Seth discover inside connections to recommended job candidates, industry experts, and business partners.
+X-Meta-PageImpressionID: 436b34b5-ac87-48bd-8ec1-06b207a78d85
+X-Meta-PageKey: nprofile-public-success
+X-UA-Compatible: IE=8

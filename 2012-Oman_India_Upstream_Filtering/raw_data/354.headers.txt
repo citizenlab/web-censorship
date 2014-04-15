@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Tue, 19 Jun 2012 13:59:47 GMT
+Accept-Ranges: bytes
+ETag: "8044f33e41dcd1:0"
+Server: Microsoft-IIS/7.5
+Content-Length: 1233
+Content-Type: text/html
+Last-Modified: Thu, 19 Apr 2012 04:23:41 GMT
+Client-Date: Mon, 18 Jun 2012 21:42:49 GMT
+Client-Peer: 199.59.241.215:80
+Client-Response-Num: 1
+Title: 

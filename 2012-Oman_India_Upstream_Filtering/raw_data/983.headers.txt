@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=900
+Connection: close
+Date: Tue, 19 Jun 2012 15:46:17 GMT
+Server: nginx/0.7.61
+Vary: Cookie
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 19 Jun 2012 16:01:17 GMT
+Last-Modified: Tue, 19 Jun 2012 15:36:45 GMT
+Client-Date: Mon, 18 Jun 2012 23:29:22 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </rss>; rel="alternate"; title="RSS"; type="application/rss+xml"
+Link: <http://www1.static.zimbio.com/zimbio_favicon.ico>; rel="icon"
+Link: <http://www.zimbio.com/>; rel="canonical"
+Link: <http://www1.static.zimbio.com/loader/022025.88.base__base_white__share_bar__color__color_zimbio__YmFzZWJhc2V__.css>; rel="stylesheet"; type="text/css"
+Link: <http://www1.static.zimbio.com/loader/022025.88.index__homepage__aW5kZXhob21__.css>; rel="stylesheet"; type="text/css"
+Set-Cookie: organicRef=yhor; Path=/
+Set-Cookie: tzs=4467069|1340120777; expires=Fri, 17-Jun-22 15:46:17 GMT; Path=/
+Set-Cookie: pv=1; expires=Fri, 17-Jun-22 15:46:17 GMT; Path=/
+Set-Cookie: pzs=hdP94R13ItT; expires=Fri, 17-Jun-22 15:46:17 GMT; Path=/
+Title: Zimbio - Entertainment News, Celebrity News, Celebrity Photos & Videos
+X-Meta-Description: Entertainment news, the largest celebrity photo collection, movies, TV, music & polls for the pop culture obsessed.
+X-Meta-Keywords: Zimbio, Pictures, Entertainment, Style, Current Events, People, Celebrities, Videos

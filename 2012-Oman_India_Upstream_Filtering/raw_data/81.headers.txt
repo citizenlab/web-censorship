@@ -1,0 +1,4 @@
+500 Can't connect to www.submitlink.khatana.net:80 (Bad hostname 'www.submitlink.khatana.net')
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 20:12:23 GMT
+Client-Warning: Internal response

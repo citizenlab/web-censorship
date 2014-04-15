@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Cache-Control: private, no-cache, no-store, must-revalidate
+Date: Tue, 19 Jun 2012 15:10:32 GMT
+Pragma: no-cache
+Content-Length: 3886
+Content-Type: text/html;charset=utf-8
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+Client-Date: Mon, 18 Jun 2012 22:53:35 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+P3P: CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"
+Refresh: 0;url=http://www.facebook.com/real.hindusam
+Set-Cookie: datr=aJbgT6eNltHwcOq99l9nUX3K; expires=Thu, 19-Jun-2014 15:10:32 GMT; path=/; domain=.facebook.com; httponly
+Set-Cookie: lsd=AVo0cJoZ; path=/; domain=.facebook.com
+Set-Cookie: reg_ext_ref=http%3A%2F%2Fwww.yahoo.com; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_gate=http%3A%2F%2Fwww.facebook.com%2Fpages%2FThe-Real-Hindusm-FighterkuverDeepnayaningh%2F314528855253976; path=/; domain=.facebook.com
+Set-Cookie: reg_fb_ref=http%3A%2F%2Fwww.facebook.com%2Fpages%2FThe-Real-Hindusm-FighterkuverDeepnayaningh%2F314528855253976; path=/; domain=.facebook.com
+Title: Redirecting...
+X-Content-Type-Options: nosniff
+X-FB-Debug: lKdCaRlhYwMaBTQ+BRh7PXVv2KsQ2V6cEeDHqeRyh14=
+X-FRAME-OPTIONS: DENY
+X-UA-Compatible: IE=edge,chrome=1
+X-XSS-Protection: 1; mode=block

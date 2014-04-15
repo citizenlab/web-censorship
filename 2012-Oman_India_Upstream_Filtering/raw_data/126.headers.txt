@@ -1,0 +1,4 @@
+500 Can't connect to jonnyasp.com:80 (Bad hostname 'jonnyasp.com')
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 21:24:09 GMT
+Client-Warning: Internal response

@@ -1,0 +1,4 @@
+500 Can't connect to www.vergingoldint.com:80 (Bad hostname 'www.vergingoldint.com')
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 21:49:46 GMT
+Client-Warning: Internal response

@@ -1,0 +1,21 @@
+HTTP/1.1 404 Not Found
+Cache-Control: public, max-age=600
+Connection: close
+Date: Mon, 18 Jun 2012 20:08:52 GMT
+ETag: "1340048744-0"
+Server: Apache/2.2.3 (CentOS)
+Vary: Cookie,Accept-Encoding
+Content-Language: en
+Content-Type: text/html; charset=utf-8
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 18 Jun 2012 19:45:44 +0000
+Client-Date: Mon, 18 Jun 2012 20:08:52 GMT
+Client-Peer: 46.137.210.251:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </node/351>; rel="shortlink",<http://www.chakpak.com/page-not-found>; rel="canonical"
+Title: OOPsss... Something not found?? | Chakpak
+X-Drupal-Cache: HIT
+X-Generator: Drupal 7 (http://drupal.org)
+X-Meta-Generator: Drupal 7 (http://drupal.org)
+X-Powered-By: PHP/5.3.3

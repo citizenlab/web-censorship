@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=864000
+Connection: close
+Date: Tue, 19 Jun 2012 15:47:26 GMT
+Accept-Ranges: bytes
+ETag: "20812-4d-4b7c3ab17ba85"
+Server: Apache/2.2.22 (Amazon)
+Content-Length: 77
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 31 Dec 2019 23:59:59 GMT
+Last-Modified: Mon, 30 Jan 2012 19:15:23 GMT
+Client-Date: Mon, 18 Jun 2012 23:30:28 GMT
+Client-Peer: 107.21.243.42:80
+Client-Response-Num: 1
+Title: NOTICE

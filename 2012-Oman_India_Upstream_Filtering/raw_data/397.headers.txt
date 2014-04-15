@@ -1,0 +1,11 @@
+HTTP/1.1 404 Not Found
+Connection: close
+Date: Tue, 19 Jun 2012 14:08:57 GMT
+Server: sffe
+Content-Length: 43
+Content-Type: image/gif
+Client-Date: Mon, 18 Jun 2012 21:52:01 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block

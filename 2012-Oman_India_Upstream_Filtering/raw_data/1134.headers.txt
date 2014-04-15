@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Cache-Control: public
+Connection: close
+Date: Tue, 19 Jun 2012 16:07:49 GMT
+Server: nginx/0.8.55
+Content-Type: text/html; charset=UTF-8
+Expires: Mon, 18 Jun 2012 16:07:50 GMT
+Client-Date: Mon, 18 Jun 2012 23:50:52 GMT
+Client-Peer: x.x.x.x:8080
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://movreel.com/images/favico.ico>; rel="SHORTCUT ICON"
+Link: <http://movreel.com/images/favico.png>; rel="icon"; type="image/png"
+Link: <http://www.movreel.com/main.css>; rel="stylesheet"; type="text/css"
+Link: <http://a1.twimg.com/profile_images/563997796/movreel_icon_bigger.png>; rel="image_src"
+Title: Movreel - Dedicated Hosting Service
+X-Meta-Description: Movreel - Dedicated Hosting Service
+X-Meta-Keywords: dedicated hosting, dedicated servers, dedicated web hosting, web hosting

@@ -1,0 +1,1586 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <style type="text/css">
+.img-shadow {
+  float:left;
+  background: url(images/shadowAlpha.png) no-repeat bottom right !important;
+  margin: 5px 0 0 0px !important;
+  margin: 5px 0 0 0px;
+  }
+
+.img-shadow img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 2px 1px -6px;
+  padding: 4px;
+  }
+.shadow-box {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90px;
+	
+}
+
+.caption {
+font-size : 11px; 
+FONT-FAMILY: Tahoma;
+padding: 5px 0px 0px 5px; 
+} 
+
+.cellt {
+background-color:#969594;
+padding:5px 3px 5px 2px;
+}
+</style>
+<meta name="robots" content="index, follow">
+<meta name="distribution" content="Global">
+<meta http-equiv="content-language" content="EN">
+<meta name="document-rating" content="safe for kids">
+
+<title>Sangeethouse - Hindi Songs Hindi music, Hindi movies, Hindi videos, Hindi lyrics, Hindi actors and actresses</title>
+<LINK REL="SHORTCUT ICON" HREF="favicon.ico">
+
+<META NAME="description" CONTENT="Hindi Songs - Latest Hindi music, Hindi videos and movie trailers, lyrics, celebrity photo galleries and more.">
+<META NAME="keywords" CONTENT="Hindi music, Hindi movies, Hindi songs, Indian music, classical, instrumental, Hindi karaoke songs, carnatic music, Hindi actors, Hindi actresses, Hindi news, Hindi celebrity photos, gallery, Indian actors, filmography, live Indian radios">
+
+<LINK href="style.css" rel="stylesheet">
+<script type="text/javascript" src="script/ajaxroutine.js"></script> 
+<SCRIPT language="Javascript" src="script/java.js" type="text/javascript"></SCRIPT>
+<SCRIPT language="Javascript" src="script/hover.js" type="text/javascript"></SCRIPT>
+<script language="javascript">
+
+function addpcd(id)
+{
+
+    var name = "";
+	var pwd = "";
+
+    if((name != "") && (pwd != ""))
+	{
+      var URL = "../addtopcd.php?songid="+id;
+	  newwin = window.open(URL,'addtopcd','width=330,height=300,resizable=0');
+	}
+	else
+    {
+        alert("Cannot Add to PCD , Please Login in");
+		return;
+
+	}
+}
+
+function checkall()
+{
+   var len =document.getElementsByName('asid');
+   if(len.length != null)
+   {
+		   for (var i = 0; i < len.length ; i++) {
+			len[i].checked = true;
+			}
+   }
+   else
+   {
+        len.checked = true;
+   }
+}
+
+function clearall()
+{
+	//document.top10page.reset();
+	 var len =document.getElementsByName('asid');
+   if(len.length != null)
+   {
+		   for (var i = 0; i < len.length ; i++) {
+			len[i].checked = false;
+			}
+   }
+}
+function pcdSelected()
+{
+   var name = "";
+   var pwd = "";
+   var song="";
+  if((name != "") && (pwd != ""))
+  {
+	   var len =document.getElementsByName('asid');
+	   if(len.length != null)
+	   {
+			   for (var i = 0; i < len.length ; i++) {
+
+					if(len[i].checked)
+					{
+						   song = song+ len[i].value+",";
+					}
+				}
+              song= song.substring(0,song.length-1);
+	   }
+	   else
+	   {
+			 if(len.checked)
+			 {
+				  song=len.value;
+			 }
+	   }
+
+	  if(song.length > 0)
+      {
+		  var URL = "addtopcd.php?addbunch=1&songid="+song;
+		  newwin = window.open(URL,'addtopcd','width=330,height=300,resizable=0');
+	  }
+	  else
+      {
+           alert("Please Select to Add PCD");
+		   return;
+	  }
+  }
+  else
+  {
+        alert("Cannot Add to PCD , Please Login in");
+		return;
+  }
+}
+function playSelected(songid)
+{
+      var song="";
+	   var len =document.getElementsByName('asid');
+	   if(len.length != null)
+	   {
+			   for (var i = 0; i < len.length ; i++) {
+
+					if(len[i].checked)
+					{
+
+						   song = song+ len[i].value+",";
+					}
+
+				}
+              song= song.substring(0,song.length-1);
+	   }
+	   else
+	   {
+			 if(len.checked)
+			 {
+				  song=len.value;
+			 }
+	   }
+	  if(song.length > 0)
+      {
+		  var URL = "jukebox.php?songid="+song;
+		  newwin = window.open(URL,'play','width=728,height=333,left=150,top=150,scrollbars=0,resizable=0');
+	  }
+	  else
+      {
+           alert("Please Select to Play");
+		   return;
+	  }
+  }
+
+
+function getChannel()
+{
+	alert("Coming Soon. Enjoy other channels.");
+}
+
+
+function myFunction(element){
+liArray=document.getElementById("myUL").childNodes;
+i=0;
+while(liArray[i]){
+liArray[i].id="";
+i++;
+}
+element.id="current";
+} 
+ 
+</script>
+</head>
+<body topmargin="1" leftmargin="1" marginwidth="1" marginheight="1"  >
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" id="AutoNumber1" width="20%">
+  <tr>
+    <td class=page width="13%">
+    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="20%" id="AutoNumber2">
+      <tr>
+        <td class=banner colspan="2">
+        <!-- ----------Advertising Banner Code---------- -->
+	
+	<IFRAME ALLOWTRANSPARENCY="true" SRC="letterboard.php" scrolling="no" width="728" height="90" frameborder="0" align="top">
+	</IFRAME>
+        <!-- ----------Advertising Code---------- -->
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" colspan="2">
+      </tr>
+      <tr>
+        <td class=banner valign="top" colspan="2">
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="50%" id="AutoNumber16">
+          <tr>
+            <td width="20%">
+            <a onmouseover="imgOn('lbut9')" ;="" onmouseout="imgOff('lbut9')" href="#" >
+                        <img src="images/mypcds.gif" name="lbut9" alt="My PCDs" border="0" width="158" height="31" onClick="checkPCD()"></a></td>
+            <td width="20%"><a onmouseover="imgOn('lbut10')" ;="" onmouseout="imgOff('lbut10')" href="bollywood.php">
+                        <img src="images/bollywood.gif" name="lbut10" alt="Bollywood" border="0" width="160" height="31"></a></td>
+            <td width="20%"><a onmouseover="imgOn('lbut11')" ;="" onmouseout="imgOff('lbut11')" href="regional.php">
+                        <img src="images/regional.gif" name="lbut11" alt="Regional" border="0" width="143" height="31"></a></td>
+            <td width="20%"><a onmouseover="imgOn('lbut12')" ;="" onmouseout="imgOff('lbut12')" href="wallpaper.php">
+                        <img src="images/download.gif" name="lbut12" alt="Download" border="0" width="162" height="31"></a></td>
+            <td width="20%"><a onmouseover="imgOn('lbut13')" ;="" onmouseout="imgOff('lbut13')" href="radio.php">
+                        <img src="images/liveradios.gif" name="lbut13" alt="Liveradios" border="0" width="141" height="31"></a></td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+      <form name="auth" method="post">
+	  <tr>
+          <td class=bordermargin valign="top">
+        <p>
+        <img border="0" src="images/logomain.jpg" width="416" height="180"></td>
+         			  <td class=bordermargin valign="top" dir="ltr">
+
+			        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber4" dir="ltr">
+          <tr>
+            <td width="100%" dir="ltr">
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber4" dir="ltr">
+          <tr>
+            <td width="100%" bgcolor="#1F1A17" dir="ltr">
+
+			<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber5" dir="ltr">
+              <tr>
+                <td width="20%" dir="ltr">
+                <img border="0" src="images/search.gif" width="72" height="35"></td>
+                <td width="40%" dir="ltr">
+                <p align="center" dir="ltr"><select size="1" name="search_in" OnChange="setSearchValue()">
+                <option dir="ltr" value="TITLE">Song Title</option>
+				<option dir="ltr" value="ALBUM">Album/Movie</option>
+				<option dir="ltr" value="MUSIC"  >Music Director</option>
+                <option dir="ltr" value="ACTORS">Actor/Actress</option><option dir="ltr" value="COMPLETE">Artist</option>
+                <option dir="ltr" value="YEAR">Year</option>
+                </select></td>
+                <td width="24%" valign="middle" dir="ltr">
+                <p align="center" dir="ltr">
+                  <input type="text" name="query" size="10" onKeyDown="if(event.keyCode==13) doSearch()" style="display:">
+				  <select name="sel1" size="1" style="display:none" OnChange="displayResult()" >
+				  		  	<option value="">Select Year</option>
+						    <option value=2012>2012</option><option value=2011>2011</option><option value=2010>2010</option><option value=2009>2009</option><option value=2008>2008</option><option value=2007>2007</option><option value=2006>2006</option><option value=2005>2005</option><option value=2004>2004</option><option value=2003>2003</option><option value=2002>2002</option><option value=2001>2001</option><option value=2000>2000</option><option value=1999>1999</option><option value=1998>1998</option><option value=1997>1997</option><option value=1996>1996</option><option value=1995>1995</option><option value=1994>1994</option><option value=1993>1993</option><option value=1992>1992</option><option value=1991>1991</option><option value=1990>1990</option><option value=1989>1989</option><option value=1988>1988</option><option value=1987>1987</option><option value=1986>1986</option><option value=1985>1985</option><option value=1984>1984</option><option value=1983>1983</option><option value=1982>1982</option><option value=1981>1981</option><option value=1980>1980</option><option value=1979>1979</option><option value=1978>1978</option><option value=1977>1977</option><option value=1976>1976</option><option value=1975>1975</option><option value=1974>1974</option><option value=1973>1973</option><option value=1972>1972</option><option value=1971>1971</option><option value=1970>1970</option><option value=1969>1969</option><option value=1968>1968</option><option value=1967>1967</option><option value=1966>1966</option><option value=1965>1965</option><option value=1964>1964</option><option value=1963>1963</option><option value=1962>1962</option><option value=1961>1961</option><option value=1960>1960</option><option value=1959>1959</option><option value=1958>1958</option><option value=1957>1957</option><option value=1956>1956</option><option value=1955>1955</option><option value=1954>1954</option><option value=1953>1953</option><option value=1952>1952</option><option value=1951>1951</option><option value=1950>1950</option><option value=1949>1949</option><option value=1948>1948</option><option value=1947>1947</option><option value=1946>1946</option><option value=1945>1945</option><option value=1944>1944</option><option value=1943>1943</option><option value=1942>1942</option><option value=1941>1941</option><option value=1940>1940</option><option value=1939>1939</option><option value=1938>1938</option><option value=1937>1937</option><option value=1936>1936</option><option value=1935>1935</option><option value=1934>1934</option>				</select></p>
+
+                </td>
+
+                <td width="16%" valign="top" dir="ltr">
+                <p align="right" dir="ltr">
+
+                <img border="0" src="images/search.jpg" width="33" height="35" onClick="doSearch()"></td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td width="100%" >
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber6" dir="ltr">
+              <tr>
+										<td width="17%" >
+						<img border="0" src="images/iconmusic.gif" width="48" height="47"></td>
+						<td>
+				   
+
+							<td class=text width="83%" dir="ltr">My JUKEBOX Login</td>
+						              </tr>
+            </table>
+            </td>
+          </tr>
+          
+		  <tr>
+            <td width="100%" dir="ltr">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber7" dir="ltr">
+              <tr>
+                <td class=textlogin width="14%" dir="ltr">Login</td>
+                <td class=textlogin width="28%" dir="ltr">
+                  <input type="text" name="email" size="13"  value=""></td>
+                <td class=textlogin width="18%" dir="ltr">Password</td>
+                <td class=textlogin width="30%" dir="ltr">
+                  <input type="password" name="password" size="13" onKeyDown="if(event.keyCode==13) login()"></td>
+                <td class=textlogin width="35%" dir="ltr">
+                <a onmouseover="imgOn('lbut31')" ;="" onmouseout="imgOff('lbut31')" href="#">
+                <img border="0" src="images/arrow.gif" name="lbut31" alt="GO" onclick="login()" width="18" height="17"></a></td>
+				<input type="hidden" name="page" value="index" >
+              </tr>
+            </table>
+            </td>
+          </tr>
+        </table>
+            </td>
+          </tr>
+          <tr>
+            <td width="100%" dir="ltr">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber8" dir="ltr">
+              <tr>
+                <td class=para width="50%" dir="ltr">Create PCDs, as many as you
+                wish, one for every listening mood, for work, for home, for
+                play! </td>
+                <td width="50%" valign="middle" dir="ltr">
+                &nbsp;<div align="left" dir="ltr">
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="98%" id="AutoNumber18" dir="ltr">
+                    <tr>
+                      <td width="50%" valign="middle" dir="ltr">
+					 <a onmouseover="imgOn('lbut1')" ;="" onmouseout="imgOff('lbut1')" href="signup.php">
+     	         <img src="images/newuser.gif" name="lbut1" alt="New User Sign Up" width="67" height="17" border="0"></a>
+                </td>
+                      <td width="50%" valign="top" dir="ltr">
+
+                      <a onmouseover="imgOn('lbut2')" ;="" onmouseout="imgOff('lbut2')" href="forgotpass.php">
+     	         <img src="images/forgotpass.gif" name="lbut2" alt="forgot Password" width="102" height="17" border="0"></a></td>
+
+                    </tr>
+                  </table>
+                      </form>
+
+                </div>
+                </td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+      <tr>
+
+        <td class=bordermargin valign="top" colspan="2">
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber9">
+          <tr>
+            <td width="10%" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="1%" id="AutoNumber10">
+              
+			  
+<!--New Features addition -->
+<tr>
+<td width="100%"><a href="radio.php" alt="Live Radios">
+<img border="0" src="../../images/newfeatures.gif" width="168" height="21"></a></td>
+</tr>              
+<!-- 
+<tr>
+              <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../iphoneapp.php')" >
+<a href="../../iphoneapp.php" >Dishant iPhone App</a> <img src="../../images/new.gif" border="0"></td>
+              </tr> 
+-->
+
+<tr>
+              <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)">
+<a target="_blank" href="http://hindi.filmychai.com/video" >Filmychai Videos</a></td>
+              </tr> 
+
+         <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" >
+<a target="_blank" href="http://hindi.filmychai.com/gallery/eventgallery">Bollywood Events</a></td>
+</tr>              
+              
+<!--
+<tr>
+              <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'http://www.google.com/ig/adde?moduleurl=http://www.dishant.com/gadget.xml')" >
+<a href="http://www.google.com/ig/adde?moduleurl=http://www.dishant.com/gadget.xml" >iGoogle Top 10</a></td>
+              </tr>              
+              <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../360Widget.php')" >
+<a href="../../360Widget.php">Top10Widget</a></td>
+</tr> -->
+
+
+
+<tr>
+<td width="100%"><a href="/channels-hindi.html" alt="hindi Songs">
+<img border="0" src="../../images/hindi.gif" width="168" height="21"></a></td>
+</tr>
+
+
+	   <tr>
+	                <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)">
+	<a target="_blank" href="http://hindi.filmychai.com/trailers/latest/" >Movie Trailers</a>
+	</td>
+ 	</tr>
+   
+   <tr>
+                <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../hindi-newaddition.html')" >
+<a href="../../hindi-newaddition.html" >New Releases</a>
+</td>
+ </tr>
+<tr>
+<td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../hindi-albums-index.html')" >
+	       	     <a href="../../hindi-albums-index.html" >Movie Index</a></td>
+</tr>
+              <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../hindi-top10.html')" >
+<a href="../../hindi-top10.html" >Latest Top 10</a></td>
+             </tr>
+
+	   
+    <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../hindi-singers.html')" >
+<a href="../../hindi-singers.html" >Singers</a></td>
+             </tr>
+
+              <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../radio.php')" >
+<a href="../../radio.php" >Live Radios</a> </td>
+             </tr>             
+ <tr>
+              <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../hindi-actors.html')" >
+<a href="../../hindi-actors.html" >Actors</a>
+</td>
+                </tr>
+               <tr>
+                 <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../hindi-actresses.html')" >
+<a href="../../hindi-actresses.html" >Actresses</a></td>
+              </tr>
+               <tr>
+                 <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../wallpaperlist.php?cat=m')" >
+<a href="../../wallpaperlist.php?cat=m" >Models</a></td>
+              </tr>     
+              
+ <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../hindi-lyrics.html')" >
+<a href="../../hindi-lyrics.html" >Hindi Lyrics</a></td>
+              </tr>
+              
+ <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../hindi-devotional.html')" >
+<a href="../../hindi-devotional.html" >Devotional</a> <!-- <img src="../../images/new.gif" border="0"> --> </td>
+              </tr>              
+
+ <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../wallpaper.php')" >
+<a href="../../wallpaper.php" >Wallpaper Gallery</a></td>
+              </tr>
+    <tr>
+                 <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../forthcoming-hindi-movies-songs.html')" >
+ <a href="../../forthcoming-hindi-movies-songs.html" >Forthcoming Movies</a>
+ </td>
+ </tr>              
+              
+ <!--tr>
+ <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../singerlist.php')" >
+<a href="../../singerlist.php" >Singers</a></td>
+              </tr-->
+
+	<tr>
+	<td width="100%"><a href="/channels-tamil.html" >
+	<img border="0" src="../../images/TAMIL.gif" width="168" height="21"></a></td>
+	</tr>
+	<tr>
+	<td width="100%"><a href="/channels-telugu.html" >
+	<img border="0" src="../../images/TELUGU.gif" width="168" height="21"></a></td>
+	</tr>
+	<tr>
+	<td width="100%"><a href="/channels-malayalam.html" >
+	<img border="0" src="../../images/MALAYALAM.gif" width="168" height="21"></a></td>
+	</tr>
+	      
+
+<tr>
+<td width="100%"><a href="bollywood.php" alt="Bollywood Songs">
+<img border="0" src="../../images/bollywoodindex.gif" width="168" height="21"></a></td>
+</tr>              
+
+<tr>
+              <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../compilations-albums-index.html')" >
+<a href="../../compilations-albums-index.html" >Compilations</a></td>
+              </tr>              
+              <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../pop-albums-index.html')" >
+<a href="../../pop-albums-index.html">Pop Songs</a></td>
+               </tr>
+              <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../remix-albums-index.html')" >
+<a href="../../remix-albums-index.html" >Remixes</a></td>
+                </tr>
+              <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../ghazal-albums-index.html')" >
+<a href="../../ghazal-albums-index.html" >Ghazals</a></td>
+              </tr>
+              <tr>
+              <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../old-albums-index.html')" >
+<a href="../../old-albums-index.html" >Old Favorites</a></td>
+              </tr>
+              <tr>
+                 <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../romantic-albums-index.html')" >
+<a href="../../romantic-albums-index.html" >Love Songs</a></td>
+             </tr>
+              <tr>
+                 <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../wedding-albums-index.html')" >
+<a href="../../wedding-albums-index.html" >Wedding Songs</a></td>
+              </tr>
+              <tr>
+              <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../qawwali-albums-index.html')" >
+<a href="../../qawwali-albums-index.html" >Qawwali</a></td>
+              </tr>
+              <tr>
+                <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../karaoke-albums-index.html')" >
+<a href="../../karaoke-albums-index.html" >Karaoke</a></td>
+              </tr>
+              <tr>
+              <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../instrumental-albums-index.html')" >
+<a href="../../instrumental-albums-index.html" >Instrumental</a></td>
+              </tr>
+              <tr>
+              <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../classical-albums-index.html')" >
+<a href="../../classical-albums-index.html" >Classical</a></td>
+              </tr>
+<tr>
+              <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'../../patriotic-albums-index.html')" >
+<a href="../../patriotic-albums-index.html" >Patriotic</a></td>
+              </tr>       
+              
+
+			  <tr>
+                <td width="100%" height="21"><a href="regional.php">
+                <img border="0" src="images/regionalbar.gif" width="168" height="21"></a></td>
+              </tr>
+              <tr>
+              <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'bengali-albums-index.html')" >
+<a href="bengali-albums-index.html" >Bengali</a></td>
+              </tr>
+              <tr>
+              <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'bhangra-albums-index.html')" >
+<a href="bhangra-albums-index.html" >Bhangra</a></td>
+              </tr>
+              <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'carnatic-albums-index.html')" >
+<a href="carnatic-albums-index.html" >Carnatic</a></td>
+              </tr>
+              <tr>
+              <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'gujarati-albums-index.html')" >
+<a href="gujarati-albums-index.html" >Gujarati</a></td>
+              </tr>
+              <tr>
+              <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'hindi-albums-index.html')" >
+<a href="hindi-albums-index.html" >Hindi</a></td>
+              </tr>
+              <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'kannada-albums-index.html')" >
+<a href="kannada-albums-index.html" >Kannada</a></td>
+              </tr>
+              <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'malayalam-albums-index.html')" >
+<a href="malayalam-albums-index.html" >Malayalam</a></td>
+              </tr>
+              <tr>
+                <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'marathi-albums-index.html')" >
+<a href="marathi-albums-index.html" >Marathi</a></td>
+              </tr>
+              <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'tamil-albums-index.html')" >
+<a href="tamil-albums-index.html" >Tamil</a></td>
+              </tr>
+              <tr>
+                <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'telugu-albums-index.html')" >
+<a href="telugu-albums-index.html" >Telugu</a></td>
+               </tr>
+              <tr>
+                <td width="100%" height="21">
+                <img border="0" src="images/downloadbar.gif" width="168" height="21"></td>
+              </tr>
+              <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'wallpaper.php')" >
+<a href="wallpaper.php" >Gallery</a></td>
+              </tr>
+              <tr>
+                <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'ringtones.php')" >
+<a href="ringtones.php">Ringtones</a></td>
+              </tr>
+              <tr>
+               <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'toolbar.php')" >
+<a href="toolbar.php">Toolbar</a></td>
+              </tr>
+              <tr>
+                <td width="100%" height="21">
+                <a href="radio.php">
+                <img border="0" src="images/liveradiosbar.gif" width="168" height="21"></a></td>
+              </tr>
+              <tr>
+                <td width="100%" height="21">
+                <a href="refer.php">
+                <img border="0" src="images/refersite.gif" width="168" height="21"></a></td>
+              </tr>
+              <tr>
+                <td width="100%" height="21">
+                <p align="center"><br>
+		<!-- AddThis Button BEGIN -->
+		<a href="http://www.addthis.com/bookmark.php?v=250" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=dishant"></script>
+		<!-- AddThis Button END -->  	                 
+                </td>
+              </tr>              
+             
+              </table>
+
+
+            </td>
+            <td width="25%" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber11">
+              <tr>
+                <td width="100%"><a href="hindi-newaddition.html">
+                <img border="0" src="images/newadd.gif" width="248" height="29"></a></td>
+              </tr>
+                  <!-- 
+                  <tr>
+                    <td class=films1 width="100%" colspan="2" bgcolor="#FFFFFF" dir="ltr">
+                    <p align="center" dir="ltr">
+                   -->
+                    
+                    <!-- Advertisement<br> -->
+
+  		<!--
+  		<a target="_blank" href="http://itunes.apple.com/us/app/dishant-indian-music-songs/id354099906?mt=8">
+		    Get Dishant iPhone/iPod Touch App</a><br>			
+		    <a target="_blank" href="http://itunes.apple.com/us/app/dishant-indian-music-songs/id354099906?mt=8">
+		    <img border="0" src="/images/App_Store_Badge_small.gif" alt="Appstore" /></a>	
+
+                    </tr>
+                    -->
+              <tr>
+                <td width="100%">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber12">
+                  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Bol-Bachchan.html"><img border="0" src="/albums/14808.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Bol-Bachchan.html">Bol Bachchan</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Ajay-Devgn.html"><font Color="blue">Ajay Devgn</font></a>, <a Href="cast/Abhishek-Bachchan.html"><font Color="blue">Abhishek Bachchan</font></a>, <a Href="cast/Asin.html"><font Color="blue">Asin</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Rowdy-Rathore.html"><img border="0" src="/albums/14695.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Rowdy-Rathore.html">Rowdy Rathore</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Akshay-Kumar.html"><font Color="blue">Akshay Kumar</font></a>, <a Href="cast/Sonakshi-Sinha.html"><font Color="blue">Sonakshi Sinha</font></a>, <a Href="cast/Karisma-Kapoor.html"><font Color="blue">Karisma Kapoor</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Teri-Meri-Kahaani.html"><img border="0" src="/albums/14863.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Teri-Meri-Kahaani.html">Teri Meri Kahaani</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Shahid-Kapoor.html"><font Color="blue">Shahid Kapoor</font></a>, <a Href="cast/Priyanka-Chopra.html"><font Color="blue">Priyanka Chopra</font></a>, <a Href="cast/Neha-Sharma.html"><font Color="blue">Neha Sharma</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Shanghai.html"><img border="0" src="/albums/14820.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Shanghai.html">Shanghai</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Emraan-Hashmi.html"><font Color="blue">Emraan Hashmi</font></a>, <a Href="cast/Abhay-Deol.html"><font Color="blue">Abhay Deol</font></a>, <a Href="cast/Farooq-Sheikh.html"><font Color="blue">Farooq Sheikh</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Rakhtbeej.html"><img border="0" src="/albums/14877.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Rakhtbeej.html">Rakhtbeej</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Maanas-Srivastava.html"><font Color="blue">Maanas Srivastava</font></a>, <a Href="cast/Sayantani-Nandi.html"><font Color="blue">Sayantani Nandi</font></a>, <a Href="cast/Sanjay-Gagnani.html"><font Color="blue">Sanjay Gagnani</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Gangs-Of-Wasseypur.html"><img border="0" src="/albums/14865.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Gangs-Of-Wasseypur.html">Gangs Of Wasseypur</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Manoj-Bajpayee.html"><font Color="blue">Manoj Bajpayee</font></a>, <a Href="cast/Nawazuddin-Siddiqui.html"><font Color="blue">Nawazuddin Siddiqui</font></a>, <a Href="cast/Piyush-Mishra.html"><font Color="blue">Piyush Mishra</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Vicky-Donor.html"><img border="0" src="/albums/14786.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Vicky-Donor.html">Vicky Donor</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Annu-Kapoor.html"><font Color="blue">Annu Kapoor</font></a>, <a Href="cast/Ayushman-Khurana.html"><font Color="blue">Ayushman Khurana</font></a>, <a Href="cast/Yami-Gautam.html"><font Color="blue">Yami Gautam</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Hate-Story.html"><img border="0" src="/albums/14732.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Hate-Story.html">Hate Story</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Gulshan-Devaiya.html"><font Color="blue">Gulshan Devaiya</font></a>, <a Href="cast/Paoli-Dam.html"><font Color="blue">Paoli Dam</font></a>, <a Href="cast/Nikhil-Dwivedi.html"><font Color="blue">Nikhil Dwivedi</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Jannat-2.html"><img border="0" src="/albums/14635.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Jannat-2.html">Jannat 2</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Emraan-Hashmi.html"><font Color="blue">Emraan Hashmi</font></a>, <a Href="cast/Randeep-Hooda.html"><font Color="blue">Randeep Hooda</font></a>, <a Href="cast/Prachi-Desai.html"><font Color="blue">Prachi Desai</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Bittoo-Boss.html"><img border="0" src="/albums/14634.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Bittoo-Boss.html">Bittoo Boss</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Pulkit-Samrat.html"><font Color="blue">Pulkit Samrat</font></a>, <a Href="cast/Amita-Pathak.html"><font Color="blue">Amita Pathak</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Housefull-2.html"><img border="0" src="/albums/13968.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Housefull-2.html">Housefull 2</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Akshay-Kumar.html"><font Color="blue">Akshay Kumar</font></a>, <a Href="cast/Riteish-Deshmukh.html"><font Color="blue">Riteish Deshmukh</font></a>, <a Href="cast/John-Abraham.html"><font Color="blue">John Abraham</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Chaar-Din-Ki-Chandni.html"><img border="0" src="/albums/14530.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Chaar-Din-Ki-Chandni.html">Chaar Din Ki Chandni</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Tusshar-Kapoor.html"><font Color="blue">Tusshar Kapoor</font></a>, <a Href="cast/Kulraj-Randhawa.html"><font Color="blue">Kulraj Randhawa</font></a>, <a Href="cast/Anupam-Kher.html"><font Color="blue">Anupam Kher</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Agent-Vinod.html"><img border="0" src="/albums/13016.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Agent-Vinod.html">Agent Vinod</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Saif-Ali-Khan.html"><font Color="blue">Saif Ali Khan</font></a>, <a Href="cast/Kareena-Kapoor.html"><font Color="blue">Kareena Kapoor</font></a>, <a Href="cast/Gulshan-Grover.html"><font Color="blue">Gulshan Grover</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Tezz.html"><img border="0" src="/albums/14672.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Tezz.html">Tezz</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Anil-Kapoor.html"><font Color="blue">Anil Kapoor</font></a>, <a Href="cast/Ajay-Devgn.html"><font Color="blue">Ajay Devgn</font></a>, <a Href="cast/Kangna-Ranaut.html"><font Color="blue">Kangna Ranaut</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Kahaani.html"><img border="0" src="/albums/14632.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Kahaani.html">Kahaani</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Vidya-Balan.html"><font Color="blue">Vidya Balan</font></a>, <a Href="cast/Parambrata-Chattopadhyay.html"><font Color="blue">Parambrata Chattopadhyay</font></a>, <a Href="cast/Nawazuddin-Siddiqui.html"><font Color="blue">Nawazuddin Siddiqui</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Blood-Money.html"><img border="0" src="/albums/14633.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Blood-Money.html">Blood Money</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Kunal-Khemu.html"><font Color="blue">Kunal Khemu</font></a>, <a Href="cast/Amrita-Puri.html"><font Color="blue">Amrita Puri</font></a>, <a Href="cast/Manish-Choudhary.html"><font Color="blue">Manish Choudhary</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Will-You-Marry-Me.html"><img border="0" src="/albums/14679.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Will-You-Marry-Me.html">Will You Marry Me</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Shreyas-Talpade.html"><font Color="blue">Shreyas Talpade</font></a>, <a Href="cast/Mugdha-Godse.html"><font Color="blue">Mugdha Godse</font></a>, <a Href="cast/Rajeev-Khandelwal.html"><font Color="blue">Rajeev Khandelwal</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Sadda-Adda.html"><img border="0" src="/albums/14577.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Sadda-Adda.html">Sadda Adda</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Karanvir-Sharma.html"><font Color="blue">Karanvir Sharma</font></a>, <a Href="cast/Rohin-Robert.html"><font Color="blue">Rohin Robert</font></a>, <a Href="cast/Bhaumik-Sampat.html"><font Color="blue">Bhaumik Sampat</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Gali-Gali-Chor-Hai.html"><img border="0" src="/albums/14590.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Gali-Gali-Chor-Hai.html">Gali Gali Chor Hai</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Akshaye-Khanna.html"><font Color="blue">Akshaye Khanna</font></a>, <a Href="cast/Shriya-Saran.html"><font Color="blue">Shriya Saran</font></a>, <a Href="cast/Mugdha-Godse.html"><font Color="blue">Mugdha Godse</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Jodi-Breakers.html"><img border="0" src="/albums/14608.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Jodi-Breakers.html">Jodi Breakers</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/R-Madhavan.html"><font Color="blue">R Madhavan</font></a>, <a Href="cast/Bipasha-Basu.html"><font Color="blue">Bipasha Basu</font></a>, <a Href="cast/Omi-Vaidya.html"><font Color="blue">Omi Vaidya</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Married-2-America.html"><img border="0" src="/albums/14622.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Married-2-America.html">Married 2 America</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Jackie-Shroff.html"><font Color="blue">Jackie Shroff</font></a>, <a Href="cast/Archana-Joglekar.html"><font Color="blue">Archana Joglekar</font></a>, <a Href="cast/Shweta-Tiwari.html"><font Color="blue">Shweta Tiwari</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/London-Paris-New-York.html"><img border="0" src="/albums/14639.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/London-Paris-New-York.html">London Paris New York</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Ali-Zafar.html"><font Color="blue">Ali Zafar</font></a>, <a Href="cast/Aditi-Rao-Hydari.html"><font Color="blue">Aditi Rao Hydari</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Ek-Main-Aur-Ekk-Tu.html"><img border="0" src="/albums/14524.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Ek-Main-Aur-Ekk-Tu.html">Ek Main Aur Ekk Tu</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Imran-Khan.html"><font Color="blue">Imran Khan</font></a>, <a Href="cast/Kareena-Kapoor.html"><font Color="blue">Kareena Kapoor</font></a>, <a Href="cast/Sonia-Mehra.html"><font Color="blue">Sonia Mehra</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Ek-Deewana-Tha.html"><img border="0" src="/albums/14531.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Ek-Deewana-Tha.html">Ek Deewana Tha</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Prateik-Babbar.html"><font Color="blue">Prateik Babbar</font></a>, <a Href="cast/Amy-Jackson.html"><font Color="blue">Amy Jackson</font></a>, <a Href="cast/Manu-Rishi.html"><font Color="blue">Manu Rishi</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Agneepath.html"><img border="0" src="/albums/14416.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Agneepath.html">Agneepath</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Hrithik-Roshan.html"><font Color="blue">Hrithik Roshan</font></a>, <a Href="cast/Priyanka-Chopra.html"><font Color="blue">Priyanka Chopra</font></a>, <a Href="cast/Sanjay-Dutt.html"><font Color="blue">Sanjay Dutt</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/5-Ghantey-Mien-Crore.html"><img border="0" src="/albums/14570.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/5-Ghantey-Mien-Crore.html">5 Ghantey Mien Crore</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Meera.html"><font Color="blue">Meera</font></a>, <a Href="cast/Abhishek-Kumar.html"><font Color="blue">Abhishek Kumar</font></a>, <a Href="cast/Shahwar-Ali.html"><font Color="blue">Shahwar Ali</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Tere-Naal-Love-Ho-Gaya.html"><img border="0" src="/albums/14533.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Tere-Naal-Love-Ho-Gaya.html">Tere Naal Love Ho Gaya</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Ritesh-Deshmukh.html"><font Color="blue">Ritesh Deshmukh</font></a>, <a Href="cast/Genelia-D-Souza.html"><font Color="blue">Genelia D Souza</font></a>, <a Href="cast/Om-Puri.html"><font Color="blue">Om Puri</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Players.html"><img border="0" src="/albums/14462.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Players.html">Players</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Abhishek-Bachchan.html"><font Color="blue">Abhishek Bachchan</font></a>, <a Href="cast/Sonam-Kapoor.html"><font Color="blue">Sonam Kapoor</font></a>, <a Href="cast/Bobby-Deol.html"><font Color="blue">Bobby Deol</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Lanka_-_2011.html"><img border="0" src="/albums/14473.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Lanka_-_2011.html">Lanka - 2011</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Manoj-Bajpayee.html"><font Color="blue">Manoj Bajpayee</font></a>, <a Href="cast/Arjan-Bajwa.html"><font Color="blue">Arjan Bajwa</font></a>, <a Href="cast/Tia-Bajpai.html"><font Color="blue">Tia Bajpai</font></a><br>
+                   </tr>
+				  				  <tr>
+                    <td class=films1 width="50%" rowspan="2" dir="ltr">
+                    <a href="../album/Don-2.html"><img border="0" src="/albums/13045.jpg" width="100" height="100"></a></td>
+                    <td class=films width="50%">
+					<a href="../album/Don-2.html">Don 2</a></td>
+                  </tr>
+                  <tr>
+                    <td class=films1 width="50%"><b>Cast : </b> <a Href="cast/Shah-Rukh-Khan.html"><font Color="blue">Shah Rukh Khan</font></a>, <a Href="cast/Priyanka-Chopra.html"><font Color="blue">Priyanka Chopra</font></a>, <a Href="cast/Arjun-Rampal.html"><font Color="blue">Arjun Rampal</font></a><br>
+                   </tr>
+				                    <tr>
+                    <td class=films1 width="100%" colspan="2" bgcolor="#FFFFFF" dir="ltr">
+                    <p align="right" dir="ltr">
+                    <a onmouseover="imgOn('lbut7')" ;="" onmouseout="imgOff('lbut7')" href="newaddition.php">
+                    <img src="images/more.gif" name="lbut7" alt="more" border="0" width="67" height="17" ></a>
+
+                    </tr>
+                </table>
+                </td>
+              </tr>
+              </table>
+            </td>
+          <form name="top10page" > 
+			<td width="65%" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber13">
+             
+			<!--   <tr>
+                <td width="5%">
+                <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" height="400" id="AutoNumber20">  --> 
+                
+				
+			
+				
+
+			<!--  	</table>
+                </td>
+              </tr>  -->
+			 </form> 
+              <tr>
+                <td>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111"  width="100%" id="AutoNumber19">
+				<!-- Currently Playing Start  
+				<tr>
+                 <td width="100%" bgcolor="#FFCC00" style="padding:1px;font: bold 16px Trebuchet MS,Helvetica;" valign="top">Currently Playing.... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<!-- <a href="javascript:refreshList();"><img src="images/Refresh-icon.png" name="refresh" alt="Refresh list" border="0" width="30" height="25" ></a>
+               </td>
+	              </tr>
+				  <td width="95%">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber21">
+				  <div id="divlistcontainer1"><tr>
+  <td width="100%">
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber21">
+
+	<tr>
+	<td class=list background="images/cellbg.gif" valign="top">
+	<a target="_top" href="album/umrao-jaan-(2006).html">
+	1. Salaam</a></td>
+	<td background="images/cellbg.gif">
+	<a href="jukebox.php?songid=56820" onclick="play();" target="play"
+	 ONMOUSEOVER="window.status='Play all tracks from this PCD!';return true;" ONMOUSEOUT="window.status='';return true;">
+	<img border="0" src="images/iconspeaker.gif" width="20" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a href="javascript:addpcd(56820)">
+	<img border="0" src="images/iconcd.gif" width="24" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a target="_top" href="mailsong/56820.html" >
+	<img border="0" src="images/iconcontact.gif" width="22" height="21"></a></td>
+	 <td background="images/cellbg.gif">
+	<input type="checkbox" name="asid" value="56820"></td>
+	  </tr>
+	<tr>
+	<td class=list background="images/cellbg.gif" valign="top">
+	<a target="_top" href="album/shor-in-the-city.html">
+	2. Saibo</a></td>
+	<td background="images/cellbg.gif">
+	<a href="jukebox.php?songid=87104" onclick="play();" target="play"
+	 ONMOUSEOVER="window.status='Play all tracks from this PCD!';return true;" ONMOUSEOUT="window.status='';return true;">
+	<img border="0" src="images/iconspeaker.gif" width="20" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a href="javascript:addpcd(87104)">
+	<img border="0" src="images/iconcd.gif" width="24" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a target="_top" href="mailsong/87104.html" >
+	<img border="0" src="images/iconcontact.gif" width="22" height="21"></a></td>
+	 <td background="images/cellbg.gif">
+	<input type="checkbox" name="asid" value="87104"></td>
+	  </tr>
+	<tr>
+	<td class=list background="images/cellbg.gif" valign="top">
+	<a target="_top" href="album/aap-aye-bahaar-aayee-(1971).html">
+	3. Koyal Kyun Gaye</a></td>
+	<td background="images/cellbg.gif">
+	<a href="jukebox.php?songid=38496" onclick="play();" target="play"
+	 ONMOUSEOVER="window.status='Play all tracks from this PCD!';return true;" ONMOUSEOUT="window.status='';return true;">
+	<img border="0" src="images/iconspeaker.gif" width="20" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a href="javascript:addpcd(38496)">
+	<img border="0" src="images/iconcd.gif" width="24" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a target="_top" href="mailsong/38496.html" >
+	<img border="0" src="images/iconcontact.gif" width="22" height="21"></a></td>
+	 <td background="images/cellbg.gif">
+	<input type="checkbox" name="asid" value="38496"></td>
+	  </tr>
+	<tr>
+	<td class=list background="images/cellbg.gif" valign="top">
+	<a target="_top" href="album/hate-story.html">
+	4. Mahe Jaan</a></td>
+	<td background="images/cellbg.gif">
+	<a href="jukebox.php?songid=90000" onclick="play();" target="play"
+	 ONMOUSEOVER="window.status='Play all tracks from this PCD!';return true;" ONMOUSEOUT="window.status='';return true;">
+	<img border="0" src="images/iconspeaker.gif" width="20" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a href="javascript:addpcd(90000)">
+	<img border="0" src="images/iconcd.gif" width="24" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a target="_top" href="mailsong/90000.html" >
+	<img border="0" src="images/iconcontact.gif" width="22" height="21"></a></td>
+	 <td background="images/cellbg.gif">
+	<input type="checkbox" name="asid" value="90000"></td>
+	  </tr>
+	<tr>
+	<td class=list background="images/cellbg.gif" valign="top">
+	<a target="_top" href="album/ajab-prem-ki-ghazab-kahani.html">
+	5. Tera Hone Laga Hoon</a></td>
+	<td background="images/cellbg.gif">
+	<a href="jukebox.php?songid=76563" onclick="play();" target="play"
+	 ONMOUSEOVER="window.status='Play all tracks from this PCD!';return true;" ONMOUSEOUT="window.status='';return true;">
+	<img border="0" src="images/iconspeaker.gif" width="20" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a href="javascript:addpcd(76563)">
+	<img border="0" src="images/iconcd.gif" width="24" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a target="_top" href="mailsong/76563.html" >
+	<img border="0" src="images/iconcontact.gif" width="22" height="21"></a></td>
+	 <td background="images/cellbg.gif">
+	<input type="checkbox" name="asid" value="76563"></td>
+	  </tr>
+	<tr>
+	<td class=list background="images/cellbg.gif" valign="top">
+	<a target="_top" href="album/bol-bachchan.html">
+	6. Bol Bachchan (remix)</a></td>
+	<td background="images/cellbg.gif">
+	<a href="jukebox.php?songid=90209" onclick="play();" target="play"
+	 ONMOUSEOVER="window.status='Play all tracks from this PCD!';return true;" ONMOUSEOUT="window.status='';return true;">
+	<img border="0" src="images/iconspeaker.gif" width="20" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a href="javascript:addpcd(90209)">
+	<img border="0" src="images/iconcd.gif" width="24" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a target="_top" href="mailsong/90209.html" >
+	<img border="0" src="images/iconcontact.gif" width="22" height="21"></a></td>
+	 <td background="images/cellbg.gif">
+	<input type="checkbox" name="asid" value="90209"></td>
+	  </tr>
+	<tr>
+	<td class=list background="images/cellbg.gif" valign="top">
+	<a target="_top" href="album/tezz.html">
+	7. Tere Bina</a></td>
+	<td background="images/cellbg.gif">
+	<a href="jukebox.php?songid=89552" onclick="play();" target="play"
+	 ONMOUSEOVER="window.status='Play all tracks from this PCD!';return true;" ONMOUSEOUT="window.status='';return true;">
+	<img border="0" src="images/iconspeaker.gif" width="20" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a href="javascript:addpcd(89552)">
+	<img border="0" src="images/iconcd.gif" width="24" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a target="_top" href="mailsong/89552.html" >
+	<img border="0" src="images/iconcontact.gif" width="22" height="21"></a></td>
+	 <td background="images/cellbg.gif">
+	<input type="checkbox" name="asid" value="89552"></td>
+	  </tr>
+	<tr>
+	<td class=list background="images/cellbg.gif" valign="top">
+	<a target="_top" href="album/teri-meri-kahaani.html">
+	8. Mukhtasar</a></td>
+	<td background="images/cellbg.gif">
+	<a href="jukebox.php?songid=90190" onclick="play();" target="play"
+	 ONMOUSEOVER="window.status='Play all tracks from this PCD!';return true;" ONMOUSEOUT="window.status='';return true;">
+	<img border="0" src="images/iconspeaker.gif" width="20" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a href="javascript:addpcd(90190)">
+	<img border="0" src="images/iconcd.gif" width="24" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a target="_top" href="mailsong/90190.html" >
+	<img border="0" src="images/iconcontact.gif" width="22" height="21"></a></td>
+	 <td background="images/cellbg.gif">
+	<input type="checkbox" name="asid" value="90190"></td>
+	  </tr>
+	<tr>
+	<td class=list background="images/cellbg.gif" valign="top">
+	<a target="_top" href="album/bewafaa-(2004).html">
+	9. Kehta Hai Kabutar</a></td>
+	<td background="images/cellbg.gif">
+	<a href="jukebox.php?songid=21581" onclick="play();" target="play"
+	 ONMOUSEOVER="window.status='Play all tracks from this PCD!';return true;" ONMOUSEOUT="window.status='';return true;">
+	<img border="0" src="images/iconspeaker.gif" width="20" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a href="javascript:addpcd(21581)">
+	<img border="0" src="images/iconcd.gif" width="24" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a target="_top" href="mailsong/21581.html" >
+	<img border="0" src="images/iconcontact.gif" width="22" height="21"></a></td>
+	 <td background="images/cellbg.gif">
+	<input type="checkbox" name="asid" value="21581"></td>
+	  </tr>
+	<tr>
+	<td class=list background="images/cellbg.gif" valign="top">
+	<a target="_top" href="album/kurbaan.html">
+	10. Ali Maula</a></td>
+	<td background="images/cellbg.gif">
+	<a href="jukebox.php?songid=76595" onclick="play();" target="play"
+	 ONMOUSEOVER="window.status='Play all tracks from this PCD!';return true;" ONMOUSEOUT="window.status='';return true;">
+	<img border="0" src="images/iconspeaker.gif" width="20" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a href="javascript:addpcd(76595)">
+	<img border="0" src="images/iconcd.gif" width="24" height="21"></a></td>
+	<td background="images/cellbg.gif">
+	<a target="_top" href="mailsong/76595.html" >
+	<img border="0" src="images/iconcontact.gif" width="22" height="21"></a></td>
+	 <td background="images/cellbg.gif">
+	<input type="checkbox" name="asid" value="76595"></td>
+	  </tr>
+
+
+
+<tr>
+                   <td width="100%" colspan="5" height="1">
+                    <img border="0" src="images/space.gif" width="304" height="1"></td>
+                      </tr>
+                      <tr>
+                    <td width="100%" colspan="5" height="1">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber15">
+                      <tr>
+                        <td class=cellt width="25%" align="center">
+                        <p align="center">
+
+                        <a onmouseover="imgOn('lbut3')" ;="" onmouseout="imgOff('lbut3')" onclick="checkall()">
+                        <img src="images/selectall.gif" name="lbut3" alt="select all" border="0" width="67" height="17"></a>
+
+                        </td>
+                         <td class=cellt width="25%" align="center">
+
+                        <a onmouseover="imgOn('lbut4')" ;="" onmouseout="imgOff('lbut4')" onclick="playSelected('')" >
+                        <img src="images/play.gif" name="lbut4" alt="play" border="0" width="67" height="17" ></a>
+                        </td>
+                        <td class=cellt width="25%" align="center">
+                        <a onmouseover="imgOn('lbut5')" ;="" onmouseout="imgOff('lbut5')" onclick="pcdSelected()">
+                        <img src="images/pcds.gif" name="lbut5" alt="pcds" border="0" width="67" height="17" ></a>
+                        </td>
+                        <td class=cellt width="25%" align="center">
+                        <a onmouseover="imgOn('lbut6')" ;="" onmouseout="imgOff('lbut6')" onclick="clearall()">
+                        <img src="images/clearall.gif" name="lbut6" alt="pcds" border="0" width="67" height="17"  ></a>
+
+                        </td>
+                      </tr>
+                    </table>
+                    </td>
+       
+					  </tr>
+	
+                    </table>
+                    </td>
+                  </tr>
+           </div>
+					</table></td></tr>
+					<!-- Currently Playing End -->
+					 <td width="85%">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber21">
+
+				  		<div id="modernbricksmenu">
+						<ul  id='myUL'>
+					<li id="current" onclick='myFunction(this);'  style="margin-left: 1px">
+					<a href="javascript:ajaxpage('fetchTop10.php?channeltype=hindi',
+						'divcontainer')" title="Top 10 songs" >Top 10</a></li>
+						<li onclick='myFunction(this);' ><a href="javascript:ajaxpage('recentlyplayed.php?channeltype=hindi',
+				'divcontainer')" title="Currently Playing Songs">Currently Playing</a></li>
+						<li onclick='myFunction(this);'><a href="javascript:ajaxpage('getTopRated.php?channeltype=hindi',
+				'divcontainer')" title="Top Rated Songs" >Top Rated</a></li>
+						</ul>
+						<div id="modernbricksmenuline">&nbsp;</div>
+		
+						</div>
+					 <div id="divcontainer" style=""></div>
+					</table>
+					</td>
+					<!-- Top Rated End -->
+			
+              <tr>
+                <td bgcolor="#211818" width="347">
+				<table border="0" cellspacing="2" cellpadding="0" width="340" width="">
+				<tr>						
+				<a href="http://hindi.filmychai.com/video" target="_blank">
+                <img border="0" src="images/bollywoodvideos.gif" alt="Bollywood Videos" width="345" height="29"></a>
+				<br><center>
+				<iframe width="347" height="260" src="http://www.youtube.com/embed/cljzqMQFjts" frameborder="0" allowfullscreen></iframe>
+				
+				<!-- <a href="http://itunes.apple.com/app/id388415793?mt=8#" target="_blank">
+                <img border="0" src="/images/eflashhindi.png" alt="Hindi Baby Flash Cards" width="347" height="727"></a>
+                -->
+                		</center>
+				
+				<!--
+				
+				
+					<td valign="top">
+						<div class="shadow-box"><div class="img-shadow">
+						<a href="/dishantvideos.php?title=Govinda-roles-chopped-in-Raavan&id=VtbDZkMTrIDOvv48YCmepzBQwsl4aXdG&pagenum=1.#bottom"  title="Click here to watch Govinda roles chopped in Raavan  video">
+						
+						<img alt="Please wait a moment to load images...." title="Click me to play video." border=0 width=90, height=90 src="/zoom/4484.jpg"/></a></div>
+						</a></div>
+						
+						<div style="padding:5px 0 5px 5px;
+							width:100px;font: bold 12px Trebuchet MS, Helvetica, Arial;color:#000000">
+						<a href="/dishantvideos.php?title=Govinda-roles-chopped-in-Raavan&id=VtbDZkMTrIDOvv48YCmepzBQwsl4aXdG&pagenum=1.#bottom"  title="Click here to watch Govinda roles chopped in Raavan  video">
+						<strong>Govinda roles chopped in Raavan</strong></a></div>
+						 </td>
+					 					 
+					<td valign="top">
+						<div class="shadow-box"><div class="img-shadow">
+						<a href="/dishantvideos.php?title=Dhoni-launches-his-merchandise&id=VubDZkMTrLMLW9gQ7VjliUpUZcRHAplb&pagenum=1.#bottom"  title="Click here to watch Dhoni launches his merchandise  video">
+						
+						<img alt="Please wait a moment to load images...." title="Click me to play video." border=0 width=90, height=90 src="/zoom/4483.jpg"/></a></div>
+						</a></div>
+						
+						<div style="padding:5px 0 5px 5px;
+							width:100px;font: bold 12px Trebuchet MS, Helvetica, Arial;color:#000000">
+						<a href="/dishantvideos.php?title=Dhoni-launches-his-merchandise&id=VubDZkMTrLMLW9gQ7VjliUpUZcRHAplb&pagenum=1.#bottom"  title="Click here to watch Dhoni launches his merchandise  video">
+						<strong>Dhoni launches his merchandise</strong></a></div>
+						 </td>
+					 					 
+					<td valign="top">
+						<div class="shadow-box"><div class="img-shadow">
+						<a href="/dishantvideos.php?title=Bollywood-stars-love-food&id=VvbDZkMToEYEYBzaeYyNg0KAnNHBvft3&pagenum=1.#bottom"  title="Click here to watch Bollywood stars love food  video">
+						
+						<img alt="Please wait a moment to load images...." title="Click me to play video." border=0 width=90, height=90 src="/zoom/4482.jpg"/></a></div>
+						</a></div>
+						
+						<div style="padding:5px 0 5px 5px;
+							width:100px;font: bold 12px Trebuchet MS, Helvetica, Arial;color:#000000">
+						<a href="/dishantvideos.php?title=Bollywood-stars-love-food&id=VvbDZkMToEYEYBzaeYyNg0KAnNHBvft3&pagenum=1.#bottom"  title="Click here to watch Bollywood stars love food  video">
+						<strong>Bollywood stars love food</strong></a></div>
+						 </td>
+					 </tr><tr>					 
+					<td valign="top">
+						<div class="shadow-box"><div class="img-shadow">
+						<a href="/dishantvideos.php?title=Priety-and-Shilpa-in-IPL-controversy&id=VwbDZkMTqgUYjMgC0oo4YZo8Lds8HxMh&pagenum=1.#bottom"  title="Click here to watch Priety and Shilpa in IPL controversy  video">
+						
+						<img alt="Please wait a moment to load images...." title="Click me to play video." border=0 width=90, height=90 src="/zoom/4481.jpg"/></a></div>
+						</a></div>
+						
+						<div style="padding:5px 0 5px 5px;
+							width:100px;font: bold 12px Trebuchet MS, Helvetica, Arial;color:#000000">
+						<a href="/dishantvideos.php?title=Priety-and-Shilpa-in-IPL-controversy&id=VwbDZkMTqgUYjMgC0oo4YZo8Lds8HxMh&pagenum=1.#bottom"  title="Click here to watch Priety and Shilpa in IPL controversy  video">
+						<strong>Priety and Shilpa in IPL controversy</strong></a></div>
+						 </td>
+					 					 
+					<td valign="top">
+						<div class="shadow-box"><div class="img-shadow">
+						<a href="/dishantvideos.php?title=Shahbana-Azmi-had-put-on-weight&id=VxbDZkMTr4CAUhMF1l3GSPtbHBWcviM6&pagenum=1.#bottom"  title="Click here to watch Shahbana Azmi had put on weight  video">
+						
+						<img alt="Please wait a moment to load images...." title="Click me to play video." border=0 width=90, height=90 src="/zoom/4480.jpg"/></a></div>
+						</a></div>
+						
+						<div style="padding:5px 0 5px 5px;
+							width:100px;font: bold 12px Trebuchet MS, Helvetica, Arial;color:#000000">
+						<a href="/dishantvideos.php?title=Shahbana-Azmi-had-put-on-weight&id=VxbDZkMTr4CAUhMF1l3GSPtbHBWcviM6&pagenum=1.#bottom"  title="Click here to watch Shahbana Azmi had put on weight  video">
+						<strong>Shahbana Azmi had put on weight</strong></a></div>
+						 </td>
+					 					 
+					<td valign="top">
+						<div class="shadow-box"><div class="img-shadow">
+						<a href="/dishantvideos.php?title=House-Full-team-promotes-film&id=VzbDZkMTrjE0LxJRpxHE--rKF2DCa6SJ&pagenum=1.#bottom"  title="Click here to watch House Full team promotes film  video">
+						
+						<img alt="Please wait a moment to load images...." title="Click me to play video." border=0 width=90, height=90 src="/zoom/4479.jpg"/></a></div>
+						</a></div>
+						
+						<div style="padding:5px 0 5px 5px;
+							width:100px;font: bold 12px Trebuchet MS, Helvetica, Arial;color:#000000">
+						<a href="/dishantvideos.php?title=House-Full-team-promotes-film&id=VzbDZkMTrjE0LxJRpxHE--rKF2DCa6SJ&pagenum=1.#bottom"  title="Click here to watch House Full team promotes film  video">
+						<strong>House Full team promotes film</strong></a></div>
+						 </td>
+					 </tr><tr>					 
+					<td valign="top">
+						<div class="shadow-box"><div class="img-shadow">
+						<a href="/dishantvideos.php?title=Ranbir-Kapoor-hides-from-camera&id=ZsbDZkMTofQ1MiRVC6a_q2GEKFkm-iE7&pagenum=1.#bottom"  title="Click here to watch Ranbir Kapoor hides from camera  video">
+						
+						<img alt="Please wait a moment to load images...." title="Click me to play video." border=0 width=90, height=90 src="/zoom/4478.jpg"/></a></div>
+						</a></div>
+						
+						<div style="padding:5px 0 5px 5px;
+							width:100px;font: bold 12px Trebuchet MS, Helvetica, Arial;color:#000000">
+						<a href="/dishantvideos.php?title=Ranbir-Kapoor-hides-from-camera&id=ZsbDZkMTofQ1MiRVC6a_q2GEKFkm-iE7&pagenum=1.#bottom"  title="Click here to watch Ranbir Kapoor hides from camera  video">
+						<strong>Ranbir Kapoor hides from camera</strong></a></div>
+						 </td>
+					 					 
+					<td valign="top">
+						<div class="shadow-box"><div class="img-shadow">
+						<a href="/dishantvideos.php?title=Raajneeti-theatrical-trailer&id=94MzZkMTp6i-JjbVAdGDeXlyATUoS1dE&pagenum=1.#bottom"  title="Click here to watch Raajneeti theatrical trailer  video">
+						
+						<img alt="Please wait a moment to load images...." title="Click me to play video." border=0 width=90, height=90 src="/zoom/4477.jpg"/></a></div>
+						</a></div>
+						
+						<div style="padding:5px 0 5px 5px;
+							width:100px;font: bold 12px Trebuchet MS, Helvetica, Arial;color:#000000">
+						<a href="/dishantvideos.php?title=Raajneeti-theatrical-trailer&id=94MzZkMTp6i-JjbVAdGDeXlyATUoS1dE&pagenum=1.#bottom"  title="Click here to watch Raajneeti theatrical trailer  video">
+						<strong>Raajneeti theatrical trailer</strong></a></div>
+						 </td>
+					 					 
+					<td valign="top">
+						<div class="shadow-box"><div class="img-shadow">
+						<a href="/dishantvideos.php?title=Radio-Mirchi-th-birthday&id=VjNDNkMTrnjVSCkhBKiqgtnoyLdm_seG&pagenum=1.#bottom"  title="Click here to watch Radio Mirchi th birthday  video">
+						
+						<img alt="Please wait a moment to load images...." title="Click me to play video." border=0 width=90, height=90 src="/zoom/4476.jpg"/></a></div>
+						</a></div>
+						
+						<div style="padding:5px 0 5px 5px;
+							width:100px;font: bold 12px Trebuchet MS, Helvetica, Arial;color:#000000">
+						<a href="/dishantvideos.php?title=Radio-Mirchi-th-birthday&id=VjNDNkMTrnjVSCkhBKiqgtnoyLdm_seG&pagenum=1.#bottom"  title="Click here to watch Radio Mirchi th birthday  video">
+						<strong>Radio Mirchi th birthday</strong></a></div>
+						 </td>
+					 </tr><tr>					 			 	-->
+				
+				</tr>
+				
+				<!--
+				<tr>
+				
+				<td width="100%" colspan=2 align="center" style="padding:5px 0 5px 125px;
+					width:110px;font: bold 15px Trebuchet MS, Helvetica, Arial;color:#000000">
+                <a href="/dishantvideos.php">View All	</a>
+               </td>
+              </tr>
+              
+              -->
+				</table>
+								
+			     </td>
+              </tr>   
+
+		<!-- Currently Playing -->
+
+
+
+              <tr>
+                <td width="100%" bgcolor="#007CC3" onclick="navClick(this,'radio.php')" >
+                <a href="radio.php"><b><font size="4" face="Verdana" color="white">Tune in to Live Indian Radios</font>
+				</b></a>
+               </td>
+              </tr>
+              <tr>
+               <td width="100%">
+		<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="347" id="AutoNumber1" bgcolor="#111111">
+		 		  <tr>
+		    <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" align="center" valign="top"><b>
+		    <font color="#ffffff" face="Arial" size="2">
+		    <a style="text-decoration: none" href="radiojukebox.php?channel=new&action=0" onclick="play();" target="play">
+			<img src="/images/radio_latest.gif" alt="Latest Hits" border="0" width="86" height="86"><br>
+		    <font color="#FFFFFF">Latest Hits</font></a></font></b></td>
+		    <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" align="center" valign="top"><b>
+		    <font color="#ffffff" face="Arial" size="2">
+		    <a style="text-decoration: none" href="radiojukebox.php?channel=old&action=0" onclick="play();" target="play">
+		    <img src="/images/radio_evergreen.gif" alt="Oldies" border="0" width="86" height="86"><br>
+		    <font color="#FFFFFF">Oldies</font></a></font></b></td>
+		    <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" align="center" valign="top"><b>
+		    <font color="#ffffff" face="Arial" size="2">
+		    <a style="text-decoration: none" href="radiojukebox.php?channel=pop&action=0" onclick="play();" target="play">
+		    <img src="/images/radio_remix.gif" alt="Pop" border="0" width="86" height="86"><br>
+		    <font color="#FFFFFF">Pop</font></a></font></b>
+			</td>
+		  </tr>
+		  <tr>
+		    <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" align="center" valign="top"><b>
+		    <font color="#ffffff" face="Arial" size="2">
+		    <a style="text-decoration: none" href="radiojukebox.php?channel=remix&action=0" onclick="play();" target="play">
+		    <img src="/images/radio_pop.gif" alt="Remixes" border="0" width="86" height="86"><br>
+		    <font color="#FFFFFF">Remix</font></a></font></b></td>
+		    <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" align="center" valign="top"><b>
+		    <font color="#ffffff" face="Arial" size="2">
+		    <a style="text-decoration: none" href="radiojukebox.php?channel=ghazal&action=0" onclick="play();" target="play">
+		    <img src="/images/radio_ghazal.gif" alt="Ghazals" border="0" width="86" height="86"><br>
+		    <font color="#FFFFFF">Ghazals</font></a></font></b></td>
+		    <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" align="center" valign="top"><b>
+		    <font color="#ffffff" face="Arial" size="2">
+		    <a style="text-decoration: none" href="radiojukebox.php?channel=bhangra&action=0" onclick="play();" target="play">
+		    <img src="/images/radio_punjabi.gif" alt="Bhangra" border="0" width="86" height="86"><br>
+		    <font color="#FFFFFF">Bhangra</font></a></font></b></td>
+		  </tr>
+		  <tr>
+		    <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" align="center" valign="top"><b>
+		    <font color="#ffffff" face="Arial" size="2">
+		    <a style="text-decoration: none" href="radiojukebox.php?channel=love&action=0" onclick="play();" target="play">
+		    <img src="/images/radio_lovesong.gif" alt="Love Songs" border="0" width="86" height="86"><br>
+		    <font color="#FFFFFF">Love Songs</font></a></font></b></td>
+		    <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" align="center" valign="top"><b>
+		    <font color="#ffffff" face="Arial" size="2">
+		    <a style="text-decoration: none" href="radiojukebox.php?channel=evergreen&action=0" onclick="play();" target="play">
+		    <img src="/images/radio_oldies.gif" alt="Evergreen" border="0" width="86" height="86"><br>
+		    <font color="#FFFFFF">Evergreen</font></a></font></b></td>
+		    <td class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" align="center" valign="top"><b>
+		    <font color="#ffffff" face="Arial" size="2">
+		    <a style="text-decoration: none" href="radiojukebox.php?channel=wedding&action=0" onclick="play();" target="play">
+		    <!-- <a style="text-decoration: none" href="javascript:onclick=getChannel()" > -->
+		    <img src="/images/radio_wedding.gif" alt="Wedding Songs" border="0" width="86" height="86"><br>
+		    <font color="#FFFFFF">Wedding Songs</font></a></font></b></td>
+		  </tr>
+				  
+		</table>
+		
+		</td>
+		</tr>              
+                  <tr>
+                    <td width="100%">
+                                    <p align="center">
+		                    <font color="white" face="Arial" size="2">Advertisement</font><br>
+		                    
+		                   <script type="text/javascript"><!--
+				   google_ad_client = "ca-pub-3178070467339754";
+				   /* 336x280 Dishant, created 9/25/11 */
+				   google_ad_slot = "1375739910";
+				   google_ad_width = 336;
+				   google_ad_height = 280;
+				   //-->
+				   </script>
+				   <script type="text/javascript"
+				   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+				   </script>
+		                    
+                    <a href="wallpaper.php">
+                <img border="0" src="images/wallpaper.gif" width="347" height="29"></a></td>
+                  </tr>
+                  <tr>
+                    <td width="100%">
+                    <a href="wallpaper.php">
+                <img border="0" src="images/indexpics/hindi/15.jpg"></a></td>
+                  </tr>
+                  <tr>
+                    <td width="100%">
+                <a href="ringtones.php">
+                <img border="0" src="images/rigntones.gif" width="347" height="29"></a></td>
+                  </tr>
+					
+
+                </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td width="100%">
+                <p align="center">
+                <a href="radio.php">
+                <img border="0" src="images/liveradios1.gif" alt="Non-Stop Live Indian Radios"></a>              
+		    
+                </td>
+              </tr>  
+              <!-- <tr>
+                <td width="100%" class=linktext onmouseover="menu_categories(this,1)" onmouseout="menu_categories(this,0)" onclick="navClick(this,'celebnews.php')" 
+                <a href="celebnews.php"><font size="4" color="white">Bollywood Celebrity News</font></a>
+			
+		</td>
+		</tr> -->
+              <tr>
+                <td width="100%">
+                	
+                	<script type="text/javascript"><!--
+			google_ad_client = "ca-pub-3178070467339754";
+			/* 336x280 Dishant, created 9/25/11 */
+			google_ad_slot = "1375739910";
+			google_ad_width = 336;
+			google_ad_height = 280;
+			//-->
+			</script>
+			<script type="text/javascript"
+			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>	    	
+                
+			    <!-- <p align="center"><font size="5" face="Arial" color="#FFFFFF">
+			    <a style="text-decoration: none" href="advertise.php"><font color="#FFFFFF">
+			    Advertise on Dishant.com</font></a></font></p> -->
+			
+		</td>
+		</tr>              
+
+            </table>
+            </td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+      </table>
+    </td>
+    <td class=page width="12" valign="top">
+    <!-- ----------Advertising Banner Code---------- -->
+			
+	<IFRAME ALLOWTRANSPARENCY="true" SRC="rectangle300_250.php" scrolling="no" width="300" height="250" frameborder="0">
+	</IFRAME>
+	
+	   		
+	
+        <!-- Filmychai Content  -->
+                  <!-- Filmychai Content  -->
+                          
+	
+		<p>
+		<iframe  frameborder="0"   src="http://hindi.filmychai.com/embed/right" scrolling="No" height="350" width="300"></iframe>
+		</p> 
+		
+	<!-- Filmychai Content  -->	
+	
+	
+	<iframe ALLOWTRANSPARENCY="true" id="inner_right_advertisement" width="300" scrolling="no" height="250" src="http://hindi.filmychai.com/advert/rectangle300_250.php"></iframe>
+	
+	<!-- <IFRAME ALLOWTRANSPARENCY="true" SRC="rectangle300_250.php" scrolling="no" width="300" height="250" frameborder="0">
+	</IFRAME> -->
+	
+	<p>
+	<!-- Filmychai ads -->
+		<a target="_blank" href="http://hindi.filmychai.com/wallpapers">
+		<img src="/images/katrina_300_250.jpg" border="0">
+		</a>
+		
+	<!-- Filmychai ads --> 
+	
+	<p>		
+	<IFRAME ALLOWTRANSPARENCY="true" SRC="skyscraper.php" scrolling="no" width="160" height="600" frameborder="0">
+	</IFRAME>
+	<p>	
+	
+	<p>		
+	<IFRAME ALLOWTRANSPARENCY="true" SRC="skyscraper.php" scrolling="no" width="160" height="600" frameborder="0">
+	</IFRAME>
+	<p>		
+	
+	<!-- ----------Advertising Code---------- -->
+    </td>
+  </tr>
+  <tr>
+    <td class=page1 width="13%">
+    <p align="center">
+    <!-- ----------Advertising Banner Code---------- -->
+	<iframe ALLOWTRANSPARENCY="true" id="top_letter_box_ad" width="728" scrolling="no" height="90" src="http://www.filmychai.com/advert/letterboard.php"></iframe>
+	<!-- ----------Advertising Code---------- -->
+    </td>
+    <td class=page1>
+    &nbsp;</td>
+  </tr>
+  <tr>
+    <td class=linkbar width="14%">
+    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber17">
+      <tr>
+        <td class=copyright width="23%">Copyright Sangeethouse.com</td>
+        <td class=bottomlinks  width="77%">
+        <a href="advertise.php">Advertise</a> | <a href="disclaimer.php">Disclaimer</a> |
+        <a href="privacy.php">Privacy Policy</a> |
+        <a href="guestbook.php">Guest Book</a> | <a href="help.php">Help</a> |
+        <a href="contactus.php">Contact</a></td>
+      </tr>
+    </table>
+    </td>
+    <td class=linkbar width="12%">
+    &nbsp;</td>
+  </tr>
+  <tr>
+    <td class=page1 width="25%" colspan="2">
+    </td>
+  </tr>
+  </table>
+
+  <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+  _uacct = "UA-446928-1";
+  urchinTracker();
+</script>
+ 
+<script language="javascript">
+document.getElementById("divcontainer").innerHTML= ajaxpage('fetchTop10.php?channeltype=hindi',
+				'divcontainer');
+
+</script>
+</body>
+
+</html>

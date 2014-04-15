@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Date: Tue, 19 Jun 2012 15:53:50 GMT
+Pragma: no-cache
+Server: Apache/2.2.21 (Win64) PHP/5.3.8
+Content-Type: text/html
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Client-Date: Mon, 18 Jun 2012 23:36:53 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://fileice.net/images/favicon.ico>; rel="shortcut icon"; type="image/ico"
+Link: <http://fileice.net/css/reset.css>; media="all"; rel="stylesheet"; type="text/css"
+Link: <http://fileice.net/css/stylesheet.css>; media="all"; rel="stylesheet"; type="text/css"
+Set-Cookie: PHPSESSID=j8jbbamu63ckml404m43s123e2; path=/
+Title: FileIce LLC
+X-Powered-By: PHP/5.3.8

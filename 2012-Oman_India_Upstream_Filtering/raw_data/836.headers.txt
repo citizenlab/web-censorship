@@ -1,0 +1,110 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Connection: close
+Date: Tue, 19 Jun 2012 15:28:04 GMT
+Pragma: no-cache
+Server: lighttpd
+Content-Type: text/html;charset=UTF-8
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Last-Modified: Tue, 19 Jun 2012 15:28:04 GMT
+Client-Date: Mon, 18 Jun 2012 23:11:07 GMT
+Client-Peer: 194.71.107.15:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <//static.depiraatbaai.be/css5/main.css>; rel="stylesheet"
+Link: <//static.depiraatbaai.be/opensearch.xml>; rel="search"; title="Search The Pirate Bay"; type="application/opensearchdescription+xml"
+Link: </language/en_EN>; hreflang="en"; rel="alternate"
+Link: </language/sv_SE>; hreflang="sv"; rel="alternate"
+Link: </language/nb_NO>; hreflang="nb"; rel="alternate"
+Link: </language/nn_NO>; hreflang="nn"; rel="alternate"
+Link: </language/da_DK>; hreflang="da"; rel="alternate"
+Link: </language/fi_FI>; hreflang="fi"; rel="alternate"
+Link: </language/is_IS>; hreflang="is"; rel="alternate"
+Link: </language/nl_NL>; hreflang="nl"; rel="alternate"
+Link: </language/de_DE>; hreflang="de"; rel="alternate"
+Link: </language/it_IT>; hreflang="it"; rel="alternate"
+Link: </language/es_ES>; hreflang="es"; rel="alternate"
+Link: </language/pt_PT>; hreflang="pt"; rel="alternate"
+Link: </language/pt_BR>; hreflang="pt"; rel="alternate"
+Link: </language/fr_FR>; hreflang="fr"; rel="alternate"
+Link: </language/pl_PL>; hreflang="pl"; rel="alternate"
+Link: </language/hu_HU>; hreflang="hu"; rel="alternate"
+Link: </language/el_GR>; hreflang="el"; rel="alternate"
+Link: </language/tr_TR>; hreflang="tr"; rel="alternate"
+Link: </language/ru_RU>; hreflang="ru"; rel="alternate"
+Link: </language/sk_SK>; hreflang="sk"; rel="alternate"
+Link: </language/ca_ES>; hreflang="ca"; rel="alternate"
+Link: </language/he_IL>; hreflang="he"; rel="alternate"
+Link: </language/ja_JP>; hreflang="ja"; rel="alternate"
+Link: </language/bg_BG>; hreflang="bg"; rel="alternate"
+Link: </language/et_EE>; hreflang="et"; rel="alternate"
+Link: </language/ar_EG>; hreflang="ar"; rel="alternate"
+Link: </language/sr_YU>; hreflang="sr"; rel="alternate"
+Link: </language/zh_CN>; hreflang="zh"; rel="alternate"
+Link: </language/cs_CZ>; hreflang="cs"; rel="alternate"
+Link: </language/sl_SI>; hreflang="sl"; rel="alternate"
+Link: </language/uk_UA>; hreflang="uk"; rel="alternate"
+Link: </language/ms_MY>; hreflang="ms"; rel="alternate"
+Link: </language/bn_IN>; hreflang="bn"; rel="alternate"
+Link: </language/sq_AL>; hreflang="sq"; rel="alternate"
+Link: </language/hr_HR>; hreflang="hr"; rel="alternate"
+Link: <//rss.depiraatbaai.be/blog>; rel="alternate"; title="Blog"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/0>; rel="alternate"; title="All"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/100>; rel="alternate"; title="Audio"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/101>; rel="alternate"; title="Audio - Music"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/102>; rel="alternate"; title="Audio - Audio books"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/103>; rel="alternate"; title="Audio - Sound clips"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/104>; rel="alternate"; title="Audio - FLAC"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/199>; rel="alternate"; title="Audio - Other"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/200>; rel="alternate"; title="Video"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/201>; rel="alternate"; title="Video - Movies"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/202>; rel="alternate"; title="Video - Movies DVDR"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/203>; rel="alternate"; title="Video - Music videos"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/204>; rel="alternate"; title="Video - Movie clips"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/205>; rel="alternate"; title="Video - TV shows"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/206>; rel="alternate"; title="Video - Handheld"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/207>; rel="alternate"; title="Video - Highres - Movies"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/208>; rel="alternate"; title="Video - Highres - TV shows"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/209>; rel="alternate"; title="Video - 3D"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/299>; rel="alternate"; title="Video - Other"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/300>; rel="alternate"; title="Applications"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/301>; rel="alternate"; title="Applications - Windows"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/302>; rel="alternate"; title="Applications - Mac"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/303>; rel="alternate"; title="Applications - UNIX"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/304>; rel="alternate"; title="Applications - Handheld"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/305>; rel="alternate"; title="Applications - IOS (iPad/iPhone)"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/306>; rel="alternate"; title="Applications - Android"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/399>; rel="alternate"; title="Applications - Other OS"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/400>; rel="alternate"; title="Games"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/401>; rel="alternate"; title="Games - PC"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/402>; rel="alternate"; title="Games - Mac"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/403>; rel="alternate"; title="Games - PSx"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/404>; rel="alternate"; title="Games - XBOX360"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/405>; rel="alternate"; title="Games - Wii"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/406>; rel="alternate"; title="Games - Handheld"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/407>; rel="alternate"; title="Games - IOS (iPad/iPhone)"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/408>; rel="alternate"; title="Games - Android"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/499>; rel="alternate"; title="Games - Other"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/500>; rel="alternate"; title="Porn"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/501>; rel="alternate"; title="Porn - Movies"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/502>; rel="alternate"; title="Porn - Movies DVDR"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/503>; rel="alternate"; title="Porn - Pictures"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/504>; rel="alternate"; title="Porn - Games"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/505>; rel="alternate"; title="Porn - HighRes - Movies"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/506>; rel="alternate"; title="Porn - Movie clips"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/599>; rel="alternate"; title="Porn - Other"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/600>; rel="alternate"; title="Other"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/601>; rel="alternate"; title="Other - E-books"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/602>; rel="alternate"; title="Other - Comics"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/603>; rel="alternate"; title="Other - Pictures"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/604>; rel="alternate"; title="Other - Covers"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/605>; rel="alternate"; title="Other - Physibles"; type="application/rss+xml"
+Link: <//rss.depiraatbaai.be/699>; rel="alternate"; title="Other - Other"; type="application/rss+xml"
+Set-Cookie: PHPSESSID=25a33b560aa0322c6b8186d495c1ed62; path=/; domain=.depiraatbaai.be
+Set-Cookie: language=en_EN; expires=Wed, 19-Jun-2013 15:28:04 GMT; path=/; domain=.depiraatbaai.be
+Title: Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site
+X-Meta-Charset: utf-8
+X-Meta-Description: Download music, movies, games, software and much more. The Pirate Bay is the world's largest bittorrent tracker.
+X-Meta-Keywords: mp3, avi, bittorrent, torrent, torrents, movies, music, games, applications, apps, download, upload, share, kopimi, magnets, magnet
+X-Powered-By: PHP/5.4.4

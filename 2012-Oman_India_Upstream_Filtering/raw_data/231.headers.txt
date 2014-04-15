@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 19 Jun 2012 13:52:14 GMT
+Vary: Accept-Encoding
+Content-Length: 74528
+Content-Type: text/html; charset=UTF-8
+Client-Date: Mon, 18 Jun 2012 21:35:18 GMT
+Client-Peer: 50.97.143.27:80
+Client-Response-Num: 1
+Link: <http://assets.tumblr.com/images/default_avatar_16.gif>; rel=icon
+P3P: CP="ALL ADM DEV PSAi COM OUR OTRo STP IND ONL"
+Title: Satish Seth Reliance
+X-Dns-Prefetch-Control: off
+X-Meta-Charset: utf-8
+X-Meta-Color:Background: #3b627e
+X-Meta-Description: Satish Seth reliance on his Adag (Amma Daddy as Gods) parents is recorded by everyone. His group of friends are 2G (2 gorilla sized) Surendra Hari, Scam Sam, CBI (confused beyond imagination) Gautaman...
+X-Meta-Font:Accent: Lucida Sans
+X-Meta-Font:Body: Arial
+X-Meta-Font:Title: Arial
+X-Meta-If:Enable Jump Pagination: 0
+X-Meta-If:Show Album Art On Audio Posts: 1
+X-Meta-If:Show People I Follow: 1
+X-Meta-If:Show Tags: 1
+X-Meta-Image:Background: 
+X-Meta-Image:Header: 
+X-Meta-Text:Disqus Shortname: 
+X-Meta-Twitter:Site: 
+X-Tumblr-Usec: D=196928
+X-Tumblr-User: satishsethreliance

@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Mon, 18 Jun 2012 20:10:39 GMT
+Server: Apache/2.2.22 (FreeBSD) mod_ssl/2.2.22 OpenSSL/1.0.0h PHP/5.4.3
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Client-Date: Mon, 18 Jun 2012 20:10:36 GMT
+Client-Peer: 209.237.247.152:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: </themes/theme08blu.css?ff>; rel="stylesheet"; title="indybay blues"; type="text/css"
+Link: <http://www.indybay.org/syn/generate_rss.php?news_item_status_restriction=1155>; rel="alternate"; title="Indybay Newswire"; type="application/rss+xml"
+Link: <http://www.indybay.org/syn/generate_rss.php?include_blurbs=1&include_posts=0>; rel="alternate"; title="Indybay Features"; type="application/rss+xml"
+Link: <http://www.indybay.org/syn/generate_rss.php?media_type_grouping_id=3&news_item_status_restriction=1155>; rel="alternate"; title="Indybay Podcast"; type="application/rss+xml"
+Link: <http://www.indybay.org/syn/generate_rss.php?media_type_grouping_id=4&news_item_status_restriction=1155>; rel="alternate"; title="Indybay Videoblog"; type="application/rss+xml"
+Link: <http://www.indybay.org/syn/generate_rss.php?media_type_grouping_id=2&news_item_status_restriction=1155>; rel="alternate"; title="Indybay Photoblog"; type="application/rss+xml"
+Link: <http://www.indybay.org/syn/generate_rss.php?news_item_status_restriction=1155&rss_version=1>; rel="alternate"; title="Indybay Newswire RSS 1.0"; type="application/rss+xml"
+Title: San Francisco Bay Area Independent Media Center
+X-Meta-Geo.Position: 37.765;-122.4183
+X-Meta-ICBM: 37.765,-122.4183
+X-Powered-By: PHP/5.4.3

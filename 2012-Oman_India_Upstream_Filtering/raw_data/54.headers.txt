@@ -1,0 +1,4 @@
+500 Can't connect to www.cinemahd.net:80 (Bad hostname 'www.cinemahd.net')
+Content-Type: text/plain
+Client-Date: Mon, 18 Jun 2012 20:08:56 GMT
+Client-Warning: Internal response

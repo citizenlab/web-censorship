@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: close
+Date: Tue, 19 Jun 2012 15:25:51 GMT
+Pragma: no-cache
+Server: Apache/2.2.19 (Unix) mod_ssl/2.2.19 OpenSSL/0.9.8e-fips-rhel5 mod_bwlimited/1.4 PHP/5.3.5
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Client-Date: Mon, 18 Jun 2012 23:08:54 GMT
+Client-Peer: 205.234.27.70:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <favicon.ico>; rel="shortcut icon"
+Link: <http://apnaindia.com/extra/css/ai_style.css>; media="screen"; rel="stylesheet"; type="text/css"
+Set-Cookie: PHPSESSID=ab161f29b3216ed1333222ccff63b5e4; path=/
+Set-Cookie: mainhome=385546418.1.3032826176.1912788032; path=/
+Title: India Yellow Pages, Indian Movies, Local/World News, Free Classifieds, Cricket, Free SMS, Social Networking - apnaindia.com
+X-Meta-Description: Visit apnaindia.com for Indian Yellow Pages, updates on Indian Movies including News, Gossip, Event Stills/Videos, Wallpapers, Trailers. Apnaindia.com also delivers Latest Local/World News, Cricket Updates, Free SMS, and Social Networking.
+X-Meta-Keywords: apnaindia.com, latest classifieds, latest news, send free sms, movie news, cricket results, yellow pages
+X-Powered-By: PHP/5.3.5
+X-UA-Compatible: IE=EmulateIE6

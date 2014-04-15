@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Date: Tue, 19 Jun 2012 16:25:35 GMT
+ETag: "8f9ddc7a-dbc7-4baf-a076-4192e187932c"
+Server: GSE
+Content-Type: text/html; charset=UTF-8
+Expires: Tue, 19 Jun 2012 16:25:35 GMT
+Last-Modified: Wed, 18 Apr 2012 09:48:53 GMT
+Client-Date: Tue, 19 Jun 2012 00:08:43 GMT
+Client-Peer: x.x.x.x:80
+Client-Response-Num: 1
+Client-Transfer-Encoding: chunked
+Link: <http://www.desivideohub.com/favicon.ico>; rel="icon"; type="image/x-icon"
+Link: <http://www.desivideohub.com/>; rel="canonical"
+Link: <http://www.desivideohub.com/feeds/posts/default>; rel="alternate"; title="Desi Video Hub.. - Atom"; type="application/atom+xml"
+Link: <http://www.desivideohub.com/feeds/posts/default?alt=rss>; rel="alternate"; title="Desi Video Hub.. - RSS"; type="application/rss+xml"
+Link: <http://www.blogger.com/feeds/1574400542789104202/posts/default>; rel="service.post"; title="Desi Video Hub.. - Atom"; type="application/atom+xml"
+Link: <http://www.blogger.com/rsd.g?blogID=1574400542789104202>; rel="EditURI"; title="RSD"; type="application/rsd+xml"
+Link: <http://www.blogger.com/openid-server.g>; rel="openid.server"
+Link: <http://www.desivideohub.com/>; rel="openid.delegate"
+Link: <http://www.blogger.com/static/v1/widgets/2098323231-widget_css_2_bundle.css>; rel="stylesheet"; type="text/css"
+Link: <http://www.blogger.com/dyn-css/authorization.css?targetBlogID=1574400542789104202&zx=8f9ddc7a-dbc7-4baf-a076-4192e187932c>; rel="stylesheet"; type="text/css"
+Title: Desi Video Hub..
+X-Content-Type-Options: nosniff
+X-Meta-Description: DesiVideoHub | Live TV | Free Online High Quality Hindi, Telugu, Tamil, Kannada, MalayalmMovies | News..
+X-Meta-Generator: blogger
+X-Meta-Keywords: bollywood, movies, online, watch, hindi, download, telugu, video, film, tamil, malayalam, view, picture, photos, review, free, live tv, channels, radio, mp3 songs, gallery, pics, picture
+X-Meta-MSSmartTagsPreventParsing: true
+X-Meta-Msvalidate.01: CA05F5F89BFA1AE0622852E0E20AB4B8
+X-Meta-Viewport: width=1100
+X-Meta-Y-Key: e48652970f43b4ab
+X-UA-Compatible: IE=EmulateIE7
+X-XSS-Protection: 1; mode=block
