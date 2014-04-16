@@ -1,0 +1,63 @@
+url,theme,urlcategories,blockingmethod
+http://www.eppf.net,Conflict & Security,MILX,RST
+http://www.eprp.com,Conflict & Security,MILX,RST
+http://www.proxify.com,Internet Tools,ANON,RST
+http://www.psiphon.ca,Internet Tools,ANON,RST
+http://www.torproject.org,Internet Tools,ANON,RST
+http://www.ultrasurf.us,Internet Tools,ANON,RST
+https://www.torproject.org,Internet Tools,ANON,SSLDROPPED
+http://nazret.com,Internet Tools,BLGSERV,RST
+http://www.goolgule.com,Political,FEXP,DNSERROR
+http://ethiomedia.com,Political,FEXP,RST
+http://ethiox.com,Political,FEXP,RST
+http://nazret.com/blog/index.php?blog=13,Political,FEXP,RST
+http://nazret.com/blog/index.php?blog=7,Political,FEXP,RST
+http://www.addisnegeronline.com,Political,FEXP,RST
+http://www.andenet.com,Political,FEXP,RST
+http://www.andenet.com/amnews.html,Political,FEXP,RST
+http://www.cyberethiopia.com,Political,FEXP,RST
+http://www.cyberethiopia.com/warka4/,Political,FEXP,RST
+http://www.ethioforum.org,Political,FEXP,RST
+http://www.ethiomedia.com/index.html,Political,FEXP,RST
+http://www.ethiopianreview.com,Political,FEXP,RST
+http://www.ethiopians.com,Political,FEXP,RST
+http://www.gambelatoday.com,Political,FEXP,RST
+http://www.nazret.com,Political,FEXP,RST
+http://www.nazret.com/news/view_amharic.php?feed=5&what=all&how=paged,Political,FEXP,RST
+http://www.quatero.net,Political,FEXP,RST
+http://www.tensae.net,Political,FEXP,RST
+http://www.tzta.ca,Political,FEXP,RST
+http://www.tzta.ca/tzta/english.htm,Political,FEXP,RST
+http://nazret.com/blog/index.php?blog=14,Political,FEXP,RST
+http://www.addisvoice.com,Political,HUMR,RST
+http://www.ethiopians.com/hright.html,Political,HUMR,RST
+http://www.ethiopundit.blogspot.com,Political,HUMR,RST
+http://www.freekifle.org,Political,HUMR,RST
+http://www.justiceinethiopia.net,Political,HUMR,RST
+http://www.mesfinwoldemariam.org,Political,HUMR,RST
+http://www.socepp.de,Political,HUMR,RST
+http://www.tegbar.org,Political,HUMR,RST
+http://www.anuakjustice.org,Political,MINR,RST
+http://www.gumii.org,Political,MINR,RST
+http://www.ogaden.com,Political,MINR,RST
+http://www.onlf.org,Political,MINR,RST
+http://www.oromia.org,Political,MINR,RST
+http://www.oromoliberationfront.org,Political,MINR,RST
+http://www.tigrai.org,Political,MINR,RST
+http://ethiopianreview.com,Political,POLR,RST
+http://nazret.com/blog/index.php?blog=15,Political,POLR,RST
+http://www.meskelsquare.com,Political,POLR,RST
+http://www.ginbot7.com,Political,POLR,UNREQSYN
+http://www.hebret.com,Political,POLT,DNSERROR
+http://ethsat.com,Political,POLT,RST
+http://nazret.com/blog/index.php?blog=12,Political,POLT,RST
+http://nazret.com/blog/index.php?blog=16,Political,POLT,RST
+http://nazret.com/blog/index.php?blog=9,Political,POLT,RST
+http://solidaritymovement.org,Political,POLT,RST
+http://solidaritytigrai.org,Political,POLT,RST
+http://www.medhin.org,Political,POLT,RST
+http://www.mediaethiopia.com,Political,POLT,RST
+http://www.mediaethiopia.com/blog/,Political,POLT,RST
+http://www.debteraw.com,Social,HAL,RST
+http://www.seminawork.blogspot.com,Social,HAL,RST
+http://yekolotemari.blog.com,Social,HAL,RST
