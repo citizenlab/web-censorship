@@ -1,0 +1,256 @@
+Day 1 Results
+=================
+Blocks found on PROXY 149.255.255.x
+---
+hidemyass.com
+instagram.com
+ultrasurf.us
+www.dmoz.org
+www.facebook.com
+www.skype.com
+www.strongvpn.com
+www.youtube.com
+---
+Blocks found on PROXY 37.239.46.x
+---
+www.facebook.com
+www.hotspotshield.com
+www.strongvpn.com
+www.viber.com
+www.skype.com
+www.whatsapp.com
+www.xroxy.com
+www.youtube.com
+instagram.com
+twitter.com
+www.strongvpn.com
+www.xroxy.com
+---
+Blocks found on PROXY 37.239.46.x2
+---
+www.facebook.com
+www.hotspotshield.com
+www.strongvpn.com
+www.viber.com
+---
+Blocks found on PROXY 37.239.46.x3
+---
+www.skype.com
+www.whatsapp.com
+www.xroxy.com
+www.youtube.com
+---
+
+Day 2 Results
+=================
+Blocks found on PROXY 109.224.11.x
+---
+instagram.com
+www.strongvpn.com
+www.whatsapp.com
+---
+Blocks found on PROXY 149.255.255.x
+---
+hidemyass.com
+twitter.com
+ultrasurf.us
+www.dmoz.org
+www.hotspotshield.com
+www.skype.com
+www.strongvpn.com
+www.viber.com
+www.whatsapp.com
+www.youtube.com
+---
+Blocks found on PROXY 37.239.46.x
+---
+www.dmoz.org
+www.strongvpn.com
+www.tango.me
+www.youtube.com
+www.dmoz.org
+www.skype.com
+www.softlayer.com
+www.tango.me
+www.viber.com
+www.whatsapp.com
+www.xroxy.com
+www.youtube.com
+instagram.com
+twitter.com
+www.facebook.com
+www.hotspotshield.com
+www.skype.com
+www.strongvpn.com
+www.tango.me
+www.whatsapp.com
+www.xroxy.com
+---
+Blocks found on PROXY 37.239.46.x2
+---
+www.dmoz.org
+www.strongvpn.com
+www.tango.me
+www.youtube.com
+---
+Blocks found on PROXY 37.239.46.x3
+---
+www.dmoz.org
+www.skype.com
+www.softlayer.com
+www.tango.me
+www.viber.com
+www.whatsapp.com
+www.xroxy.com
+www.youtube.com
+---
+
+Day 3 Results
+=================
+Blocks found on PROXY 109.224.11.x
+---
+ultrasurf.us
+www.dmoz.org
+www.skype.com
+---
+Blocks found on PROXY 109.224.45.x
+---
+www.dmoz.org
+www.softlayer.com
+---
+Blocks found on PROXY 149.255.255.x
+---
+hidemyass.com
+openvpn.net
+twitter.com
+ultrasurf.us
+www.dmoz.org
+www.hotspotshield.com
+www.skype.com
+www.strongvpn.com
+www.whatsapp.com
+---
+Blocks found on PROXY 37.239.46.x
+---
+www.dmoz.org
+www.hotspotshield.com
+www.skype.com
+www.strongvpn.com
+www.tango.me
+www.viber.com
+www.facebook.com
+www.strongvpn.com
+www.whatsapp.com
+www.youtube.com
+hidemyass.com
+instagram.com
+www.facebook.com
+www.hotspotshield.com
+www.skype.com
+www.strongvpn.com
+www.tango.me
+www.wechat.com_
+www.whatsapp.com
+www.xroxy.com
+www.youtube.com
+---
+Blocks found on PROXY 37.239.46.x2
+---
+www.dmoz.org
+www.hotspotshield.com
+www.skype.com
+www.strongvpn.com
+www.tango.me
+www.viber.com
+---
+Blocks found on PROXY 37.239.46.x3
+---
+www.facebook.com
+www.strongvpn.com
+www.whatsapp.com
+www.youtube.com
+---
+
+Day 4 Results
+=================
+Blocks found on PROXY 109.224.45.x
+---
+openvpn.net
+www.dmoz.org
+www.facebook.com
+www.skype.com
+www.softlayer.com
+www.tango.me
+www.wechat.com_
+---
+Blocks found on PROXY 149.255.255.x
+---
+hidemyass.com
+openvpn.net
+ultrasurf.us
+www.dmoz.org
+www.facebook.com
+www.hotspotshield.com
+www.skype.com
+www.tango.me
+www.viber.com
+---
+Blocks found on PROXY 37.239.46.x
+---
+www.dmoz.org
+www.facebook.com
+www.gayhealth.com_
+www.skype.com
+www.softlayer.com
+www.tango.me
+www.viber.com
+www.whatsapp.com
+www.xroxy.com
+ec2-174-129-212-31.compute-1.amazonaws.com_
+www.hotspotshield.com
+www.skype.com
+www.strongvpn.com
+www.tango.me
+www.whatsapp.com
+www.youtube.com
+ec2-174-129-212-31.compute-1.amazonaws.com_
+hidemyass.com
+openvpn.net
+ultrasurf.us
+www.exoplatform.com_
+www.facebook.com
+www.gayhealth.com_
+www.hotspotshield.com
+www.skype.com
+www.strongvpn.com
+www.tango.me
+www.whatsapp.com
+www.xroxy.com
+www.youtube.com
+---
+Blocks found on PROXY 37.239.46.x2
+---
+www.dmoz.org
+www.facebook.com
+www.gayhealth.com_
+www.skype.com
+www.softlayer.com
+www.tango.me
+www.viber.com
+www.whatsapp.com
+www.xroxy.com
+---
+Blocks found on PROXY 37.239.46.x3
+---
+ec2-174-129-212-31.compute-1.amazonaws.com_
+www.hotspotshield.com
+www.skype.com
+www.strongvpn.com
+www.tango.me
+www.whatsapp.com
+www.youtube.com
+---
+
+Day 4 ISIS Site Results
+=================
+No Blocks Found

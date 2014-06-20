@@ -1,0 +1,2719 @@
+
+; <<>> DiG 9.7.0-P1 <<>> 666games.net
+; (1 server found)
+;; global options: +cmd
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> 8thstreetlatinas.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> 911lies.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> abpr2.railfan.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> adium.im
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> adultfriendfinder.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> advocacy.globalvoicesonline.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> alt.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> amphetamines.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> anon.inf.tu-dresden.de
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> anonnews.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> anonym.to
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> anonymizer.secuser.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> anonymouse.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> archive.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> astalavista.box.sk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> avaaz.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> beeg.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> bitcoin.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> bittornado.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> blackberry.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> blog.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> blogmarks.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> blogspot.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> bluehoney.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> blueskyswimwear.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> bnaibrith.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> bravotube.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> btggaming.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> btguard.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> care.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> cartercenter.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> casino.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> ccc.de
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> ccrjustice.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> chaos01.ah.to
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> chinadaily.com.cn
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> christwire.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> cocaine.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> commons.wikimedia.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> community.livejournal.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> conan.xxx
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> coolgaylinks.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> crackspider.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> craigslist.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> creativecommons.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> cryptome.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> cultdeadcow.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> cyber.law.harvard.edu
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> dcemail.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> de.lirio.us
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> debate.org.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> del.icio.us
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> delicious.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> deoxy.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> dextroverse.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> dictionary.reference.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> docs.google.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> doctissimo.fr
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> dopplr.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> download.cnet.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> dreamhost.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> duckduckgo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> earth-liberation-front.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> ecstasy.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> en.wikipedia.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> evernote.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> exscn.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> extratorrent.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> famousnudes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> fark.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> feministing.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> filestube.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> forum.grasscity.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> free.translated.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> freedns.afraid.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> freehomepage.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> freenetproject.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> friendfinder.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> fsrn.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> gawker.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> gayonthenet.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> gayromeo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> gaytoday.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> global.nytimes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> globalvoicesonline.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> gmx.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> go.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> goaskalice.columbia.edu
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> godhatesfags.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> groups.google.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> groups.msn.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> groups.yahoo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> guerrillagirls.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> hackers.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> hardsextube.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> herdict.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> heroin.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> hidemyass.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> hightimes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> hotgaylist.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> hotmail.msn.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> howtogrowmarijuana.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> huffingtonpost.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> hulu.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> identi.ca
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> imgur.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> imp.free.fr
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> instagram.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> international.ohmynews.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> internet-haganah.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> intertran.tranexp.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> isaalmasih.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> islaminstitut.de
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> isohunt.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> jdl.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> jezebel.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> kabobfest.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> kat.ph
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> khilafah.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> kickme.to
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> kids.yahoo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> last.fm
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> lauraannjacobs.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> lesboerotica.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> letitbit.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> lifestream.aol.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> login.live.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> mail.lycos.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> mail.ru
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> mail.voila.fr
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> mail.walla.co.il
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> mail.yahoo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> mail.yandex.ru
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> manhub.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> marijuana.nl
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> masexualite.ca
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> mashable.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> members.tripod.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> milfhunter.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> mixi.jp
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> moqavemat.ir
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> mp3-sale.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> my.myway.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> mybloglog.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> net33.us
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> netflix.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> new.gbgm-umc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> neworder.box.sk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> news.bbc.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> news.google.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> ning.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> nmap.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> oca.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> occupystreams.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> online.wsj.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> openvpn.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> opioids.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> packetstormsecurity.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> peta.xxx
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> phrack.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> physiciansforhumanrights.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> picasa.google.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> pingomatic.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> pirateparty.org.au
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> pogo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> pornhub.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> postimage.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> pridetube.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> proxify.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> proxpn.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> proxytools.sourceforge.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> psiphon.ca
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> qibla.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> rapidgator.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> realdoll.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> redtube.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> reproductiverights.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> rim.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> rockettube.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> rt.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> russia.tv
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> search.aol.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> seclists.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> seesmic.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> sethf.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> shamash.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> sierraclub.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> sites.google.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> sourceforge.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> spaces.msn.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> spankwire.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> spys.ru
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> steampowered.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> superbet.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> survive.org.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> teenadvice.about.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> telecomix.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> thehackernews.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> thepiratebay.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> timesofindia.indiatimes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> tinyurl.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> tor.eff.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> translate.google.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> translate.reference.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> translate.sakhr.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> translation.langenberg.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> translation2.paralink.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> translator.babylon.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> transporntube.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> transsexual.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> triviasecurity.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> turbobit.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> tvants.allp2ptv.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> tvants.uptodown.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> twilight.ws
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> twitpic.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> twitter.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> ultrasurf.us
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> uploaded.to
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> vho.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> video.google.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> vimeo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> voice.yahoo.jajah.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> warc.jalb.de
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> wayback.archive.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> webbox.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> weblogs.us
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> webmail.infomaniak.ch
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> webmail.sso.bluewin.ch
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> whitehonor.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> wikia.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> wordpress.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> wordpress.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> worldsingles.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> wupj.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.100webspace.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.150m.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.163.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.1and1.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.23.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.2600.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.2cutelingerie.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.2ddepot.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.2shared.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.365gay.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.3wishes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.43things.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.4chan.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.4online-gambling.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.4shared.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.888casino.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.89.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.911memorial.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.911truth.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.abcunderwear.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.abortionno.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.absinth.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.absolut.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.acdi-cida.gc.ca
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.aceshigh.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.acquisitionx.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.actionaid.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.address.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.adl.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.adventist.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.advocate.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.advocatesforyouth.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.af.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.afp.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.afterellen.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.afterelton.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.agentprovocateur.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ahram.org.eg
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.aidsalliance.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.aidsonline.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.akdn.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.alarabiya.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.aleph.to
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.aljazeera.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.almanar.com.lb
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.alqassam.ps
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.altavista.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.altpenis.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.amateurpages.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.amazon.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.americannaziparty.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.amnesty.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ananzi.co.za
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.angelfire.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.angelfire.lycos.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.anglicancommunion.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.angryharry.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.animalliberationfront.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.anonymitychecker.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.anonymizer.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.anonymizer.ru
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.anonymsurfen.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.apple.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.appzplanet.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.apt.ch
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.arabhra.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.arablounge.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.arabnews.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.arabrenewal.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.arabtimes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ariannelingerie.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.army.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.article19.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.aseansec.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ashemaletube.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.asianangels.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ask.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.askmoses.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.asterisk.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.atheistalliance.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.atheists.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.atimes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.attrition.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.auduboninternational.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.avert.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.awid.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.babylon-x.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bacardi.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.backtrack-linux.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bahai.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.baidu.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.barmeister.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bat.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bbc.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bbcworld.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bearshare.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bebo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.beer.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.beerinfo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bellebound.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.belmont.ag
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.benedelman.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.betfair.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.beyondexgay.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bfed.info
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bglad.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bild.t-online.de
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bing.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.birthcontrol.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bisexual.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bitcomet.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bittorrent.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.biz.ly
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.blackhat.be
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.blackjackinfo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.blacksandjews.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.blizzard.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.blogeasy.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.blogger.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bloglines.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.blogsome.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.blubster.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bmezine.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bn.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bodylingerie.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.boingboing.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.breastenlargementmagazine.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.brinkster.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.broadvoice.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.brook.edu
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.btselem.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.buddhanet.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.budweiser.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.buydutchseeds.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.callserve.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cameolingerieonline.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cancernews.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cannabis.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cannabis.info
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cannaweed.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.caritas.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.carnegieendowment.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.carnivalcasino.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.casinotropez.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.catholic.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.catholicsforchoice.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cbc.ca
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cbsnews.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ccel.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cdc.gov
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cdt.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ceceurope.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.centcom.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cesr.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.change.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.chantelle.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.childrensdefense.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.chinatimes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.christianity.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.christianitytoday.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.churchofeuthanasia.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cidh.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.circumcision.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cirp.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cis.minsk.by
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cites.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.citizenlab.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.clintonfoundation.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.clubdicecasino.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cnn.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.codespa.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.collegehumor.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.common-fund.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.concern.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.connotea.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.convertingtojudaism.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.copticchurch.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.coquette.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.counter-strike.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cpj.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.crackz.ws
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.crazyshit.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.crisisgroup.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.crs.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cseindia.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.csidonline.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.csmonitor.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cultoferotica.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cutegirlfriend.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cwgl.rutgers.edu
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cyber-pirates.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cypherpunks.ca
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.dailymail.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.dailymotion.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.darknet.org.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.darpa.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.date.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.dating.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.datingdirect.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.datingsingless.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.datpiff.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.dd-rd.ca
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ddo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.deathmetal.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.defcon.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.defense.gov
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.delicates.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.democracycaucus.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.democracynow.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.demonoid.me
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.depositfiles.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.derechos.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.dfid.gov.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.dharmanet.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.dia.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.digg.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.dit-inc.us
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.dmoz.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.dod.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.dogpile.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.dotster.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.download.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.drudgereport.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.drugs-forum.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.drugsense.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.dw-world.de
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.e-mailanywhere.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ea.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.earthaction.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.earthrights.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.earthwatch.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.eazydate.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ebaumsworld.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ebay.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ebuddy.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.eccentrix.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.eccouncil.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.echr.coe.int
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.economist.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ectaco.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.edf.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.eea.europa.eu
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.eelam.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.eff.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.efindlove.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.efonica.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.efsha.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.egyptianislamicgroup.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.eharmony.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.eln-voces.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.eluniversal.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.emailaddresses.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.emchurch.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.emule.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.engenderhealth.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.enom.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.envy.nu
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.enzotech.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.epa.gov
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.epic.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.episcopalchurch.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.er-d.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.erogeschichten.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.erowid.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.eurogrand.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.europacasino.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.euthanasia.cc
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.eveonline.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.excite.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.exgay.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.exitinternational.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.exmormon.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.facebook.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.familiesaretalking.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.familycareintl.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.famouspornstars.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.fastmail.fm
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.fdf.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.feedtheminds.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.femalestars.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.feminist.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.feminist.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.fepproject.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.fgmnetwork.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.fhi.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.fidh.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.figleaves.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.flickr.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.flirtylingerie.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.foe.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.fordfound.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.foreignword.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.formercatholic.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.fotki.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.fotolog.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.foxnews.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.frc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freedomhouse.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freedominfo.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freeexpression.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freegaypornfinder.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freegaypornhdtube.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freemedia.at
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freemuse.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freeservers.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freespeech.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freespeech.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freespeechcoalition.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freetranslation.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freewebspace.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freshpair.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.friendster.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.fring.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ft.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.fuckingfreemovies.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gambling.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gamenode.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gamespot.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gamingday.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gatesfoundation.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gay.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gayegypt.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gayhealth.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gayscape.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gearthblog.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.genderandaids.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.genderhealth.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.geocities.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ghostrecon.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.giganews.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ginvodka.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.glaad.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.glbtq.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.glil.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.globalfire.tv
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.globalfundforwomen.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.globalpolicy.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.globet.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gmail.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gmhc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gn.apc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gnu.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gnupg.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.goarch.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.godaddy.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.godofwargame.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.goldenrivieracasino.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.google.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gotgayporn.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.grabit.to
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.grandonline.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.granma.cu
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.greenpeace.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.groupon.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.guardian.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.guardster.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.guildwars.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.haaretz.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.habbo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hackcanada.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hackforums.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hackhull.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hacktivismo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hanes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.harkatulmujahideen.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.helvetas.ch
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hereistheporn.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.heritage.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hindunet.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hinduunity.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hitler.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hivaidstribe.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hivandhepatitis.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hizb-ut-tahrir.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hon.ch
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.honduras.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hospitalityclub.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hostgator.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hotbot.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hotmail.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hotspotshield.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hrc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hrcr.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hrea.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hrusa.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hrw.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.http-tunnel.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.humanrightsfirst.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hushmail.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hustler.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iaffe.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iaisite-eng.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iaisite.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iarf.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iavi.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.icc-cpi.int
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iccwomen.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.icftu.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.icj.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iconnecthere.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.icrc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.icrw.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ict.org.il
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ictj.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.idea.int
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.idrc.ca
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.idsoftware.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iea.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ifad.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ifeminists.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ifex.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ifge.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ifj.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ifrc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iglhrc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ihf-hr.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ihr.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ihrc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iico.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iicwc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ijm.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ikhwanonline.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ilga.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ilhr.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ilo.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.imageshack.us
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.imdb.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.imesh.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.imf.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.implantinfo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.inbox.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.indiatimes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.indymedia.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.inetprivacy.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.infidels.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.infowar-monitor.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.inminds.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.insecure.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.interactworldwide.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.internationalism.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.interpol.int
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ipcc.ch
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ipetitions.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ipvanish.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.irn.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.irna.ir
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.isiswomen.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iskcon.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.islamdoor.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.islameyat.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.islamic-relief.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.islamicity.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.islamonline.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.islamworld.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.isscr.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.itsyoursexlife.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.itunes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iucn.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iwantim.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iwhc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iyfnet.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.jackdaniels.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.jainworld.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.jdate.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.jesussaves.cc
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.jewwatch.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.jfcom.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.jhr.ca
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.jihadwatch.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.jmarshall.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.jsf.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.judaism.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.judaismconversion.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.justice.gov
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.justicewomen.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.justin.tv
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.kahanetzadak.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.kazaa.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.kbs-frb.be
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.kcna.co.jp
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.kcna.kp
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.keptprivate.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.khilafah.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.khrp.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.kickassclassical.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.kidshealth.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.krishna.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.kurtuluscephesi.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.laborrights.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.laborrightsnow.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.lanacion.com.ar
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.lasenza.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.latimes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.latinmail.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.law-lib.utoronto.ca
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.layevangelism.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.lds.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.learningpartnership.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.leaseweb.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.lemonde.fr
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.lesbian.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.lesbiansubmission.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.lgf.org.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.linay.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.lineriderfun.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.lingerieatlarge.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.lingeriebowl.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.lingo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.linkedin.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.linphone.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.livejasmin.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.livejournal.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.liveleak.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.luckynugget.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.luwaran.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.lycos.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.lyricwiki.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.macfound.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.madre.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mail.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mail2web.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mailinator.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mailinator.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mainichi.co.jp
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.malware.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mamma.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mariestopes.org.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.marijuana.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.martus.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.marxists.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.match.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mate1.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.matrimony.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.maven.co.il
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.meaphone.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.medecinsdumonde.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mediafire.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.medicinenet.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.medpot.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.meetic.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mesel-biherat.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.metacafe.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.metacrawler.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.metal-archives.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.metasploit.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.michiganmilitia.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.microsofttranslator.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mideastyouth.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.milfbangvideos.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mininova.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.minorityrights.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mizzima.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.moderndrunkardmagazine.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.monacogoldcasino.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mormon.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mothersactingup.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mozilla.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mp3.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.msf.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.msn.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.muhammadanism.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mujeres59.com.ar
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.multiproxy.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.muslimmatrimonial.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mutemail.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.myspace.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mytrans.com.tw
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mywebcalls.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.namecheap.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.naral.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.nato.int
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.nature.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.naughty.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.navy.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.nazarene.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.nazi-lauck-nsdapao.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ncac.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ndi.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ned.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.neonjoint.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.netaddress.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.netzoola.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.nmrc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.no-ip.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.no-porn.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.norml.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.now.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.nsa.gov
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.nypost.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.nytimes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ohchr.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.oic-oci.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.oicc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.oikoumene.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.okcupid.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.om.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.omct.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.on-instant.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.oneworld.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.online-dating.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.online-translator.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.onlinedating.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.onlinegambling.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.onlinewomeninpolitics.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.onlybingo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.oovoo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.opec.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.opendns.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.opennet.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.opportunity.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.originalelf.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.orkut.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.orthodoxconvert.info
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.osce.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ou.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.oxfam.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pacom.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.paganpride.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.paltalk.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pamperedpassions.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.panda.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pandora.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.panties.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.partypoker.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.partypoker.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pass-any-drug-test.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pc2call.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pcgamer.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pcusa.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pdhre.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.peacefire.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.peakoil.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.penisbot.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pentagon.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.penthouse.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.people.com.cn
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.peoplesproxy.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.perfectmatch.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.persiankitty.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.person.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.peta.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pgp.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.phenoelit.de
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.photobucket.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.piolet.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.piraten-partei.ch
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.piratpartiet.se
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.plan-uk.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.plannedparenthood.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.playboy.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pmi.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pof.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.poker.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pokerpages.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pokerroom.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pokerstars.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pokerstars.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.positive.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.postcards-for-iran.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.postmaster.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pravda.ru
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.premaritalsex.info
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.privacyinternational.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.privaterra.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.progressio.org.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.prolife.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.prophetofdoom.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.protectionline.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.protest.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.proxyweb.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.prq.se
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.purenudism.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.purevpn.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.purextc.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.quantico.usmc.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.queernet.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.queerty.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.quran.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rackspace.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.radicalparty.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.radiofreetexas.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.radioislam.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ragnarokonline.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rambler.ru
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ran.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rapidshare.de
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rbf.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.realbeer.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.realstreaming.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.reddit.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.refintl.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.reliefweb.int
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.religiousconsultation.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.religioustolerance.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.repubblica.it
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rescue.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rfa.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rferl.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rfi.fr
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.riftgame.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.righttodie.ca
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.riverbelle.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rockstargames.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rollingstone.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rollitup.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rotten.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.roulette.sh
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.roxypalace.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.royalvegas.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rsf.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ruf-ch.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.runescape.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rxmarijuana.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.samesexmarriage.ca
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.satp.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.savethechildren.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sbc.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.scarleteen.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.schwarzreport.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.scientology.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.scribd.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sealswcc.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.search.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.searchindia.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.secondlife.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sectsco.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.securenym.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.securityfocus.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.securitytracker.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sendspace.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sendthisfile.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.serials.ws
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sex.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sexedlibrary.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sexetc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sexualhealth.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sexualityandu.ca
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sexy-geschichten.at
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sfsi.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.shareaza.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.shia.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.shinto.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.shroomery.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sida.se
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.siecus.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.simplygay.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sina.com.cn
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sixapart.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.skype.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.slashdot.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.slideshare.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.slotland.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.slsknet.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.socom.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.solicitorsfromhell.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.soros.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sos-reporters.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sourceforge.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.southcom.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.spark.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.speeddater.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.spinpalace.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sportingbet.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sportsinteraction.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.square-enix.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.state.gov
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.stopstreetharassment.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.stormfront.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.stratcom.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.strongvpn.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.stumbleupon.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.stupidcensorship.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.submission.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.systranbox.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.talafone.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.tango.me
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.technorati.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.teenhealthfx.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.teensource.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.telegraph.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.terredeshommes.nl
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.terrorismfiles.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.thc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.theepochtimes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.theglobalfund.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.thegooddrugsguide.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.thehacktivist.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.themwl.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.thenationalcampaign.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.theonion.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.thepinksofa.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.theregister.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.tialsoft.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.tmz.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.tobacco.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.topcities.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.topdrawers.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.torah.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.towleroad.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.translate.ru
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.transparency.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.transwhiz.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.trashy.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.tripod.lycos.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.tripod.lycos.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.true.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.truecrypt.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.truthnet.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.tsroadmap.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.twistedinternet.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.twitvid.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.twpt.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.typepad.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.u4.no
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ucc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ultimate-anonymity.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ultimatebirthcontrol.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.umc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.un.int
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.un.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.unaids.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.unep.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.unfpa.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.unhcr.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.unicef.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.unlockme.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.unpo.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.unwatch.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.upci.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.us.army.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.usacasino.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.usafa.af.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.usaid.gov
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.uscg.mil
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ushmm.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.utorrent.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.vanguardnewsnetwork.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.vatican.va
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.venusswimwear.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.veoh.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.vibe.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.viber.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.victoriassecret.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.videogamereview.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.voanews.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.voicepulse.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.volcanomail.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.vonage.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wallpapergate.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.walmart.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.warchild.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.warhammeronline.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.washingtontimes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.watchtower.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wcicc.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.weblogger.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.webspawner.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.webwombat.com.au
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wedo.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.weebly.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.weedfarmer.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.weforum.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.well.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wetplace.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wftucentral.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.whatsapp.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.whitepower.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.who.int
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wiesenthal.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wikileaks.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wikipedia.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wikispaces.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wiktionary.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wilpf.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.winespectator.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.witness.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wix.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wizards.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wkkf.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wluml.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wmtransfer.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wnd.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.womeninblack.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.womensmediacenter.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.womensmediapool.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.womenwarpeace.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wordreference.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.worldbank.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.worldhealth.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.worldjewishcongress.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.worldlingo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.worldofwarcraft.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.worldrtd.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.worldsex.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.worldwildlife.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wzo.org.il
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.xanga.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.xbox.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.xenu.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.xfocus.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.xinhua.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.xroxy.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.xxlmag.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.xxxemovie.info
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ya.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.yahoo.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ymca.int
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.youngerbabes.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.yousendit.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.youtube.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.zeit.de
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.zensur.freerk.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.zone-h.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.zoomshare.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.zultrax.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.zundelsite.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.zzn.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www1.umn.edu
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> xhamster.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> xvideos.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> xxx.lanl.gov
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> yelp.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> yfrog.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> youjizz.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> youporn.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> zionstrumpet.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> addons.mozilla.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> citizenlab.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> encrypted.google.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> foursquare.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> gmail.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> guardianproject.info
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> login.live.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> pinterest.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> plus.google.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> plus.im
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> riseup.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> secure.flickr.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> secure.logmein.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> spideroak.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> t.co
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> thepiratebay.se
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> torrentz.eu
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> twitter.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> ultrasurf.us
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.accessnow.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cia.gov
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.dropbox.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.facebook.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.google.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gpgtools.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ipredator.se
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.megaproxy.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.netaddress.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.outlook.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.paypal.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.torproject.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.transferbigfiles.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.tumblr.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.yola.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> albrhan.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> alhag.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> alsaha.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> angryarab.blogspot.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> answering-islam.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> answering-islam.org/Arabic/index.html
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> arabsex2.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> ayaanhirsiali.web-log.nl
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> baghdadalrashid.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> bbcarabic.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> blogcritics.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> costofwar.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> en.wikipedia.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> gayguide.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> gayinkuwait.blogspot.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> gayswithoutborders.wordpress.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> ikhwanonline.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> iraqaction.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> iraqilgbtuk.blogspot.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.acage.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.addaawa.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ahewar.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.al-farook.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.al-khoei.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.alalam.ir
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.alarabiya.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.albasrah.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.alboraq.info
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.alfikr-almasihi.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.alhesbah.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.allahsassurance.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.almokhtsar.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.alnaddy.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.alnour.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.alnusrra.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.alquds.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.alquma.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.alumaaliraqia.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.alzawag.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.amanjordan.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.amplusnet.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ansarweb.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.anti-cair-net.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.antiwar.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.arabatheist.humanists.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.arabfaces.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.arabgirls.us
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.arabicbible.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.arabmail.de
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.aswataliraq.info
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.avoda.org.il
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.azzaman.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.baath-party.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.backtojerusalem.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.baghdadsniper.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bahai-faith.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bahai.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.banatal3arab.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.banatfun.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.bayynat.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.behidden.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.christiansofiraq.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.commondreams.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.coptic.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.cpa-iraq.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.danielpipes.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.duke.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ebaa.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.elaph.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ezawaj.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.faithfreedom.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freearabvoice.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.freemuslim.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gayarab.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gaymiddleeast.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gaytelaviv.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.gaytravelnet.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.glas.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.globalgayz.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.godhatesfags.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.haaretz.co.il
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hadash.org.il
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hajr.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.haya.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.hereslife.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.heretical.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.humum.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iaisite.biz
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iaisite.info
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iaisite.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.idf.il
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ikhwan.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ikhwan.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ikhwanonline.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ikhwanweb.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.inciraq.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.irag.org.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.irakna.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iraq-amsi.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iraqcenter.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iraqcp.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iraqfoundation.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iraqhurr.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iraqihome.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iraqirabita.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iraqpatrol.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.iraqwar.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.irshadmanji.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.islamicdawaparty.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.islammemo.cc
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.israel.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.jesusfilm.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.jfoiraq.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.jihadwatch.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.kdp.pp.se
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.knesset.gov.il
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.kurdsat.tv
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.lavaplace.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.liberateiraq.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.light-of-life.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.likud.org.il
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mahjoob.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.meretz.org.il
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.mfa.gov.il
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.milta1980.co.uk
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.muslim-refusenik.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.muslimass.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.nikahsearch.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.onlinearabia.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.palestine-info.info
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.puk.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.pureprivacy.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rafed.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rim.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.rjfront.info
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.ru4arab.ru
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sat7.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sciri.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.secularislam.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sharmota.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.shiaweb.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sodomylaws.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.sotaliraq.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.stop-censure.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.taqrir.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.tareekalshaab.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.tareeqalshaab.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.tawhed.ws
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.the-good-way.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.thebirdman.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.thegrace.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.thekoran.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.thememoryhole.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.thequran.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.thissitedoesnotexist.co.il
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.toystore.co.il
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.us-israel.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.usawatch.org
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.wifaq.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.yahosein.com
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.zawadj.net
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.7.0-P1 <<>> www.zawajfriends.com
+;; connection timed out; no servers could be reached

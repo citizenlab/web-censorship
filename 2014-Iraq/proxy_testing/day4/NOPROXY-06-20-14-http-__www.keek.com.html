@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Keek - Get the App</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" href="https://keek-a.akamaihd.net/css/app-promo/v2.20.16" media="screen" />
+		<script type="text/javascript" src="https://keek-a.akamaihd.net/js/jquery/v2.20.16"></script>                <script type="text/javascript">
+  var _gaq = [['_setAccount', 'UA-20991964-1'], 
+  ['_setCustomVar', '2', 'LoggedIn', 'false', '2'],  ['_trackPageview','/interstitial'],['_trackPageLoadTime'],['_setSessionCookieTimeout', 300000]];
+  (function(d, t) {
+  var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+  g.async = true;
+  g.src = '//www.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g, s);
+  })(document, 'script');
+</script>	</head>
+	<body class="push">
+		<h1>
+							<img src="https://keek-a.akamaihd.net/img/keek-logoV2.png" class="v2 large" alt="Keek" />
+					</h1>
+		<div class="mobile-wrapper  ">
+			<h2 class="v2 promo-h2">Redefining video for a connected world.</h2>
+
+							<img src="https://keek-a.akamaihd.net/img/PhonesLargeV2.png" id="mobile-devices" />
+			
+			<div class="mobile-btn-wrap">
+				<a href="https://itunes.apple.com/us/app/keek/id453298978?mt=8" class="btn-get-the-app" onclick="_gaq.push(['_trackEvent','interstitial', 'mobile-btn-get-app', '/']);">Get the app</a>
+				
+				<a href="keek://www.keek.com/" class="btn-already-have" onclick="_gaq.push(['_trackEvent','interstitial','mobile-btn-haveit','/']);">I already have it</a>
+
+				<a href="/" id="btn-full-site" class="go-full-site" onclick="_gaq.push(['_trackEvent','interstitial','mobile-btn-full-site','/']);">Go to full site</a>
+			</div>
+		</div>
+		<script type="text/javascript">
+			// When ready...
+			window.addEventListener("load",function() {
+				// Set a timeout...
+				setTimeout(function(){
+					// Hide the address bar!
+					window.scrollTo(0, 1);
+				}, 0);
+			});
+
+			$(document).ready(function() {
+				if (screen.availHeight >= 548) {
+					$('.push h1 img').attr('src', 'https://keek-a.akamaihd.net/img/keek-logoV2.png').removeClass('small').addClass('large');
+				}
+			});
+		</script>
+	</body>
+</html>

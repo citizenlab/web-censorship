@@ -1,0 +1,555 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Viber - Free calls, Free text messages, photo and location sharing</title>
+		<meta name="description" content="Viber lets everyone in the world connect. Freely. Millions of Viber users call, text, and send photos to each other, worldwide- for free. Currently available for the iPhone, Android, Blackberry, Windows Phone, Windows and Mac devices." />
+		<meta name="keywords" content="free calls, free voip, free phone calls, cheap International calls, free international calls, iPhone apps, android apps, free messages, free text, photo sharing, Viber" />
+		<meta property="og:title" content="Viber - Free Calls and Messages." />
+		<meta property="og:type" content="product" />
+		<meta property="og:url" content="http://www.viber.com/" />
+		<meta property="og:image" content="http://www.viber.com/images/viber-icon.png" />
+		<meta property="og:site_name" content="Viber" />
+		<meta property="og:description" content="Viber lets everyone in the world connect. Freely. Millions of Viber users call, text, and send photos to each other, worldwide- for free. Currently available for the iPhone, Android, Blackberry, Windows Phone, Windows and Mac devices." />
+		<meta property="fb:app_id" content="192454074134796" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1;" />
+		<meta name="apple-itunes-app" content="app-id= 382617920"/>
+
+		<script src="//www.cdn.viber.com/js/jquery-1.7.2.min.js"></script>
+		<script src="//www.cdn.viber.com/js/bootstrap.js"></script>
+		<script src="//www.cdn.viber.com/js/hashchange.min.js"></script>
+		<script src="//www.cdn.viber.com/js/general.js?v=4.2"></script>
+
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-18303830-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+
+		<script type="text/javascript">
+
+            // detect user OS
+            var platform = navigator.platform.toUpperCase(),
+                os = 'windows';
+            if ( platform.indexOf('MAC')!==-1 )
+                os = 'mac';
+            else if ( platform.indexOf('WIN')!==-1 )
+                os = 'windows';
+            else if ( platform.indexOf('LINUX')!==-1 )
+                os = 'linux';
+
+			var pageGA = "/mainPage/mobile/idevice";
+			var referral = "";
+			var products = [
+                             'desktop',
+                             'windows8',
+                             'iphone',
+			                 'android',
+			                 'windowsphone',
+			                 'blackberry',
+			                 'bada',
+			                 'nokia'
+			                  ];
+			var screenshots = [
+						        'desktop_mainV2.png',
+						        'windows8_main.png',
+			                    'screenIphoneV5.png',
+			                    'screenAndroidV4.png',
+			                    'WP8-mainV7.png',
+			                    'screenBlackberryV3.png',
+			                    'screenBadaV3.png',
+			                    'screenNokiaV2.png'
+			                   ];
+			function updateCarouselItems(position, doScroll)
+			{
+				if (doScroll)
+					scrollCarouselTo(position);
+				updateCarouselSelector(position);
+				updateCarouselCombo(position);
+			}
+			function updateCarouselCombo(position)
+			{
+				var text = $('#carouselCombo ul li a:eq('+position+')').text();
+				$('#carouselCombo button span.crouselButtonText').text(text);
+			}
+			function updateCarouselSelector(position)
+			{
+				$('#carouselSelectors')
+					.find('.active')
+					.removeClass('active')
+
+				var selector = $('#carouselSelectors a').get(position);
+				$(selector).toggleClass('active');
+			}
+			function scrollCarouselTo(position)
+			{
+				$('#devicesCarousel').carousel(position);
+			}
+
+			function getProdByDir(dir)
+			{
+				var currentPos = $("#devicesCarousel .active").index('#devicesCarousel .item');
+				var maxPos = $("#devicesCarousel .item").length - 1;
+
+				if (dir == "right")
+					pos = currentPos == 0 ? maxPos : currentPos-1;
+				else
+					pos = currentPos == maxPos ? 0 : currentPos+1;
+
+				return pos;
+			}
+			function setProdInHash(prod)
+			{
+				if (getProdFromHash() != prod)
+					location.hash = products[prod];
+			}
+			function getProdFromHash()
+			{
+				var hash = location.hash;
+
+				var prod = hash.replace( /^#/, '' );
+				if (prod == "")
+					prod = "iphone";
+				var prodPos = 0;
+				for (var i in products)
+				{
+					if (products[i] == prod)
+						prodPos = i;
+				}
+
+				return parseInt(prodPos, 10);
+			}
+			$(function(){
+                $('.button[data-type="'+os+'"]').css('display','inline-block');
+                $('#carouselItem_desktop .carouselItemText a:not(.button), #carouselItem_desktop a.carouselItemTitle').attr('href','./products/'+os+'/');
+
+				$('#carouselItem_desktop .button').click(function(e){
+				    var btnOS = 'Unknown';
+				    if ( $(this).data('type') == 'windows')
+				        btnOS = 'WindowsPC';
+				    else if ( $(this).data('type') == 'mac')
+				        btnOS = 'MacOS';
+				});
+			});
+			
+			function loadFirstDeviceImage()
+			{
+				var position = $("#devicesCarousel .active").index('#devicesCarousel .item');
+				$('#devicesCarousel .item').eq(position).find('.carouselItemImage img').attr('src', '//www.cdn.viber.com/images/'+screenshots[position]);
+			}
+			
+			function loadDevicesImages()
+			{
+				$('#devicesCarousel .item').each(function()
+				{
+					var pos = $(this).index();
+					if (!$('.carouselItemImage', this).find('img').attr('src'))
+						$('.carouselItemImage', this).find('img').attr('src', '//www.cdn.viber.com/images/'+screenshots[pos]);
+				});
+			}
+			
+			window.onload = function()
+			{
+				loadFirstDeviceImage();
+				loadDevicesImages();
+							}
+		</script>
+
+		<link rel="stylesheet" href="//www.cdn.viber.com/styles/bootstrap.css"/>
+		<link rel="stylesheet" href="//www.cdn.viber.com/styles/main.css?v=4.2"/>
+
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script src="//www.cdn.viber.com/js/html5shim.js"></script>
+			<style>
+				body {min-width:896px;}
+				.logoContainer {width:896px;margin:0 auto;}
+				.logo {left:auto;margin-left:346px;}
+			</style>
+		<![endif]-->
+
+
+	</head>
+	<body>
+		<div class="mainPageBG"></div>
+
+		<div class="logoContainer">
+			<div class="logo"></div>
+		</div>
+
+		<div class="navbar">
+			<div class="navbar-inner">
+				<div class="container">
+					<ul class="nav pull-right">
+						<li><a href="https://account.viber.com">Viber Out</a></li>
+						<li><a href="./faq">FAQ</a></li>
+						<li><a href="http://support.viber.com">Support</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="mainContent">
+				<div class="row-fluid">
+					<div class="mainTitle">Free calls, text and picture sharing with anyone, anywhere!</div>
+				</div>
+				<div class="row-fluid">
+					<div id="carouselSelectors" data-toggle="selectors-radio">
+                        <a href="javascript:void(0)" >Desktop</a>
+						<a href="javascript:void(0)" style="background-position:-710px 0">Windows 8</a>
+						<a href="javascript:void(0)" style="background-position:-180px 0">iOS</a>
+						<a href="javascript:void(0)" style="background-position:-270px 0">Android</a>
+						<a href="javascript:void(0)" style="background-position:-360px 0">Windows Phone</a>
+						<a href="javascript:void(0)" style="background-position:-450px 0">BlackBerry</a>
+						<a href="javascript:void(0)" style="background-position:-630px 0">Bada</a>
+						<a href="javascript:void(0)" style="background-position:-540px 0">Nokia</a>
+					</div>
+					<div id="carouselCombo">
+						<div class="btn-group">
+							<button class="btn dropdown-toggle" data-toggle="dropdown"><span class="crouselButtonText"></span><span class="caret"></span></button>
+							<ul class="dropdown-menu">
+								<li><a href="javascript:void(0)">Desktop</a></li>
+								<li><a href="javascript:void(0)">Windows 8</a></li>
+								<li><a href="javascript:void(0)">iOS</a></li>
+								<li><a href="javascript:void(0)">Android</a></li>
+								<li><a href="javascript:void(0)">Windows Phone</a></li>
+								<li><a href="javascript:void(0)">BlackBerry</a></li>
+								<li><a href="javascript:void(0)">Bada</a></li>
+								<li><a href="javascript:void(0)">Nokia</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="mainDiv">
+					<div class="row-fluid">
+						<div id="devicesCarousel" class="carousel slide" style="position:relative;">
+							<div class="gradientOverlay left"></div>
+							<div class="gradientOverlay right"></div>
+							<div class="carousel-inner">
+							    <div class="item" id="carouselItem_desktop">
+                                    <table cellpadding="0" cellspacing="0" border="0" class="carouselItemTable">
+                                        <tr>
+                                            <td class="carouselItemDesc">
+                                                <a href="./products/windows/" class="carouselItemTitle">Viber for desktop</a>
+                                                <div class="carouselItemText">
+                                                    Viber for Desktop lets you send free messages as well as make free calls to other Viber users, on any device and network, in any country!
+                                                    <div class="readmore">
+                                                        <a href="./products/windows/">Read more...</a>
+                                                        <a class="button mac" href="http://download.viber.com/desktop/mac/Viber.dmg" data-type="mac">
+                                                            <img src="//www.cdn.viber.com/images/blank.gif">
+                                                            <div class="with_note">Get Viber<div class="note">OS 10.7 &amp; up</div></div>
+                                                        </a>
+                                                        <a class="button windows" href="http://download.viber.com/desktop/windows/ViberSetup.exe" data-type="windows"><img src="//www.cdn.viber.com/images/blank.gif">Get Viber</a>
+														<a class="button linux" href="http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb" data-type="linux">
+															<img src="//www.cdn.viber.com/images/blank.gif">
+															<div class="with_note">Get Viber<div class="note">64 bit</div></div>
+														</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="carouselItemImage">
+                                                <div>
+                                                    <img alt="" />
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+								<div class="item" id="carouselItem_windows8">
+									<table cellpadding="0" cellspacing="0" border="0" class="carouselItemTable">
+										<tr>
+											<td class="carouselItemDesc">
+												<a href="./products/windows8/" class="carouselItemTitle">Viber for Windows 8</a>
+												<div class="carouselItemText">
+													With Viber for Windows 8, you can send messages and make calls from any Windows 8 computer or tablet to other Viber users - for free!
+													<div class="readmore">
+														<a href="./products/windows8/">Read more...</a>
+														<a class="button windows8" href="http://apps.microsoft.com/windows/app/viber-free-phone-calls-text/7a5aebdf-75c9-4c1d-93f2-44fdbc27ffad" data-type="windows8"><img src="//www.cdn.viber.com/images/blank.gif">Get Viber</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="carouselItemImage">
+                                                <div>
+                                                    <img alt="" />
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+								<div class="item" id="carouselItem_iphone">
+									<table cellpadding="0" cellspacing="0" border="0" class="carouselItemTable">
+										<tr>
+											<td class="carouselItemDesc">
+												<a href="./products/iphone/" class="carouselItemTitle">Viber for iOS</a>
+												<div class="carouselItemText">
+													With Viber for iOS, you can make free calls and send free text, sticker, photo, voice and video messages to other Viber users, on any device, in any network and country!
+													<div class="readmore">
+													    <a href="./products/iphone/">Read more...</a>
+        												<a class="button iphone" href="./itunes" data-type="iphone"><img src="//www.cdn.viber.com/images/blank.gif">Get Viber</a>
+													</div>
+												</div>
+											</td>
+											<td class="carouselItemImage">
+												<div>
+													<img alt="" />
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>
+								<div class="item" id="carouselItem_android">
+									<table cellpadding="0" cellspacing="0" border="0" class="carouselItemTable">
+										<tr>
+											<td class="carouselItemDesc">
+												<a href="./products/android/" class="carouselItemTitle">Viber for Android</a>
+												<div class="carouselItemText">
+													Free messages and calls from any Android device, including tablets, on any network. All you need is 3G or WiFi and you can connect with other Viber users anywhere!
+													<div class="readmore">
+													    <a href="./products/android/">Read more...</a>
+													    <a class="button android" href="./market" data-type="android"><img src="//www.cdn.viber.com/images/blank.gif">Get Viber</a>
+													</div>
+												</div>
+											</td>
+											<td class="carouselItemImage">
+												<div>
+													<img alt="" />
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>
+								<div class="item" id="carouselItem_windowsphone">
+									<table cellpadding="0" cellspacing="0" border="0" class="carouselItemTable">
+										<tr>
+											<td class="carouselItemDesc">
+												<a href="./products/windowsphone8/" class="carouselItemTitle">Viber for Windows Phone</a>
+												<div class="carouselItemText">
+													Viber for Windows Phone lets you send free text, sticker and photo messages and make free calls to anyone else who also has Viber.
+													<div class="readmore">
+													    <a href="./products/windowsphone8/">Read more...</a>
+        												<a class="button winphone" href="./products/windowsphone8/" data-type="windows phone 8"><img src="//www.cdn.viber.com/images/blank.gif">Get Viber</a>
+													</div>
+												</div>
+											</td>
+											<td class="carouselItemImage">
+												<div>
+													<img alt="" />
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>
+								<div class="item" id="carouselItem_blackberry">
+									<table cellpadding="0" cellspacing="0" border="0" class="carouselItemTable">
+										<tr>
+											<td class="carouselItemDesc">
+												<a href="./products/blackberry/" class="carouselItemTitle">Viber for BlackBerry</a>
+												<div class="carouselItemText">
+													With Viber for Blackberry, you can send free messages and make free calls to any Viber user on any platform, on any device, in any network and country!
+													<div class="readmore">
+													    <a href="./products/blackberry/">Read more...</a>
+													    <a class="button blackberry" href="./blackberry" data-type="blackberry"><img src="//www.cdn.viber.com/images/blank.gif">Get Viber</a>
+													</div>
+												</div>
+											</td>
+											<td class="carouselItemImage">
+												<div>
+													<img alt="" />
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>
+                                <div class="item" id="carouselItem_bada">
+                                    <table cellpadding="0" cellspacing="0" border="0" class="carouselItemTable">
+                                        <tr>
+                                            <td class="carouselItemDesc">
+                                                <a href="./products/bada/" class="carouselItemTitle">Viber for Bada</a>
+                                                <div class="carouselItemText">
+                                                    Viber for Bada lets you send free text and photo messages to other Viber users, on any device, in any network and country!
+                                                    <div class="readmore">
+                                                        <a href="./products/bada/">Read more...</a>
+                                                        <a class="button bada" href="./products/bada/" data-type="bada"><img src="//www.cdn.viber.com/images/blank.gif">Get Viber</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="carouselItemImage">
+                                                <div>
+                                                    <img alt="" />
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+								<div class="item" id="carouselItem_nokia">
+									<table cellpadding="0" cellspacing="0" border="0" class="carouselItemTable">
+										<tr>
+											<td class="carouselItemDesc">
+												<a href="./products/nokia/" class="carouselItemTitle">Viber for Nokia</a>
+												<div class="carouselItemText">
+													Viber for Nokia lets you communicate with other Viber users anywhere, on any device, and best of all - for free!
+													<div class="readmore">
+													    <a href="./products/nokia/">Read more...</a>
+        												<a class="button symbian" href="../../../symbian" data-type="symbian"><img src="//www.cdn.viber.com/images/blank.gif">Get Viber</a>
+													</div>
+												</div>
+											</td>
+											<td class="carouselItemImage">
+												<div>
+													<img alt="" />
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<a class="left carousel-control" href="#devicesCarousel" data-slide="prev">&lsaquo;</a>
+							<a class="right carousel-control" href="#devicesCarousel" data-slide="next">&rsaquo;</a>
+						</div>
+					</div>
+					<script type="text/javascript">
+						window.scrollTo(0, 1);
+						if (location.hash != "")
+							document.getElementById("carouselItem_"+products[getProdFromHash()]).className += " active";
+						else if (document.getElementById("carouselItem_iphone"))
+							document.getElementById("carouselItem_iphone").className += " active";
+                        else
+					        document.getElementById("carouselItem_desktop").className += " active";
+						
+						var position = $("#devicesCarousel .active").index('#devicesCarousel .item');
+						updateCarouselItems(position);
+					</script>
+					<div id="bottomSection" class="row-fluid">
+						<div class="bullets">
+							<div class="title">Why Viber?</div>
+							<ul>
+								<li>Free text, calling, photo messages and location-sharing with Viber users*</li>
+								<li>No registration, alias or invitations required</li>
+								<li>Instantly integrates with your own contact list</li>
+								<li>Best-quality mobile calls using 3G or Wi-Fi</li>
+							</ul>
+							<div class="note">* Calls use your data plan</div>
+						</div>
+						<div class="connect">
+							<div class="title">Connect with Viber</div>
+							<div class="connectPair">
+								<div class="facebook icon"><a href="http://www.facebook.com/viber" target="_blank"><span>Join us on facebook</span></a></div>
+								<div class="twitter icon"><a href="http://www.twitter.com/viber" target="_blank"><span>Follow us on twitter</span></a></div>
+							</div>
+							<div class="connectPair">
+								<div class="circle icon"><a href="https://plus.google.com/u/0/112911444975875397175" target="_blank"><span>Add us to a circle</span></a></div>
+								<div class="rss icon"><a href="./rss.php" target="_blank"><span>Subscribe</span></a></div>
+							</div>
+						</div>
+							<div class="share">
+															</div>
+						<div class="footer">
+							<div class="footerLinks">
+								<a href="./about">About</a> | <a href="http://support.viber.com">Support</a> | <a href="./terms">Terms &amp; Policies</a>
+							</div>
+							<div>&copy; 2014 Viber Media S.à r.l.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fb-root"></div>
+		<script type="text/javascript">
+			!function ($)
+			{
+				$(function()
+				{
+					$(document).bind("mouseup", function()
+						{
+							$('#devicesCarousel').find('.btn.active').removeClass('active');
+							$('.connectPair').find('.icon.active').removeClass('active');
+						})
+					$('#devicesCarousel').find('.btn').removeClass('active');
+					$('#devicesCarousel').find('.btn').bind("dragend", function()
+						{
+							$(this).removeClass('active');
+						})
+					$('#devicesCarousel').find('.btn').bind("mousedown", function()
+						{
+							$(this).addClass('active');
+						})
+					$('.connectPair').find('.icon').bind("dragend", function()
+						{
+							$(this).removeClass('active');
+						})
+					$('.connectPair').find('.icon').bind("mousedown", function()
+						{
+							$(this).addClass('active');
+						})
+
+					$('#devicesCarousel').carousel({interval: false, pause: ''});
+
+					$("#devicesCarousel").bind("slid", function()
+						{
+							updateCarouselItems( $("#devicesCarousel .active").index('#devicesCarousel .item') );
+						})
+
+					$("#devicesCarousel").bind("swipe", function(e, dir)
+						{
+							setProdInHash( getProdByDir(dir) );
+						})
+					$('.carousel-control').each(function(i)
+						{
+							$(this).click(function()
+							{
+								if ($(this).hasClass("left"))
+									dir = "right";
+								else
+									dir = "left";
+
+								setProdInHash( getProdByDir(dir) );
+							})
+						})
+					$('#carouselCombo ul li').find('a').each(function(i)
+						{
+							$(this).click(function()
+							{
+								setProdInHash( $('#carouselCombo ul li a').index($(this)) );
+							})
+						})
+					$('#carouselSelectors').find('a').each(function(i)
+						{
+							$(this).click(function()
+							{
+								setProdInHash( $('#carouselSelectors a').index($(this)) );
+							})
+						})
+
+					//Bind an event to window.onhashchange that, when the hash changes, updates the carousel
+					$(window).hashchange( function()
+						{
+							updateCarouselItems(getProdFromHash(), true);
+						})
+
+					//Since the event is only triggered when the hash changes, we need to trigger
+					//the event now, to handle the hash the page may have loaded with.
+					$(window).hashchange();
+
+				})
+			}(window.jQuery);
+			window.onpageshow = function()
+			{
+				$('#devicesCarousel').find('.btn').each(function()
+					{
+						$(this).html($(this).html());
+					});
+			}
+
+		</script>
+		<img src="/stats/wgimage.gif?evt=1" width="0" height="0" alt="" style="visibility:hidden" />	</body>
+</html>
