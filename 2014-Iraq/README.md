@@ -21,11 +21,11 @@ The contained data is a summary and raw results for DNS testing done on Iraqi na
 Data Structure
 ---------------
 
-blocked-[[something]].txt
+	blocked-[[something]].txt
 
 where [[something]] refers to the ISP of the name server used.  
 
-testing-list.txt
+	testing-list.txt
 
 This file contains the total domains that compromise the testing list used in this section of testing.
 
@@ -57,13 +57,14 @@ Structure
 Each testing day is presented as a subdirectory.  Contained in each
 subdirectory are files that are named in this format:
 
-06-20-14-p37.239.46.x2-80-http-__sham-iraq.cu.cc_.html
+	06-20-14-p37.239.46.x2-80-http-__sham-iraq.cu.cc_.html
 
 The first part of which corresponds to the date of testing in the format:
 mm-dd-yy
 
 The next part is the proxy used in the format
-p111.111.111.111-80
+
+	p111.111.111.111-80
 
 Where [[111]] section is the IP of the proxy used.  In order to maintain
 anonymity of the public proxies used the last octet of the IP is replaced by X,
