@@ -4,7 +4,7 @@
 This repo has all the data associated with reports into web censorship by [Citizen Lab](https://citizenlab.org)
 in Yemen during the period of armed conflict in 2015.
 
-The full report can be found [here](https://citizenlab.org/)
+The full report can be found [here](https://citizenlab.org/2015/10/information-controls-military-operations-yemen/)
 
 ## Data
 
