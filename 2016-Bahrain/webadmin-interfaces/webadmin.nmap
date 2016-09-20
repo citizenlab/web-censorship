@@ -1,0 +1,520 @@
+# Nmap 7.01 scan initiated Wed Aug  3 15:50:09 2016
+Nmap scan report for 62.209.25.186
+Host is up (0.17s latency).
+Not shown: 987 closed ports
+PORT     STATE    SERVICE        VERSION
+42/tcp   filtered nameserver
+80/tcp   open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+| http-title: Netsweeper Cloud Manager
+|_Requested resource was redirect/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+179/tcp  filtered bgp
+443/tcp  open     ssl/http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-05-22T08:27:12
+|_Not valid after:  2017-05-22T08:27:12
+|_ssl-date: 2016-08-03T20:01:35+00:00; 0s from scanner time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+1054/tcp filtered brvread
+1126/tcp filtered hpvmmdata
+3000/tcp open     ppp?
+8080/tcp open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://62.209.25.186/webadmin/
+Service Info: Host: 127.0.0.1
+
+Nmap scan report for 109-161-148-250.wimax.bb.zain.com (109.161.148.250)
+Host is up (0.18s latency).
+Not shown: 989 closed ports
+PORT     STATE    SERVICE        VERSION
+42/tcp   filtered nameserver
+80/tcp   open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+| http-title: Netsweeper Cloud Manager
+|_Requested resource was redirect/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+179/tcp  filtered bgp
+443/tcp  open     ssl/http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-05-22T10:40:38
+|_Not valid after:  2017-05-22T10:40:38
+|_ssl-date: 2016-08-03T20:02:20+00:00; -1s from scanner time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3000/tcp open     ppp?
+8080/tcp open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://109-161-148-250.wimax.bb.zain.com/webadmin/
+Service Info: Host: 127.0.0.1
+
+Nmap scan report for 80.241.146.26
+Host is up (0.17s latency).
+Not shown: 985 closed ports
+PORT     STATE    SERVICE        VERSION
+42/tcp   filtered nameserver
+80/tcp   open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+| http-title: Netsweeper Cloud Manager
+|_Requested resource was redirect/
+111/tcp  filtered rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+179/tcp  filtered bgp
+443/tcp  open     ssl/http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-05-18T13:31:23
+|_Not valid after:  2017-05-18T13:31:23
+|_ssl-date: 2016-08-03T20:01:52+00:00; 0s from scanner time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+1720/tcp filtered h323q931
+2000/tcp filtered cisco-sccp
+3000/tcp open     ppp?
+5060/tcp filtered sip
+8080/tcp open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://80.241.146.26/webadmin/
+Service Info: Host: 127.0.0.1
+
+Nmap scan report for 80.95.222.114
+Host is up (0.22s latency).
+Not shown: 987 closed ports
+PORT     STATE    SERVICE        VERSION
+42/tcp   filtered nameserver
+80/tcp   open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+| http-title: Netsweeper Cloud Manager
+|_Requested resource was redirect/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+179/tcp  filtered bgp
+443/tcp  open     ssl/http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-06-08T00:35:14
+|_Not valid after:  2017-06-08T00:35:14
+|_ssl-date: 2016-08-03T20:01:48+00:00; 0s from scanner time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3000/tcp open     ppp?
+8080/tcp open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://80.95.222.114/webadmin/
+9090/tcp filtered zeus-admin
+9898/tcp filtered monkeycom
+Service Info: Host: 127.0.0.1
+
+Nmap scan report for 80.95.222.115
+Host is up (0.22s latency).
+Not shown: 987 closed ports
+PORT     STATE    SERVICE        VERSION
+42/tcp   filtered nameserver
+80/tcp   open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+| http-title: Netsweeper Cloud Manager
+|_Requested resource was redirect/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+179/tcp  filtered bgp
+443/tcp  open     ssl/http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-06-08T09:40:15
+|_Not valid after:  2017-06-08T09:40:15
+|_ssl-date: 2016-08-03T20:01:56+00:00; 0s from scanner time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3000/tcp open     ppp?
+8080/tcp open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://80.95.222.115/webadmin/
+9090/tcp filtered zeus-admin
+9898/tcp filtered monkeycom
+Service Info: Host: 127.0.0.1
+
+Nmap scan report for 84-235-107-71.igw-bah-hor.com.sa (84.235.107.71)
+Host is up (0.17s latency).
+Not shown: 987 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+42/tcp   filtered nameserver
+80/tcp   open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://84-235-107-71.igw-bah-hor.com.sa/webadmin/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+179/tcp  filtered bgp
+443/tcp  open     ssl/http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-05-31T11:08:10
+|_Not valid after:  2017-05-31T11:08:10
+|_ssl-date: 2016-08-03T20:01:48+00:00; -1s from scanner time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3000/tcp open     ppp?
+8080/tcp open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://84-235-107-71.igw-bah-hor.com.sa/webadmin/
+Service Info: Host: 198.105.244.11
+
+Nmap scan report for 84-235-107-72.igw-bah-hor.com.sa (84.235.107.72)
+Host is up (0.17s latency).
+Not shown: 987 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+42/tcp   filtered nameserver
+80/tcp   open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://84-235-107-72.igw-bah-hor.com.sa/webadmin/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+179/tcp  filtered bgp
+443/tcp  open     ssl/http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-05-19T11:59:08
+|_Not valid after:  2017-05-19T11:59:08
+|_ssl-date: 2016-08-03T20:02:13+00:00; 0s from scanner time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3000/tcp open     ppp?
+8080/tcp open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://84-235-107-72.igw-bah-hor.com.sa/webadmin/
+Service Info: Host: 198.105.244.11
+
+Nmap scan report for 84-235-107-203.igw-bah-tub.com.sa (84.235.107.203)
+Host is up (0.17s latency).
+Not shown: 987 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+42/tcp   filtered nameserver
+80/tcp   open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://84-235-107-203.igw-bah-tub.com.sa/webadmin/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+179/tcp  filtered bgp
+443/tcp  open     ssl/http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-06-26T23:42:38
+|_Not valid after:  2017-06-26T23:42:38
+|_ssl-date: 2016-08-03T20:02:23+00:00; 0s from scanner time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3000/tcp open     ppp?
+8080/tcp open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://84-235-107-203.igw-bah-tub.com.sa/webadmin/
+Service Info: Host: 198.105.244.11
+
+Nmap scan report for 84-235-107-206.igw-bah-tub.com.sa (84.235.107.206)
+Host is up (0.17s latency).
+Not shown: 987 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+42/tcp   filtered nameserver
+80/tcp   open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://84-235-107-206.igw-bah-tub.com.sa/webadmin/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+179/tcp  filtered bgp
+443/tcp  open     ssl/http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-05-19T13:52:25
+|_Not valid after:  2017-05-19T13:52:25
+|_ssl-date: 2016-08-03T20:02:21+00:00; 0s from scanner time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3000/tcp open     ppp?
+8080/tcp open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://84-235-107-206.igw-bah-tub.com.sa/webadmin/
+Service Info: Host: 127.0.0.1
+
+Nmap scan report for 87.236.136.186
+Host is up (0.19s latency).
+Not shown: 978 closed ports
+PORT      STATE    SERVICE        VERSION
+42/tcp    filtered nameserver
+80/tcp    open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+| http-title: Netsweeper Cloud Manager
+|_Requested resource was redirect/
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+161/tcp   filtered snmp
+179/tcp   filtered bgp
+443/tcp   open     ssl/http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-05-23T11:38:08
+|_Not valid after:  2017-05-23T11:38:08
+|_ssl-date: 2016-08-03T20:02:25+00:00; 0s from scanner time.
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+1092/tcp  filtered obrpd
+2022/tcp  filtered down
+2038/tcp  filtered objectmanager
+3000/tcp  open     ppp?
+5060/tcp  filtered sip
+6667/tcp  filtered irc
+8080/tcp  open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://87.236.136.186/webadmin/
+8443/tcp  filtered https-alt
+9876/tcp  filtered sd
+9898/tcp  filtered monkeycom
+10010/tcp filtered rxapi
+32782/tcp filtered unknown
+56737/tcp filtered unknown
+Service Info: Host: localhost.localdomain
+
+Nmap scan report for 87.236.136.187
+Host is up (0.19s latency).
+Not shown: 978 closed ports
+PORT      STATE    SERVICE         VERSION
+42/tcp    filtered nameserver
+70/tcp    filtered gopher
+80/tcp    open     http            Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+| http-title: Netsweeper Cloud Manager
+|_Requested resource was redirect/
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+161/tcp   filtered snmp
+179/tcp   filtered bgp
+443/tcp   open     ssl/http        Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-05-23T08:28:42
+|_Not valid after:  2017-05-23T08:28:42
+|_ssl-date: 2016-08-03T20:02:22+00:00; 0s from scanner time.
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+981/tcp   filtered unknown
+1058/tcp  filtered nim
+1187/tcp  filtered alias
+1287/tcp  filtered routematch
+2119/tcp  filtered gsigatekeeper
+2135/tcp  filtered gris
+3000/tcp  open     ppp?
+3005/tcp  filtered deslogin
+6002/tcp  filtered X11:2
+8080/tcp  open     http            Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://87.236.136.187/webadmin/
+10025/tcp filtered unknown
+32777/tcp filtered sometimes-rpc17
+Service Info: Host: localhost.localdomain
+
+Nmap scan report for 87.236.52.38
+Host is up (0.22s latency).
+Not shown: 988 closed ports
+PORT     STATE    SERVICE        VERSION
+42/tcp   filtered nameserver
+80/tcp   open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+| http-title: Netsweeper Cloud Manager
+|_Requested resource was redirect/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+179/tcp  filtered bgp
+443/tcp  open     ssl/http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-06-12T10:09:40
+|_Not valid after:  2017-06-12T10:09:40
+|_ssl-date: 2016-08-03T20:01:57+00:00; -1s from scanner time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3000/tcp open     ppp?
+8080/tcp open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://87.236.52.38/webadmin/
+9898/tcp filtered monkeycom
+Service Info: Host: 127.0.0.1
+
+Nmap scan report for rev-185-34-229-236.rapid-telecom.net (185.34.229.236)
+Host is up (0.19s latency).
+Not shown: 989 closed ports
+PORT     STATE    SERVICE        VERSION
+42/tcp   filtered nameserver
+80/tcp   open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://rev-185-34-229-236.rapid-telecom.net/webadmin/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+179/tcp  filtered bgp
+443/tcp  open     ssl/http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-05-18T04:36:27
+|_Not valid after:  2017-05-18T04:36:27
+|_ssl-date: 2016-08-03T20:01:51+00:00; 0s from scanner time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3000/tcp open     ppp?
+8080/tcp open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://rev-185-34-229-236.rapid-telecom.net/webadmin/
+Service Info: Host: 104.239.213.7
+
+Nmap scan report for rev-185-34-229-237.rapid-telecom.net (185.34.229.237)
+Host is up (0.19s latency).
+Not shown: 988 closed ports
+PORT     STATE    SERVICE        VERSION
+42/tcp   filtered nameserver
+80/tcp   open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://rev-185-34-229-237.rapid-telecom.net/webadmin/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+179/tcp  filtered bgp
+443/tcp  open     ssl/http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-05-18T05:25:39
+|_Not valid after:  2017-05-18T05:25:39
+|_ssl-date: 2016-08-03T20:01:40+00:00; 0s from scanner time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3000/tcp open     ppp?
+5060/tcp filtered sip
+8080/tcp open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://rev-185-34-229-237.rapid-telecom.net/webadmin/
+Service Info: Host: 104.239.213.7
+
+Nmap scan report for radius2.batelco.com.bh (193.188.97.224)
+Host is up (0.22s latency).
+Not shown: 988 closed ports
+PORT     STATE    SERVICE        VERSION
+42/tcp   filtered nameserver
+80/tcp   open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+| http-title: Netsweeper Cloud Manager
+|_Requested resource was redirect/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+179/tcp  filtered bgp
+443/tcp  open     ssl/http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Access Denied
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--
+| Not valid before: 2016-07-04T10:30:35
+|_Not valid after:  2017-07-04T10:30:35
+|_ssl-date: 2016-08-03T20:02:20+00:00; 0s from scanner time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3000/tcp open     ppp?
+8080/tcp open     http           Apache httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to http://radius2.batelco.com.bh/webadmin/
+9898/tcp filtered monkeycom
+Service Info: Host: 127.0.0.1
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug  3 16:02:31 2016 -- 16 IP addresses (15 hosts up) scanned in 742.34 seconds

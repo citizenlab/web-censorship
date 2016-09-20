@@ -1,0 +1,4 @@
+sysDescr
+sysUptime
+sysOwner
+sysHostname

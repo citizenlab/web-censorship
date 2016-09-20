@@ -1,0 +1,8 @@
+sysDescr
+iso.3.6.1.2.1.1.1.0 = STRING: "Linux viva-hora-ps01 2.6.32-573.7.1.el6.x86_64 #1 SMP Tue Sep 22 22:00:00 UTC 2015 x86_64"
+sysUptime
+iso.3.6.1.2.1.1.3.0 = Timeticks: (626816128) 72 days, 13:09:21.28
+sysOwner
+iso.3.6.1.2.1.1.4.0 = STRING: "root@localhost"
+sysHostname
+iso.3.6.1.2.1.1.5.0 = STRING: "viva-hora-ps01"
